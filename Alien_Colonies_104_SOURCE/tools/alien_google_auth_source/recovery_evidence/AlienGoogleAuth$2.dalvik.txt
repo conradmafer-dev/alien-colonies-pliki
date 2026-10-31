@@ -1,0 +1,23 @@
+<init> (Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth; Landroid/os/CancellationSignal;)V
+  iput-object v1, v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  iput-object v2, v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->val$clearing Landroid/os/CancellationSignal;
+  invoke-direct v0, Ljava/lang/Object;-><init>()V
+  return-void 
+onError (Landroidx/credentials/exceptions/ClearCredentialException;)V
+  iget-object v2, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  iget-object v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->val$clearing Landroid/os/CancellationSignal;
+  invoke-static v2, v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$mreleaseClearSignal(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth; Landroid/os/CancellationSignal;)V
+  return-void 
+onError (Ljava/lang/Object;)V
+  check-cast v1, Landroidx/credentials/exceptions/ClearCredentialException;
+  invoke-virtual v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->onError(Landroidx/credentials/exceptions/ClearCredentialException;)V
+  return-void 
+onResult (Ljava/lang/Object;)V
+  check-cast v1, Ljava/lang/Void;
+  invoke-virtual v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->onResult(Ljava/lang/Void;)V
+  return-void 
+onResult (Ljava/lang/Void;)V
+  iget-object v2, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  iget-object v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$2;->val$clearing Landroid/os/CancellationSignal;
+  invoke-static v2, v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$mreleaseClearSignal(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth; Landroid/os/CancellationSignal;)V
+  return-void 

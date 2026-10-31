@@ -1,0 +1,50 @@
+; Recovered from the original CODE_82 AAB project.binary.
+; Alien Colonies release 104, version 0.12.37.
+config_version=5
+
+[application]
+
+config/name="Alien Colonies"
+config/description="Build your colony. Explore six galaxies. Plan costly intergalactic voyages."
+config/version="0.12.37"
+run/main_scene="res://client/scenes/boot.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Godot/app_userdata/Alien Colonies"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+boot_splash/bg_color=Color(0.015685999765992165, 0.02745099924504757, 0.05490199849009514, 1.0)
+boot_splash/image="res://client/assets/alien_colonies_portrait.png"
+boot_splash/fullsize=true
+config/icon="res://client/assets/alien_colonies_icon.png"
+config/custom_user_dir_name.linux="godot/app_userdata/Alien Colonies"
+config/custom_user_dir_name.bsd="godot/app_userdata/Alien Colonies"
+[autoload]
+
+I18n="*res://client/scripts/i18n.gd"
+PlayUpdates="*res://client/scripts/play_updates.gd"
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/window_width_override=450
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GodotGooglePlayBilling/plugin.cfg", "res://addons/AlienGoogleAuth/plugin.cfg", "res://addons/AlienNotifications/plugin.cfg", "res://addons/AlienUpdates/plugin.cfg")
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=true
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+[internationalization]
+
+locale/test="en"
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.031373001635074615, 0.06666699796915054, 0.05098000168800354, 1.0)

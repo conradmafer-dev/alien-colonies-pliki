@@ -1,0 +1,187 @@
+--- a/app.py
++++ b/app.py
+@@ -32,7 +32,7 @@
+ try:  # Both `python -m server.main` and Railway's direct app.py import work.
+     from . import fleet_expansion, fleet_balance85, flight_balance85, catalog_descriptions, economy85
+     from .races import NEUTRAL_RULES, RACES, UNIQUE_BUILDINGS, UNIQUE_RESEARCH, SHIP_REQUIREMENTS, SHIP_TRAITS, art_key, public_race, unique_effect_text, research_effect_text
+-    from . import skill_tree, swarm, onboarding, defenses, production_timing, planetary, battle_replay, planet_traits, ogame_economy, announcements, review_invite
++    from . import skill_tree, swarm, onboarding, defenses, production_timing, planetary, battle_replay, planet_traits, ogame_economy, announcements, review_invite, subscription_invite
+     from .accounts import AccountManagementMixin
+     from .inactivity import InactivityMixin, ACTIVITY_HEADER
+     from .beginner_protection import BeginnerProtectionMixin
+@@ -50,7 +50,7 @@
+ except ImportError:
+     import fleet_expansion, fleet_balance85, flight_balance85, catalog_descriptions, economy85
+     from races import NEUTRAL_RULES, RACES, UNIQUE_BUILDINGS, UNIQUE_RESEARCH, SHIP_REQUIREMENTS, SHIP_TRAITS, art_key, public_race, unique_effect_text, research_effect_text
+-    import skill_tree, swarm, onboarding, defenses, production_timing, planetary, battle_replay, planet_traits, ogame_economy, announcements, review_invite
++    import skill_tree, swarm, onboarding, defenses, production_timing, planetary, battle_replay, planet_traits, ogame_economy, announcements, review_invite, subscription_invite
+     from accounts import AccountManagementMixin
+     from inactivity import InactivityMixin, ACTIVITY_HEADER
+     from beginner_protection import BeginnerProtectionMixin
+@@ -66,9 +66,9 @@
+     from swarm_ai import SwarmAIMixin
+     from intelligence import IntelligenceMixin
+ 
+-VERSION = "0.12.20"
+-UPDATE_DEFAULT_VERSION = "0.12.20"
+-CLIENT_VERSION_CODE = 87
++VERSION = "0.12.21"
++UPDATE_DEFAULT_VERSION = "0.12.21"
++CLIENT_VERSION_CODE = 88
+ ECONOMY_MULTIPLIER = 0.1
+ # A small planetary energy reserve powers a first mine before an energy plant
+ # exists. It creates no metal, crystal or fuel on its own.
+@@ -1815,6 +1815,18 @@
+                 except (ValueError, TypeError):
+                     raise GameError(t('Nieprawidłowy wybór oceny.'), 409) from None
+                 message = t('Zapisano preferencję prośby o ocenę.')
++            elif kind == "subscription_prompt":
++                try:
++                    if payload.get("choice") != "show":
++                        raise ValueError("Unknown subscription invitation choice")
++                    subscription_invite.claim(
++                        player, request_id, now=self.now,
++                        active=self._queue_entitlement(player)["queue_planning_active"])
++                except (ValueError, TypeError):
++                    raise GameError(t('Oferta jest niedostępna.'), 409) from None
++                # The modal itself explains the offer; its automatic display
++                # reservation should not create an additional notification.
++                message = ""
+             elif kind == "unlock_skill":
+                 try:
+                     quote = skill_tree.quote_unlock(self._race_id(player_id), player.get("skill_nodes", []),
+@@ -1910,7 +1922,8 @@
+                     del player["requests"][next(iter(player["requests"]))]
+             # A new successful command is actual play. Replayed commands return
+             # above, so an automatic retry cannot keep an abandoned account alive.
+-            self._touch_player_activity(player_id)
++            if kind != "subscription_prompt":
++                self._touch_player_activity(player_id)
+             self._save()
+             return {"ok": True, "state": self.state(player_id, p["id"]), "message": message}
+ 
+@@ -2400,6 +2413,8 @@
+                                     swarm_crystals=int(player.get("swarm_crystals", 0)))
+             result["skill_tree"] = skill_tree.public_state(race_id, player.get("skill_nodes", []), player.get("swarm_crystals", 0))
+             result["review_prompt"] = review_invite.public(player)
++            result["subscription_prompt"] = subscription_invite.public(
++                player, active=result["premium"]["queue_planning_active"])
+             weak = [q for q in known.values() if q.get("owner_id") == "khar"]
+             recommended = min(weak, key=lambda q: (self._galaxy_id(q) != self._galaxy_id(p),
+                                                    self._distance(p, q), q["id"])) if weak else None
+--- a/subscription_invite.py
++++ b/subscription_invite.py
+@@ -0,0 +1,53 @@
++"""Reserve one optional trial invitation after six completed building projects.
++
++The existing review counter records every completed build or upgrade across the
++empire. Reuse that event history rather than inferring progress from building
++levels (which can change through colonization or capture).
++
++This module only gates the invitation's milestone and one-time display. The
++client must separately verify a currently available seven-day Google Play trial
++before claiming or displaying it. A claim never grants paid gameplay benefits.
++"""
++from __future__ import annotations
++
++MILESTONE = 6
++
++
++def _completed_builds(player):
++    progress = player.get("review_invitation")
++    count = progress.get("completed_builds", 0) if isinstance(progress, dict) else 0
++    return max(0, count) if type(count) is int else 0
++
++
++def public(player, *, active=False):
++    """Read-only state; a pending client matches its nonce to claim_request_id."""
++    item = player.get("subscription_invitation")
++    claim_id = item.get("claim_request_id", "") if isinstance(item, dict) else ""
++    claim_id = claim_id if isinstance(claim_id, str) else ""
++    completed = _completed_builds(player)
++    return {"eligible": completed >= MILESTONE and not claim_id and not active,
++            "completed_builds": completed, "milestone": MILESTONE,
++            "shown": bool(claim_id),
++            # Cached action retries also render current entitlement. Do not
++            # authorize a stale pending invitation after a purchase activates.
++            "claim_request_id": "" if active else claim_id}
++
++
++def claim(player, request_id, *, now, active=False):
++    """Called under the world's atomic lock before the client opens its modal.
++
++The first eligible request reserves the only display. A competing device sees
++the winner's different nonce and must not open a second modal. Retries keep the
++same nonce even after the generic action idempotency cache has been trimmed.
++An interruption after committing may skip the prompt; it must never show twice.
++"""
++    if not isinstance(request_id, str) or not 1 <= len(request_id) <= 100:
++        raise ValueError("A unique invitation request id is required")
++    if active or _completed_builds(player) < MILESTONE:
++        raise ValueError("The subscription invitation is not available")
++    item = player.get("subscription_invitation")
++    if isinstance(item, dict) and item.get("claim_request_id"):
++        return item
++    item = {"claim_request_id": request_id, "shown_at": now}
++    player["subscription_invitation"] = item
++    return item
+--- a/Dockerfile
++++ b/Dockerfile
+@@ -6,6 +6,7 @@
+ # Copy only source files; never include a developer's database or credentials.
+ COPY app.py catalog_descriptions.py races.py fleet_expansion.py skill_tree.py swarm.py swarm_ai.py swarm_reset.py launch_reset.py accounts.py google_signin.py onboarding.py backups.py i18n.py galaxies.py defenses.py intelligence.py balance_reset.py production_timing.py ogame_economy.py announcements.py review_invite.py communications.py technology.py megastructures.py planetary.py observation.py planet_traits.py battle_replay.py alliances.py alliance_operations.py play_billing.py planned_queues.py run.py ./
+ COPY economy85.py fleet_balance85.py flight_balance85.py ./
++COPY subscription_invite.py ./
+ COPY en.json pl.json de.json es.json fr.json ./
+ COPY website.py start_web.py ./
+ COPY email_signin.py ./
+--- a/en.json
++++ b/en.json
+@@ -2344,5 +2344,6 @@
+   "Współczynnik paliwa": "Fuel coefficient",
+   "Prędkość: %s · Współczynnik: %s": "Speed: %s · Coefficient: %s",
+   "Prędkość: %s · Współczynnik paliwa: %s": "Speed: %s · Fuel coefficient: %s",
+-  "Każdy poziom zwiększa siłę ataku o 10%.": "Each level increases attack power by 10%."
++  "Każdy poziom zwiększa siłę ataku o 10%.": "Each level increases attack power by 10%.",
++  "Oferta jest niedostępna.": "This offer is unavailable."
+ }
+--- a/pl.json
++++ b/pl.json
+@@ -1940,5 +1940,6 @@
+   "Współczynnik paliwa": "Współczynnik paliwa",
+   "Prędkość: %s · Współczynnik: %s": "Prędkość: %s · Współczynnik: %s",
+   "Prędkość: %s · Współczynnik paliwa: %s": "Prędkość: %s · Współczynnik paliwa: %s",
+-  "Każdy poziom zwiększa siłę ataku o 10%.": "Każdy poziom zwiększa siłę ataku o 10%."
++  "Każdy poziom zwiększa siłę ataku o 10%.": "Każdy poziom zwiększa siłę ataku o 10%.",
++  "Oferta jest niedostępna.": "Oferta jest niedostępna."
+ }
+--- a/de.json
++++ b/de.json
+@@ -2307,5 +2307,6 @@
+   "Upłynął czas ochrony początkującego.": "Dein Anfängerschutz ist abgelaufen.",
+   "Ochrona początkującego zakończyła się po rozpoczęciu działań przeciw innemu graczowi.": "Dein Anfängerschutz endete, nachdem du eine Aktion gegen einen anderen Spieler begonnen hast.",
+   "Ochrona początkującego zakończyła się po wysłaniu wsparcia sojuszu.": "Dein Anfängerschutz endete, nachdem du Allianz-Verteidigungshilfe entsandt hast.",
+-  "Twoje kolonie mogą teraz zostać zaatakowane. Zadbaj o flotę i obronę swoich planet.": "Deine Kolonien können jetzt angegriffen werden. Stärke deine Flotte und die Verteidigung deiner Planeten."
++  "Twoje kolonie mogą teraz zostać zaatakowane. Zadbaj o flotę i obronę swoich planet.": "Deine Kolonien können jetzt angegriffen werden. Stärke deine Flotte und die Verteidigung deiner Planeten.",
++  "Oferta jest niedostępna.": "Dieses Angebot ist nicht verfügbar."
+ }
+--- a/es.json
++++ b/es.json
+@@ -2307,5 +2307,6 @@
+   "Upłynął czas ochrony początkującego.": "Tu protección de principiante ha expirado.",
+   "Ochrona początkującego zakończyła się po rozpoczęciu działań przeciw innemu graczowi.": "Tu protección de principiante terminó al iniciar una operación contra otro jugador.",
+   "Ochrona początkującego zakończyła się po wysłaniu wsparcia sojuszu.": "Tu protección de principiante terminó al enviar apoyo defensivo a la alianza.",
+-  "Twoje kolonie mogą teraz zostać zaatakowane. Zadbaj o flotę i obronę swoich planet.": "Ahora pueden atacar tus colonias. Refuerza tu flota y las defensas de tus planetas."
++  "Twoje kolonie mogą teraz zostać zaatakowane. Zadbaj o flotę i obronę swoich planet.": "Ahora pueden atacar tus colonias. Refuerza tu flota y las defensas de tus planetas.",
++  "Oferta jest niedostępna.": "Esta oferta no está disponible."
+ }
+--- a/fr.json
++++ b/fr.json
+@@ -2307,5 +2307,6 @@
+   "Upłynął czas ochrony początkującego.": "Ta protection des débutants a expiré.",
+   "Ochrona początkującego zakończyła się po rozpoczęciu działań przeciw innemu graczowi.": "Ta protection des débutants a pris fin après le lancement d’une opération contre un autre joueur.",
+   "Ochrona początkującego zakończyła się po wysłaniu wsparcia sojuszu.": "Ta protection des débutants a pris fin après l’envoi d’un soutien défensif à l’alliance.",
+-  "Twoje kolonie mogą teraz zostać zaatakowane. Zadbaj o flotę i obronę swoich planet.": "Tes colonies peuvent désormais être attaquées. Renforce ta flotte et les défenses de tes planètes."
++  "Twoje kolonie mogą teraz zostać zaatakowane. Zadbaj o flotę i obronę swoich planet.": "Tes colonies peuvent désormais être attaquées. Renforce ta flotte et les défenses de tes planètes.",
++  "Oferta jest niedostępna.": "Cette offre est indisponible."
+ }

@@ -1,0 +1,7 @@
+{
+  "case": "8 actual longest opposite outer-ring routes during pan",
+  "max_us": 201,
+  "median_us": 56,
+  "p95_us": 71,
+  "scope": "Headless desktop CPU, not physical Android"
+}

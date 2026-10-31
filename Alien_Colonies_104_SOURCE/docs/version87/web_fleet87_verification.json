@@ -1,0 +1,79 @@
+{
+  "result": "PASS",
+  "version_code": 87,
+  "scope": "Fleet automatic server quotes, one explicit launch action, persistent summary and navigation preserving composition",
+  "counts": {
+    "tests": 95,
+    "pass": 95,
+    "fail": 0,
+    "skipped": 0
+  },
+  "new_fleet_tests": 22,
+  "syntax_check": "PASS",
+  "files": {
+    "game.js": {
+      "sha256": "51b5667c01c653a6f69bdfb5d8deddc6226410a30f843703689ff680755a47be",
+      "bytes": 150751
+    },
+    "game.css": {
+      "sha256": "a0fb61e6445075ea9f3827d090a83f6dc88105341366cd0d750141d2005cdce3",
+      "bytes": 31352
+    },
+    "index.html": {
+      "sha256": "4410dbd6c1d04f46ca5cca9d5b8f06972936934e809e432319a9fcb76b46571d",
+      "bytes": 11944
+    },
+    "fleet-flow.js": {
+      "sha256": "adea01e103bd5d60051e0bf29db79a629a46a1f8c410a5110fad2914f22d944d",
+      "bytes": 5301
+    },
+    "tests/fleet-flow.test.mjs": {
+      "sha256": "1bbd03160bbd679e14b57387cf539cf272bce44dea4f7960855f4db0bd2dee58",
+      "bytes": 11409
+    },
+    "tests/fleet-flow-dom.test.mjs": {
+      "sha256": "bc38e27a05ea28ac66b9e57b184a57fe9c487e0f44970fe829ca1753eb5a3daf",
+      "bytes": 6414
+    },
+    "tests/galaxy-entry.test.mjs": {
+      "sha256": "d6f56066f96f5fc3af5d3ecfe2cd0efd5784bbb04738c159092dfce464a9f27f",
+      "bytes": 8489
+    },
+    "tests/navigation-start.test.mjs": {
+      "sha256": "f9526acfdfd3c6f3416c1917b619b1848c85d23692b8f5f10f733e212c8a7f98",
+      "bytes": 6432
+    }
+  },
+  "verified_behaviors": [
+    "Debounced latest-draft-only server preview",
+    "No automatic dispatch when a preview completes",
+    "One explicit launch and duplicate-click blocking through existing busy/action path",
+    "Stale A/B/A, logout, navigation, colony and price-context responses discarded",
+    "Slow quotes survive repeated polling with growing resources and observation timestamps",
+    "New server quote after spending or a previously unaffordable stock increase",
+    "Malformed or unaffordable quote cannot enable sending",
+    "Exact resource shortfalls and attack/colonization consequences displayed inline",
+    "Composition and cargo saved independently of destination view",
+    "Only available ship types retained; scout/colonizer defaults preserved",
+    "Cargo fields appear only for transport or colonization",
+    "Server request_id retry path unchanged"
+  ],
+  "limitations": [
+    "No real Chromium layout or screenshot verification: Playwright package is installed but browser executable is unavailable.",
+    "DOM integration uses actual extracted game.js functions with synthetic API responses; no production fleet was sent."
+  ],
+  "manifest_updated": true,
+  "translation_keys": "work87_checks/web_new_strings.json",
+  "metadata_finalized": "WEB_BUILD=0.12.20",
+  "web_release_manifest_sha256": "f72f8e170e389464f3006407bf195109f8970e90a45588ffdd322201a1640180",
+  "post_review_stock_fix": {
+    "result": "PASS",
+    "scope": "All stock keys including Dyson energy invalidate both ready and in-flight quotes on decreases. Growth polling does not starve unchanged quotes. Guard before response rebasing and currentQuote covers a decrease without update().",
+    "new_regressions": 3
+  },
+  "post_review_delivery_fix": {
+    "result": "PASS",
+    "scope": "Unaffordable slow responses retain request stocks so a delivery during the request triggers a fresh server quote even when the next poll has unchanged stocks.",
+    "new_regressions": 1
+  }
+}

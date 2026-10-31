@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "validation": "PASS: exact AAB hash, package/version91, wrong version rejected, unsigned signature rejected",
+  "private_key_accessed": false,
+  "signed_aab_created": false,
+  "windows_gui_executed": false
+}

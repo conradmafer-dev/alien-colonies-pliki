@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "roundtrip_stream_bytes": 2200137,
+  "roundtrip_stream_sha256": "87de15fbfaf257a6f45d0f88a67c9c4ea5650109ea152b9a782572ce3fdc0627",
+  "all_part_sha256_checked": true,
+  "full_duplicate_created_for_verification": false,
+  "windows_joiner_executed": false,
+  "synthetic_fixture": true,
+  "part_count": 3,
+  "source_variant_instructions_checked": true
+}

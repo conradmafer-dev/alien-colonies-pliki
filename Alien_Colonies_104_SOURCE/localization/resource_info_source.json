@@ -1,0 +1,16 @@
+{
+  "Wydobycie budynku": "Building output",
+  "Produkcja kolonii": "Colony output",
+  "Prędkość: %s · Zużycie: %s": "Speed: %s · Consumption: %s",
+  "Zwrot z badań: %s": "Research refund: %s",
+  "Zużycie wypraw: %s": "Expedition consumption: %s",
+  "Odzysk z wraków: %s": "Wreck recovery: %s",
+  "Łupy: %s": "Loot: %s",
+  "Odzyskano: %s": "Recovered: %s",
+  "Koszt zostanie pobrany przy starcie.": "The cost is charged at launch.",
+  "{0}: odzyskano {1}, {2} i {3}.": "{0}: recovered {1}, {2} and {3}.",
+  "{0}: ukończone badanie zwróciło {1}.": "{0}: completed research refunded {1}.",
+  "{0}: {1}. Rundy: {2}. Straty atakującego: {3}. Straty obrońcy: {4}. Zdobycz: {5}, {6}, {7}. ": "{0}: {1}. Rounds: {2}. Attacker losses: {3}. Defender losses: {4}. Loot: {5}, {6}, {7}. ",
+  " Recykler Wraków odzyskał {0}; jest w ładowni i zostanie rozładowany po powrocie.": " The Wreck Recycler recovered {0}; it is in the cargo hold and will be unloaded on return.",
+  "Twoja zdobycz: {0}, {1}, {2}; Kryształy Roju: {3}. Ładunek otrzymasz po powrocie.": "Your loot: {0}, {1}, {2}; Swarm Crystals: {3}. Cargo is credited after returning."
+}

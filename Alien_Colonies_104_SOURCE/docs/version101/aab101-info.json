@@ -1,0 +1,19 @@
+{
+  "version_code": 101,
+  "version_name": "0.12.34",
+  "aab_sha": "2f2fdf674edf5c5cdf953ae729dc89323f92f4f460ed6b0bfd7d38ec69e0542d",
+  "aab_size": 391212504,
+  "basis_sha": "b23931a9c95441d2af7b278daffa9d38e99b5a8f7502c92f303107dcf685cfaa",
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/compact_ui.gdc",
+    "assetPackInstallTime/assets/client/scripts/fleet_mission_timeline.gdc",
+    "assetPackInstallTime/assets/client/scripts/fleet_navigation.gdc",
+    "assetPackInstallTime/assets/client/scripts/galaxy_map.gdc",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/project.binary",
+    "assetPackInstallTime/assets/assets.sparsepck"
+  ],
+  "sparse_records_verified": 638,
+  "zip_crc": "PASS"
+}

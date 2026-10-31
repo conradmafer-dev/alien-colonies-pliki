@@ -1,0 +1,73 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "start_web.py",
+    "--local-data",
+    "/workspace/scratch/785979929548/recovery_check/backend_smoke_1sjwjn8q",
+    "--port",
+    "59597"
+  ],
+  "cwd": "/workspace/scratch/785979929548/backend_current",
+  "isolated_database_dir": "/workspace/scratch/785979929548/recovery_check/backend_smoke_1sjwjn8q",
+  "external_service_credentials_inherited": false,
+  "requests": [
+    {
+      "path": "/health",
+      "status": 200,
+      "bytes": 70,
+      "ok": true,
+      "version": "0.12.13"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 15877
+    },
+    {
+      "path": "/play/",
+      "status": 200,
+      "bytes": 11901
+    },
+    {
+      "path": "/api/client-version",
+      "status": 200,
+      "bytes": 318,
+      "ok": true
+    },
+    {
+      "path": "/api/auth/google/config",
+      "status": 200,
+      "bytes": 92,
+      "ok": true
+    },
+    {
+      "path": "/api/auth/email/config",
+      "status": 200,
+      "bytes": 30,
+      "ok": true
+    },
+    {
+      "path": "/api/register",
+      "status": 200,
+      "bytes": 248380,
+      "ok": true
+    },
+    {
+      "path": "/api/login",
+      "status": 200,
+      "bytes": 248378,
+      "ok": true
+    },
+    {
+      "path": "/api/state",
+      "status": 200,
+      "bytes": 248311,
+      "ok": true
+    }
+  ],
+  "result": "PASS",
+  "registration_login_and_state": true,
+  "server_stopped": true,
+  "scratch_database_created": true
+}

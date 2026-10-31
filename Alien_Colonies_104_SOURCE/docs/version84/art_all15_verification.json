@@ -1,0 +1,218 @@
+{
+  "result": "PASS",
+  "count": 15,
+  "symbiont_buildings": 13,
+  "new_observatories": 3,
+  "assets": [
+    {
+      "race": "zetans",
+      "key": "observatory",
+      "path": "client/assets/art/races/zetans/observatory.webp",
+      "name_PL": "Obserwatorium",
+      "bytes": 627570,
+      "sha256": "7bb831fb627d7ca2034cac8e4fd9c09be2c82e45f784c65edd0b07099970240c",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": true,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "metal_mine",
+      "path": "client/assets/art/races/symbionts/metal_mine.webp",
+      "name_PL": "Korzenie żelazne",
+      "bytes": 693932,
+      "sha256": "035b333269d7a2a99805e3faf3ea5ad3f19ef3d4956199d9bf128115cd1b462b",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "crystal_mine",
+      "path": "client/assets/art/races/symbionts/crystal_mine.webp",
+      "name_PL": "Ogród krzemowy",
+      "bytes": 672458,
+      "sha256": "d5a5b3df68306e27f3afc7b367f234d13de024aa358807db7466cb829e977154",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "refinery",
+      "path": "client/assets/art/races/symbionts/refinery.webp",
+      "name_PL": "Gruczoł paliwowy",
+      "bytes": 648398,
+      "sha256": "c90dd050bca9f549c692e236002c93f10e8752608ec4e5da3087c2a66b72f231",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "power_plant",
+      "path": "client/assets/art/races/symbionts/power_plant.webp",
+      "name_PL": "Serce kolonii",
+      "bytes": 495856,
+      "sha256": "9d79d048a4d8237d8a009da5a06070762232654012f72337fdb81ed12c6c8f9a",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "shipyard",
+      "path": "client/assets/art/races/symbionts/shipyard.webp",
+      "name_PL": "Gniazdo rojowe",
+      "bytes": 816936,
+      "sha256": "2e7de81e91e4900924d5f3bfaa40e2512ad897045f18b898292abd8c0cb166ed",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "lab",
+      "path": "client/assets/art/races/symbionts/lab.webp",
+      "name_PL": "Splot pamięci",
+      "bytes": 483826,
+      "sha256": "40e3f40c96430a2e3220b39fed703edb51aa86bf4ca58f6347e30a6203a9d20b",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "world_root",
+      "path": "client/assets/art/races/symbionts/world_root.webp",
+      "name_PL": "Korzeń Świata",
+      "bytes": 769298,
+      "sha256": "d06d4744444c3d31f65126fe5851e30c89b461fb7a4d43bb34a02e0b9540732a",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "pioneer_nursery",
+      "path": "client/assets/art/races/symbionts/pioneer_nursery.webp",
+      "name_PL": "Zarodnia Pionierów",
+      "bytes": 757552,
+      "sha256": "7925845d8abe65b3b94bd969178ea75531b6e963ee55fd219e3347614dac309a",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "renewal_grove",
+      "path": "client/assets/art/races/symbionts/renewal_grove.webp",
+      "name_PL": "Gaj Odnowy",
+      "bytes": 696502,
+      "sha256": "742d28ee1e7825ff41f4caca5e35e79817e7ace812d763b43eaa38cd77e82772",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "brood_chamber",
+      "path": "client/assets/art/races/symbionts/brood_chamber.webp",
+      "name_PL": "Komora Lęgowa",
+      "bytes": 796096,
+      "sha256": "e7aa9dfb8f91c3c40a3701132022dff6e59fc6d437d9d797bb9893f992c908e5",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "living_vault",
+      "path": "client/assets/art/races/symbionts/living_vault.webp",
+      "name_PL": "Żywy Skarbiec",
+      "bytes": 690420,
+      "sha256": "5db55e2e4a9d8ca46cf8e8549b6b506690b7e4e3a7b7bbf6c7f7a8f39f21e273",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "nutrient_reservoir",
+      "path": "client/assets/art/races/symbionts/nutrient_reservoir.webp",
+      "name_PL": "Zbiornik Odżywczy",
+      "bytes": 773782,
+      "sha256": "2a21c46652171f49004c573f556c3e576bdccd48fde5108ccdcefd650c6f7ac0",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": false,
+      "changed_from_83": true
+    },
+    {
+      "race": "symbionts",
+      "key": "observatory",
+      "path": "client/assets/art/races/symbionts/observatory.webp",
+      "name_PL": "Obserwatorium",
+      "bytes": 525500,
+      "sha256": "6d680cf43443cb8f18fb92c891aeb1755d25d3b622767f9c0739d99704db97ec",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": true,
+      "changed_from_83": true
+    },
+    {
+      "race": "automatons",
+      "key": "observatory",
+      "path": "client/assets/art/races/automatons/observatory.webp",
+      "name_PL": "Obserwatorium",
+      "bytes": 557230,
+      "sha256": "47a08f8934c6cea663fd288ac570e00a786d013b2e525d7c4049b17fd8b20ba6",
+      "size": [
+        1536,
+        1024
+      ],
+      "new_file": true,
+      "changed_from_83": true
+    }
+  ]
+}

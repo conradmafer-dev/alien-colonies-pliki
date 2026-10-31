@@ -1,0 +1,1422 @@
+{
+  "result": "PASS",
+  "bundle_sha256": "548b1dd33b4f3e7f9a8cffc9e997bc310b45d552671a279266bf514716cbcef5",
+  "checks": {
+    "24_native_density_pngs_present": true,
+    "foreground_monochrome_sources_exact_native82": true,
+    "manifest_normal_icon_points_to_mipmap_icon": true,
+    "adaptive_icon_layer_endpoints": true,
+    "active_icon_monochrome_endpoint": true,
+    "themed_icon_layer_endpoints": true,
+    "native_resource_files_exist": true,
+    "bundle_unchanged": true
+  },
+  "png_comparison_summary": {
+    "icon": {
+      "count": 6,
+      "exact_pixels_vs82": 0,
+      "exact_visible_pixels_vs82": 0,
+      "exact_pixels_vs86": 6
+    },
+    "icon_background": {
+      "count": 6,
+      "exact_pixels_vs82": 0,
+      "exact_visible_pixels_vs82": 0,
+      "exact_pixels_vs86": 6
+    },
+    "icon_foreground": {
+      "count": 6,
+      "exact_pixels_vs82": 0,
+      "exact_visible_pixels_vs82": 0,
+      "exact_pixels_vs86": 0
+    },
+    "icon_monochrome": {
+      "count": 6,
+      "exact_pixels_vs82": 0,
+      "exact_visible_pixels_vs82": 0,
+      "exact_pixels_vs86": 0
+    }
+  },
+  "source_checks": {
+    "alien_colonies_adaptive_professional.png": {
+      "source_sha256": "16f9731ce693e699dc56ae7a1154e1cf632d85761e96ec639452cba1355c16e8",
+      "native82_sha256": "16f9731ce693e699dc56ae7a1154e1cf632d85761e96ec639452cba1355c16e8",
+      "exact_native82_png": true
+    },
+    "alien_colonies_adaptive_monochrome82.png": {
+      "source_sha256": "f4a186ffbef08f8376265cfb46046ab6b61ad03535bc9a8f243e708ad8b8f1c0",
+      "native82_sha256": "f4a186ffbef08f8376265cfb46046ab6b61ad03535bc9a8f243e708ad8b8f1c0",
+      "exact_native82_png": true
+    }
+  },
+  "density_png_comparisons": [
+    {
+      "resource_path": "base/res/mipmap-hdpi-v4/icon.png",
+      "kind": "icon",
+      "versions": {
+        "82": {
+          "png_sha256": "c80b6934192477091b3c77e84d16d6524af11d2136aa26d8bd984af7384f7b33",
+          "rgba_sha256": "a23ddd2621d05208e5eea890fcfaa649a60e32bc284e2bd787ebbdbb8058d57e",
+          "dimensions": [
+            72,
+            72
+          ]
+        },
+        "86": {
+          "png_sha256": "ea75e21455f7a4ba9e49029b3657a16469f62b6e70f42ddea29254820843e287",
+          "rgba_sha256": "fbe1b2f2a132103d30144eca78eb86ebaff94d813e70988e2f3ab46c82e5f7e4",
+          "dimensions": [
+            72,
+            72
+          ]
+        },
+        "87": {
+          "png_sha256": "ea75e21455f7a4ba9e49029b3657a16469f62b6e70f42ddea29254820843e287",
+          "rgba_sha256": "fbe1b2f2a132103d30144eca78eb86ebaff94d813e70988e2f3ab46c82e5f7e4",
+          "dimensions": [
+            72,
+            72
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 1793,
+        "changed_pixels": 1793,
+        "total_pixels": 5184,
+        "mean_absolute_channel_difference_0_to_255": 0.1531153549382716,
+        "maximum_channel_difference_0_to_255": 7
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 5184,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-hdpi-v4/icon_background.png",
+      "kind": "icon_background",
+      "versions": {
+        "82": {
+          "png_sha256": "3a4a2dd9b0b1ac4dea7ef62e62f5a50ea2436f8c5d14247074faf2556f95c1de",
+          "rgba_sha256": "1241a54362eed740d462c2e1832531dc1c88880da614f16350704c046c44598b",
+          "dimensions": [
+            162,
+            162
+          ]
+        },
+        "86": {
+          "png_sha256": "217fd2d6f9bde1c1e04c3cc1f2453bab92c622bf5a9fd70e089f2f938500b550",
+          "rgba_sha256": "a07fd44a529595d3812146bbd49fec900e63536859b03c35ca4d01a3800110c3",
+          "dimensions": [
+            162,
+            162
+          ]
+        },
+        "87": {
+          "png_sha256": "217fd2d6f9bde1c1e04c3cc1f2453bab92c622bf5a9fd70e089f2f938500b550",
+          "rgba_sha256": "a07fd44a529595d3812146bbd49fec900e63536859b03c35ca4d01a3800110c3",
+          "dimensions": [
+            162,
+            162
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 26244,
+        "changed_pixels": 26244,
+        "total_pixels": 26244,
+        "mean_absolute_channel_difference_0_to_255": 12.75,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 26244,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-hdpi-v4/icon_foreground.png",
+      "kind": "icon_foreground",
+      "versions": {
+        "82": {
+          "png_sha256": "7c9c6d36e9c36b80c169e5e7c71f58b7443a2a62a687351222190ceee8000370",
+          "rgba_sha256": "37a187a27da2593c175b29833b871de0009dc2a3a0d2aeef74443ad925cd2ed4",
+          "dimensions": [
+            162,
+            162
+          ]
+        },
+        "86": {
+          "png_sha256": "eff2fecd87a7cd7c3ef9b54d0884fbda4857928746fc384356d95e3cf389eecf",
+          "rgba_sha256": "9df45582b8b1fcc089b27a1d19da5c3159e0cb725ba41875adccde754f01a026",
+          "dimensions": [
+            162,
+            162
+          ]
+        },
+        "87": {
+          "png_sha256": "feda04f539648e75e97c108fd5f98257d0ebaaad25f10599e94053c4fbc7bb05",
+          "rgba_sha256": "12b02d539a3f0340de7ff54d8cc48228bb9ff492b7cd5d17c84e323c6006d682",
+          "dimensions": [
+            162,
+            162
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 4085,
+        "changed_pixels": 4085,
+        "total_pixels": 26244,
+        "mean_absolute_channel_difference_0_to_255": 1.3979195244627343,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 26244,
+        "changed_pixels": 26244,
+        "total_pixels": 26244,
+        "mean_absolute_channel_difference_0_to_255": 69.0542695473251,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-hdpi-v4/icon_monochrome.png",
+      "kind": "icon_monochrome",
+      "versions": {
+        "82": {
+          "png_sha256": "9f524dad62f6561bef4da490927aab359fa17cc9c3fa85ae8e0e063db9159a5c",
+          "rgba_sha256": "8386a9048340bf2b2a8ed1a97c1b58d6e0aa2e0f1a2d9de3ca96c5b435ab375d",
+          "dimensions": [
+            162,
+            162
+          ]
+        },
+        "86": {
+          "png_sha256": "7bae24442cccd66be67952dffaf0c2029e007ca16302b58075814f8ff572857b",
+          "rgba_sha256": "4b123001fdedca72aa62a26385b1ac82791b95ba91436b3087d3dfdabbc2ff94",
+          "dimensions": [
+            162,
+            162
+          ]
+        },
+        "87": {
+          "png_sha256": "2f933ec4ba7f6f10a0d6f2aba60ad7be3a3b3c8240989a03736cad51dfe557f2",
+          "rgba_sha256": "c09f27e0049bacbc729ac42b35648fa4e0b6634c54943256132e0cbc96cf0205",
+          "dimensions": [
+            162,
+            162
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 2522,
+        "changed_pixels": 2522,
+        "total_pixels": 26244,
+        "mean_absolute_channel_difference_0_to_255": 3.7162113244932176,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 4740,
+        "changed_pixels": 4740,
+        "total_pixels": 26244,
+        "mean_absolute_channel_difference_0_to_255": 18.422744246303917,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-mdpi-v4/icon.png",
+      "kind": "icon",
+      "versions": {
+        "82": {
+          "png_sha256": "0940d1bf65ec52b7ee5fccd998f84482059affaf969f9e02ceec4e2e4c266eed",
+          "rgba_sha256": "b98819db586f12021da46f4c0b5d5aa655380f982b9990da7f224adbbfddd8b5",
+          "dimensions": [
+            48,
+            48
+          ]
+        },
+        "86": {
+          "png_sha256": "4101b09c54af782af5ce68317ae0856b96dea64686026a9019065c9cc25a8744",
+          "rgba_sha256": "316c09cd68af6958ac0fbdfaf2ecd249bde57952a21f0e256f6080db09d5f266",
+          "dimensions": [
+            48,
+            48
+          ]
+        },
+        "87": {
+          "png_sha256": "4101b09c54af782af5ce68317ae0856b96dea64686026a9019065c9cc25a8744",
+          "rgba_sha256": "316c09cd68af6958ac0fbdfaf2ecd249bde57952a21f0e256f6080db09d5f266",
+          "dimensions": [
+            48,
+            48
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 683,
+        "changed_pixels": 683,
+        "total_pixels": 2304,
+        "mean_absolute_channel_difference_0_to_255": 0.1159939236111111,
+        "maximum_channel_difference_0_to_255": 4
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 2304,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-mdpi-v4/icon_background.png",
+      "kind": "icon_background",
+      "versions": {
+        "82": {
+          "png_sha256": "42e8185f3b06367a322c1fe389a0cc46210a7d455baf6bde10e6acbe6e411973",
+          "rgba_sha256": "0ae41d3a81bcb20f1ac32d1c48632ee551bbc29870201d7010dd052c3e61c34a",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "86": {
+          "png_sha256": "6a2f103f934d3f1ba80124bb122e1785c6b05bb1c0500a26b1b9f2ed97eed9cb",
+          "rgba_sha256": "83b976144ba0d12f5ab038352175665d8800a2ded475aa578753259332c6e4dc",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "87": {
+          "png_sha256": "6a2f103f934d3f1ba80124bb122e1785c6b05bb1c0500a26b1b9f2ed97eed9cb",
+          "rgba_sha256": "83b976144ba0d12f5ab038352175665d8800a2ded475aa578753259332c6e4dc",
+          "dimensions": [
+            108,
+            108
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 11664,
+        "changed_pixels": 11664,
+        "total_pixels": 11664,
+        "mean_absolute_channel_difference_0_to_255": 12.75,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 11664,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-mdpi-v4/icon_foreground.png",
+      "kind": "icon_foreground",
+      "versions": {
+        "82": {
+          "png_sha256": "0abb58d7f4dae95fe86ed69bb312cd41e1bcb999a5baa0f80d5fb08a942635f4",
+          "rgba_sha256": "152a17dace828b2a81245bdabce90f9efd335ed429c094e8c00b448fe4d9e46c",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "86": {
+          "png_sha256": "3659dab562d5e0f9ff3e3b7afa0cf765b4c58cd9d8252cd53927f25e05b60ae2",
+          "rgba_sha256": "6e684b4b40985901e6a7b4f1ff66a7857df04ad810eef7a623e14ed6ef93d3d1",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "87": {
+          "png_sha256": "908fc4c7d7ed6378b9c5b10e22edd78f05c450b102bbea8e15d3c13b9f967435",
+          "rgba_sha256": "3373079a3df028e0974ae078f8d4cbec5139566149ca7c0d32656b7a55c4bc8b",
+          "dimensions": [
+            108,
+            108
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 2455,
+        "changed_pixels": 2455,
+        "total_pixels": 11664,
+        "mean_absolute_channel_difference_0_to_255": 4.683577674897119,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 11664,
+        "changed_pixels": 11664,
+        "total_pixels": 11664,
+        "mean_absolute_channel_difference_0_to_255": 68.80945644718793,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-mdpi-v4/icon_monochrome.png",
+      "kind": "icon_monochrome",
+      "versions": {
+        "82": {
+          "png_sha256": "9a04e5433a37fb7103a1197ed3794321483f1b085e96c87ccd7ebd6fad90b6c2",
+          "rgba_sha256": "c29a0f24b94c0c021696454bf7048507e0f2f06f9d5d856b84f42fd6deaa155f",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "86": {
+          "png_sha256": "dd053b4813a47a27f4120b452ccd105c29ff52ee7c88d86b48031eb5ed7c814f",
+          "rgba_sha256": "915d256db1f214d2a10cd799a553e04f2434f60a8d2a3cfac9be72475b752269",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "87": {
+          "png_sha256": "9c1e9a9deee8bc6bd60f6721e1d99c2be48abd01cc4e109937b8f529ccc3c98b",
+          "rgba_sha256": "be28c19d082492d079b7cb80739b120283047b46d22de1b615a58a92e58a9017",
+          "dimensions": [
+            108,
+            108
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 1239,
+        "changed_pixels": 1239,
+        "total_pixels": 11664,
+        "mean_absolute_channel_difference_0_to_255": 5.711226851851852,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 2187,
+        "changed_pixels": 2187,
+        "total_pixels": 11664,
+        "mean_absolute_channel_difference_0_to_255": 18.120391803840878,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xhdpi-v4/icon.png",
+      "kind": "icon",
+      "versions": {
+        "82": {
+          "png_sha256": "62709ed7dc5c37fec520c88d00916af444fd37cef4333b23efaa3d90bcd2d6d3",
+          "rgba_sha256": "a798604041a15436225cf2312d1c571ffad59061ff7c34bc79e7abe069acf66c",
+          "dimensions": [
+            96,
+            96
+          ]
+        },
+        "86": {
+          "png_sha256": "8768be3fbc112a25f1b88accd547c4fff5b8fc2fdf7ec66b4a2c45ffc1cb536b",
+          "rgba_sha256": "855f61cb7c4c7313dd0d0e2b0694ef6bd8b49e18c3ca81d23471f38b84eb3dc1",
+          "dimensions": [
+            96,
+            96
+          ]
+        },
+        "87": {
+          "png_sha256": "8768be3fbc112a25f1b88accd547c4fff5b8fc2fdf7ec66b4a2c45ffc1cb536b",
+          "rgba_sha256": "855f61cb7c4c7313dd0d0e2b0694ef6bd8b49e18c3ca81d23471f38b84eb3dc1",
+          "dimensions": [
+            96,
+            96
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 3594,
+        "changed_pixels": 3594,
+        "total_pixels": 9216,
+        "mean_absolute_channel_difference_0_to_255": 0.1890190972222222,
+        "maximum_channel_difference_0_to_255": 11
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 9216,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xhdpi-v4/icon_background.png",
+      "kind": "icon_background",
+      "versions": {
+        "82": {
+          "png_sha256": "d7c10302bb29b1c82ef71b1555fef03a6bcb741ae98ee562ca1ef68c8e58502f",
+          "rgba_sha256": "8c4aace1861b5ba2f550bb0bb7bbe9966420517be03c78de16ed96d9686f3006",
+          "dimensions": [
+            216,
+            216
+          ]
+        },
+        "86": {
+          "png_sha256": "5ab3fc5b6655aa5c79a25ea647620a465816d44156d442997abf5e9696117778",
+          "rgba_sha256": "971ae2533487336308e3508c40d3d7387d3d3e00fd1fd4d4b6aa5b489f7eec93",
+          "dimensions": [
+            216,
+            216
+          ]
+        },
+        "87": {
+          "png_sha256": "5ab3fc5b6655aa5c79a25ea647620a465816d44156d442997abf5e9696117778",
+          "rgba_sha256": "971ae2533487336308e3508c40d3d7387d3d3e00fd1fd4d4b6aa5b489f7eec93",
+          "dimensions": [
+            216,
+            216
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 46656,
+        "changed_pixels": 46656,
+        "total_pixels": 46656,
+        "mean_absolute_channel_difference_0_to_255": 12.75,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 46656,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xhdpi-v4/icon_foreground.png",
+      "kind": "icon_foreground",
+      "versions": {
+        "82": {
+          "png_sha256": "a18977b2b5023fe25695afec27324c97fddfe7d7d4dfa7133e0e28264187757f",
+          "rgba_sha256": "6a841802a94e931acda49bba5b6bd60095c3854987766e228d6b9ff47d1f476d",
+          "dimensions": [
+            216,
+            216
+          ]
+        },
+        "86": {
+          "png_sha256": "1f31eb08870a06cbb18cd1b3be1c4973b0d18bd199cad5a8da7f4e56c766c87a",
+          "rgba_sha256": "36527f609aa9b96e9222a7c48ef8b572af0e0f93c4bc0ba0950e473ab3075b53",
+          "dimensions": [
+            216,
+            216
+          ]
+        },
+        "87": {
+          "png_sha256": "21b3603411fc6718bc321d54f965a418e530a679ab71f3bd7ea05430f57ae827",
+          "rgba_sha256": "c67e8c409275219118f69f49c0eec50b3aad4d4d010f7d73b25d9a1b173d46ec",
+          "dimensions": [
+            216,
+            216
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 8803,
+        "changed_pixels": 8803,
+        "total_pixels": 46656,
+        "mean_absolute_channel_difference_0_to_255": 2.6213509516460904,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 46656,
+        "changed_pixels": 46656,
+        "total_pixels": 46656,
+        "mean_absolute_channel_difference_0_to_255": 69.19397290809327,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xhdpi-v4/icon_monochrome.png",
+      "kind": "icon_monochrome",
+      "versions": {
+        "82": {
+          "png_sha256": "7c255e155271fd2956587d80105d9f45daab7c546ca37b323c6452c55a9799e3",
+          "rgba_sha256": "f6577a6611b2f65fe4feaf169458ee5e46a262a9b53c56b6005542678529ba01",
+          "dimensions": [
+            216,
+            216
+          ]
+        },
+        "86": {
+          "png_sha256": "37c61d22e5f20b669ec380e71834af21ab65f65353c65a96db93ab6f2e231a00",
+          "rgba_sha256": "17561daa7d12ce4103fd9255b842e030c34544848581aaf8d50a2e45a1fa31a5",
+          "dimensions": [
+            216,
+            216
+          ]
+        },
+        "87": {
+          "png_sha256": "d337d415cbd0ddc717a003e79697e211479d3e314d97f3b975869c5691c9c254",
+          "rgba_sha256": "77cc75b8071ebd9651434991b4d1a2c0f5d2ee8fec7398c0f7283755bd7bf160",
+          "dimensions": [
+            216,
+            216
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 4473,
+        "changed_pixels": 4473,
+        "total_pixels": 46656,
+        "mean_absolute_channel_difference_0_to_255": 2.653276105967078,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 8259,
+        "changed_pixels": 8259,
+        "total_pixels": 46656,
+        "mean_absolute_channel_difference_0_to_255": 18.478657621742112,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxhdpi-v4/icon.png",
+      "kind": "icon",
+      "versions": {
+        "82": {
+          "png_sha256": "3fed23a2ccdf2ca6b87f3d58cd33d3c1120a36afbb5507bb17a36042b8de1f7b",
+          "rgba_sha256": "62e84840a412c1602b028b3baeb7b005bcd69c8c4940c207b0f6c271e5de7697",
+          "dimensions": [
+            144,
+            144
+          ]
+        },
+        "86": {
+          "png_sha256": "7ed8e905ad2466e6c513bfef3b89e420bbd4dc27ff0e6e6aa3eca0a8b8bfa16b",
+          "rgba_sha256": "8004040dda0249bca6389129805c293e8f6c1df3940e572ce11f89f0558e27cf",
+          "dimensions": [
+            144,
+            144
+          ]
+        },
+        "87": {
+          "png_sha256": "7ed8e905ad2466e6c513bfef3b89e420bbd4dc27ff0e6e6aa3eca0a8b8bfa16b",
+          "rgba_sha256": "8004040dda0249bca6389129805c293e8f6c1df3940e572ce11f89f0558e27cf",
+          "dimensions": [
+            144,
+            144
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 9938,
+        "changed_pixels": 9938,
+        "total_pixels": 20736,
+        "mean_absolute_channel_difference_0_to_255": 0.2830825617283951,
+        "maximum_channel_difference_0_to_255": 17
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 20736,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxhdpi-v4/icon_background.png",
+      "kind": "icon_background",
+      "versions": {
+        "82": {
+          "png_sha256": "70bae975bd7b7901f6d8ca1f6d7f9539c0fa27c636ffd4bb5ade902a9bf6be38",
+          "rgba_sha256": "fe22c67babf16b2e1181ea73ea681d1ef85b43ab5251db9c22b68068f0636411",
+          "dimensions": [
+            324,
+            324
+          ]
+        },
+        "86": {
+          "png_sha256": "47f254d8ed27f3c04718cb2af25d2cb80c2918a20b0915231fcdd56cccc18006",
+          "rgba_sha256": "a467ba090adb596e13a5ceda61d8d32a8989071da7d03676a0636e3a88488b91",
+          "dimensions": [
+            324,
+            324
+          ]
+        },
+        "87": {
+          "png_sha256": "47f254d8ed27f3c04718cb2af25d2cb80c2918a20b0915231fcdd56cccc18006",
+          "rgba_sha256": "a467ba090adb596e13a5ceda61d8d32a8989071da7d03676a0636e3a88488b91",
+          "dimensions": [
+            324,
+            324
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 104976,
+        "changed_pixels": 104976,
+        "total_pixels": 104976,
+        "mean_absolute_channel_difference_0_to_255": 12.75,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 104976,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxhdpi-v4/icon_foreground.png",
+      "kind": "icon_foreground",
+      "versions": {
+        "82": {
+          "png_sha256": "e0edcb73bb23bf146a1ca07c7a0e159e9b39280f174a0491589b02bdc3b4962b",
+          "rgba_sha256": "95a07c886817140923884f2200e8a4afba28bd6a38334c39bb6b4400522947d3",
+          "dimensions": [
+            324,
+            324
+          ]
+        },
+        "86": {
+          "png_sha256": "a02132f1e75dd981a11f9a79b10d8e7e6f6f83b55b15db4727836eaf73cc1b87",
+          "rgba_sha256": "3658e02a4e6ef7e7510216ddbabb4ec3c9a829a97cfd268faf62c58c4f2640a4",
+          "dimensions": [
+            324,
+            324
+          ]
+        },
+        "87": {
+          "png_sha256": "093aa8548f53c9e5736c5dacaecf2dbc08bf7cef4f2c9c20118a9b5b3a838364",
+          "rgba_sha256": "deff0482cf7b3a3b4e13031f8dc2e13ab16359fcfeb6ea81ac494a3d0f10916e",
+          "dimensions": [
+            324,
+            324
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 17324,
+        "changed_pixels": 17324,
+        "total_pixels": 104976,
+        "mean_absolute_channel_difference_0_to_255": 0.876216944825484,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 104976,
+        "changed_pixels": 104976,
+        "total_pixels": 104976,
+        "mean_absolute_channel_difference_0_to_255": 69.29853014022252,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxhdpi-v4/icon_monochrome.png",
+      "kind": "icon_monochrome",
+      "versions": {
+        "82": {
+          "png_sha256": "c6029282e7b243a95acaf179af6c907f6306124058b95ca232c514fe5648c025",
+          "rgba_sha256": "f022039eed98b83cfc47ce3534d5915efd1e4364db869699af10d25c01f9727d",
+          "dimensions": [
+            324,
+            324
+          ]
+        },
+        "86": {
+          "png_sha256": "de8ca0bdca393fb8b5a3266517f8427bce3791a825ee74e4780e0f09902f283c",
+          "rgba_sha256": "0296b7b932ce6541f1f90c37827c00196e96e18bc0fef69e0f49f19a797c7d0b",
+          "dimensions": [
+            324,
+            324
+          ]
+        },
+        "87": {
+          "png_sha256": "7c5d97aab6372e6aac04ebfd12d91bb41af545d5e83b6ea8841311640359843a",
+          "rgba_sha256": "14b60d121e07fb668e7e18a5fbb4c8c440b5dd67e90dc167f395e26f13f626f1",
+          "dimensions": [
+            324,
+            324
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 8528,
+        "changed_pixels": 8528,
+        "total_pixels": 104976,
+        "mean_absolute_channel_difference_0_to_255": 0.7550987844840725,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 18271,
+        "changed_pixels": 18271,
+        "total_pixels": 104976,
+        "mean_absolute_channel_difference_0_to_255": 18.36170172229843,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxxhdpi-v4/icon.png",
+      "kind": "icon",
+      "versions": {
+        "82": {
+          "png_sha256": "ba74cb2e97716922eaa58b777d34193118aa4170a69b4ae37494893a0ab91d46",
+          "rgba_sha256": "da722e013949e7b23427169765e0ba2a9a72ab73e2b1b123d86b2e6dd6ca46cc",
+          "dimensions": [
+            192,
+            192
+          ]
+        },
+        "86": {
+          "png_sha256": "e7f8294361dfaa363d09d8721e1a03a067130a7dabef4ee65b573be17281a60c",
+          "rgba_sha256": "47be14176ef97e305c20259b8bfba1df17f574d057527f212f8b21cd328bef5f",
+          "dimensions": [
+            192,
+            192
+          ]
+        },
+        "87": {
+          "png_sha256": "e7f8294361dfaa363d09d8721e1a03a067130a7dabef4ee65b573be17281a60c",
+          "rgba_sha256": "47be14176ef97e305c20259b8bfba1df17f574d057527f212f8b21cd328bef5f",
+          "dimensions": [
+            192,
+            192
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 20082,
+        "changed_pixels": 20082,
+        "total_pixels": 36864,
+        "mean_absolute_channel_difference_0_to_255": 0.3875800238715278,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 36864,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxxhdpi-v4/icon_background.png",
+      "kind": "icon_background",
+      "versions": {
+        "82": {
+          "png_sha256": "5089e5d365d7e7886e1a01962e9bcbf700ebcfb083d1975b416cc220204f6206",
+          "rgba_sha256": "ae8834af47848aaf60d8f9b8eeeee59f2d2052dba89d14a71efa0c7aaf747ae0",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "86": {
+          "png_sha256": "0b07ba6ce457c8813f8e06dee8444ac79b5014f6ba5823611a70a170151ebdd5",
+          "rgba_sha256": "c09b24cbdb32a5d2fc8cd3f51cbbf2417a7f7702a26114b4ef4ce9c92bc833e6",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "87": {
+          "png_sha256": "0b07ba6ce457c8813f8e06dee8444ac79b5014f6ba5823611a70a170151ebdd5",
+          "rgba_sha256": "c09b24cbdb32a5d2fc8cd3f51cbbf2417a7f7702a26114b4ef4ce9c92bc833e6",
+          "dimensions": [
+            432,
+            432
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 186624,
+        "changed_pixels": 186624,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 12.75,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxxhdpi-v4/icon_foreground.png",
+      "kind": "icon_foreground",
+      "versions": {
+        "82": {
+          "png_sha256": "16f9731ce693e699dc56ae7a1154e1cf632d85761e96ec639452cba1355c16e8",
+          "rgba_sha256": "0d3b6f106a0416e6d6164b2af50929ef924434fa767947970c9268bfb7d8534c",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "86": {
+          "png_sha256": "5083cacaa4cd40722ffb265f4a028181a11fbf9b11690d97f4e41b800da9e18d",
+          "rgba_sha256": "b5bb1c5330eee2ddc011155337b39a9fd2560a64cb19218e0254b311b68a7ecd",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "87": {
+          "png_sha256": "a8684b1025ebd4d593c7b41aeae1ed75e26f5c19cfc4de5c75ed997399f77bbb",
+          "rgba_sha256": "9063be023500d5a69827dece5546d02ddf1f2bdadfddd4c67b9ba0eb25be503b",
+          "dimensions": [
+            432,
+            432
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 2465,
+        "changed_pixels": 2465,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 0.46251419967421126,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 186624,
+        "changed_pixels": 186624,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 69.36545272848079,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap-xxxhdpi-v4/icon_monochrome.png",
+      "kind": "icon_monochrome",
+      "versions": {
+        "82": {
+          "png_sha256": "f4a186ffbef08f8376265cfb46046ab6b61ad03535bc9a8f243e708ad8b8f1c0",
+          "rgba_sha256": "6e06ea176306e4c987538cb064fa1d87bbe1b6eeb97353a268b578b5b03a6a8f",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "86": {
+          "png_sha256": "b253078e6dc2b4bc8b9eb712a95cd61a26d551975146eb5e41e91f9c901c6ce3",
+          "rgba_sha256": "43c90f607b4a5ea408d7fff782cf3a29818af9a351949ec8a5264279b2141b96",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "87": {
+          "png_sha256": "cca141cc103ca88c8c8d9138ac6f5333c7ea69c752322f8fe5cd46e557b44474",
+          "rgba_sha256": "9354dca89cf41c55a55b8e39ee3d2aefeec3622bd42fdf0d8f0671ec160bf2ea",
+          "dimensions": [
+            432,
+            432
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 1342,
+        "changed_pixels": 1342,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 0.05117776920438957,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 31967,
+        "changed_pixels": 31967,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 18.29079995070302,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap/icon.png",
+      "kind": "icon",
+      "versions": {
+        "82": {
+          "png_sha256": "ba74cb2e97716922eaa58b777d34193118aa4170a69b4ae37494893a0ab91d46",
+          "rgba_sha256": "da722e013949e7b23427169765e0ba2a9a72ab73e2b1b123d86b2e6dd6ca46cc",
+          "dimensions": [
+            192,
+            192
+          ]
+        },
+        "86": {
+          "png_sha256": "e7f8294361dfaa363d09d8721e1a03a067130a7dabef4ee65b573be17281a60c",
+          "rgba_sha256": "47be14176ef97e305c20259b8bfba1df17f574d057527f212f8b21cd328bef5f",
+          "dimensions": [
+            192,
+            192
+          ]
+        },
+        "87": {
+          "png_sha256": "e7f8294361dfaa363d09d8721e1a03a067130a7dabef4ee65b573be17281a60c",
+          "rgba_sha256": "47be14176ef97e305c20259b8bfba1df17f574d057527f212f8b21cd328bef5f",
+          "dimensions": [
+            192,
+            192
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 20082,
+        "changed_pixels": 20082,
+        "total_pixels": 36864,
+        "mean_absolute_channel_difference_0_to_255": 0.3875800238715278,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 36864,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap/icon_background.png",
+      "kind": "icon_background",
+      "versions": {
+        "82": {
+          "png_sha256": "5089e5d365d7e7886e1a01962e9bcbf700ebcfb083d1975b416cc220204f6206",
+          "rgba_sha256": "ae8834af47848aaf60d8f9b8eeeee59f2d2052dba89d14a71efa0c7aaf747ae0",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "86": {
+          "png_sha256": "0b07ba6ce457c8813f8e06dee8444ac79b5014f6ba5823611a70a170151ebdd5",
+          "rgba_sha256": "c09b24cbdb32a5d2fc8cd3f51cbbf2417a7f7702a26114b4ef4ce9c92bc833e6",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "87": {
+          "png_sha256": "0b07ba6ce457c8813f8e06dee8444ac79b5014f6ba5823611a70a170151ebdd5",
+          "rgba_sha256": "c09b24cbdb32a5d2fc8cd3f51cbbf2417a7f7702a26114b4ef4ce9c92bc833e6",
+          "dimensions": [
+            432,
+            432
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 186624,
+        "changed_pixels": 186624,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 12.75,
+        "maximum_channel_difference_0_to_255": 27
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": true,
+        "alpha_identical": true,
+        "visible_pixels_identical": true,
+        "changed_visible_pixels": 0,
+        "changed_pixels": 0,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 0.0,
+        "maximum_channel_difference_0_to_255": 0
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap/icon_foreground.png",
+      "kind": "icon_foreground",
+      "versions": {
+        "82": {
+          "png_sha256": "16f9731ce693e699dc56ae7a1154e1cf632d85761e96ec639452cba1355c16e8",
+          "rgba_sha256": "0d3b6f106a0416e6d6164b2af50929ef924434fa767947970c9268bfb7d8534c",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "86": {
+          "png_sha256": "5083cacaa4cd40722ffb265f4a028181a11fbf9b11690d97f4e41b800da9e18d",
+          "rgba_sha256": "b5bb1c5330eee2ddc011155337b39a9fd2560a64cb19218e0254b311b68a7ecd",
+          "dimensions": [
+            432,
+            432
+          ]
+        },
+        "87": {
+          "png_sha256": "a8684b1025ebd4d593c7b41aeae1ed75e26f5c19cfc4de5c75ed997399f77bbb",
+          "rgba_sha256": "9063be023500d5a69827dece5546d02ddf1f2bdadfddd4c67b9ba0eb25be503b",
+          "dimensions": [
+            432,
+            432
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": true,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 2465,
+        "changed_pixels": 2465,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 0.46251419967421126,
+        "maximum_channel_difference_0_to_255": 255
+      },
+      "versus86": {
+        "same_dimensions": true,
+        "pixels_identical": false,
+        "alpha_identical": false,
+        "visible_pixels_identical": false,
+        "changed_visible_pixels": 186624,
+        "changed_pixels": 186624,
+        "total_pixels": 186624,
+        "mean_absolute_channel_difference_0_to_255": 69.36545272848079,
+        "maximum_channel_difference_0_to_255": 255
+      }
+    },
+    {
+      "resource_path": "base/res/mipmap/icon_monochrome.png",
+      "kind": "icon_monochrome",
+      "versions": {
+        "82": {
+          "png_sha256": "9a04e5433a37fb7103a1197ed3794321483f1b085e96c87ccd7ebd6fad90b6c2",
+          "rgba_sha256": "c29a0f24b94c0c021696454bf7048507e0f2f06f9d5d856b84f42fd6deaa155f",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "86": {
+          "png_sha256": "dd053b4813a47a27f4120b452ccd105c29ff52ee7c88d86b48031eb5ed7c814f",
+          "rgba_sha256": "915d256db1f214d2a10cd799a553e04f2434f60a8d2a3cfac9be72475b752269",
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        "87": {
+          "png_sha256": "cca141cc103ca88c8c8d9138ac6f5333c7ea69c752322f8fe5cd46e557b44474",
+          "rgba_sha256": "9354dca89cf41c55a55b8e39ee3d2aefeec3622bd42fdf0d8f0671ec160bf2ea",
+          "dimensions": [
+            432,
+            432
+          ]
+        }
+      },
+      "versus82": {
+        "same_dimensions": false,
+        "pixels_identical": false
+      },
+      "versus86": {
+        "same_dimensions": false,
+        "pixels_identical": false
+      }
+    }
+  ],
+  "manifest_icon_attributes": {
+    "82": [
+      {
+        "element": "application",
+        "attributes": [
+          {
+            "namespace": "http://schemas.android.com/apk/res/android",
+            "name": "icon",
+            "raw_value": "@mipmap/icon",
+            "type": "REF",
+            "reference_id": "0x7f0d0000",
+            "reference": "mipmap/icon"
+          }
+        ]
+      }
+    ],
+    "86": [
+      {
+        "attributes": [
+          {
+            "namespace": "http://schemas.android.com/apk/res/android",
+            "name": "icon",
+            "raw_value": "@mipmap/icon",
+            "type": "REF",
+            "reference_id": "0x7f0d0000",
+            "reference": "mipmap/icon"
+          }
+        ],
+        "element": "application"
+      }
+    ],
+    "87": [
+      {
+        "attributes": [
+          {
+            "namespace": "http://schemas.android.com/apk/res/android",
+            "name": "icon",
+            "raw_value": "@mipmap/icon",
+            "type": "REF",
+            "reference_id": "0x7f0d0000",
+            "reference": "mipmap/icon"
+          }
+        ],
+        "element": "application"
+      }
+    ]
+  },
+  "xml_layer_endpoints": {
+    "82": {
+      "base/res/mipmap-anydpi-v26/icon.xml": {
+        "background": [
+          "mipmap/icon_background"
+        ],
+        "foreground": [
+          "mipmap/icon_foreground"
+        ]
+      },
+      "base/res/mipmap-anydpi-v26/themed_icon.xml": {
+        "background": [
+          "mipmap/icon_background"
+        ],
+        "foreground": [
+          "mipmap/icon_foreground"
+        ],
+        "monochrome": [
+          "mipmap/icon_monochrome"
+        ]
+      }
+    },
+    "86": {
+      "base/res/mipmap-anydpi-v26/icon.xml": {
+        "background": [
+          "mipmap/icon_background"
+        ],
+        "foreground": [
+          "mipmap/icon_foreground"
+        ]
+      },
+      "base/res/mipmap-anydpi-v26/themed_icon.xml": {
+        "background": [
+          "mipmap/icon_background"
+        ],
+        "foreground": [
+          "mipmap/icon_foreground"
+        ],
+        "monochrome": [
+          "mipmap/icon_monochrome"
+        ]
+      }
+    },
+    "87": {
+      "base/res/mipmap-anydpi-v26/icon.xml": {
+        "background": [
+          "mipmap/icon_background"
+        ],
+        "foreground": [
+          "mipmap/icon_foreground"
+        ],
+        "monochrome": [
+          "mipmap/icon_monochrome"
+        ]
+      },
+      "base/res/mipmap-anydpi-v26/themed_icon.xml": {
+        "background": [
+          "mipmap/icon_background"
+        ],
+        "foreground": [
+          "mipmap/icon_foreground"
+        ],
+        "monochrome": [
+          "mipmap/icon_monochrome"
+        ]
+      }
+    }
+  },
+  "resource_files_exist": {
+    "drawable/icon_background": true,
+    "mipmap/icon": true,
+    "mipmap/icon_background": true,
+    "mipmap/icon_foreground": true,
+    "mipmap/icon_monochrome": true,
+    "mipmap/themed_icon": true
+  },
+  "round_icon_status": "No android:roundIcon attribute; launcher fallback is application android:icon.",
+  "themed_icon_manifest_referenced": false,
+  "manifest_referenced_icon_has_monochrome": true,
+  "notes": [
+    "Pixel comparisons use decoded RGBA, independently of PNG compression.",
+    "Visible-pixel comparison ignores RGB differences where alpha is zero, and compares premultiplied RGB plus alpha.",
+    "Resizing differences are reported as measured; source graphics were not changed by this checker.",
+    "Version87 adds monochrome directly to the manifest-referenced adaptive icon.xml; the separate themed_icon.xml is present but is not manifest-referenced.",
+    "No physical Android launcher rendering was tested."
+  ],
+  "pixel_identity_vs82": "DIFFERENCES_OBSERVED (see measured per-density comparisons)"
+}

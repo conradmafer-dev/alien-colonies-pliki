@@ -1,0 +1,83 @@
+{
+  "result": "PASS",
+  "asset_count": 3,
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "race": "zetans",
+      "role": "observatory",
+      "new_asset": true,
+      "mode": "built-in image_gen",
+      "initial_generated_png": "/workspace/scratch/785979929548/generated_images/exec-c9ebf08b-c7f3-4e72-8785-364ae299b06b.png",
+      "final_generated_png": "/workspace/scratch/785979929548/generated_images/exec-3e00375a-e54c-4d95-aa74-744a4c7ade3c.png",
+      "saved_source_png": "/workspace/scratch/785979929548/work84_art/observatories/zetans_observatory.png",
+      "saved_asset_webp": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/zetans/observatory.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "webp_quality": 95,
+      "bytes": 627570,
+      "sha256": "7bb831fb627d7ca2034cac8e4fd9c09be2c82e45f784c65edd0b07099970240c",
+      "prompt": "Use case: stylized-concept. Asset type: one original observatory building illustration for Alien Colonies strategy game, landscape 1536x1024, 3:2. Subject: the Zetan astronomical observation station, with an unmistakable low three-armed Y-shaped white-silver base. Each of the three separated arms carries one long narrow upward-tilted optical lens assembly, three instruments pointing toward different sectors of the sky. A single slender cyan antigravity calibration ring floats horizontally above the central junction, smaller than the instrument arms. Sleek smooth pearl-white and silver alien engineering with restrained ice-cyan light. No central spherical laboratory, no dome, no enormous single telescope, no two support arches. Scene: an isolated station on a dark rocky extraterrestrial plateau, distant misty mountains and understated nightfall sky. Composition: whole structure and all three arms fully visible, three-quarter slightly elevated camera, strong readable Y silhouette, subject occupies about 70% of frame with at least 10% clear margins, especially above instruments and below base. Premium semi-realistic sci-fi concept art with realistic surfaces and soft cinematic light. Single building, no duplicate buildings, no people, no text, no UI, no logo, no watermark.",
+      "framing_edit_prompt": "Use case: precise-object-edit. Edit this game building image only to widen the camera framing. Preserve the exact building design, materials, palette, proportions, all parts, lighting, and landscape. Pull the camera BACK by about 25%, making the entire building smaller inside the same landscape 1536x1024 canvas. Keep at least 12% empty background margin between the highest building tip and top edge, and 12% between the outermost building parts and left/right edges. Keep the full base and all roots or supports visible with clear foreground below. Do not crop anything, do not change the building or add other buildings. The subject should occupy roughly 70% of the canvas height and width at most. Maintain image quality and fine detail; no text or logos.",
+      "visual_validation": {
+        "entire_structure_visible": true,
+        "comfortable_all_edge_margins": true,
+        "distinct_from_laboratory": true,
+        "no_text_or_logos": true,
+        "distinct_from_echo_observatory": true
+      }
+    },
+    {
+      "race": "automatons",
+      "role": "observatory",
+      "new_asset": true,
+      "mode": "built-in image_gen",
+      "initial_generated_png": "/workspace/scratch/785979929548/generated_images/exec-1731ba4b-b072-4c0c-b6f3-661562d0e8ce.png",
+      "final_generated_png": "/workspace/scratch/785979929548/generated_images/exec-2cde6420-2fe3-41a0-aa84-836bb50bd91c.png",
+      "saved_source_png": "/workspace/scratch/785979929548/work84_art/observatories/automatons_observatory.png",
+      "saved_asset_webp": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/automatons/observatory.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "webp_quality": 95,
+      "bytes": 557230,
+      "sha256": "47a08f8934c6cea663fd288ac570e00a786d013b2e525d7c4049b17fd8b20ba6",
+      "prompt": "Use case: stylized-concept. Asset type: one original observatory building illustration for Alien Colonies strategy game, landscape 1536x1024, 3:2. Subject: the Automaton astronomical scanning station. An unmistakable angular squat armored tower carries one very broad RECTANGULAR OPEN-FRAME phased-array antenna, tilted up toward the sky. The antenna has a dense visible lattice of copper receiver cells across a dark rectangular plane, with a clear outer steel frame and small red-orange receiver lights. Heavy asymmetrical service blocks at the base, exposed mechanical joints, compact antenna mast; powerful industrial silhouette. Graphite metal, copper, restrained deep red light. No circular ring, no spire cluster, no laboratory core, no dome, no circular radar dish. Scene: dark rocky alien plateau, sparse distant formations, soft overcast light separating the full machine from the background. Composition: complete tower, entire broad rectangular antenna and all base corners fully inside frame; three-quarter slightly elevated view, subject about 70% frame, at least 10% clear margins on every side. Premium semi-realistic hard-surface sci-fi game concept art, function readable even as a thumbnail. No human figures, no text, no UI, no watermark, no logos.",
+      "framing_edit_prompt": "Use case: precise-object-edit. Edit this game building image only to widen the camera framing. Preserve the exact building design, materials, palette, proportions, all parts, lighting, and landscape. Pull the camera BACK by about 25%, making the entire building smaller inside the same landscape 1536x1024 canvas. Keep at least 12% empty background margin between the highest building tip and top edge, and 12% between the outermost building parts and left/right edges. Keep the full base and all roots or supports visible with clear foreground below. Do not crop anything, do not change the building or add other buildings. The subject should occupy roughly 70% of the canvas height and width at most. Maintain image quality and fine detail; no text or logos.",
+      "visual_validation": {
+        "entire_structure_visible": true,
+        "comfortable_all_edge_margins": true,
+        "distinct_from_laboratory": true,
+        "no_text_or_logos": true
+      }
+    },
+    {
+      "race": "symbionts",
+      "role": "observatory",
+      "new_asset": true,
+      "mode": "built-in image_gen",
+      "initial_generated_png": "/workspace/scratch/785979929548/generated_images/exec-01562c01-2b55-4ff7-8e79-baeda64734bd.png",
+      "final_generated_png": "/workspace/scratch/785979929548/generated_images/exec-c70709f6-a784-44f6-b12e-312cda4d15b7.png",
+      "saved_source_png": "/workspace/scratch/785979929548/work84_art/observatories/symbionts_observatory.png",
+      "saved_asset_webp": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/observatory.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "webp_quality": 95,
+      "bytes": 525500,
+      "sha256": "6d680cf43443cb8f18fb92c891aeb1755d25d3b622767f9c0739d99704db97ec",
+      "prompt": "Use case: stylized-concept. Asset type: one original living observatory building illustration for Alien Colonies strategy game, landscape 1536x1024, 3:2. Subject: a Symbiont astronomical sense-organ grown as architecture. One tall rooted ivory biomineral trunk supports a broad asymmetrical FAN OF THREE distinct slender upward-curving sensory leaves. Each leaf has a gently curled receiver surface, green photosensitive membrane, fine turquoise nerve veins and ivory structural ribs. The three leaf antennae clearly face different parts of the sky. The whole organism reads as a living alien observatory, an elegant single tall fan silhouette, not a tree or mushroom. New artistic language: matte chalky ivory biological armor, deep chlorophyll and moss greens, fine turquoise circulation, only a few tiny amber glows; sophisticated sculptural grown architecture. Entirely organic, no metal, no manufactured telescope, no glass dome, no glowing sphere, no purple-and-gold cathedral, no neural paired arches. Scene: subdued dark alien soil and simple distant misty ecosystem; soft natural diffuse light. Composition: whole structure including root base and all leaf tips fully visible, three-quarter view from slightly above base, about 70% frame with minimum 10% margin all around. Premium semi-realistic sci-fi concept art, clear thumbnail silhouette and refined matte surface detail. No people, no text, no logos, no UI, no watermark.",
+      "framing_edit_prompt": "Use case: precise-object-edit. Edit this game building image only to widen the camera framing. Preserve the exact building design, materials, palette, proportions, all parts, lighting, and landscape. Pull the camera BACK by about 25%, making the entire building smaller inside the same landscape 1536x1024 canvas. Keep at least 12% empty background margin between the highest building tip and top edge, and 12% between the outermost building parts and left/right edges. Keep the full base and all roots or supports visible with clear foreground below. Do not crop anything, do not change the building or add other buildings. The subject should occupy roughly 70% of the canvas height and width at most. Maintain image quality and fine detail; no text or logos.",
+      "visual_validation": {
+        "entire_structure_visible": true,
+        "comfortable_all_edge_margins": true,
+        "distinct_from_laboratory": true,
+        "no_text_or_logos": true
+      }
+    }
+  ]
+}

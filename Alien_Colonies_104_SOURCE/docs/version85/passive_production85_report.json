@@ -1,0 +1,48 @@
+{
+  "result": "PASS",
+  "passive_production_per_hour_at_speed1": {
+    "metal": 30,
+    "crystal": 15,
+    "fuel": 0
+  },
+  "scope": "All player colonies from economy85_from; Khar and pre-85 offline income unchanged",
+  "multipliers": "Universe speed only; independent of race, biome, rare trait, skills, research, buildings and energy",
+  "limits": "Per-resource storage cap and 7-day inactivity cutoff still apply; overcapacity resources are not deleted",
+  "catalog": "base_production=passive*speed; mine_* metrics exclude passive; colony_* metrics include it; production_actual note restored",
+  "unit_tests": {
+    "total": 36,
+    "passed": 36,
+    "seconds": 10.617,
+    "modules": [
+      "tests.test_economy85_energy_storage",
+      "tests.test_ogame_live_migration",
+      "tests.test_timing_085"
+    ]
+  },
+  "cases": [
+    "3 races and 12 biomes",
+    "zero mines and zero energy",
+    "bonuses cannot multiply passive income",
+    "existing mines gain exactly 30M/15C at speed1",
+    "speed1/3/7",
+    "storage limit and overcap preservation",
+    "inactivity cutoff",
+    "pre-85 interval receives no passive income",
+    "waiting metal-mine order starts after 2h from zero stocks",
+    "catalog matches authoritative production"
+  ],
+  "real84_migration": {
+    "passed": 107,
+    "total": 107,
+    "report": "true_legacy84_migration_report.json"
+  },
+  "client_changes": false,
+  "client_text_review": "Existing production_actual text already mentions passive base; no contradictory no-base copy found in client scripts",
+  "source_sha256": {
+    "app.py": "eb2d1afdd792dc6b4c15bd818d2252f0556d0aec8753c36218102e82aa404a04",
+    "economy85.py": "41f710456f50fb750b0ada769af0246b73382e5f02ac659a4514687b48516401",
+    "ogame_economy.py": "ca10902f9453e24981b52e453105f0ef74ad34ee42cf1c3af8fcd2139b836046",
+    "tests/test_economy85_energy_storage.py": "c6a122beb4fe27691417225caba1f8630e54d001a98daeec8d2710462bdcf513",
+    "tests/test_ogame_live_migration.py": "6f987ca8ac3c6f846f7cd35a382620b2aa7a7cd6dda876f01c65c39715563b7b"
+  }
+}

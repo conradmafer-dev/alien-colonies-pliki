@@ -1,0 +1,121 @@
+<init> (Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth; J)V
+  iput-object v1, v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  iput-wide v2, v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  invoke-direct v0, Ljava/lang/Object;-><init>()V
+  return-void 
+onError (Landroidx/credentials/exceptions/GetCredentialException;)V
+  instance-of v0, v9, Landroidx/credentials/exceptions/GetCredentialCancellationException;
+  if-eqz v0, +007h
+  const-string v9, "cancelled"
+  move-object v5, v9
+  move-object v7, v5
+  goto +1dh
+  instance-of v0, v9, Landroidx/credentials/exceptions/NoCredentialException;
+  const-string v1, "error"
+  if-eqz v0, +007h
+  const-string v9, "no_credential"
+  move-object v7, v9
+  move-object v5, v1
+  goto +12h
+  instance-of v0, v9, Landroidx/credentials/exceptions/GetCredentialProviderConfigurationException;
+  if-eqz v0, +005h
+  const-string v9, "provider_unavailable"
+  goto -9h
+  instance-of v9, v9, Landroidx/credentials/exceptions/GetCredentialUnsupportedException;
+  if-eqz v9, +005h
+  const-string v9, "unsupported"
+  goto -10h
+  const-string v9, "provider_error"
+  goto -13h
+  iget-object v9, v8, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  invoke-static v9, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$fgetnativeResults(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;)Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;
+  move-result-object v2
+  iget-wide v3, v8, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  const/4 v6, 0
+  invoke-virtual/range v2 ... v7, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->complete(J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  iget-object v9, v8, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  iget-wide v0, v8, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  invoke-static v9, v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$mreleaseCompletedSignal(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth; J)V
+  return-void 
+onError (Ljava/lang/Object;)V
+  check-cast v1, Landroidx/credentials/exceptions/GetCredentialException;
+  invoke-virtual v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->onError(Landroidx/credentials/exceptions/GetCredentialException;)V
+  return-void 
+onResult (Landroidx/credentials/GetCredentialResponse;)V
+  iget-object v0, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  invoke-static v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$fgetnativeResults(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;)Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;
+  move-result-object v0
+  iget-wide v1, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  invoke-virtual v0, v1, v2, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->isActive(J)Z
+  move-result v0
+  if-nez v0, +003h
+  return-void 
+  invoke-virtual v7, Landroidx/credentials/GetCredentialResponse;->getCredential()Landroidx/credentials/Credential;
+  move-result-object v7
+  instance-of v0, v7, Landroidx/credentials/CustomCredential;
+  if-eqz v0, +04eh
+  const-string v0, "com.google.android.libraries.identity.googleid.TYPE_GOOGLE_ID_TOKEN_CREDENTIAL"
+  invoke-virtual v7, Landroidx/credentials/Credential;->getType()Ljava/lang/String;
+  move-result-object v1
+  invoke-virtual v0, v1, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+  move-result v0
+  if-nez v0, +003h
+  goto +40h
+  invoke-virtual v7, Landroidx/credentials/Credential;->getData()Landroid/os/Bundle;
+  move-result-object v7
+  invoke-static v7, Lcom/google/android/libraries/identity/googleid/GoogleIdTokenCredential;->createFrom(Landroid/os/Bundle;)Lcom/google/android/libraries/identity/googleid/GoogleIdTokenCredential;
+  move-result-object v7
+  invoke-virtual v7, Lcom/google/android/libraries/identity/googleid/GoogleIdTokenCredential;->getIdToken()Ljava/lang/String;
+  move-result-object v4
+  if-eqz v4, +022h
+  invoke-virtual v4, Ljava/lang/String;->length()I
+  move-result v7
+  const/16 v0, 32
+  if-lt v7, v0, +01ah
+  invoke-virtual v4, Ljava/lang/String;->length()I
+  move-result v7
+  const/16 v0, 16384
+  if-le v7, v0, +003h
+  goto +10h
+  iget-object v7, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  invoke-static v7, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$fgetnativeResults(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;)Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;
+  move-result-object v0
+  iget-wide v1, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  const-string v3, "success"
+  const/4 v5, 0
+  invoke-virtual/range v0 ... v5, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->complete(J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  goto +33h
+  iget-object v7, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  invoke-static v7, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$fgetnativeResults(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;)Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;
+  move-result-object v0
+  iget-wide v1, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  const-string v3, "error"
+  const-string v5, "invalid_credential"
+  const/4 v4, 0
+  invoke-virtual/range v0 ... v5, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->complete(J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  goto +22h
+  iget-object v7, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  invoke-static v7, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$fgetnativeResults(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;)Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;
+  move-result-object v0
+  iget-wide v1, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  const-string v3, "error"
+  const-string v5, "invalid_credential"
+  const/4 v4, 0
+  invoke-virtual/range v0 ... v5, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->complete(J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  goto +11h
+  iget-object v7, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  invoke-static v7, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$fgetnativeResults(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;)Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;
+  move-result-object v0
+  iget-wide v1, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  const/4 v4, 0
+  const-string v5, "invalid_credential"
+  const-string v3, "error"
+  invoke-virtual/range v0 ... v5, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->complete(J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  iget-object v7, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->this$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  iget-wide v0, v6, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->val$attempt J
+  invoke-static v7, v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->-$$Nest$mreleaseCompletedSignal(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth; J)V
+  return-void 
+onResult (Ljava/lang/Object;)V
+  check-cast v1, Landroidx/credentials/GetCredentialResponse;
+  invoke-virtual v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$1;->onResult(Landroidx/credentials/GetCredentialResponse;)V
+  return-void 

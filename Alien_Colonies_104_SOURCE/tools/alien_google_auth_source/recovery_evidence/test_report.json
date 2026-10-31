@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "assertions": 77,
+  "runtime": "OpenJDK 17.0.20",
+  "test": "RecoveredMailboxTest.java",
+  "scope": "pure Java mailbox behavior; Android sign-in and device build not tested",
+  "source_sha256": {
+    "AlienGoogleAuth.java": "447f6d32e6f30bd4e5e63f0f495f1fc6a3ebca6a3c1b76edb377cea55949fa3d",
+    "AuthReturnMailbox.java": "10cd1b8d9879bebe5ae4fc7b4f975930a8998291bb899d60e313cca4b1d78227",
+    "GoogleAuthReturnActivity.java": "90bc4e637aeb29c603f1f5b5503646982086f8649d398ffb39eab382c47a0756",
+    "NativeSignInMailbox.java": "64d0bdf542d19fe7bba88e54bff790da27e7a197027d516afabcf4bc5407f336"
+  }
+}

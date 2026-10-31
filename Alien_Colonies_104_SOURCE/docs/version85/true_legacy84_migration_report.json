@@ -1,0 +1,449 @@
+{
+  "result": "PASS",
+  "checks_passed": 107,
+  "checks_total": 107,
+  "source84_app_sha256": "1f674c392c6262a7348cdba885c02caad529511c83441678285efd46cf9602c2",
+  "source85_app_sha256": "eb2d1afdd792dc6b4c15bd818d2252f0556d0aec8753c36218102e82aa404a04",
+  "fixtures": {
+    "races": 3,
+    "accounts": 3,
+    "colonies": 9,
+    "initial_paid_projects": 12,
+    "initial_flights": 6,
+    "migration_offline_seconds": 3600,
+    "preserved_future_paid_projects": 7,
+    "preserved_future_outbound_fleets": 3,
+    "completed_projects_before_epoch": 5
+  },
+  "checks": [
+    {
+      "name": "three_accounts_preserved",
+      "pass": true
+    },
+    {
+      "name": "all_nine_colonies_preserved",
+      "pass": true
+    },
+    {
+      "name": "player_research_and_reports_match84",
+      "pass": true
+    },
+    {
+      "name": "all_fleet_records_match84",
+      "pass": true
+    },
+    {
+      "name": "migration_epoch_is_restart_time",
+      "pass": true
+    },
+    {
+      "name": "no_elapsed_time_replayed_twice",
+      "pass": true
+    },
+    {
+      "name": "s156p1:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s156p1:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s156p1:buildings",
+      "pass": true
+    },
+    {
+      "name": "s156p1:ships",
+      "pass": true
+    },
+    {
+      "name": "s156p1:queue",
+      "pass": true
+    },
+    {
+      "name": "s156p1:defenses",
+      "pass": true
+    },
+    {
+      "name": "s156p1:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s156p1:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s156p1:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s156p1:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s156p1:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s175p1:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s175p1:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s175p1:buildings",
+      "pass": true
+    },
+    {
+      "name": "s175p1:ships",
+      "pass": true
+    },
+    {
+      "name": "s175p1:queue",
+      "pass": true
+    },
+    {
+      "name": "s175p1:defenses",
+      "pass": true
+    },
+    {
+      "name": "s175p1:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s175p1:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s175p1:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s175p1:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s175p1:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s180p1:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s180p1:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s180p1:buildings",
+      "pass": true
+    },
+    {
+      "name": "s180p1:ships",
+      "pass": true
+    },
+    {
+      "name": "s180p1:queue",
+      "pass": true
+    },
+    {
+      "name": "s180p1:defenses",
+      "pass": true
+    },
+    {
+      "name": "s180p1:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s180p1:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s180p1:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s180p1:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s180p1:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s195p2:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s195p2:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s195p2:buildings",
+      "pass": true
+    },
+    {
+      "name": "s195p2:ships",
+      "pass": true
+    },
+    {
+      "name": "s195p2:queue",
+      "pass": true
+    },
+    {
+      "name": "s195p2:defenses",
+      "pass": true
+    },
+    {
+      "name": "s195p2:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s195p2:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s195p2:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s195p2:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s195p2:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s195p3:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s195p3:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s195p3:buildings",
+      "pass": true
+    },
+    {
+      "name": "s195p3:ships",
+      "pass": true
+    },
+    {
+      "name": "s195p3:queue",
+      "pass": true
+    },
+    {
+      "name": "s195p3:defenses",
+      "pass": true
+    },
+    {
+      "name": "s195p3:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s195p3:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s195p3:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s195p3:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s195p3:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s201p4:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s201p4:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s201p4:buildings",
+      "pass": true
+    },
+    {
+      "name": "s201p4:ships",
+      "pass": true
+    },
+    {
+      "name": "s201p4:queue",
+      "pass": true
+    },
+    {
+      "name": "s201p4:defenses",
+      "pass": true
+    },
+    {
+      "name": "s201p4:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s201p4:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s201p4:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s201p4:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s201p4:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s201p5:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s201p5:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s201p5:buildings",
+      "pass": true
+    },
+    {
+      "name": "s201p5:ships",
+      "pass": true
+    },
+    {
+      "name": "s201p5:queue",
+      "pass": true
+    },
+    {
+      "name": "s201p5:defenses",
+      "pass": true
+    },
+    {
+      "name": "s201p5:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s201p5:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s201p5:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s201p5:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s201p5:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s202p2:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s202p2:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s202p2:buildings",
+      "pass": true
+    },
+    {
+      "name": "s202p2:ships",
+      "pass": true
+    },
+    {
+      "name": "s202p2:queue",
+      "pass": true
+    },
+    {
+      "name": "s202p2:defenses",
+      "pass": true
+    },
+    {
+      "name": "s202p2:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s202p2:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s202p2:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s202p2:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s202p2:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "s202p3:owner_id",
+      "pass": true
+    },
+    {
+      "name": "s202p3:owner_type",
+      "pass": true
+    },
+    {
+      "name": "s202p3:buildings",
+      "pass": true
+    },
+    {
+      "name": "s202p3:ships",
+      "pass": true
+    },
+    {
+      "name": "s202p3:queue",
+      "pass": true
+    },
+    {
+      "name": "s202p3:defenses",
+      "pass": true
+    },
+    {
+      "name": "s202p3:resource:metal",
+      "pass": true
+    },
+    {
+      "name": "s202p3:resource:crystal",
+      "pass": true
+    },
+    {
+      "name": "s202p3:resource:fuel",
+      "pass": true
+    },
+    {
+      "name": "s202p3:fields_tripled",
+      "pass": true
+    },
+    {
+      "name": "s202p3:fields_marker",
+      "pass": true
+    },
+    {
+      "name": "all_future_paid_queues_unchanged",
+      "pass": true
+    },
+    {
+      "name": "all_future_outbound_fleets_unchanged",
+      "pass": true
+    }
+  ],
+  "failures": []
+}

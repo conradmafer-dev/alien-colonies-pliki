@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "aab_sha256": "145243ef7bbef0d24eee96c737bc30dfafa8d8fe3ae4ad7c2c6e430a06a47b65",
+  "upload_certificate_unchanged": "9c6c8bd75024bc4cfad76324f0084f5cfe30d64a956720fe9d8713dbc7c7f8b7",
+  "java_compile": "PASS",
+  "java_source_launcher": "PASS",
+  "validation": "PASS: exact final AAB hash, manifest 88, wrong version rejected, unsigned AAB rejected by signature verifier.",
+  "signed_aab_created": false,
+  "private_key_accessed": false,
+  "windows_gui_executed": false,
+  "files": {
+    "PODPISZ88_MAPA.bat": "39943053c2f3a1f0c90fedafd043d82cf60a697ec86e3e2c5572ae1d03325134",
+    "PODPISZ_AAB_88_MAPA.cmd": "dd8d32620a29c5770676ea21126dc6519fde9724c538cd6991e73b2386fefdbb",
+    "PODPISZ_AAB_88_MAPA.ps1": "cfb57175afd9c372deb8d0c4adf1d10b3f8bc7d721b441a76f47e4ba8cfc52b8",
+    "SignAab88_MAPA.java": "2d11f8c484c6d2579aef608ae93da5314af0e920597bd8d08d735dd706bcb9d7",
+    "README_PODPISYWANIE_88_MAPA.txt": "4bb246746029eb552d838f61414552566d2a66629386b0edd6e9d481e95d6a83"
+  }
+}

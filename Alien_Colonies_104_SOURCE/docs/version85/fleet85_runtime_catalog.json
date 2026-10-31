@@ -1,0 +1,686 @@
+[
+  {
+    "race": "zetans",
+    "key": "scout",
+    "name": "Oko Zety",
+    "cost": {
+      "metal": 0,
+      "crystal": 1000,
+      "fuel": 0
+    },
+    "attack": 1.0,
+    "hull": 90.0,
+    "capacity": 5.0,
+    "fuel": 0.9,
+    "speed": 2.3,
+    "effective_attack": 1.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "cargo",
+    "name": "Arka lewitacyjna",
+    "cost": {
+      "metal": 2000,
+      "crystal": 2000,
+      "fuel": 0
+    },
+    "attack": 5.0,
+    "hull": 360.0,
+    "capacity": 5000.0,
+    "fuel": 9.0,
+    "speed": 1.3,
+    "effective_attack": 5.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "colonizer",
+    "name": "Siewca światów",
+    "cost": {
+      "metal": 10000,
+      "crystal": 20000,
+      "fuel": 10000
+    },
+    "attack": 50.0,
+    "hull": 2700.0,
+    "capacity": 7500.0,
+    "fuel": 900.0,
+    "speed": 1.05,
+    "effective_attack": 50.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "frigate",
+    "name": "Promień",
+    "cost": {
+      "metal": 3000,
+      "crystal": 1000,
+      "fuel": 0
+    },
+    "attack": 50.0,
+    "hull": 360.0,
+    "capacity": 50.0,
+    "fuel": 18.0,
+    "speed": 1.6,
+    "effective_attack": 50.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "cruiser",
+    "name": "Archont",
+    "cost": {
+      "metal": 20000,
+      "crystal": 7000,
+      "fuel": 2000
+    },
+    "attack": 400.0,
+    "hull": 2430.0,
+    "capacity": 800.0,
+    "fuel": 270.0,
+    "speed": 1.1,
+    "effective_attack": 400.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "interceptor",
+    "name": "Błysk",
+    "cost": {
+      "metal": 6000,
+      "crystal": 4000,
+      "fuel": 0
+    },
+    "attack": 150.0,
+    "hull": 900.0,
+    "capacity": 100.0,
+    "fuel": 67.5,
+    "speed": 2.65,
+    "effective_attack": 150.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "freighter",
+    "name": "Arka Horyzontu",
+    "cost": {
+      "metal": 6000,
+      "crystal": 6000,
+      "fuel": 0
+    },
+    "attack": 5.0,
+    "hull": 1080.0,
+    "capacity": 25000.0,
+    "fuel": 45.0,
+    "speed": 1.05,
+    "effective_attack": 5.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "siege",
+    "name": "Zaćmienie",
+    "cost": {
+      "metal": 50000,
+      "crystal": 25000,
+      "fuel": 15000
+    },
+    "attack": 1000.0,
+    "hull": 6750.0,
+    "capacity": 500.0,
+    "fuel": 630.0,
+    "speed": 0.7,
+    "effective_attack": 1000.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "battleship",
+    "name": "Strażnik Horyzontu",
+    "cost": {
+      "metal": 45000,
+      "crystal": 15000,
+      "fuel": 0
+    },
+    "attack": 1000.0,
+    "hull": 5400.0,
+    "capacity": 1500.0,
+    "fuel": 450.0,
+    "speed": 0.8,
+    "effective_attack": 1000.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "dreadnought",
+    "name": "Kataklizm",
+    "cost": {
+      "metal": 60000,
+      "crystal": 50000,
+      "fuel": 15000
+    },
+    "attack": 2000.0,
+    "hull": 9900.0,
+    "capacity": 2000.0,
+    "fuel": 900.0,
+    "speed": 0.48,
+    "effective_attack": 2000.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "flagship",
+    "name": "Pryzmat Osobliwości",
+    "cost": {
+      "metal": 85000,
+      "crystal": 55000,
+      "fuel": 20000
+    },
+    "attack": 2800.0,
+    "hull": 12600.0,
+    "capacity": 10000.0,
+    "fuel": 990.0,
+    "speed": 0.65,
+    "effective_attack": 2800.0,
+    "first_volley_multiplier": 2.16,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "zetans",
+    "key": "titan",
+    "name": "Arka Zenitu",
+    "cost": {
+      "metal": 5000000,
+      "crystal": 4000000,
+      "fuel": 1000000
+    },
+    "attack": 200000.0,
+    "hull": 810000.0,
+    "capacity": 1000000.0,
+    "fuel": 0.9,
+    "speed": 0.3,
+    "effective_attack": 200000.0,
+    "first_volley_multiplier": 1.35,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "automatons",
+    "key": "scout",
+    "name": "Sonda 01",
+    "cost": {
+      "metal": 0,
+      "crystal": 1000,
+      "fuel": 0
+    },
+    "attack": 1.0,
+    "hull": 110.0,
+    "capacity": 5.0,
+    "fuel": 1.1,
+    "speed": 1.5,
+    "effective_attack": 1.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "cargo",
+    "name": "Holownik",
+    "cost": {
+      "metal": 2000,
+      "crystal": 2000,
+      "fuel": 0
+    },
+    "attack": 5.0,
+    "hull": 440.0,
+    "capacity": 5000.0,
+    "fuel": 11.0,
+    "speed": 0.8,
+    "effective_attack": 5.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "colonizer",
+    "name": "Konstruktor",
+    "cost": {
+      "metal": 10000,
+      "crystal": 20000,
+      "fuel": 10000
+    },
+    "attack": 50.0,
+    "hull": 3300.0,
+    "capacity": 7500.0,
+    "fuel": 1100.0,
+    "speed": 0.6,
+    "effective_attack": 50.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "frigate",
+    "name": "Młot",
+    "cost": {
+      "metal": 3000,
+      "crystal": 1000,
+      "fuel": 0
+    },
+    "attack": 50.0,
+    "hull": 440.0,
+    "capacity": 50.0,
+    "fuel": 22.0,
+    "speed": 0.9,
+    "effective_attack": 50.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "cruiser",
+    "name": "Bastion",
+    "cost": {
+      "metal": 20000,
+      "crystal": 7000,
+      "fuel": 2000
+    },
+    "attack": 400.0,
+    "hull": 2970.0,
+    "capacity": 800.0,
+    "fuel": 330.0,
+    "speed": 0.65,
+    "effective_attack": 400.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "interceptor",
+    "name": "Szpon",
+    "cost": {
+      "metal": 6000,
+      "crystal": 4000,
+      "fuel": 0
+    },
+    "attack": 150.0,
+    "hull": 1100.0,
+    "capacity": 100.0,
+    "fuel": 82.5,
+    "speed": 1.65,
+    "effective_attack": 150.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "freighter",
+    "name": "Karawana",
+    "cost": {
+      "metal": 6000,
+      "crystal": 6000,
+      "fuel": 0
+    },
+    "attack": 5.0,
+    "hull": 1320.0,
+    "capacity": 25000.0,
+    "fuel": 55.0,
+    "speed": 0.6,
+    "effective_attack": 5.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "siege",
+    "name": "Młot Oblężniczy",
+    "cost": {
+      "metal": 50000,
+      "crystal": 25000,
+      "fuel": 15000
+    },
+    "attack": 1000.0,
+    "hull": 8250.0,
+    "capacity": 500.0,
+    "fuel": 770.0,
+    "speed": 0.45,
+    "effective_attack": 1000.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "battleship",
+    "name": "Dominator",
+    "cost": {
+      "metal": 45000,
+      "crystal": 15000,
+      "fuel": 0
+    },
+    "attack": 1000.0,
+    "hull": 6600.0,
+    "capacity": 1500.0,
+    "fuel": 550.0,
+    "speed": 0.5,
+    "effective_attack": 1000.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "dreadnought",
+    "name": "Egzekutor",
+    "cost": {
+      "metal": 60000,
+      "crystal": 50000,
+      "fuel": 15000
+    },
+    "attack": 2000.0,
+    "hull": 12100.0,
+    "capacity": 2000.0,
+    "fuel": 1100.0,
+    "speed": 0.3,
+    "effective_attack": 2000.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "automatons",
+    "key": "flagship",
+    "name": "Bastion Omega",
+    "cost": {
+      "metal": 85000,
+      "crystal": 55000,
+      "fuel": 20000
+    },
+    "attack": 2800.0,
+    "hull": 15400.0,
+    "capacity": 10000.0,
+    "fuel": 1210.0,
+    "speed": 0.3,
+    "effective_attack": 2800.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.29599999999999993
+  },
+  {
+    "race": "automatons",
+    "key": "titan",
+    "name": "Kolos Wieczności",
+    "cost": {
+      "metal": 5000000,
+      "crystal": 4000000,
+      "fuel": 1000000
+    },
+    "attack": 200000.0,
+    "hull": 990000.0,
+    "capacity": 1000000.0,
+    "fuel": 1.1,
+    "speed": 0.18,
+    "effective_attack": 200000.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.0,
+    "damage_reduction": 0.12
+  },
+  {
+    "race": "symbionts",
+    "key": "scout",
+    "name": "Świetlik",
+    "cost": {
+      "metal": 0,
+      "crystal": 1000,
+      "fuel": 0
+    },
+    "attack": 1.0,
+    "hull": 105.0,
+    "capacity": 5.5,
+    "fuel": 0.9,
+    "speed": 1.55,
+    "effective_attack": 1.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "cargo",
+    "name": "Wieloryb próżniowy",
+    "cost": {
+      "metal": 2000,
+      "crystal": 2000,
+      "fuel": 0
+    },
+    "attack": 4.5,
+    "hull": 420.0,
+    "capacity": 5500.0,
+    "fuel": 9.0,
+    "speed": 0.85,
+    "effective_attack": 4.5,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "colonizer",
+    "name": "Matka kolonii",
+    "cost": {
+      "metal": 10000,
+      "crystal": 20000,
+      "fuel": 10000
+    },
+    "attack": 45.0,
+    "hull": 3150.0,
+    "capacity": 8250.0,
+    "fuel": 900.0,
+    "speed": 0.65,
+    "effective_attack": 45.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "frigate",
+    "name": "Żądło",
+    "cost": {
+      "metal": 3000,
+      "crystal": 1000,
+      "fuel": 0
+    },
+    "attack": 45.0,
+    "hull": 420.0,
+    "capacity": 55.0,
+    "fuel": 18.0,
+    "speed": 1.0,
+    "effective_attack": 45.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "cruiser",
+    "name": "Lewiatan",
+    "cost": {
+      "metal": 20000,
+      "crystal": 7000,
+      "fuel": 2000
+    },
+    "attack": 360.0,
+    "hull": 2835.0,
+    "capacity": 880.0,
+    "fuel": 270.0,
+    "speed": 0.7,
+    "effective_attack": 360.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "interceptor",
+    "name": "Kolec Próżni",
+    "cost": {
+      "metal": 6000,
+      "crystal": 4000,
+      "fuel": 0
+    },
+    "attack": 135.0,
+    "hull": 1050.0,
+    "capacity": 110.0,
+    "fuel": 67.5,
+    "speed": 1.85,
+    "effective_attack": 135.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "freighter",
+    "name": "Wędrowna Macierz",
+    "cost": {
+      "metal": 6000,
+      "crystal": 6000,
+      "fuel": 0
+    },
+    "attack": 4.5,
+    "hull": 1260.0,
+    "capacity": 27500.0,
+    "fuel": 45.0,
+    "speed": 0.7,
+    "effective_attack": 4.5,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "siege",
+    "name": "Pożeracz",
+    "cost": {
+      "metal": 50000,
+      "crystal": 25000,
+      "fuel": 15000
+    },
+    "attack": 900.0,
+    "hull": 7875.0,
+    "capacity": 550.0,
+    "fuel": 630.0,
+    "speed": 0.5,
+    "effective_attack": 900.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "battleship",
+    "name": "Behemot",
+    "cost": {
+      "metal": 45000,
+      "crystal": 15000,
+      "fuel": 0
+    },
+    "attack": 900.0,
+    "hull": 6300.0,
+    "capacity": 1650.0,
+    "fuel": 450.0,
+    "speed": 0.55,
+    "effective_attack": 900.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "dreadnought",
+    "name": "Trawiciel Gwiazd",
+    "cost": {
+      "metal": 60000,
+      "crystal": 50000,
+      "fuel": 15000
+    },
+    "attack": 1800.0,
+    "hull": 11550.0,
+    "capacity": 2200.0,
+    "fuel": 900.0,
+    "speed": 0.34,
+    "effective_attack": 1800.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "flagship",
+    "name": "Matriarcha",
+    "cost": {
+      "metal": 85000,
+      "crystal": 55000,
+      "fuel": 20000
+    },
+    "attack": 2520.0,
+    "hull": 14700.0,
+    "capacity": 11000.0,
+    "fuel": 990.0,
+    "speed": 0.38,
+    "effective_attack": 2520.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.6,
+    "damage_reduction": 0.0
+  },
+  {
+    "race": "symbionts",
+    "key": "titan",
+    "name": "Prarodzic",
+    "cost": {
+      "metal": 5000000,
+      "crystal": 4000000,
+      "fuel": 1000000
+    },
+    "attack": 180000.0,
+    "hull": 945000.0,
+    "capacity": 1100000.0,
+    "fuel": 0.9,
+    "speed": 0.2,
+    "effective_attack": 180000.0,
+    "first_volley_multiplier": 1.0,
+    "regeneration_fraction": 0.35,
+    "damage_reduction": 0.0
+  }
+]

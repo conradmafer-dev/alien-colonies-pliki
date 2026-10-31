@@ -1,0 +1,50 @@
+{
+  "aab_sha256": "f248e7541f7b0d4964241258f66dab718b5b5c17e63c63ccdddadb34497af27b",
+  "aab_size": 331412717,
+  "zip_crc": "PASS",
+  "scripts": {
+    "asset_updates.gd": true,
+    "play_updates.gd": true,
+    "empire_name_ui.gd": true,
+    "update_boot.gd": true,
+    "ranking_ui.gd": true
+  },
+  "native_plugin": "PASS",
+  "locales": "PASS",
+  "arm64": [
+    {
+      "file": "base/lib/arm64-v8a/libc++_shared.so",
+      "load_alignment": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "base/lib/arm64-v8a/libdatastore_shared_counter.so",
+      "load_alignment": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "base/lib/arm64-v8a/libgodot_android.so",
+      "load_alignment": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    }
+  ],
+  "signature": "UNSIGNED",
+  "bundletool": "PASS",
+  "version_code": 93,
+  "version_name": "0.12.26",
+  "package": "com.conradmafer.aliencolonies",
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "debuggable": false
+}

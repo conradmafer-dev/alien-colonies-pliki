@@ -1,0 +1,133 @@
+{
+  "result": "PASS",
+  "bundle": "Alien_Colonies_ANDROID_0.12.19_CODE_86_UNSIGNED.aab",
+  "bytes": 330152338,
+  "sha256": "1b3ab87976d4ee2b5573dfe8fd29f64756a5ff71c943b493c6e8787a930020b8",
+  "version_name": "0.12.19",
+  "version_code": 86,
+  "package": "com.conradmafer.aliencolonies",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "debuggable": false,
+  "unsigned": true,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "elf_load_alignments": {
+    "base/lib/arm64-v8a/libc++_shared.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libgodot_android.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/armeabi-v7a/libc++_shared.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "base/lib/armeabi-v7a/libgodot_android.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ]
+  },
+  "native_16k_alignment": "PASS",
+  "bundletool_validation": "PASS",
+  "zip_crc": "PASS",
+  "zip_entries": 1204,
+  "google_auth_callback_manifest": "PASS",
+  "auth_plugin_in_dex": "PASS",
+  "billing_plugin_in_dex": "PASS",
+  "install_time_asset_pack": "PASS",
+  "play_billing_client_version": "9.1.0",
+  "application_module_count": 1,
+  "install_time_asset_pack_count": 1,
+  "not_tested": [
+    "Physical-device Google sign-in",
+    "Real Google Play purchases",
+    "Windows graphical signing flow with the user private key"
+  ],
+  "signer": {
+    "entry_point": "PODPISZ86.bat",
+    "runtime": "JDK 17 or newer",
+    "source_compilation": "PASS (JDK 17)",
+    "source_launcher_runtime_check": "PASS (JDK 17)",
+    "exact_input_sha256": "PASS",
+    "manifest_package_and_version": "PASS",
+    "wrong_version_rejection": "PASS",
+    "unsigned_bundle_rejected_as_signed": "PASS",
+    "required_existing_certificate_sha256": "9c6c8bd75024bc4cfad76324f0084f5cfe30d64a956720fe9d8713dbc7c7f8b7",
+    "certificate_matches_previously_verified_original82": true,
+    "private_key_included": false,
+    "release_signed": false,
+    "not_tested": [
+      "Windows graphical signing flow with the user private key"
+    ]
+  },
+  "source_import_check": {
+    "checked_imports": 238,
+    "invalid_imports": [],
+    "missing_destinations": [],
+    "missing_import_paths": [],
+    "reimport_errors": []
+  },
+  "portable_export_configuration": {
+    "result": "PASS",
+    "export_paths": [
+      "builds/ALIEN_COLONIES_0.12.19_ANDROID_TEST.apk",
+      "builds/Alien_Colonies.exe",
+      "builds/Alien_Colonies_ANDROID_0.12.19_CODE_86_UNSIGNED.aab"
+    ],
+    "external_build_path_in_export_presets": false,
+    "custom_gradle_build_directory": [
+      "default res://android"
+    ],
+    "generated_android_build_symlink_is_local_only": true,
+    "exclude_from_source_archive": [
+      "android/build",
+      ".godot"
+    ],
+    "docs_excluded_from_android_export": true
+  },
+  "native_addon_prerequisites": {
+    "addons/AlienGoogleAuth/bin/debug/AlienGoogleAuth-debug.aar": {
+      "sha256": "0d1a293b06686fca3cb27d2ea2b58fb7d80330e213d282d2be21006bd4182fd4",
+      "matches_verified85": true,
+      "aar_zip_crc": "PASS"
+    },
+    "addons/AlienGoogleAuth/bin/release/AlienGoogleAuth-release.aar": {
+      "sha256": "b48a9b33de9eee2b8af14a6fe6bb38ee4dafba4839dab8bed621f22a902274d4",
+      "matches_verified85": true,
+      "aar_zip_crc": "PASS"
+    },
+    "addons/GodotGooglePlayBilling/bin/debug/GodotGooglePlayBilling-debug.aar": {
+      "sha256": "f7f8f3f1c8099e58127332c8c27f353a7eea079e749682d2ebd83d1bd4bd6f3d",
+      "matches_verified85": true,
+      "aar_zip_crc": "PASS"
+    },
+    "addons/GodotGooglePlayBilling/bin/release/GodotGooglePlayBilling-release.aar": {
+      "sha256": "b667b4ae3ecf91d7dea90bebd4ba5a7aef56cfc2cd7de4787aeb51a1927dcef7",
+      "matches_verified85": true,
+      "aar_zip_crc": "PASS"
+    }
+  },
+  "final_export_error_lines": [],
+  "final_export_exit_code": 0,
+  "gradle_release_bundle_copied_byte_identically": true,
+  "independent_payload_check": {
+    "result": "PASS",
+    "scripts": 61,
+    "images": 53,
+    "invalid_imports": 0,
+    "report": "final_aab86_content_verification.json"
+  }
+}

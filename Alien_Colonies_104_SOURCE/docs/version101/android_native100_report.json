@@ -1,0 +1,6 @@
+{
+  "checks": 65,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Actual extracted Android101 AAB; motion and geometry including6x maximum; headless desktop, no physical Android"
+}

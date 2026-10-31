@@ -1,0 +1,2 @@
+# Server-side OAuth for Google Play subscription verification; no client secrets.
+google-auth[requests]>=2.38.0,<3

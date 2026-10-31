@@ -1,0 +1,218 @@
+{
+  "checks": 362,
+  "failed": [],
+  "layouts": [
+    {
+      "header_width": 676.0,
+      "locale": "pl",
+      "ranking_list_height": 712.0,
+      "trophy_rect": [
+        143.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        360,
+        640
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "pl",
+      "ranking_list_height": 712.0,
+      "trophy_rect": [
+        143.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        450,
+        800
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "pl",
+      "ranking_list_height": 1032.0,
+      "trophy_rect": [
+        143.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        720,
+        1600
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "en",
+      "ranking_list_height": 712.0,
+      "trophy_rect": [
+        202.0,
+        64.0,
+        72.0
+      ],
+      "window": [
+        360,
+        640
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "en",
+      "ranking_list_height": 712.0,
+      "trophy_rect": [
+        202.0,
+        64.0,
+        72.0
+      ],
+      "window": [
+        450,
+        800
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "en",
+      "ranking_list_height": 1032.0,
+      "trophy_rect": [
+        202.0,
+        64.0,
+        72.0
+      ],
+      "window": [
+        720,
+        1600
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "de",
+      "ranking_list_height": 642.0,
+      "trophy_rect": [
+        176.0,
+        64.0,
+        72.0
+      ],
+      "window": [
+        360,
+        640
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "de",
+      "ranking_list_height": 642.0,
+      "trophy_rect": [
+        176.0,
+        64.0,
+        72.0
+      ],
+      "window": [
+        450,
+        800
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "de",
+      "ranking_list_height": 962.0,
+      "trophy_rect": [
+        176.0,
+        64.0,
+        72.0
+      ],
+      "window": [
+        720,
+        1600
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "es",
+      "ranking_list_height": 679.0,
+      "trophy_rect": [
+        104.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        360,
+        640
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "es",
+      "ranking_list_height": 679.0,
+      "trophy_rect": [
+        104.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        450,
+        800
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "es",
+      "ranking_list_height": 999.0,
+      "trophy_rect": [
+        104.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        720,
+        1600
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "fr",
+      "ranking_list_height": 679.0,
+      "trophy_rect": [
+        104.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        360,
+        640
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "fr",
+      "ranking_list_height": 679.0,
+      "trophy_rect": [
+        104.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        450,
+        800
+      ]
+    },
+    {
+      "header_width": 676.0,
+      "locale": "fr",
+      "ranking_list_height": 999.0,
+      "trophy_rect": [
+        104.0,
+        64.0,
+        86.0
+      ],
+      "window": [
+        720,
+        1600
+      ]
+    }
+  ],
+  "result": "PASS",
+  "scope": "Actual native scene and authenticated local HTTP, 62 synthetic empires; no physical Android"
+}

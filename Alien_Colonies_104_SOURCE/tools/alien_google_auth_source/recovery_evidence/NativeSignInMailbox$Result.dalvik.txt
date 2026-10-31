@@ -1,0 +1,7 @@
+<init> (Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  invoke-direct v0, Ljava/lang/Object;-><init>()V
+  iput-object v1, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;->requestId Ljava/lang/String;
+  iput-object v2, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;->status Ljava/lang/String;
+  iput-object v3, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;->token Ljava/lang/String;
+  iput-object v4, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;->error Ljava/lang/String;
+  return-void 

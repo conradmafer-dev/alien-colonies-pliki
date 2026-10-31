@@ -1,0 +1,121 @@
+{
+  "version": 85,
+  "scope": "construction timing and storage-aware planned queues",
+  "formula": "ceil(3600*(metal+crystal)/base/(facility*robotics*nano*early*server_speed*(1+skill_bonus)*local_speed/(1-time_reduction))); minimum 1 second",
+  "base": {
+    "research": 1000,
+    "buildings_ships_defenses": 2500
+  },
+  "robotics": "Buildings only: 1 + research level; existing costs/prerequisites unchanged.",
+  "nanotechnology": "Buildings, ships and defenses: 2 ** floor(level/3); existing +3% production/level preserved; no research-time bonus.",
+  "early_bonus": "Buildings only: max(4-target_level/2, 1).",
+  "facility": "Laboratory and shipyard: 1 + building level; multiplied once.",
+  "initial_metal_mine_seconds": 31,
+  "metal_mine_30_examples": [
+    {
+      "building": "metal_mine",
+      "target_level": 30,
+      "cost": {
+        "metal": 7670042,
+        "crystal": 1917510,
+        "fuel": 0
+      },
+      "schema": 1,
+      "seconds": 13806075,
+      "robotics_level": 0,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 0,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 1.0,
+      "days": 159.792535
+    },
+    {
+      "building": "metal_mine",
+      "target_level": 30,
+      "cost": {
+        "metal": 7670042,
+        "crystal": 1917510,
+        "fuel": 0
+      },
+      "schema": 1,
+      "seconds": 575254,
+      "robotics_level": 5,
+      "robotics_multiplier": 6,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 2,
+      "nanotechnology_multiplier": 4,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 24.0,
+      "days": 6.658032
+    },
+    {
+      "building": "metal_mine",
+      "target_level": 30,
+      "cost": {
+        "metal": 7670042,
+        "crystal": 1917510,
+        "fuel": 0
+      },
+      "schema": 1,
+      "seconds": 66376,
+      "robotics_level": 12,
+      "robotics_multiplier": 13,
+      "nanotechnology_level": 12,
+      "nanotechnology_stage": 4,
+      "nanotechnology_multiplier": 16,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 208.0,
+      "days": 0.768241
+    }
+  ],
+  "price_comparison_to_84": {
+    "building_bases_and_factors": "unchanged",
+    "ship_and_defense_bases": "unchanged",
+    "research_costs_and_prerequisites": "unchanged"
+  },
+  "queue_rules": [
+    "Paid/running task seconds, ends_at and paid_cost survive migration unchanged.",
+    "Pending orders take current cost and timing at start; timing factors copied into started task.",
+    "No forecast for a missing resource above warehouse capacity.",
+    "Delivered or legacy stock above warehouse capacity stays spendable.",
+    "Batch costs, not just unit costs, checked against warehouse capacity.",
+    "Offline forecasts use historical energy and storage before migration epoch.",
+    "Before economy85_from, offline-started unpaid orders use exact v84 timing, including Robotics +4%/level. Orders started at/after the epoch use v85 timing."
+  ],
+  "tests": [
+    {
+      "file": "backend/tests/test_timing_085.py",
+      "passed": 12
+    },
+    {
+      "file": "backend/tests/test_ogame_live_migration.py",
+      "passed": 7
+    },
+    {
+      "file": "backend/tests/test_queue_acceptance.py",
+      "passed": 21
+    }
+  ],
+  "result": "40 focused/regression tests passed across the task; 31 real-v84 pending migration checks passed; whole backend compileall passed.",
+  "historical_pending_integration": {
+    "passed": 31,
+    "report": "work85_checks/historical_pending_integration_report.json"
+  }
+}

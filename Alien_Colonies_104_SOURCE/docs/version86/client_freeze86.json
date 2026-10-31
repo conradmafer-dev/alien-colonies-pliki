@@ -1,0 +1,39 @@
+{
+  "status": "CLIENT_FREEZE",
+  "version_code": 86,
+  "version_name": "0.12.19",
+  "godot": "4.5.1",
+  "checks": 1796,
+  "failures": 0,
+  "test_report": "work86_checks/auth_ui86_report.json",
+  "runtime_log": "work86_checks/auth_ui86_runtime.log",
+  "import_log": "work86_checks/auth_ui86_import.log",
+  "files": {
+    "client/scripts/main.gd": "c8410c38778969237947a2b6ca31af0ea14917e45873010b4baa05e85395a6ba",
+    "client/scripts/login_announcement.gd": "c5e78d85a24e7cd02a4f567342376184eb9724c6d030087ebf9c024d75bf1c08",
+    "localization/en.json": "5af24486747f3da7c728f188b8c6e028f001d484a00731d74ba9b265b0c8ef7c",
+    "localization/pl.json": "47f22ba6988f0cc09a5b8c24b547bc881efbb212448976e962e691d4665a6843",
+    "project.godot": "54816f32fd41fd2afa0f462fbe3f96c0a4df2bb6ac928f62e94e258507619d45"
+  },
+  "unchanged_auth_controllers": [
+    "client/scripts/google_login.gd",
+    "client/scripts/email_login.gd"
+  ],
+  "viewports": [
+    "720x960",
+    "720x1280",
+    "800x480",
+    "640x360",
+    "960x640"
+  ],
+  "languages": [
+    "pl",
+    "en"
+  ],
+  "limitations": [
+    "Synthetic HTTP/native results with real provider state machines and login UI; game rendering and persistence stubbed.",
+    "Android keyboard/safe-area margins simulated; no physical phone test.",
+    "No screenshot: this environment has no desktop display/compositor; headless uses dummy rendering. No Xvfb used.",
+    "No real Google/email account login, purchases, network requests, push or deployment."
+  ]
+}

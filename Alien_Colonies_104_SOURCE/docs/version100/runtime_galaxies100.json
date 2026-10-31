@@ -1,0 +1,68 @@
+[
+  {
+    "galaxy": "aurora",
+    "runtime": {
+      "src": "/assets/art/galaxies/aurora.3840.61ec30087c55.webp",
+      "small": "/assets/art/galaxies/aurora.1024.5b82d1f1d6a7.webp",
+      "width": 3840,
+      "height": 2560,
+      "smallWidth": 1024
+    },
+    "pixel_sha256": "20ad54e1863f9d35547d8013bae3126520d9e09f6a4d707f3825b325f8986e10"
+  },
+  {
+    "galaxy": "nexus",
+    "runtime": {
+      "src": "/assets/art/galaxies/nexus.3840.303da3223d01.webp",
+      "small": "/assets/art/galaxies/nexus.1024.f6145a7cb34a.webp",
+      "width": 3840,
+      "height": 2560,
+      "smallWidth": 1024
+    },
+    "pixel_sha256": "8c2644471b4ec5e5adaf1b95fb611c0be00ac14876b0ee3b8b1c1f6889902f2c"
+  },
+  {
+    "galaxy": "omega",
+    "runtime": {
+      "src": "/assets/art/galaxies/omega.3840.d128e1c29676.webp",
+      "small": "/assets/art/galaxies/omega.1024.b542c9aeb6af.webp",
+      "width": 3840,
+      "height": 2560,
+      "smallWidth": 1024
+    },
+    "pixel_sha256": "084b5a45a36b4a4f1ea775744e3d4bcc65e116ef52a407533748bd7e6c608233"
+  },
+  {
+    "galaxy": "zephyr",
+    "runtime": {
+      "src": "/assets/art/galaxies/zephyr.3840.6c7e0daacbb6.webp",
+      "small": "/assets/art/galaxies/zephyr.1024.07eae9b96e62.webp",
+      "width": 3840,
+      "height": 2560,
+      "smallWidth": 1024
+    },
+    "pixel_sha256": "4b249852c36e27ba325a8fd88fb7828201a892d45bd72ae844aa079516e0c1f7"
+  },
+  {
+    "galaxy": "eclipse",
+    "runtime": {
+      "src": "/assets/art/galaxies/eclipse.3840.39224ff9d74c.webp",
+      "small": "/assets/art/galaxies/eclipse.1024.2de49f50fa23.webp",
+      "width": 3840,
+      "height": 2560,
+      "smallWidth": 1024
+    },
+    "pixel_sha256": "12cf8404572bb43c0dc4bd20b000f17361f01c83148fb7c2fbec6812df76005a"
+  },
+  {
+    "galaxy": "void",
+    "runtime": {
+      "src": "/assets/art/galaxies/void.3840.b65bc1057bb4.webp",
+      "small": "/assets/art/galaxies/void.1024.387b88167ef8.webp",
+      "width": 3840,
+      "height": 2560,
+      "smallWidth": 1024
+    },
+    "pixel_sha256": "4f11812cf9a1fb4e5d55f41b78b1262a75a218440bda248c4a3e017d991d1269"
+  }
+]

@@ -1,0 +1,13 @@
+test_captured_inactive_inner_colony_resumes_only_under_new_owners_clock (test_release_integration_0123.ReleaseCaptureActivityIntegration.test_captured_inactive_inner_colony_resumes_only_under_new_owners_clock) ... ok
+test_old_android_state_refresh_after_capture_falls_home_and_resumes_only_on_input (test_release_integration_0123.ReleaseCaptureActivityIntegration.test_old_android_state_refresh_after_capture_falls_home_and_resumes_only_on_input) ... ok
+test_expansion_recounts_real_half_occupancy_without_moving_existing_homes (test_release_integration_0123.ReleaseMigrationIntegration.test_expansion_recounts_real_half_occupancy_without_moving_existing_homes) ... Alien Colonies 0.12.32: verified pre-expansion backup: /tmp/tmp2fxf2zot/reset-backups/before-galaxy-rings-01232-20261025T143159Z-e68e0b613c42.sqlite3
+Alien Colonies 0.12.32: additive galaxy expansion committed; systems=930; planets=2763; players=2; world_epoch=new-beginning-20261019
+ok
+test_failed_required_backup_prevents_world_or_account_changes (test_release_integration_0123.ReleaseMigrationIntegration.test_failed_required_backup_prevents_world_or_account_changes) ... Alien Colonies 0.12.32: verified pre-expansion backup: /tmp/tmpwdfvr28j/reset-backups/before-galaxy-rings-01232-20261025T143200Z-69ee31934ad3.sqlite3
+Alien Colonies 0.12.32: additive galaxy expansion committed; systems=930; planets=2763; players=1; world_epoch=new-beginning-20261019
+ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 8.940s
+
+OK

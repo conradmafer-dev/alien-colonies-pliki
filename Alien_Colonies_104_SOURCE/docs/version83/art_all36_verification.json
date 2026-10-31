@@ -1,0 +1,330 @@
+{
+  "result": "PASS",
+  "count": 36,
+  "assets": [
+    {
+      "path": "client/assets/art/races/zetans/battleship.webp",
+      "sha256": "5082f42b233df315d96b5bb4049dd432ea2a24df0cd0d6e6e7b1e6520361339b",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/cargo.webp",
+      "sha256": "cf8a1f3204ae159d02526b77e671fd9d46ff448a3087a2105185164ad2373d8b",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/colonizer.webp",
+      "sha256": "b58d6ccbd4dd4b5bbdba126386a2184a82c9fddab822655bf0d2b272943d65a6",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/cruiser.webp",
+      "sha256": "799c180a2796e144e50184a75d3d949f242caa18936ea5f7b13badce7f2b4119",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/dreadnought.webp",
+      "sha256": "d52d5110c048178931f2cb063f1f8c6773531c3adbbee20c55d7e4a187ce4ce4",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/flagship.webp",
+      "sha256": "807d2a10b48f67af270e42fb4670854315910037d40a009472d9fecd4e0b80af",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/freighter.webp",
+      "sha256": "150a92eb6db0ee61c07a1d088a4433cbf7fd0c84a82827a7a4e6e7a01405384b",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/frigate.webp",
+      "sha256": "eb1d3968fb623ea87d3e13d4d466ff381dd59d5a1584533e2abc5848d93c119f",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/interceptor.webp",
+      "sha256": "8d883e0c3d8d57298a9f6c13a875d164d84aef47b9e9a2aa0ad1da264e011926",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/scout.webp",
+      "sha256": "9399eca5ede1dcfef1bb4cdbb564684ac682de5260b18fbc7e68772950370d1f",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/siege.webp",
+      "sha256": "7a49fab54f165a78ce68df266688946d025de1c5033fc15b6304a6ccaea917bb",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/zetans/titan.webp",
+      "sha256": "b005c2755f358ab1ac85d0db078eff9fd96d3291ca6665101224df436e17226a",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/battleship.webp",
+      "sha256": "38a462fc7828283655ca5335744b3ce9a63231c1d6d236e9d08be62da09fbf13",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/cargo.webp",
+      "sha256": "b4caf77c434bcfbae08aefecb5dc8e1618ce6c2357b1faee3abc0b1933cd7dda",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/colonizer.webp",
+      "sha256": "3b7337f5eb89b32369c992b80bf2c008a317e6c5ed389ee29c8cdea20bba84ec",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/cruiser.webp",
+      "sha256": "376805985fbe1f9339978a01ff1696cf7aabb12ba12b15e2f7637233d8430305",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/dreadnought.webp",
+      "sha256": "4a414fd23a74064daf90806b9035e77e44f5571609cb2abe0b99f339efa44aa0",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/flagship.webp",
+      "sha256": "5b151769eb797334d71d549d3328c018208869bfe6b60e04525e15e140242357",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/freighter.webp",
+      "sha256": "6692b5ebc3d461d91938d5d81044d37d0a4ced11ff12284da3fa4277fcdc473a",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/frigate.webp",
+      "sha256": "2500b4e124b70dd9f2a9ed97a558aa5e37cf9f0a7060223d2f4ade43b8348f00",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/interceptor.webp",
+      "sha256": "a4dabc7e17e65aca702f1e0159fc6c9a7ef89004163ccb0d6508518da29ced2f",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/scout.webp",
+      "sha256": "6c90aa1f2b28b3189f622b939bcefed92fe8a418a85cb0d5cfdb126a13ce81b3",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/siege.webp",
+      "sha256": "89fb3d077e690cbb559b0fff7c40c848206a285800af788f99e7f89a28ce01e1",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/automatons/titan.webp",
+      "sha256": "1423f77b019d48365fe0f39c933c72485390900d27953b8ffce780ec09202f8b",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/battleship.webp",
+      "sha256": "95b43883fa9e44fbca645470f61e198efe2415e89b259d7d7ef7d8c1b3d27a2d",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/cargo.webp",
+      "sha256": "33d0b9728ddf9e0aeaa0a4d42a1bb0348ee5c453882037623448cb727ae34214",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/colonizer.webp",
+      "sha256": "66af501bdeea830e6a7de352b05a16fe550945e3234b17943154ca95e1a33414",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/cruiser.webp",
+      "sha256": "2afc63c589953097eb645d2ceedea065350e91e569fe688ae5bb943cf69e2b2e",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/dreadnought.webp",
+      "sha256": "9df638e49acdd9dfa708138b85388dfc0467978e2ea1156a4f8d20e081ff30d0",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/flagship.webp",
+      "sha256": "01bba82917e75448c8a88c5c1fb1f08b62e429d5b3acefb89578aa56aeb2a5ad",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/freighter.webp",
+      "sha256": "682fd9b2d96050227dd91be3ac557f17046ceb998cf89cbab32ded019b613ad9",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/frigate.webp",
+      "sha256": "e901b21a26fb2ecdbe4a6947372ba89d26a0cd87db4a21b2dbb73c0b256c7ad8",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/interceptor.webp",
+      "sha256": "f555de3a9e0577a5ed14d6e3432f9b38a8b3fdaaa1f6df054b6438a3530efb58",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/scout.webp",
+      "sha256": "8857374324fcb100aff43637adb926d12d29f9bd9671d5d6d325c3e32cf05e53",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/siege.webp",
+      "sha256": "de56540cb25eb1d1118ca733795f646239b26a3c6bac3305beff6567f0a80c98",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    },
+    {
+      "path": "client/assets/art/races/symbionts/titan.webp",
+      "sha256": "10193ab751297165ca4e270ed62c5766cfa4a8105fbd92828b193748df5f42ac",
+      "size": [
+        1536,
+        1024
+      ],
+      "changed_from_82": true
+    }
+  ]
+}

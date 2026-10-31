@@ -1,0 +1,6 @@
+{
+  "checks": 62,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Actual native controller/UI with intercepted commands; source test, not a physical Android device."
+}

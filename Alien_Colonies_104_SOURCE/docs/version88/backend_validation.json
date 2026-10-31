@@ -1,0 +1,173 @@
+{
+  "result": "PASS",
+  "verified_date_utc": "2026-10-21",
+  "scope": "Subscription milestone backend, review invitation compatibility, planning queue and billing regression",
+  "tests": 79,
+  "failures": 0,
+  "suites": [
+    {
+      "module": "backend/tests/test_subscription_invite.py",
+      "tests": 11,
+      "result": "PASS",
+      "working_directory": "backend",
+      "reproduce_command": "python3 -m unittest discover -s tests -p test_subscription_invite.py -v",
+      "test_names": [
+        "test_six_completions_include_repeated_upgrades_but_not_start_or_cancel",
+        "test_progress_is_empire_wide_and_independent_of_dismissed_review",
+        "test_research_and_ship_completions_do_not_count",
+        "test_public_state_is_read_only_and_does_not_guess_old_builds",
+        "test_claim_before_threshold_or_without_valid_nonce_does_not_consume_offer",
+        "test_competing_devices_have_only_one_claim_and_same_nonce_is_idempotent",
+        "test_claim_survives_restart_new_device_and_action_cache_eviction",
+        "test_active_subscribers_cannot_claim_or_reuse_pre_purchase_response",
+        "test_claim_does_not_grant_benefits_spend_resources_or_count_as_play",
+        "test_claim_and_progress_are_isolated_to_authenticated_player",
+        "test_failed_database_write_rolls_back_display_claim"
+      ]
+    },
+    {
+      "module": "backend/tests/test_announcement_reviews_013.py",
+      "tests": 10,
+      "result": "PASS",
+      "working_directory": "backend",
+      "reproduce_command": "python3 -m unittest discover -s tests -p test_announcement_reviews_013.py -v",
+      "test_names": [
+        "test_review_only_after_five_completed_builds_and_never_on_start",
+        "test_research_ships_and_unfinished_projects_do_not_count",
+        "test_snooze_disable_and_open_store_have_no_rewards",
+        "test_public_draft_is_private_and_editor_revision_is_atomic",
+        "test_title_only_announcement_without_category",
+        "test_admin_player_activity_stats_count_unique_empires",
+        "test_presence_is_ephemeral_and_only_counts_recent_existing_players",
+        "test_invalid_publish_never_changes_draft",
+        "test_edit_is_durable_across_restart",
+        "test_admin_api_rejects_unauthenticated_requests_and_serves_editor"
+      ]
+    },
+    {
+      "module": "backend/tests/test_play_billing.py",
+      "tests": 23,
+      "result": "PASS",
+      "working_directory": "backend",
+      "reproduce_command": "python3 -m unittest discover -s tests -p test_play_billing.py -v",
+      "test_names": [
+        "test_active_is_verified_acknowledged_and_public_response_is_safe",
+        "test_wrong_product_and_plan_do_not_grant_or_acknowledge",
+        "test_wrong_package_is_rejected",
+        "test_wrong_or_missing_account_is_rejected",
+        "test_out_of_app_resubscribe_retains_verified_account",
+        "test_pending_is_never_acknowledged",
+        "test_pause_hold_expired_unspecified_and_pending_canceled_do_not_grant",
+        "test_cancel_preserves_remaining_paid_period_and_grace_is_entitled",
+        "test_expired_date_future_start_and_malformed_dates_do_not_grant",
+        "test_acknowledgement_failure_does_not_save_entitlement",
+        "test_already_acknowledged_restore_is_idempotent",
+        "test_token_and_linked_token_cannot_transfer_to_another_player",
+        "test_replaced_token_cannot_overwrite_current_subscription",
+        "test_renewal_before_expiry_extends_continuously_but_recovery_after_gap_starts_now",
+        "test_hold_truncates_future_interval_and_preserves_paid_history",
+        "test_refresh_is_bounded_and_outage_never_extends_known_expiry",
+        "test_terminal_provider_rejection_stops_future_access",
+        "test_stale_terminal_error_cannot_invalidate_newer_success",
+        "test_disabled_provider_and_bad_environment_fail_closed_without_crashing",
+        "test_check_phase_does_not_mutate_until_applied_under_world_lock",
+        "test_stale_verification_cannot_overwrite_newer_renewal",
+        "test_slow_old_active_response_cannot_overwrite_newer_refund_check",
+        "test_invalid_token_is_rejected_before_network"
+      ]
+    },
+    {
+      "module": "backend/tests/test_weekly_billing.py",
+      "tests": 11,
+      "result": "PASS",
+      "working_directory": "backend",
+      "reproduce_command": "python3 -m unittest discover -s tests -p test_weekly_billing.py -v",
+      "test_names": [
+        "test_weekly_base_plan_without_trial_is_accepted",
+        "test_seven_day_trial_starts_from_google_and_stops_at_exact_expiry",
+        "test_trial_renews_weekly_continuously_only_after_google_confirms_extension",
+        "test_canceled_trial_keeps_remaining_trial_then_expires",
+        "test_weekly_late_recovery_does_not_backdate_unknown_gap",
+        "test_monthly_subscribers_remain_monthly_and_can_renew",
+        "test_unknown_missing_and_malformed_plan_rejected_without_acknowledgement",
+        "test_two_matching_supported_plans_are_rejected_as_ambiguous",
+        "test_checked_snapshot_keeps_provider_plan_when_applied",
+        "test_new_purchase_default_does_not_relabel_legacy_google_record",
+        "test_supported_plans_does_not_claim_unconfigured_provider_is_ready"
+      ]
+    },
+    {
+      "module": "backend/tests/test_queue_acceptance.py",
+      "tests": 21,
+      "result": "PASS",
+      "working_directory": "backend",
+      "reproduce_command": "python3 -m unittest discover -s tests -p test_queue_acceptance.py -v",
+      "test_names": [
+        "test_no_subscription_cannot_plan_even_with_client_paid_flags",
+        "test_free_accounts_keep_three_parallel_active_lanes",
+        "test_no_subscription_activation_via_unknown_action",
+        "test_ten_pending_building_limit_excludes_active",
+        "test_ten_pending_research_limit_applies_across_colonies",
+        "test_ship_and_defense_share_pending_and_active_lane",
+        "test_ship_amounts_are_strictly_bounded_and_cannot_be_booleans",
+        "test_owned_planet_required_for_plan",
+        "test_foreign_pending_order_cannot_be_removed_or_reordered",
+        "test_pending_orders_neither_charge_nor_reserve_building_slot",
+        "test_cost_is_current_level_when_each_pending_upgrade_starts",
+        "test_resource_wait_starts_at_affordability_time_during_offline_advance",
+        "test_complete_multiple_jobs_offline_chronologically_once",
+        "test_research_remains_one_empire_lane_and_uses_selected_colony",
+        "test_exact_expiry_blocks_next_start_but_active_project_completes",
+        "test_new_entitlement_never_starts_existing_order_before_verified_start",
+        "test_paid_period_after_gap_wakes_waiting_order_at_its_start",
+        "test_private_billing_receipt_fields_are_absent_from_public_state",
+        "test_request_replay_does_not_add_second_waiting_order",
+        "test_pending_orders_and_verified_entitlement_survive_restart",
+        "test_stalled_google_verification_does_not_block_other_players_state"
+      ]
+    },
+    {
+      "module": "backend/tests/test_queue_http_billing.py",
+      "tests": 3,
+      "result": "PASS",
+      "working_directory": "backend",
+      "reproduce_command": "python3 -m unittest discover -s tests -p test_queue_http_billing.py -v",
+      "test_names": [
+        "test_session_revoked_during_provider_verification_cannot_grant_subscription",
+        "test_public_verification_response_contains_no_private_receipt",
+        "test_offline_receipts_are_swept_without_state_polling"
+      ]
+    }
+  ],
+  "syntax_check": {
+    "result": "PASS",
+    "working_directory": "backend",
+    "reproduce_command": "python3 -m py_compile app.py subscription_invite.py tests/test_subscription_invite.py"
+  },
+  "execution_notes": [
+    "Results record the completed backend validation from this work session; reproduce_command fields provide runnable commands for the supplied source tree.",
+    "Two existing socket-dependent tests initially could not open local sockets in the sandbox. They were rerun with approved local execution together with the three HTTP billing tests; all five passed.",
+    "All accounts, worlds and database files were temporary test data. Billing providers were mocked; no production endpoint or real Google purchase was used.",
+    "The total counts unique tests, not retries."
+  ],
+  "milestone_contract": {
+    "threshold": 6,
+    "counter": "review_invitation.completed_builds",
+    "counts": "Completed building construction and upgrades across the account colonies",
+    "does_not_count": [
+      "Starting a project",
+      "Cancelling a project",
+      "Research",
+      "Ship construction"
+    ],
+    "claim_action": {
+      "type": "subscription_prompt",
+      "choice": "show",
+      "request_id": "A fresh opaque client-generated nonce"
+    },
+    "claim_storage": "subscription_invitation on the player record, persisted in SQLite",
+    "duplicate_control": "One winner nonce per account; retries with the same nonce remain idempotent, including after restart/cache eviction",
+    "active_subscriber": "Cannot claim; public claim_request_id is suppressed while the entitlement is active",
+    "play_trial_eligibility": "Client must verify a currently available seven-day trial with Google Play before claiming/showing"
+  }
+}

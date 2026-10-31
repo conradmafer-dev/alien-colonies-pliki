@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "unit_tests": 17,
+  "unit_test_seconds": null,
+  "migration_integration": "107/107 PASS; actual84 snapshot,3races,12paidprojects,6flights,3600seconds offline,2restarts",
+  "late_capacity_policy": "max(OGame base curve, highest resource cost of next active racial vault upgrade), limited by existing MAX_RESOURCE; no free resources or levels",
+  "late_floor_examples": [
+    {
+      "race": "automatons",
+      "vault": "armored_vault",
+      "first_floor_level": 22,
+      "ogame_base_capacity": 7717970000,
+      "capacity85": 7759462400,
+      "next_upgrade_cost": {
+        "metal": 7759462400,
+        "crystal": 3565158400,
+        "fuel": 1258291200
+      }
+    },
+    {
+      "race": "zetans",
+      "vault": "phase_vault",
+      "first_floor_level": 24,
+      "ogame_base_capacity": 25937050000,
+      "capacity85": 26004684800,
+      "next_upgrade_cost": {
+        "metal": 18454937600,
+        "crystal": 26004684800,
+        "fuel": 4194304000
+      }
+    },
+    {
+      "race": "symbionts",
+      "vault": "living_vault",
+      "first_floor_level": 29,
+      "ogame_base_capacity": 536987950000,
+      "capacity85": 563714457600,
+      "next_upgrade_cost": {
+        "metal": 563714457600,
+        "crystal": 510027366400,
+        "fuel": 322122547200
+      }
+    }
+  ],
+  "source_sha256": {
+    "economy85.py": "41f710456f50fb750b0ada769af0246b73382e5f02ac659a4514687b48516401",
+    "planetary.py": "7ebdb30a8a01e285928819a125eb51b0e7a6ad210c65ee32f41f75b44bf0461e",
+    "tests/test_economy85_energy_storage.py": "c6a122beb4fe27691417225caba1f8630e54d001a98daeec8d2710462bdcf513"
+  },
+  "verification": "Included in 36/36 passing targeted tests, 10.617 seconds total",
+  "passive_production": "30 metal/h +15 crystal/h per player colony, multiplied only by universe speed, from economy85_from",
+  "passive_report": "passive_production85_report.json"
+}

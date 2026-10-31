@@ -1,0 +1,25 @@
+{
+  "version_code": 98,
+  "version_name": "0.12.31",
+  "aab_sha": "38b16ae9ee59759165574c78cdb21dbccfc0dd56b3b615d91b1f7ee42fad1594",
+  "aab_size": 331481643,
+  "basis_sha": "489e8b37d352180459a3fbbe3f2d15ef6dbaa915cb4384bf6f0ca5c733ca4027",
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/alliance_ui.gdc",
+    "assetPackInstallTime/assets/client/scripts/communications.gdc",
+    "assetPackInstallTime/assets/client/scripts/interaction_guard.gdc",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/client/scripts/ranking_ui.gdc",
+    "assetPackInstallTime/assets/client/scripts/touch_scroll.gdc",
+    "assetPackInstallTime/assets/client/scripts/update_boot.gdc",
+    "assetPackInstallTime/assets/project.binary",
+    "assetPackInstallTime/assets/assets.sparsepck"
+  ],
+  "sparse_records_verified": 638,
+  "zip_crc": "PASS",
+  "delta_sha256": "57c353823eb10e5f66c1a25ddfb81fa75773604d19feb9d32366150c34e9dd16",
+  "delta_size": 339390,
+  "copied_bytes": 331029592,
+  "literal_bytes": 452051
+}

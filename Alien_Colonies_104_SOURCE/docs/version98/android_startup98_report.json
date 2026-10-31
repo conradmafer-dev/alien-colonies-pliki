@@ -1,0 +1,7 @@
+{
+  "boot_to_login_ms": 1106,
+  "checks": 15,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Actual Android AAB assets and sparse index under Godot 4.5.1; headless desktop, no physical Android or Play Store installation"
+}

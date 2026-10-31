@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "engine": "Godot 4.5.1.stable.official.f62fdbde1",
+  "mode": "headless",
+  "exit_code": 0,
+  "startup_frames": 12,
+  "parse_errors": 0,
+  "device_login_tested": false,
+  "purchases_tested": false
+}

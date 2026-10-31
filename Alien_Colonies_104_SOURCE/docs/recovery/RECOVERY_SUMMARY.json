@@ -1,0 +1,38 @@
+{
+  "source_aab": "Alien_Colonies_ANDROID_0.12.15_CODE_82.aab",
+  "source_aab_sha256": "a338704f6c77b6f8c8597e26d843580c339f7c28519ec82db802249813f4bb16",
+  "source_aab_bytes": 336925648,
+  "client_version": "0.12.15",
+  "version_code": 82,
+  "engine": "Godot4.5.1.stable.official.f62fdbde1",
+  "github_repo": "conradmafer-dev/pogranicze-serwer",
+  "github_commit": "5ff017c36b503a512e7f483a774755e88e3e9f21",
+  "github_server_version": "0.12.13",
+  "source_baseline": "Alien_Colonies_ANDROID_0.11.10_SOURCE.zip",
+  "script_overlay": "Alien_Colonies_81_SKRYPTY_I_POPRAWKA_82.zip",
+  "checks": {
+    "aab_gdscript_token_and_layout_matches": 61,
+    "textures_exact_pixels": 234,
+    "mip_levels_exact_pixels": 330,
+    "godot_editor_import": "PASS",
+    "godot_headless_main_scene_120_frames": "PASS",
+    "godot_windows_preset_pck_export": "PASS",
+    "isolated_local_backend_health_register_login_state": "PASS",
+    "alien_google_auth_aar_debug_release_javac17_and_D8": "PASS",
+    "alien_google_auth_mailbox_assertions": 77,
+    "google_play_billing_public_API_matches": 19
+  },
+  "not_verified": [
+    "Full Android APK/AAB export",
+    "Device Google Credential Manager sign-in",
+    "Google Play purchase and subscription flows"
+  ],
+  "not_recovered": [
+    "Production world/player database and historical backups",
+    "Private Android upload signing key",
+    "Hosting/OAuth/Play Console secrets and account configuration"
+  ],
+  "intentional_config_normalization": "project.binary config/version0.12.14 replaced by0.12.15 to match Android manifest82/0.12.15",
+  "production_actions_performed": false,
+  "archive_root": "Alien_Colonies_82_SOURCE"
+}

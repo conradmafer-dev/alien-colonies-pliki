@@ -1,0 +1,192 @@
+{
+  "race": "symbionts",
+  "generation_method": "built-in image_gen, individual call for every asset",
+  "image_count": 12,
+  "format_conversion": "PNG to WebP quality94 method6; no resize, crop or painting",
+  "all_dimensions_1536x1024": true,
+  "all_unique_file_hashes": true,
+  "all_original_import_files_retained": true,
+  "assets": [
+    {
+      "role": "scout",
+      "path": "client/assets/art/races/symbionts/scout.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-f9af6afe-9f0c-4d3b-8386-841524d1a09f.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/scout.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 265232,
+      "sha256": "8857374324fcb100aff43637adb926d12d29f9bd9671d5d6d325c3e32cf05e53",
+      "silhouette": "Small egg-shaped firefly with sensory antennae",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Tighter margins, no clipping"
+    },
+    {
+      "role": "cargo",
+      "path": "client/assets/art/races/symbionts/cargo.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-9727053d-9dc1-4840-8371-2fb3e0f8387a.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/cargo.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 361836,
+      "sha256": "33d0b9728ddf9e0aeaa0a4d42a1bb0348ee5c453882037623448cb727ae34214",
+      "silhouette": "Stout whale with twin cargo sacs",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Tighter margins, no clipping"
+    },
+    {
+      "role": "colonizer",
+      "path": "client/assets/art/races/symbionts/colonizer.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-31958a39-45bb-4a48-afb4-95e7034e9087.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/colonizer.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 488634,
+      "sha256": "66af501bdeea830e6a7de352b05a16fe550945e3234b17943154ca95e1a33414",
+      "silhouette": "Open coral flower/rosette carrying embryonic colony",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Tighter margins, no clipping"
+    },
+    {
+      "role": "frigate",
+      "path": "client/assets/art/races/symbionts/frigate.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-054c32c0-2f6e-4ef0-9632-62c3b4e95f78.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/frigate.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 244690,
+      "sha256": "e901b21a26fb2ecdbe4a6947372ba89d26a0cd87db4a21b2dbb73c0b256c7ad8",
+      "silhouette": "Long thin lance with small membrane wings",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Tighter margins, no clipping"
+    },
+    {
+      "role": "cruiser",
+      "path": "client/assets/art/races/symbionts/cruiser.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-94fa12c6-517a-4c2a-83c4-833351b033be.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/cruiser.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 263218,
+      "sha256": "2afc63c589953097eb645d2ceedea065350e91e569fe688ae5bb943cf69e2b2e",
+      "silhouette": "Broad muscular manta ray",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    },
+    {
+      "role": "interceptor",
+      "path": "client/assets/art/races/symbionts/interceptor.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-b73d0482-c0ba-4dca-a32c-34a362e393b2.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/interceptor.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 212934,
+      "sha256": "f555de3a9e0577a5ed14d6e3432f9b38a8b3fdaaa1f6df054b6438a3530efb58",
+      "silhouette": "Sharp narrow forked thorn with sickle arms",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    },
+    {
+      "role": "siege",
+      "path": "client/assets/art/races/symbionts/siege.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-7b964e08-158b-403f-ac11-9ea51df92425.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/siege.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 324876,
+      "sha256": "de56540cb25eb1d1118ca733795f646239b26a3c6bac3305beff6567f0a80c98",
+      "silhouette": "Compact armored cannon-mouth with concentric teeth",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    },
+    {
+      "role": "freighter",
+      "path": "client/assets/art/races/symbionts/freighter.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-ada6a2bb-3de1-40ec-ba65-e43c8d66c14d.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/freighter.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 205914,
+      "sha256": "682fd9b2d96050227dd91be3ac557f17046ceb998cf89cbab32ded019b613ad9",
+      "silhouette": "Long string of plump cargo chambers",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    },
+    {
+      "role": "battleship",
+      "path": "client/assets/art/races/symbionts/battleship.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-f97560c6-0788-4f74-92d9-2f7e05349395.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/battleship.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 321970,
+      "sha256": "95b43883fa9e44fbca645470f61e198efe2415e89b259d7d7ef7d8c1b3d27a2d",
+      "silhouette": "Broad beetle carapace and folded short claws",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    },
+    {
+      "role": "dreadnought",
+      "path": "client/assets/art/races/symbionts/dreadnought.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-6a50d4d3-5153-439f-926a-47b4fe9bdc65.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/dreadnought.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 272576,
+      "sha256": "9df638e49acdd9dfa708138b85388dfc0467978e2ea1156a4f8d20e081ff30d0",
+      "silhouette": "Long armored triple-jawed serpent",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    },
+    {
+      "role": "flagship",
+      "path": "client/assets/art/races/symbionts/flagship.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-78d46c8a-5931-4fde-8d86-5284416e4ed2.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/flagship.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 264092,
+      "sha256": "01bba82917e75448c8a88c5c1fb1f08b62e429d5b3acefb89578aa56aeb2a5ad",
+      "silhouette": "Luminous jellyfish bell with long tendrils",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    },
+    {
+      "role": "titan",
+      "path": "client/assets/art/races/symbionts/titan.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-78386f6c-bd5a-46fe-8b7a-15e10e04a6bd.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work83_art/symbionts/titan.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 350676,
+      "sha256": "10193ab751297165ca4e270ed62c5766cfa4a8105fbd92828b193748df5f42ac",
+      "silhouette": "Monumental branching living coral archipelago",
+      "visual_review": "PASS: single organic ship, distinct role silhouette, no text or UI, complete subject inside image",
+      "framing_note": "Open dark surrounding space, no clipping"
+    }
+  ],
+  "prompts_file": "/workspace/scratch/785979929548/work83_art/symbionts/prompts.json"
+}

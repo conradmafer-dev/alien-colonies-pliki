@@ -1,0 +1,1607 @@
+{
+  "source_fixture": "backend/web/play/tests/fixtures/rings-navigation.json.gz",
+  "source_sha256": "61f97fa119d1fb8d2b71777c89f76829b483c0a3bf48e5944cdb5bd1429c5c2f",
+  "schema": 2,
+  "systems": [
+    {
+      "id": "s1",
+      "name": "Helios",
+      "galaxy_id": "g1",
+      "x": 0.0,
+      "y": 0.0,
+      "ring_index": 0,
+      "ring_order": 0,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s2",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s30",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s181",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s2",
+      "name": "Vega",
+      "galaxy_id": "g1",
+      "x": 1.0,
+      "y": 0.0,
+      "ring_index": 0,
+      "ring_order": 1,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s1",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s3",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s3",
+      "name": "Orion",
+      "galaxy_id": "g1",
+      "x": 2.0,
+      "y": 0.0,
+      "ring_index": 0,
+      "ring_order": 2,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s2",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s4",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s4",
+      "name": "Lyra",
+      "galaxy_id": "g1",
+      "x": 3.0,
+      "y": 0.0,
+      "ring_index": 0,
+      "ring_order": 3,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s3",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s5",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s5",
+      "name": "Nadir",
+      "galaxy_id": "g1",
+      "x": 4.0,
+      "y": 0.0,
+      "ring_index": 0,
+      "ring_order": 4,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s4",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s6",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s6",
+      "name": "Aster",
+      "galaxy_id": "g1",
+      "x": 5.0,
+      "y": 0.0,
+      "ring_index": 0,
+      "ring_order": 5,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s5",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s7",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s7",
+      "name": "Talos",
+      "galaxy_id": "g1",
+      "x": 0.0,
+      "y": 1.0,
+      "ring_index": 0,
+      "ring_order": 6,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s6",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s8",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s185",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s8",
+      "name": "Iris",
+      "galaxy_id": "g1",
+      "x": 1.0,
+      "y": 1.0,
+      "ring_index": 0,
+      "ring_order": 7,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s7",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s9",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s9",
+      "name": "Atlas",
+      "galaxy_id": "g1",
+      "x": 2.0,
+      "y": 1.0,
+      "ring_index": 0,
+      "ring_order": 8,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s8",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s10",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s10",
+      "name": "Selene",
+      "galaxy_id": "g1",
+      "x": 3.0,
+      "y": 1.0,
+      "ring_index": 0,
+      "ring_order": 9,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s9",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s11",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s11",
+      "name": "Draco",
+      "galaxy_id": "g1",
+      "x": 4.0,
+      "y": 1.0,
+      "ring_index": 0,
+      "ring_order": 10,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s10",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s12",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s12",
+      "name": "Aurora",
+      "galaxy_id": "g1",
+      "x": 5.0,
+      "y": 1.0,
+      "ring_index": 0,
+      "ring_order": 11,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s11",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s13",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s13",
+      "name": "Kronos",
+      "galaxy_id": "g1",
+      "x": 0.0,
+      "y": 2.0,
+      "ring_index": 0,
+      "ring_order": 12,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s12",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s14",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s189",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s14",
+      "name": "Eos",
+      "galaxy_id": "g1",
+      "x": 1.0,
+      "y": 2.0,
+      "ring_index": 0,
+      "ring_order": 13,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s13",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s15",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s15",
+      "name": "Polaris",
+      "galaxy_id": "g1",
+      "x": 2.0,
+      "y": 2.0,
+      "ring_index": 0,
+      "ring_order": 14,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s14",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s16",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s16",
+      "name": "Mira",
+      "galaxy_id": "g1",
+      "x": 3.0,
+      "y": 2.0,
+      "ring_index": 0,
+      "ring_order": 15,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s15",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s17",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s17",
+      "name": "Nexus",
+      "galaxy_id": "g1",
+      "x": 4.0,
+      "y": 2.0,
+      "ring_index": 0,
+      "ring_order": 16,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s16",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s18",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s18",
+      "name": "Arden",
+      "galaxy_id": "g1",
+      "x": 5.0,
+      "y": 2.0,
+      "ring_index": 0,
+      "ring_order": 17,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s17",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s19",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s19",
+      "name": "Ereb",
+      "galaxy_id": "g1",
+      "x": 0.0,
+      "y": 3.0,
+      "ring_index": 0,
+      "ring_order": 18,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s18",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s20",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s193",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s20",
+      "name": "Cygnus",
+      "galaxy_id": "g1",
+      "x": 1.0,
+      "y": 3.0,
+      "ring_index": 0,
+      "ring_order": 19,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s19",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s21",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s21",
+      "name": "Boreas",
+      "galaxy_id": "g1",
+      "x": 2.0,
+      "y": 3.0,
+      "ring_index": 0,
+      "ring_order": 20,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s20",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s22",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s22",
+      "name": "Zefir",
+      "galaxy_id": "g1",
+      "x": 3.0,
+      "y": 3.0,
+      "ring_index": 0,
+      "ring_order": 21,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s21",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s23",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s23",
+      "name": "Tytan",
+      "galaxy_id": "g1",
+      "x": 4.0,
+      "y": 3.0,
+      "ring_index": 0,
+      "ring_order": 22,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s22",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s24",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s24",
+      "name": "Perseusz",
+      "galaxy_id": "g1",
+      "x": 5.0,
+      "y": 3.0,
+      "ring_index": 0,
+      "ring_order": 23,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s23",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s25",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s25",
+      "name": "Arka",
+      "galaxy_id": "g1",
+      "x": 0.0,
+      "y": 4.0,
+      "ring_index": 0,
+      "ring_order": 24,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s24",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s26",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s197",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s26",
+      "name": "Solara",
+      "galaxy_id": "g1",
+      "x": 1.0,
+      "y": 4.0,
+      "ring_index": 0,
+      "ring_order": 25,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s25",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s27",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s27",
+      "name": "Kepler",
+      "galaxy_id": "g1",
+      "x": 2.0,
+      "y": 4.0,
+      "ring_index": 0,
+      "ring_order": 26,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s26",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s28",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s28",
+      "name": "Andara",
+      "galaxy_id": "g1",
+      "x": 3.0,
+      "y": 4.0,
+      "ring_index": 0,
+      "ring_order": 27,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s27",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s29",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s29",
+      "name": "Vesper",
+      "galaxy_id": "g1",
+      "x": 4.0,
+      "y": 4.0,
+      "ring_index": 0,
+      "ring_order": 28,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s28",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s30",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s30",
+      "name": "Rubież",
+      "galaxy_id": "g1",
+      "x": 5.0,
+      "y": 4.0,
+      "ring_index": 0,
+      "ring_order": 29,
+      "ring_size": 30,
+      "ring_radius": 1.0,
+      "connections": [
+        {
+          "system_id": "s1",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s29",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s181",
+      "name": "Aurora Atria",
+      "galaxy_id": "g1",
+      "x": 2.5,
+      "y": 0.6599999999999999,
+      "ring_index": 1,
+      "ring_order": 0,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s1",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s182",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s200",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s201",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s182",
+      "name": "Aurora Altair",
+      "galaxy_id": "g1",
+      "x": 3.017603465578037,
+      "y": 0.7255842681644942,
+      "ring_index": 1,
+      "ring_order": 1,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s181",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s183",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s183",
+      "name": "Aurora Alnair",
+      "galaxy_id": "g1",
+      "x": 3.4845402975898923,
+      "y": 0.9159172275375704,
+      "ring_index": 1,
+      "ring_order": 2,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s182",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s184",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s184",
+      "name": "Aurora Antares",
+      "galaxy_id": "g1",
+      "x": 3.855103465578037,
+      "y": 1.212367761928086,
+      "ring_index": 1,
+      "ring_order": 3,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s183",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s185",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s185",
+      "name": "Aurora Bellatrix",
+      "galaxy_id": "g1",
+      "x": 4.093019664794382,
+      "y": 1.5859172275375704,
+      "ring_index": 1,
+      "ring_order": 4,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s7",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s184",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s186",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s203",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s186",
+      "name": "Aurora Capella",
+      "galaxy_id": "g1",
+      "x": 4.175,
+      "y": 2.0,
+      "ring_index": 1,
+      "ring_order": 5,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s185",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s187",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s187",
+      "name": "Aurora Deneb",
+      "galaxy_id": "g1",
+      "x": 4.093019664794382,
+      "y": 2.4140827724624296,
+      "ring_index": 1,
+      "ring_order": 6,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s186",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s188",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s188",
+      "name": "Aurora Enif",
+      "galaxy_id": "g1",
+      "x": 3.855103465578037,
+      "y": 2.787632238071914,
+      "ring_index": 1,
+      "ring_order": 7,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s187",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s189",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s189",
+      "name": "Aurora Fomalhaut",
+      "galaxy_id": "g1",
+      "x": 3.4845402975898923,
+      "y": 3.0840827724624296,
+      "ring_index": 1,
+      "ring_order": 8,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s13",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s188",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s190",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s205",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s190",
+      "name": "Aurora Hadar",
+      "galaxy_id": "g1",
+      "x": 3.017603465578037,
+      "y": 3.274415731835506,
+      "ring_index": 1,
+      "ring_order": 9,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s189",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s191",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s191",
+      "name": "Aurora Izar",
+      "galaxy_id": "g1",
+      "x": 2.5,
+      "y": 3.34,
+      "ring_index": 1,
+      "ring_order": 10,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s190",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s192",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s192",
+      "name": "Aurora Lesath",
+      "galaxy_id": "g1",
+      "x": 1.9823965344219638,
+      "y": 3.2744157318355063,
+      "ring_index": 1,
+      "ring_order": 11,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s191",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s193",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s193",
+      "name": "Aurora Maia",
+      "galaxy_id": "g1",
+      "x": 1.5154597024101077,
+      "y": 3.0840827724624296,
+      "ring_index": 1,
+      "ring_order": 12,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s19",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s192",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s194",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s207",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s194",
+      "name": "Aurora Menkent",
+      "galaxy_id": "g1",
+      "x": 1.1448965344219633,
+      "y": 2.787632238071914,
+      "ring_index": 1,
+      "ring_order": 13,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s193",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s195",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s195",
+      "name": "Aurora Mirach",
+      "galaxy_id": "g1",
+      "x": 0.9069803352056178,
+      "y": 2.4140827724624296,
+      "ring_index": 1,
+      "ring_order": 14,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s194",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s196",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s196",
+      "name": "Aurora Mizar",
+      "galaxy_id": "g1",
+      "x": 0.825,
+      "y": 2.0,
+      "ring_index": 1,
+      "ring_order": 15,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s195",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s197",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s197",
+      "name": "Aurora Procyon",
+      "galaxy_id": "g1",
+      "x": 0.9069803352056176,
+      "y": 1.5859172275375706,
+      "ring_index": 1,
+      "ring_order": 16,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s25",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s196",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s198",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s209",
+          "kind": "bridge",
+          "distance": 1.0
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s198",
+      "name": "Aurora Rigel",
+      "galaxy_id": "g1",
+      "x": 1.1448965344219628,
+      "y": 1.2123677619280862,
+      "ring_index": 1,
+      "ring_order": 17,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s197",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s199",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s199",
+      "name": "Aurora Sirius",
+      "galaxy_id": "g1",
+      "x": 1.5154597024101073,
+      "y": 0.9159172275375704,
+      "ring_index": 1,
+      "ring_order": 18,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s198",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s200",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s200",
+      "name": "Aurora Spica",
+      "galaxy_id": "g1",
+      "x": 1.9823965344219627,
+      "y": 0.7255842681644942,
+      "ring_index": 1,
+      "ring_order": 19,
+      "ring_size": 20,
+      "ring_radius": 0.67,
+      "connections": [
+        {
+          "system_id": "s181",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s199",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s201",
+      "name": "Aurora Acrux",
+      "galaxy_id": "g1",
+      "x": 2.5,
+      "y": 1.3199999999999998,
+      "ring_index": 2,
+      "ring_order": 0,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s181",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s202",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s210",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s202",
+      "name": "Aurora Alcor",
+      "galaxy_id": "g1",
+      "x": 2.999617464448602,
+      "y": 1.4498684438250358,
+      "ring_index": 2,
+      "ring_order": 1,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s201",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s203",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s203",
+      "name": "Aurora Arcturus",
+      "galaxy_id": "g1",
+      "x": 3.3083980388508807,
+      "y": 1.7898684438250358,
+      "ring_index": 2,
+      "ring_order": 2,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s185",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s202",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s204",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s204",
+      "name": "Aurora Canopus",
+      "galaxy_id": "g1",
+      "x": 3.3083980388508807,
+      "y": 2.2101315561749644,
+      "ring_index": 2,
+      "ring_order": 3,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s203",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s205",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s205",
+      "name": "Aurora Castor",
+      "galaxy_id": "g1",
+      "x": 2.999617464448602,
+      "y": 2.5501315561749642,
+      "ring_index": 2,
+      "ring_order": 4,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s189",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s204",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s206",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s206",
+      "name": "Aurora Electra",
+      "galaxy_id": "g1",
+      "x": 2.5,
+      "y": 2.68,
+      "ring_index": 2,
+      "ring_order": 5,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s205",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s207",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s207",
+      "name": "Aurora Merope",
+      "galaxy_id": "g1",
+      "x": 2.000382535551398,
+      "y": 2.5501315561749642,
+      "ring_index": 2,
+      "ring_order": 6,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s193",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s206",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s208",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s208",
+      "name": "Aurora Pollux",
+      "galaxy_id": "g1",
+      "x": 1.6916019611491193,
+      "y": 2.2101315561749644,
+      "ring_index": 2,
+      "ring_order": 7,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s207",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s209",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s209",
+      "name": "Aurora Regulus",
+      "galaxy_id": "g1",
+      "x": 1.6916019611491193,
+      "y": 1.7898684438250358,
+      "ring_index": 2,
+      "ring_order": 8,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s197",
+          "kind": "bridge",
+          "distance": 1.0
+        },
+        {
+          "system_id": "s208",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s210",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    },
+    {
+      "id": "s210",
+      "name": "Aurora Sadr",
+      "galaxy_id": "g1",
+      "x": 2.0003825355513976,
+      "y": 1.4498684438250358,
+      "ring_index": 2,
+      "ring_order": 9,
+      "ring_size": 10,
+      "ring_radius": 0.34,
+      "connections": [
+        {
+          "system_id": "s201",
+          "kind": "orbit",
+          "distance": 0.6
+        },
+        {
+          "system_id": "s209",
+          "kind": "orbit",
+          "distance": 0.6
+        }
+      ],
+      "visibility": "unknown",
+      "planets": []
+    }
+  ]
+}

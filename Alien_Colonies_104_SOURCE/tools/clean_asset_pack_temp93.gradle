@@ -1,0 +1,17 @@
+// AGP expects a single final ZIP per completed asset-pack output directory.
+// Some filesystems leave the ZIP writer's hidden temporary copy behind.
+tasks.configureEach { task ->
+    if (task.name.startsWith('package') && task.name.endsWith('Bundle')) {
+        task.doFirst {
+            def intermediates = new File(layout.buildDirectory.get().asFile, 'intermediates')
+            ['asset_pack_bundle', 'module_bundle'].each { name ->
+                def directory = new File(intermediates, name)
+                if (directory.exists()) directory.eachFileRecurse { file ->
+                    if (file.isFile() && (file.name.startsWith('.assetPackInstallTime.zip.') || file.name.startsWith('.base.zip.'))) {
+                        if (!file.delete()) throw new GradleException('Cannot remove completed bundle temporary file')
+                    }
+                }
+            }
+        }
+    }
+}

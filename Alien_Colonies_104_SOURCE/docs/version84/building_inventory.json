@@ -1,0 +1,353 @@
+[
+  {
+    "race": "zetans",
+    "key": "metal_mine",
+    "PL": "Ekstraktor grawitacyjny",
+    "EN": "Gravity Extractor",
+    "function_PL": "Podnosi rudy z głębin polem grawitacyjnym. Produkcja metalu rasy: −10%.",
+    "art_key83": "races/zetans/metal_mine",
+    "art_key84": "races/zetans/metal_mine"
+  },
+  {
+    "race": "zetans",
+    "key": "crystal_mine",
+    "PL": "Rezonator kryształów",
+    "EN": "Crystal Resonator",
+    "function_PL": "Skupia kryształy w lewitujących pierścieniach. Produkcja kryształów rasy: +25%.",
+    "art_key83": "races/zetans/crystal_mine",
+    "art_key84": "races/zetans/crystal_mine"
+  },
+  {
+    "race": "zetans",
+    "key": "refinery",
+    "PL": "Destylator jonowy",
+    "EN": "Ion Distiller",
+    "function_PL": "Oddziela paliwo w srebrnych komorach jonowych.",
+    "art_key83": "races/zetans/refinery",
+    "art_key84": "races/zetans/refinery"
+  },
+  {
+    "race": "zetans",
+    "key": "power_plant",
+    "PL": "Rdzeń osobliwości",
+    "EN": "Singularity Core",
+    "function_PL": "Zapewnia 100 energii na poziom. Ekstraktor pobiera 23, rezonator i destylator po 29 na poziom.",
+    "art_key83": "races/zetans/power_plant",
+    "art_key84": "races/zetans/power_plant"
+  },
+  {
+    "race": "zetans",
+    "key": "shipyard",
+    "PL": "Dok antygrawitacyjny",
+    "EN": "Antigravity Dock",
+    "function_PL": "Montuje dyski i okręty fazowe. Archont wymaga stoczni 2; cięższe okręty wymagają także badań.",
+    "art_key83": "races/zetans/shipyard",
+    "art_key84": "races/zetans/shipyard"
+  },
+  {
+    "race": "zetans",
+    "key": "lab",
+    "PL": "Obserwatorium psioniczne",
+    "EN": "Psionic Observatory",
+    "function_PL": "Bada napęd grawitacyjny i plazmę fazową.",
+    "art_key83": "races/zetans/lab",
+    "art_key84": "races/zetans/lab"
+  },
+  {
+    "race": "zetans",
+    "key": "phase_matrix",
+    "PL": "Matryca Fazowa",
+    "EN": "Phase Matrix",
+    "function_PL": "Stabilizuje pole wydobycia i zmniejsza pobór energii kopalń oraz destylatora w tej kolonii.",
+    "art_key83": "races/zetans/phase_matrix",
+    "art_key84": "races/zetans/phase_matrix"
+  },
+  {
+    "race": "zetans",
+    "key": "echo_observatory",
+    "PL": "Obserwatorium Echa",
+    "EN": "Echo Observatory",
+    "function_PL": "Odczytuje echa układów. Zwiad wysłany z tej kolonii trwa krócej.",
+    "art_key83": "races/zetans/echo_observatory",
+    "art_key84": "races/zetans/echo_observatory"
+  },
+  {
+    "race": "zetans",
+    "key": "synapse_archive",
+    "PL": "Archiwum Synaps",
+    "EN": "Synapse Archive",
+    "function_PL": "Po ukończeniu badań oddaje część kryształów",
+    "art_key83": "races/zetans/synapse_archive",
+    "art_key84": "races/zetans/synapse_archive"
+  },
+  {
+    "race": "zetans",
+    "key": "quantum_foundry",
+    "PL": "Kuźnia Kwantowa",
+    "EN": "Quantum Forge",
+    "function_PL": "Skraca czas budowy wszystkich statków w tej kolonii.",
+    "art_key83": "races/zetans/quantum_foundry",
+    "art_key84": "races/zetans/quantum_foundry"
+  },
+  {
+    "race": "zetans",
+    "key": "phase_vault",
+    "PL": "Skarbiec Fazowy",
+    "EN": "Phase Vault",
+    "function_PL": "Chroni część każdego zwykłego surowca przed grabieżą.",
+    "art_key83": "races/zetans/phase_vault",
+    "art_key84": "races/zetans/phase_vault"
+  },
+  {
+    "race": "zetans",
+    "key": "gravitic_logistics",
+    "PL": "Węzeł Grawitacyjny",
+    "EN": "Gravity Nexus",
+    "function_PL": "Zmniejsza zużycie paliwa wypraw z tej kolonii.",
+    "art_key83": "races/zetans/gravitic_logistics",
+    "art_key84": "races/zetans/gravitic_logistics"
+  },
+  {
+    "race": "zetans",
+    "key": "observatory",
+    "PL": "Obserwatorium",
+    "EN": "Observatory",
+    "function_PL": "Ujawnia właścicieli, typy i rzadkie cechy planet w sąsiednich układach własnej galaktyki. Wyższe poziomy ujawniają pobliskie budynki.",
+    "art_key83": "races/zetans/echo_observatory",
+    "art_key84": "races/zetans/observatory"
+  },
+  {
+    "race": "symbionts",
+    "key": "metal_mine",
+    "PL": "Korzenie żelazne",
+    "EN": "Iron Roots",
+    "function_PL": "Żywe korzenie rozpuszczają skały i zbierają metal.",
+    "art_key83": "races/symbionts/metal_mine",
+    "art_key84": "races/symbionts/metal_mine"
+  },
+  {
+    "race": "symbionts",
+    "key": "crystal_mine",
+    "PL": "Ogród krzemowy",
+    "EN": "Silicon Garden",
+    "function_PL": "Hoduje kryształy w fioletowych pąkach. Produkcja kryształów rasy: −15%.",
+    "art_key83": "races/symbionts/crystal_mine",
+    "art_key84": "races/symbionts/crystal_mine"
+  },
+  {
+    "race": "symbionts",
+    "key": "refinery",
+    "PL": "Gruczoł paliwowy",
+    "EN": "Fuel Gland",
+    "function_PL": "Fermentuje paliwo w bursztynowych pęcherzach. Produkcja paliwa rasy: +20%.",
+    "art_key83": "races/symbionts/refinery",
+    "art_key84": "races/symbionts/refinery"
+  },
+  {
+    "race": "symbionts",
+    "key": "power_plant",
+    "PL": "Serce kolonii",
+    "EN": "Colony Heart",
+    "function_PL": "Daje 85 energii na poziom. Korzenie zużywają 17, ogród i gruczoł po 21 energii na poziom.",
+    "art_key83": "races/symbionts/power_plant",
+    "art_key84": "races/symbionts/power_plant"
+  },
+  {
+    "race": "symbionts",
+    "key": "shipyard",
+    "PL": "Gniazdo rojowe",
+    "EN": "Brood Nest",
+    "function_PL": "Hoduje żywe okręty. Lewiatan wymaga gniazda 2; cięższe okręty wymagają także badań.",
+    "art_key83": "races/symbionts/shipyard",
+    "art_key84": "races/symbionts/shipyard"
+  },
+  {
+    "race": "symbionts",
+    "key": "lab",
+    "PL": "Splot pamięci",
+    "EN": "Memory Weave",
+    "function_PL": "Żywa sieć bada ewolucję żagli i zarodników bojowych.",
+    "art_key83": "races/symbionts/lab",
+    "art_key84": "races/symbionts/lab"
+  },
+  {
+    "race": "symbionts",
+    "key": "world_root",
+    "PL": "Korzeń Świata",
+    "EN": "World Root",
+    "function_PL": "Przyspiesza budowę wszystkich budynków tej kolonii na każdym poziomie.",
+    "art_key83": "races/symbionts/world_root",
+    "art_key84": "races/symbionts/world_root"
+  },
+  {
+    "race": "symbionts",
+    "key": "pioneer_nursery",
+    "PL": "Zarodnia Pionierów",
+    "EN": "Pioneer Spore Nursery",
+    "function_PL": "Wyprawy z tej kolonii zakładają nowe kolonie z wyższymi poziomami czterech budynków gospodarczych.",
+    "art_key83": "races/symbionts/pioneer_nursery",
+    "art_key84": "races/symbionts/pioneer_nursery"
+  },
+  {
+    "race": "symbionts",
+    "key": "renewal_grove",
+    "PL": "Gaj Odnowy",
+    "EN": "Renewal Grove",
+    "function_PL": "Zwiększa regenerację statków broniących planety z Gajem.",
+    "art_key83": "races/symbionts/renewal_grove",
+    "art_key84": "races/symbionts/renewal_grove"
+  },
+  {
+    "race": "symbionts",
+    "key": "brood_chamber",
+    "PL": "Komora Lęgowa",
+    "EN": "Brood Chamber",
+    "function_PL": "Skraca czas hodowli wszystkich statków w tej kolonii.",
+    "art_key83": "races/symbionts/brood_chamber",
+    "art_key84": "races/symbionts/brood_chamber"
+  },
+  {
+    "race": "symbionts",
+    "key": "living_vault",
+    "PL": "Żywy Skarbiec",
+    "EN": "Living Vault",
+    "function_PL": "Chroni część każdego zwykłego surowca przed grabieżą.",
+    "art_key83": "races/symbionts/living_vault",
+    "art_key84": "races/symbionts/living_vault"
+  },
+  {
+    "race": "symbionts",
+    "key": "nutrient_reservoir",
+    "PL": "Zbiornik Odżywczy",
+    "EN": "Nutrient Reservoir",
+    "function_PL": "Zwiększa produkcję metalu, kryształów i paliwa w tej kolonii.",
+    "art_key83": "races/symbionts/nutrient_reservoir",
+    "art_key84": "races/symbionts/nutrient_reservoir"
+  },
+  {
+    "race": "symbionts",
+    "key": "observatory",
+    "PL": "Obserwatorium",
+    "EN": "Observatory",
+    "function_PL": "Ujawnia właścicieli, typy i rzadkie cechy planet w sąsiednich układach własnej galaktyki. Wyższe poziomy ujawniają pobliskie budynki.",
+    "art_key83": "races/symbionts/lab",
+    "art_key84": "races/symbionts/observatory"
+  },
+  {
+    "race": "automatons",
+    "key": "metal_mine",
+    "PL": "Kombinat wiertniczy",
+    "EN": "Drilling Complex",
+    "function_PL": "Wydobywa rudę za pomocą ciężkich autonomicznych wierteł. Produkcja metalu rasy: +25%.",
+    "art_key83": "races/automatons/metal_mine",
+    "art_key84": "races/automatons/metal_mine"
+  },
+  {
+    "race": "automatons",
+    "key": "crystal_mine",
+    "PL": "Separator krzemowy",
+    "EN": "Silicon Separator",
+    "function_PL": "Przemysłowo oddziela kryształy od urobku.",
+    "art_key83": "races/automatons/crystal_mine",
+    "art_key84": "races/automatons/crystal_mine"
+  },
+  {
+    "race": "automatons",
+    "key": "refinery",
+    "PL": "Kraker syntetyczny",
+    "EN": "Synthetic Cracker",
+    "function_PL": "Produkuje paliwo do ciężkich silników. Produkcja paliwa rasy: −20%.",
+    "art_key83": "races/automatons/refinery",
+    "art_key84": "races/automatons/refinery"
+  },
+  {
+    "race": "automatons",
+    "key": "power_plant",
+    "PL": "Reaktor przemysłowy",
+    "EN": "Industrial Reactor",
+    "function_PL": "Daje 120 energii na poziom. Kombinat pobiera 25, separator i kraker po 31 na poziom.",
+    "art_key83": "races/automatons/power_plant",
+    "art_key84": "races/automatons/power_plant"
+  },
+  {
+    "race": "automatons",
+    "key": "shipyard",
+    "PL": "Kuźnia orbitalna",
+    "EN": "Orbital Forge",
+    "function_PL": "Składa ciężkie maszyny bojowe. Bastion wymaga kuźni 2; cięższe okręty wymagają także badań.",
+    "art_key83": "races/automatons/shipyard",
+    "art_key84": "races/automatons/shipyard"
+  },
+  {
+    "race": "automatons",
+    "key": "lab",
+    "PL": "Rdzeń obliczeniowy",
+    "EN": "Computational Core",
+    "function_PL": "Projektuje silniki impulsowe i akceleratory kinetyczne.",
+    "art_key83": "races/automatons/lab",
+    "art_key84": "races/automatons/lab"
+  },
+  {
+    "race": "automatons",
+    "key": "serial_forge",
+    "PL": "Kuźnia Seryjna",
+    "EN": "Batch Forge",
+    "function_PL": "Przyspiesza budowę partii statków w tej kolonii. Jeden statek powstaje w zwykłym czasie.",
+    "art_key83": "races/automatons/serial_forge",
+    "art_key84": "races/automatons/serial_forge"
+  },
+  {
+    "race": "automatons",
+    "key": "magnetic_citadel",
+    "PL": "Cytadela Magnetyczna",
+    "EN": "Magnetic Citadel",
+    "function_PL": "Wzmacnia pierwszą salwę floty broniącej tej kolonii. Nie wspomaga wysłanych ataków.",
+    "art_key83": "races/automatons/magnetic_citadel",
+    "art_key84": "races/automatons/magnetic_citadel"
+  },
+  {
+    "race": "automatons",
+    "key": "wreck_recycler",
+    "PL": "Recykler Wraków",
+    "EN": "Wreck Recycler",
+    "function_PL": "Zwycięska flota wysłana z tej kolonii odzyskuje metal z wraków wroga. Ładownia jest ograniczona; Kryształy Roju mają pierwszeństwo.",
+    "art_key83": "races/automatons/wreck_recycler",
+    "art_key84": "races/automatons/wreck_recycler"
+  },
+  {
+    "race": "automatons",
+    "key": "assembly_hub",
+    "PL": "Centrum Montażowe",
+    "EN": "Assembly Center",
+    "function_PL": "Skraca czas budowy wszystkich statków w tej kolonii.",
+    "art_key83": "races/automatons/assembly_hub",
+    "art_key84": "races/automatons/assembly_hub"
+  },
+  {
+    "race": "automatons",
+    "key": "armored_vault",
+    "PL": "Skarbiec Pancerny",
+    "EN": "Armored Vault",
+    "function_PL": "Chroni część każdego zwykłego surowca przed grabieżą.",
+    "art_key83": "races/automatons/armored_vault",
+    "art_key84": "races/automatons/armored_vault"
+  },
+  {
+    "race": "automatons",
+    "key": "ore_processor",
+    "PL": "Przetwórnia Rudy",
+    "EN": "Ore Processing Plant",
+    "function_PL": "Zwiększa produkcję metalu w tej kolonii.",
+    "art_key83": "races/automatons/ore_processor",
+    "art_key84": "races/automatons/ore_processor"
+  },
+  {
+    "race": "automatons",
+    "key": "observatory",
+    "PL": "Obserwatorium",
+    "EN": "Observatory",
+    "function_PL": "Ujawnia właścicieli, typy i rzadkie cechy planet w sąsiednich układach własnej galaktyki. Wyższe poziomy ujawniają pobliskie budynki.",
+    "art_key83": "races/automatons/lab",
+    "art_key84": "races/automatons/observatory"
+  }
+]

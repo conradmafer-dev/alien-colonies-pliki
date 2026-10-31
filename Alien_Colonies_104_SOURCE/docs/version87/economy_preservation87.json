@@ -1,0 +1,904 @@
+{
+  "result": "PASS",
+  "checked_at_utc": "2026-10-20T23:13:08.205971+00:00",
+  "scope": "Read-only comparison of Python gameplay/migrations and operational configuration; no production API or database accessed",
+  "backend_python_files": 161,
+  "identical_backend_python_files": 160,
+  "app_exactly_four_metadata_changes": true,
+  "metadata": {
+    "VERSION": "0.12.20",
+    "UPDATE_DEFAULT_VERSION": "0.12.20",
+    "CLIENT_VERSION_CODE": 87,
+    "web_build": "0.12.20"
+  },
+  "unexpected_changes": [],
+  "new_python_files": [],
+  "operational_files": {
+    "Dockerfile": {
+      "identical": true,
+      "sha256_87": "704004f444c9be90ce850970167d2b27a1560f0a4efbcd8f99df40cd03745687"
+    },
+    ".dockerignore": {
+      "identical": true,
+      "sha256_87": "c16ccb0a263fb35059a62e88ae623d93536bde1d20d5a0e441759b1cd89c9940"
+    },
+    "railway.toml": {
+      "identical": true,
+      "sha256_87": "f7f5d1a91a63efcf31d514eeb31af56fb6941442cc4615e5d7e59ceaecf86add"
+    },
+    "requirements.txt": {
+      "identical": true,
+      "sha256_87": "4e05913dca663ed4fe5d1747f8535179b5fadcefaf7e5592f0b2063b32399f6b"
+    },
+    "run.py": {
+      "identical": true,
+      "sha256_87": "93929aa86c8eb5c9b1390f57d656fe99a148957f35b7a1fee4c93cd76aaca317"
+    },
+    "start_web.py": {
+      "identical": true,
+      "sha256_87": "ef74c7cbf0c0e8d374bd29265d7db48d1a9143ab9daa90e7d0f4f92ddf232cd3"
+    },
+    "backups.py": {
+      "identical": true,
+      "sha256_87": "26f419638fcb3dfd7f7b9dd6893f3a3d25eefc64db0f58060b5b31ef2be75c93"
+    },
+    "launch_reset.py": {
+      "identical": true,
+      "sha256_87": "2860935a1b933c737510b52f7fccf7bf824d1ba6e53420f1af23d139c17e1bf7"
+    },
+    "balance_reset.py": {
+      "identical": true,
+      "sha256_87": "94a034390fabb105840836acab6a83087e046f13e6ed58361f122d223ebe38de"
+    },
+    "swarm_reset.py": {
+      "identical": true,
+      "sha256_87": "53423669fd9cf6a94ee645b26ee1cb34a9961d9e01f33fc30bd97b0f66494a39"
+    }
+  },
+  "python_sha256": {
+    "accounts.py": {
+      "sha256_86": "7127fd060363d94f09d5dd388a8f9ceb9a5183f0e55c449913cef7d68f0058ca",
+      "sha256_87": "7127fd060363d94f09d5dd388a8f9ceb9a5183f0e55c449913cef7d68f0058ca",
+      "identical": true
+    },
+    "alliance_operations.py": {
+      "sha256_86": "9c1c3cbe46f1cfeeaa809745ec9629c26f3c7cfbf0ea0211bd8fac9266d5ebad",
+      "sha256_87": "9c1c3cbe46f1cfeeaa809745ec9629c26f3c7cfbf0ea0211bd8fac9266d5ebad",
+      "identical": true
+    },
+    "alliances.py": {
+      "sha256_86": "785924dd1f339da0816d30512b13632f082c5611e9f76aa37e2a3a6d79d219e5",
+      "sha256_87": "785924dd1f339da0816d30512b13632f082c5611e9f76aa37e2a3a6d79d219e5",
+      "identical": true
+    },
+    "announcements.py": {
+      "sha256_86": "edf4cd94728d0c879aab3fd263779c262bf69efa8c48401442f0a490f2c8eece",
+      "sha256_87": "edf4cd94728d0c879aab3fd263779c262bf69efa8c48401442f0a490f2c8eece",
+      "identical": true
+    },
+    "app.py": {
+      "sha256_86": "86c3e8bdb0852e769fba8d98f5d61c80980f6ae65a951fff239c0e78755f7111",
+      "sha256_87": "45ceb417af91e0e66a7a6aa2589d6fc475e00a7e94bca5cde26521868c77f2d1",
+      "identical": false
+    },
+    "backups.py": {
+      "sha256_86": "26f419638fcb3dfd7f7b9dd6893f3a3d25eefc64db0f58060b5b31ef2be75c93",
+      "sha256_87": "26f419638fcb3dfd7f7b9dd6893f3a3d25eefc64db0f58060b5b31ef2be75c93",
+      "identical": true
+    },
+    "balance_reset.py": {
+      "sha256_86": "94a034390fabb105840836acab6a83087e046f13e6ed58361f122d223ebe38de",
+      "sha256_87": "94a034390fabb105840836acab6a83087e046f13e6ed58361f122d223ebe38de",
+      "identical": true
+    },
+    "battle_replay.py": {
+      "sha256_86": "e52f32dea4423538fe0b894709981a8dfc42cddd688d4b45686a60cd9b58248d",
+      "sha256_87": "e52f32dea4423538fe0b894709981a8dfc42cddd688d4b45686a60cd9b58248d",
+      "identical": true
+    },
+    "beginner_protection.py": {
+      "sha256_86": "9d7313f0ef9a433f0c06f58ceb90687d275ef5eddb6a77fde45fbb289514474c",
+      "sha256_87": "9d7313f0ef9a433f0c06f58ceb90687d275ef5eddb6a77fde45fbb289514474c",
+      "identical": true
+    },
+    "catalog_descriptions.py": {
+      "sha256_86": "02bd0743572233564b199e9138f2a017ad6a1f911f36e3d65b0291889c0cc58b",
+      "sha256_87": "02bd0743572233564b199e9138f2a017ad6a1f911f36e3d65b0291889c0cc58b",
+      "identical": true
+    },
+    "communications.py": {
+      "sha256_86": "eb72ff071142c58934e16c84ff6ab234cb1a1efdbd067c88c8c0ec9bb02634f3",
+      "sha256_87": "eb72ff071142c58934e16c84ff6ab234cb1a1efdbd067c88c8c0ec9bb02634f3",
+      "identical": true
+    },
+    "defenses.py": {
+      "sha256_86": "63ccd054c51a31f1a96e196644deba59cc78f741b2ed6178ad3398f04fdf4b5b",
+      "sha256_87": "63ccd054c51a31f1a96e196644deba59cc78f741b2ed6178ad3398f04fdf4b5b",
+      "identical": true
+    },
+    "economy85.py": {
+      "sha256_86": "41f710456f50fb750b0ada769af0246b73382e5f02ac659a4514687b48516401",
+      "sha256_87": "41f710456f50fb750b0ada769af0246b73382e5f02ac659a4514687b48516401",
+      "identical": true
+    },
+    "email_signin.py": {
+      "sha256_86": "9a1c7d497b14674dc37a68378e0a9d19a551e05215826afafb85fd8df6457720",
+      "sha256_87": "9a1c7d497b14674dc37a68378e0a9d19a551e05215826afafb85fd8df6457720",
+      "identical": true
+    },
+    "fleet_balance85.py": {
+      "sha256_86": "246498de28fa3de4f97b528281643fb912fdc69eb74a78a4efe76b19ce3cc38e",
+      "sha256_87": "246498de28fa3de4f97b528281643fb912fdc69eb74a78a4efe76b19ce3cc38e",
+      "identical": true
+    },
+    "fleet_expansion.py": {
+      "sha256_86": "4242cf40d6b9ead35163810ef4338c2e110d9d9e1dbf986fbf50555998a9a221",
+      "sha256_87": "4242cf40d6b9ead35163810ef4338c2e110d9d9e1dbf986fbf50555998a9a221",
+      "identical": true
+    },
+    "flight_balance85.py": {
+      "sha256_86": "ed880807a0102b934ccf82193035e698eb02f1b7b9eeda3d2e4f4f46104aba3d",
+      "sha256_87": "ed880807a0102b934ccf82193035e698eb02f1b7b9eeda3d2e4f4f46104aba3d",
+      "identical": true
+    },
+    "galaxies.py": {
+      "sha256_86": "9af2dc930d6eb6a81ba2d19e23f341599ab1e576910817ac883ebc772bb5792e",
+      "sha256_87": "9af2dc930d6eb6a81ba2d19e23f341599ab1e576910817ac883ebc772bb5792e",
+      "identical": true
+    },
+    "galaxy_topology.py": {
+      "sha256_86": "0b6bcb0c0ffdb13a0d7e3d56857fae66cd09e9d6e7ad4a0d529b02470af68036",
+      "sha256_87": "0b6bcb0c0ffdb13a0d7e3d56857fae66cd09e9d6e7ad4a0d529b02470af68036",
+      "identical": true
+    },
+    "google_signin.py": {
+      "sha256_86": "e8c379290eda24c334f7c5f7f045567bbccad21750cb6f2fc788f285ff73a0e5",
+      "sha256_87": "e8c379290eda24c334f7c5f7f045567bbccad21750cb6f2fc788f285ff73a0e5",
+      "identical": true
+    },
+    "i18n.py": {
+      "sha256_86": "cd0aaf2f9f62da3c7669acdda82f824af3d0044d5e863f6de4ebcf17d468845d",
+      "sha256_87": "cd0aaf2f9f62da3c7669acdda82f824af3d0044d5e863f6de4ebcf17d468845d",
+      "identical": true
+    },
+    "inactivity.py": {
+      "sha256_86": "d81a1bf962af3e6a68e583d40d6f7497e03f8eddf626f71dcbcc82d2a236171a",
+      "sha256_87": "d81a1bf962af3e6a68e583d40d6f7497e03f8eddf626f71dcbcc82d2a236171a",
+      "identical": true
+    },
+    "intelligence.py": {
+      "sha256_86": "243bee1d41c2f1c34bb89aeb2a6a752282ea2b96a4cf50bf0e626d6d504c7c77",
+      "sha256_87": "243bee1d41c2f1c34bb89aeb2a6a752282ea2b96a4cf50bf0e626d6d504c7c77",
+      "identical": true
+    },
+    "launch_reset.py": {
+      "sha256_86": "2860935a1b933c737510b52f7fccf7bf824d1ba6e53420f1af23d139c17e1bf7",
+      "sha256_87": "2860935a1b933c737510b52f7fccf7bf824d1ba6e53420f1af23d139c17e1bf7",
+      "identical": true
+    },
+    "megastructures.py": {
+      "sha256_86": "e4f3975ce754e35a9dc43e275cb762810f961bb1dea6dc26b26e374803f50d72",
+      "sha256_87": "e4f3975ce754e35a9dc43e275cb762810f961bb1dea6dc26b26e374803f50d72",
+      "identical": true
+    },
+    "moderate_chat.py": {
+      "sha256_86": "9e123822f74fd0456bd5af9f06ccae49b999acde8154421af908ecff7e24b4cc",
+      "sha256_87": "9e123822f74fd0456bd5af9f06ccae49b999acde8154421af908ecff7e24b4cc",
+      "identical": true
+    },
+    "newtests/test_alliance_chat_visibility.py": {
+      "sha256_86": "cebbdcca4fd5ea126efbada1fc84b1d733a3e9faae7f9dfc144147f46728a07b",
+      "sha256_87": "cebbdcca4fd5ea126efbada1fc84b1d733a3e9faae7f9dfc144147f46728a07b",
+      "identical": true
+    },
+    "observation.py": {
+      "sha256_86": "b286d43f46508facb2f4dad13ada1e1409bcdfb25f4bf4c4e09c59b2b29d82ea",
+      "sha256_87": "b286d43f46508facb2f4dad13ada1e1409bcdfb25f4bf4c4e09c59b2b29d82ea",
+      "identical": true
+    },
+    "ogame_economy.py": {
+      "sha256_86": "ca10902f9453e24981b52e453105f0ef74ad34ee42cf1c3af8fcd2139b836046",
+      "sha256_87": "ca10902f9453e24981b52e453105f0ef74ad34ee42cf1c3af8fcd2139b836046",
+      "identical": true
+    },
+    "onboarding.py": {
+      "sha256_86": "0137c121b35a976412e35006cd51150ec8d1ebe16bf1a15b415b42ed487152e3",
+      "sha256_87": "0137c121b35a976412e35006cd51150ec8d1ebe16bf1a15b415b42ed487152e3",
+      "identical": true
+    },
+    "planet_traits.py": {
+      "sha256_86": "6dac0fdccf48c3e2f96d414256a9b42f58647f9f920d245d8c656474a630e9f3",
+      "sha256_87": "6dac0fdccf48c3e2f96d414256a9b42f58647f9f920d245d8c656474a630e9f3",
+      "identical": true
+    },
+    "planetary.py": {
+      "sha256_86": "7ebdb30a8a01e285928819a125eb51b0e7a6ad210c65ee32f41f75b44bf0461e",
+      "sha256_87": "7ebdb30a8a01e285928819a125eb51b0e7a6ad210c65ee32f41f75b44bf0461e",
+      "identical": true
+    },
+    "planned_queues.py": {
+      "sha256_86": "1354d9394f414fc5e585297111d4ca0b183b045b484cdf2aca3b17f30e78c667",
+      "sha256_87": "1354d9394f414fc5e585297111d4ca0b183b045b484cdf2aca3b17f30e78c667",
+      "identical": true
+    },
+    "play_billing.py": {
+      "sha256_86": "d84c3ba68705cfc73bf091e3bf18ac579f85c8ef8348f3cdf87c5c109ef9c7ea",
+      "sha256_87": "d84c3ba68705cfc73bf091e3bf18ac579f85c8ef8348f3cdf87c5c109ef9c7ea",
+      "identical": true
+    },
+    "production_timing.py": {
+      "sha256_86": "7af8bd9fcc74322a1e047c90490cde8d0ea281ade3427dfa1b82facf213e59ff",
+      "sha256_87": "7af8bd9fcc74322a1e047c90490cde8d0ea281ade3427dfa1b82facf213e59ff",
+      "identical": true
+    },
+    "races.py": {
+      "sha256_86": "8d67a427eaa78e4c512a8b40891e9c87f98ad0fddbf1306d176e4a409be2c955",
+      "sha256_87": "8d67a427eaa78e4c512a8b40891e9c87f98ad0fddbf1306d176e4a409be2c955",
+      "identical": true
+    },
+    "review_invite.py": {
+      "sha256_86": "7e1c847fb99cccc407f09c15a49cb70fb35792a249cbace327d9a9b7467caa49",
+      "sha256_87": "7e1c847fb99cccc407f09c15a49cb70fb35792a249cbace327d9a9b7467caa49",
+      "identical": true
+    },
+    "run.py": {
+      "sha256_86": "93929aa86c8eb5c9b1390f57d656fe99a148957f35b7a1fee4c93cd76aaca317",
+      "sha256_87": "93929aa86c8eb5c9b1390f57d656fe99a148957f35b7a1fee4c93cd76aaca317",
+      "identical": true
+    },
+    "skill_tree.py": {
+      "sha256_86": "72151701f17a5640726240dec05502c62f29556e2b0dc68b823c3c12d2828263",
+      "sha256_87": "72151701f17a5640726240dec05502c62f29556e2b0dc68b823c3c12d2828263",
+      "identical": true
+    },
+    "start_web.py": {
+      "sha256_86": "ef74c7cbf0c0e8d374bd29265d7db48d1a9143ab9daa90e7d0f4f92ddf232cd3",
+      "sha256_87": "ef74c7cbf0c0e8d374bd29265d7db48d1a9143ab9daa90e7d0f4f92ddf232cd3",
+      "identical": true
+    },
+    "swarm.py": {
+      "sha256_86": "de589d31bf2f66f2ec5ddba14668affa367ca2262489f986bc3548e38067164e",
+      "sha256_87": "de589d31bf2f66f2ec5ddba14668affa367ca2262489f986bc3548e38067164e",
+      "identical": true
+    },
+    "swarm_ai.py": {
+      "sha256_86": "5ec11cafd82b86cd60e53b5cc91fcb9c9abed1f6a9ba263ce6e069e21c9931bf",
+      "sha256_87": "5ec11cafd82b86cd60e53b5cc91fcb9c9abed1f6a9ba263ce6e069e21c9931bf",
+      "identical": true
+    },
+    "swarm_reset.py": {
+      "sha256_86": "53423669fd9cf6a94ee645b26ee1cb34a9961d9e01f33fc30bd97b0f66494a39",
+      "sha256_87": "53423669fd9cf6a94ee645b26ee1cb34a9961d9e01f33fc30bd97b0f66494a39",
+      "identical": true
+    },
+    "technology.py": {
+      "sha256_86": "31cf506348867bd97ca0598eabb5295e87473335cb29de660c9f701a190d7e97",
+      "sha256_87": "31cf506348867bd97ca0598eabb5295e87473335cb29de660c9f701a190d7e97",
+      "identical": true
+    },
+    "tests/fixtures/combat_093.py": {
+      "sha256_86": "78f4ecdb8dcf398d58f44480f21251734fd27722ea88088b4e895ffeab8f6765",
+      "sha256_87": "78f4ecdb8dcf398d58f44480f21251734fd27722ea88088b4e895ffeab8f6765",
+      "identical": true
+    },
+    "tests/make_expansion_ui_fixture.py": {
+      "sha256_86": "f7a1980d51f87ad5266290dacc4c820da8a6d856b30afef1d0fa98211562cc2d",
+      "sha256_87": "f7a1980d51f87ad5266290dacc4c820da8a6d856b30afef1d0fa98211562cc2d",
+      "identical": true
+    },
+    "tests/make_galaxies_ui_fixture.py": {
+      "sha256_86": "df80b2e08a5973f0132fd135a37a1eda2ba1a2e2fac50389883256d34e70f401",
+      "sha256_87": "df80b2e08a5973f0132fd135a37a1eda2ba1a2e2fac50389883256d34e70f401",
+      "identical": true
+    },
+    "tests/make_localization_fixture.py": {
+      "sha256_86": "70d03faa19d6b266e0f78b3bc20c6d656cf1a275ae7a3ca295bb3ad70925584b",
+      "sha256_87": "70d03faa19d6b266e0f78b3bc20c6d656cf1a275ae7a3ca295bb3ad70925584b",
+      "identical": true
+    },
+    "tests/make_planetary_fixture_090.py": {
+      "sha256_86": "e180c36347522fc785b266e216a08c64c537b56db0db1fcb7454e377324bbe32",
+      "sha256_87": "e180c36347522fc785b266e216a08c64c537b56db0db1fcb7454e377324bbe32",
+      "identical": true
+    },
+    "tests/make_progression_fixture.py": {
+      "sha256_86": "518d9527380794b6326ed1fa9e7ad32d74ca9ffa4809d5d3c715a383be0fe6db",
+      "sha256_87": "518d9527380794b6326ed1fa9e7ad32d74ca9ffa4809d5d3c715a383be0fe6db",
+      "identical": true
+    },
+    "tests/make_race_fixture.py": {
+      "sha256_86": "121c52c764b0da4be3cd21af80fd10ea7dc0fe1fab934dbe6ef2bd4c987f2e2e",
+      "sha256_87": "121c52c764b0da4be3cd21af80fd10ea7dc0fe1fab934dbe6ef2bd4c987f2e2e",
+      "identical": true
+    },
+    "tests/make_racial_research_fixture.py": {
+      "sha256_86": "4ec0f8fd427d050069ef5c28612a21ae040ab17c3c697cdf520d7b4425dfbfa3",
+      "sha256_87": "4ec0f8fd427d050069ef5c28612a21ae040ab17c3c697cdf520d7b4425dfbfa3",
+      "identical": true
+    },
+    "tests/make_release_ui_fixture.py": {
+      "sha256_86": "5c95d67be6cdc175630798a5b10ed51b51c40e4885c851f4fd4e8cbaffd3c006",
+      "sha256_87": "5c95d67be6cdc175630798a5b10ed51b51c40e4885c851f4fd4e8cbaffd3c006",
+      "identical": true
+    },
+    "tests/make_technology_fixture_080.py": {
+      "sha256_86": "579e003d4b733aa1970c23c2720cc15aca42d6b0a6c9b451840cc02eeaacda49",
+      "sha256_87": "579e003d4b733aa1970c23c2720cc15aca42d6b0a6c9b451840cc02eeaacda49",
+      "identical": true
+    },
+    "tests/make_ui_fixture.py": {
+      "sha256_86": "0de923934566716d802ebde3f600ebd9fc9cf64320d9be3eedad75b431a2f7ad",
+      "sha256_87": "0de923934566716d802ebde3f600ebd9fc9cf64320d9be3eedad75b431a2f7ad",
+      "identical": true
+    },
+    "tests/make_unique_building_fixture.py": {
+      "sha256_86": "d7bddaa347aaa97e0f9843605c0dc609a50db49b8417bde7fe08679ee60a8c16",
+      "sha256_87": "d7bddaa347aaa97e0f9843605c0dc609a50db49b8417bde7fe08679ee60a8c16",
+      "identical": true
+    },
+    "tests/run_alliance_replay_ui_0100.py": {
+      "sha256_86": "7dfff5af3187daf70b8a30811a8e803e015ec8c06b18a84d89438de77062a0f3",
+      "sha256_87": "7dfff5af3187daf70b8a30811a8e803e015ec8c06b18a84d89438de77062a0f3",
+      "identical": true
+    },
+    "tests/run_alliance_ui_0100.py": {
+      "sha256_86": "dddede6736a1c1a2b83be4e181fdc91ea01ad911c147a53316c8b57c594046fd",
+      "sha256_87": "dddede6736a1c1a2b83be4e181fdc91ea01ad911c147a53316c8b57c594046fd",
+      "identical": true
+    },
+    "tests/run_auth_ui_091.py": {
+      "sha256_86": "9cc487b0d1fdbe26b10e9550eacc207a27dadc1230a9c13821b4f0950413ec3d",
+      "sha256_87": "9cc487b0d1fdbe26b10e9550eacc207a27dadc1230a9c13821b4f0950413ec3d",
+      "identical": true
+    },
+    "tests/run_battle_ui_094.py": {
+      "sha256_86": "0c6cf6c66725fa08c4a06f0f5581aeb76f05fded0cef2cd167d20a9bfc2e9433",
+      "sha256_87": "0c6cf6c66725fa08c4a06f0f5581aeb76f05fded0cef2cd167d20a9bfc2e9433",
+      "identical": true
+    },
+    "tests/run_colony_ui_092.py": {
+      "sha256_86": "3529adc6b252e9e82862cebf6e59237e07701a1b3a039d60e85779c88c8a337c",
+      "sha256_87": "3529adc6b252e9e82862cebf6e59237e07701a1b3a039d60e85779c88c8a337c",
+      "identical": true
+    },
+    "tests/run_communications_ui.py": {
+      "sha256_86": "df2b7f98e44954532650e57c05d9d96e76618abd835d23c21b97f7ca735c8e88",
+      "sha256_87": "df2b7f98e44954532650e57c05d9d96e76618abd835d23c21b97f7ca735c8e88",
+      "identical": true
+    },
+    "tests/run_traits_ui_095.py": {
+      "sha256_86": "5778605293c2f83fd6f3e03a335c501d63594c632bf6221a5b6c9d8d9e70bdf2",
+      "sha256_87": "5778605293c2f83fd6f3e03a335c501d63594c632bf6221a5b6c9d8d9e70bdf2",
+      "identical": true
+    },
+    "tests/serve_communications_fixture.py": {
+      "sha256_86": "e98c36991689e528930d3897b75ca0a8c7167d903a4cca283d2514f8f2cbf683",
+      "sha256_87": "e98c36991689e528930d3897b75ca0a8c7167d903a4cca283d2514f8f2cbf683",
+      "identical": true
+    },
+    "tests/serve_email_browser_fixture.py": {
+      "sha256_86": "d0130769a6ea2bfdba4e8adaf01a391e040a515a030be1ee8f1be3495cc3171c",
+      "sha256_87": "d0130769a6ea2bfdba4e8adaf01a391e040a515a030be1ee8f1be3495cc3171c",
+      "identical": true
+    },
+    "tests/smoke_070_http.py": {
+      "sha256_86": "33eaa742166e05930bcf721cb3f556222ccf752c7bcbe72be5e48514f8e1b344",
+      "sha256_87": "33eaa742166e05930bcf721cb3f556222ccf752c7bcbe72be5e48514f8e1b344",
+      "identical": true
+    },
+    "tests/smoke_072_http.py": {
+      "sha256_86": "0df356c37c9ff11341c9870629d8a814464273c6afa70601d019ebead32af13b",
+      "sha256_87": "0df356c37c9ff11341c9870629d8a814464273c6afa70601d019ebead32af13b",
+      "identical": true
+    },
+    "tests/smoke_076_http.py": {
+      "sha256_86": "d5370f9fec87638a0c1461e78b73b02613cee0f4ad5c0ad87c01bd9e7dd62d2d",
+      "sha256_87": "d5370f9fec87638a0c1461e78b73b02613cee0f4ad5c0ad87c01bd9e7dd62d2d",
+      "identical": true
+    },
+    "tests/smoke_077_http.py": {
+      "sha256_86": "eca4a85e527ec981ab9178617a7d95c3f0d8e761a69e600b5de702a6c9668dbb",
+      "sha256_87": "eca4a85e527ec981ab9178617a7d95c3f0d8e761a69e600b5de702a6c9668dbb",
+      "identical": true
+    },
+    "tests/test_account_management.py": {
+      "sha256_86": "03ab1c95da576f8d75439dc840aa83ea1883cf98c54f47f7f2086c21c419e6f2",
+      "sha256_87": "03ab1c95da576f8d75439dc840aa83ea1883cf98c54f47f7f2086c21c419e6f2",
+      "identical": true
+    },
+    "tests/test_alliance_http_0100.py": {
+      "sha256_86": "19d9267cae1e053fccba6dd1593cc07bd81eabaf7fd739fe54756c33abeeb1c9",
+      "sha256_87": "19d9267cae1e053fccba6dd1593cc07bd81eabaf7fd739fe54756c33abeeb1c9",
+      "identical": true
+    },
+    "tests/test_alliance_integration_0100.py": {
+      "sha256_86": "718afcc063d9e3a3e5e3525991a7d0467ef4488807f9db3bceeb05a90f6cb1c3",
+      "sha256_87": "718afcc063d9e3a3e5e3525991a7d0467ef4488807f9db3bceeb05a90f6cb1c3",
+      "identical": true
+    },
+    "tests/test_alliance_operations_0100.py": {
+      "sha256_86": "e9be0d10b1d667ad7a51bbbab880acee2afdffe3fd9c4592a021a762b9374aca",
+      "sha256_87": "e9be0d10b1d667ad7a51bbbab880acee2afdffe3fd9c4592a021a762b9374aca",
+      "identical": true
+    },
+    "tests/test_alliances_0100.py": {
+      "sha256_86": "9df9cabb6a588e545e3185ca3bdf7a6be10c4f2ed223d280be3d4f47e5ce5064",
+      "sha256_87": "9df9cabb6a588e545e3185ca3bdf7a6be10c4f2ed223d280be3d4f47e5ce5064",
+      "identical": true
+    },
+    "tests/test_android_0112.py": {
+      "sha256_86": "f099fe05fee05df195399a197c9e660c47347a5140b17b7b293cd099218a5d11",
+      "sha256_87": "f099fe05fee05df195399a197c9e660c47347a5140b17b7b293cd099218a5d11",
+      "identical": true
+    },
+    "tests/test_android_0114.py": {
+      "sha256_86": "e8c2eb60afc8e11635a0664028bf77bf5c7b75a19569aa972329018ba5823462",
+      "sha256_87": "e8c2eb60afc8e11635a0664028bf77bf5c7b75a19569aa972329018ba5823462",
+      "identical": true
+    },
+    "tests/test_announcement_reviews_013.py": {
+      "sha256_86": "24421bec998935cf275d076f309fe1d2b43d6ee506270fc85ec331fe0b889faa",
+      "sha256_87": "24421bec998935cf275d076f309fe1d2b43d6ee506270fc85ec331fe0b889faa",
+      "identical": true
+    },
+    "tests/test_announcement_website.py": {
+      "sha256_86": "8cc2319a510f4112fbccd6f139f3ab2e52a64a78a26e03b9996ecad143334799",
+      "sha256_87": "8cc2319a510f4112fbccd6f139f3ab2e52a64a78a26e03b9996ecad143334799",
+      "identical": true
+    },
+    "tests/test_battle_replay_094.py": {
+      "sha256_86": "d2ac5b637b3582f9860b6d3718822c130225cca73598810d27bc4702424aa93b",
+      "sha256_87": "d2ac5b637b3582f9860b6d3718822c130225cca73598810d27bc4702424aa93b",
+      "identical": true
+    },
+    "tests/test_beginner_protection.py": {
+      "sha256_86": "eb894768deefb01b9f1c5c9b13ed4eb8f0baf53947351153ce85760d93440829",
+      "sha256_87": "eb894768deefb01b9f1c5c9b13ed4eb8f0baf53947351153ce85760d93440829",
+      "identical": true
+    },
+    "tests/test_brief_descriptions_077.py": {
+      "sha256_86": "796de76ca7dae017fa93373c3b669e6f6ada4adb4eb128d98d23eb212373a37c",
+      "sha256_87": "796de76ca7dae017fa93373c3b669e6f6ada4adb4eb128d98d23eb212373a37c",
+      "identical": true
+    },
+    "tests/test_building_previews.py": {
+      "sha256_86": "89e3715a84b4d361e6b30f473b286aa7a9b0bea8446d513c5bc0847d647b1df9",
+      "sha256_87": "89e3715a84b4d361e6b30f473b286aa7a9b0bea8446d513c5bc0847d647b1df9",
+      "identical": true
+    },
+    "tests/test_capital_fleet.py": {
+      "sha256_86": "a83f2c8dd08a0061b2e5e9b4d012cae051f108b6dba00b5ce04fb8b90c9d3013",
+      "sha256_87": "a83f2c8dd08a0061b2e5e9b4d012cae051f108b6dba00b5ce04fb8b90c9d3013",
+      "identical": true
+    },
+    "tests/test_catalog_details_075.py": {
+      "sha256_86": "477436a496066222f8a134fcfd66f0e78b20db9a41077bb30c04575c5dd4bf51",
+      "sha256_87": "477436a496066222f8a134fcfd66f0e78b20db9a41077bb30c04575c5dd4bf51",
+      "identical": true
+    },
+    "tests/test_chat_visibility.py": {
+      "sha256_86": "2d7833ad1f58fb97e8c8bf0c34ea00f6af93c318747dee325d145db4b0857df1",
+      "sha256_87": "2d7833ad1f58fb97e8c8bf0c34ea00f6af93c318747dee325d145db4b0857df1",
+      "identical": true
+    },
+    "tests/test_client_updates_server.py": {
+      "sha256_86": "a3e3e6d11371c298515c3d7df31d548c075317254b2c358439601a0f42d17188",
+      "sha256_87": "a3e3e6d11371c298515c3d7df31d548c075317254b2c358439601a0f42d17188",
+      "identical": true
+    },
+    "tests/test_colony_capture.py": {
+      "sha256_86": "aaf41cb634432c87d15ccc379906092904eafca516b0dbb770eb7845f19cf042",
+      "sha256_87": "aaf41cb634432c87d15ccc379906092904eafca516b0dbb770eb7845f19cf042",
+      "identical": true
+    },
+    "tests/test_communications_078.py": {
+      "sha256_86": "3d488c869ec9625f409a518c0f192adfdb09732709bfb04f09020625ba4073a5",
+      "sha256_87": "3d488c869ec9625f409a518c0f192adfdb09732709bfb04f09020625ba4073a5",
+      "identical": true
+    },
+    "tests/test_content_expansion.py": {
+      "sha256_86": "6395860ee923e80f2005ff4024048eac0f5abd925606bfed5a8f5a91fd49c9b5",
+      "sha256_87": "6395860ee923e80f2005ff4024048eac0f5abd925606bfed5a8f5a91fd49c9b5",
+      "identical": true
+    },
+    "tests/test_defense_art_071.py": {
+      "sha256_86": "c6b62d74e615ac20f4e837a706b4168fe5a350b4fb0bba223a7d8119195f08c7",
+      "sha256_87": "c6b62d74e615ac20f4e837a706b4168fe5a350b4fb0bba223a7d8119195f08c7",
+      "identical": true
+    },
+    "tests/test_economy85_energy_storage.py": {
+      "sha256_86": "c6a122beb4fe27691417225caba1f8630e54d001a98daeec8d2710462bdcf513",
+      "sha256_87": "c6a122beb4fe27691417225caba1f8630e54d001a98daeec8d2710462bdcf513",
+      "identical": true
+    },
+    "tests/test_email_auth_security.py": {
+      "sha256_86": "aa7f4700efff6df3bfdc4ee84fed49da25c239dbedf8a6bfbadec02fbdc7199c",
+      "sha256_87": "aa7f4700efff6df3bfdc4ee84fed49da25c239dbedf8a6bfbadec02fbdc7199c",
+      "identical": true
+    },
+    "tests/test_email_signin.py": {
+      "sha256_86": "bd5adbc2f014dc5750bb9bc775fc1fbb5825e8c72cd302a6ce4e88ccf1baf5c4",
+      "sha256_87": "bd5adbc2f014dc5750bb9bc775fc1fbb5825e8c72cd302a6ce4e88ccf1baf5c4",
+      "identical": true
+    },
+    "tests/test_export_android.py": {
+      "sha256_86": "3eb8b997b5e8e7d105a31294d7bf2a2bc55eed9d90599688c243bdb73503074f",
+      "sha256_87": "3eb8b997b5e8e7d105a31294d7bf2a2bc55eed9d90599688c243bdb73503074f",
+      "identical": true
+    },
+    "tests/test_facility_speed_076.py": {
+      "sha256_86": "f6f088b07daa82c63905216ef1afc098e4ccd2d899a66746f0d9ed16acde8630",
+      "sha256_87": "f6f088b07daa82c63905216ef1afc098e4ccd2d899a66746f0d9ed16acde8630",
+      "identical": true
+    },
+    "tests/test_fleet_balance_85.py": {
+      "sha256_86": "5d5dd116b07d9009f5162ddedb414fcad0e429f958c937f2cf3a120f81f846a0",
+      "sha256_87": "5d5dd116b07d9009f5162ddedb414fcad0e429f958c937f2cf3a120f81f846a0",
+      "identical": true
+    },
+    "tests/test_fortress_ai.py": {
+      "sha256_86": "a9e3f0a104d60bcbe7296cee7165f840ff75a0743220d351d58208a921303ad2",
+      "sha256_87": "a9e3f0a104d60bcbe7296cee7165f840ff75a0743220d351d58208a921303ad2",
+      "identical": true
+    },
+    "tests/test_fortress_integrity.py": {
+      "sha256_86": "f54ce12c986c822273d63558e48af5b732095788db1814b77589a51eacf2aba5",
+      "sha256_87": "f54ce12c986c822273d63558e48af5b732095788db1814b77589a51eacf2aba5",
+      "identical": true
+    },
+    "tests/test_fuel_85.py": {
+      "sha256_86": "2715f8061e47d542a0ac019700839a4c5f2329d0f916131218d36448d07def9e",
+      "sha256_87": "2715f8061e47d542a0ac019700839a4c5f2329d0f916131218d36448d07def9e",
+      "identical": true
+    },
+    "tests/test_galaxies.py": {
+      "sha256_86": "5edc08aeba6b0a7000602e65fd36255856353c2250c66356b8f3f34654963e2e",
+      "sha256_87": "5edc08aeba6b0a7000602e65fd36255856353c2250c66356b8f3f34654963e2e",
+      "identical": true
+    },
+    "tests/test_galaxy_art_hd.py": {
+      "sha256_86": "b29500613bf9fd345d4da7ecadccd3614a91fc03dfa746c123377b6883a9fcb3",
+      "sha256_87": "b29500613bf9fd345d4da7ecadccd3614a91fc03dfa746c123377b6883a9fcb3",
+      "identical": true
+    },
+    "tests/test_galaxy_rings_0121.py": {
+      "sha256_86": "bf3b6efab0f8bf86c906267339e2a3758fdd35f3347b7962402de6490b34fe60",
+      "sha256_87": "bf3b6efab0f8bf86c906267339e2a3758fdd35f3347b7962402de6490b34fe60",
+      "identical": true
+    },
+    "tests/test_gdscript_override_contracts.py": {
+      "sha256_86": "ccd63bd55ba0e24d7b72461f3f415c42e44c718cef49e267cf75c674a0f65a33",
+      "sha256_87": "ccd63bd55ba0e24d7b72461f3f415c42e44c718cef49e267cf75c674a0f65a33",
+      "identical": true
+    },
+    "tests/test_google_handoff_security_review.py": {
+      "sha256_86": "805e46f3f15b034300fbd50e92df64fa4a87df8290cbbaa7862ecdd2446796ed",
+      "sha256_87": "805e46f3f15b034300fbd50e92df64fa4a87df8290cbbaa7862ecdd2446796ed",
+      "identical": true
+    },
+    "tests/test_google_native_credentials.py": {
+      "sha256_86": "90133ddf1d587b24f6be1c8b90f94daec4c4afd3e88064f51ee075f20831b3b2",
+      "sha256_87": "90133ddf1d587b24f6be1c8b90f94daec4c4afd3e88064f51ee075f20831b3b2",
+      "identical": true
+    },
+    "tests/test_google_native_handoff.py": {
+      "sha256_86": "1253aad6e06c31b1f9a7b91ad9a0046f2204028bdfc4e38938760345a500d858",
+      "sha256_87": "1253aad6e06c31b1f9a7b91ad9a0046f2204028bdfc4e38938760345a500d858",
+      "identical": true
+    },
+    "tests/test_google_signin.py": {
+      "sha256_86": "9074381511ee3688ab1073eab552fd85f6316a758eb304d5e6843b708db23962",
+      "sha256_87": "9074381511ee3688ab1073eab552fd85f6316a758eb304d5e6843b708db23962",
+      "identical": true
+    },
+    "tests/test_host_launcher.py": {
+      "sha256_86": "3639efbbc5e971346e1488c56ae5790919f9b6c01579cd93c96833606cb9d21b",
+      "sha256_87": "3639efbbc5e971346e1488c56ae5790919f9b6c01579cd93c96833606cb9d21b",
+      "identical": true
+    },
+    "tests/test_inactivity.py": {
+      "sha256_86": "4b97afd45796e1f6c6edcb3e80ce824a9fa29efc41d66f5548b8b1879d6ef8a9",
+      "sha256_87": "4b97afd45796e1f6c6edcb3e80ce824a9fa29efc41d66f5548b8b1879d6ef8a9",
+      "identical": true
+    },
+    "tests/test_incoming_attacks.py": {
+      "sha256_86": "2a442372d06666db1399e26e216a05fd8b5d83d29cdaf1b15e89944a4075d7fe",
+      "sha256_87": "2a442372d06666db1399e26e216a05fd8b5d83d29cdaf1b15e89944a4075d7fe",
+      "identical": true
+    },
+    "tests/test_launch_reset.py": {
+      "sha256_86": "1fbd4e210668b92f3811184b413efa62353c87e8537bd3ad1c0f5e891859e4c8",
+      "sha256_87": "1fbd4e210668b92f3811184b413efa62353c87e8537bd3ad1c0f5e891859e4c8",
+      "identical": true
+    },
+    "tests/test_megastructures_080.py": {
+      "sha256_86": "0a1447b6f65726cb2cf820975f96345f536d4b8881e6fb6e5a6e8c14f81040af",
+      "sha256_87": "0a1447b6f65726cb2cf820975f96345f536d4b8881e6fb6e5a6e8c14f81040af",
+      "identical": true
+    },
+    "tests/test_observation_090.py": {
+      "sha256_86": "f65f1fa6f1e4bc785e49bffdd6dcd330a4e7a400c5c462c2b6c1e02289ab4a2a",
+      "sha256_87": "f65f1fa6f1e4bc785e49bffdd6dcd330a4e7a400c5c462c2b6c1e02289ab4a2a",
+      "identical": true
+    },
+    "tests/test_ogame_live_migration.py": {
+      "sha256_86": "6f987ca8ac3c6f846f7cd35a382620b2aa7a7cd6dda876f01c65c39715563b7b",
+      "sha256_87": "6f987ca8ac3c6f846f7cd35a382620b2aa7a7cd6dda876f01c65c39715563b7b",
+      "identical": true
+    },
+    "tests/test_onboarding.py": {
+      "sha256_86": "819eb745ea615411660005a0ba65c09e174d8db4e5c04ece4eb73de789281c45",
+      "sha256_87": "819eb745ea615411660005a0ba65c09e174d8db4e5c04ece4eb73de789281c45",
+      "identical": true
+    },
+    "tests/test_parallel_projects_092.py": {
+      "sha256_86": "260e2a2a04eb91c14ed58f46ceec67559126ec168950d9ae87f484e42185eccb",
+      "sha256_87": "260e2a2a04eb91c14ed58f46ceec67559126ec168950d9ae87f484e42185eccb",
+      "identical": true
+    },
+    "tests/test_planet_traits_095.py": {
+      "sha256_86": "aba0d7dc6c507bf1755340cb9ae45bec1be89bc1c54f8678a9192b9f60de5ddb",
+      "sha256_87": "aba0d7dc6c507bf1755340cb9ae45bec1be89bc1c54f8678a9192b9f60de5ddb",
+      "identical": true
+    },
+    "tests/test_planetary_090.py": {
+      "sha256_86": "891c224ee6d904510aa1df9793e93eaa34a48442ec42e459b3c321042f5bd1ee",
+      "sha256_87": "891c224ee6d904510aa1df9793e93eaa34a48442ec42e459b3c321042f5bd1ee",
+      "identical": true
+    },
+    "tests/test_play_billing.py": {
+      "sha256_86": "9d047901292fd83dab6c8142e8bb307471faf47397b8bf6020286f8ae7eaaf97",
+      "sha256_87": "9d047901292fd83dab6c8142e8bb307471faf47397b8bf6020286f8ae7eaaf97",
+      "identical": true
+    },
+    "tests/test_play_gate_074.py": {
+      "sha256_86": "a1f023c64e6733489d6e40aad9bae86cc4dac1dc335531efd18a043743a34c32",
+      "sha256_87": "a1f023c64e6733489d6e40aad9bae86cc4dac1dc335531efd18a043743a34c32",
+      "identical": true
+    },
+    "tests/test_prepare_update.py": {
+      "sha256_86": "09ba329d29604ca549b6eb384ceed7c5dd4665b68464be44ec0a085e13f959ce",
+      "sha256_87": "09ba329d29604ca549b6eb384ceed7c5dd4665b68464be44ec0a085e13f959ce",
+      "identical": true
+    },
+    "tests/test_private_server.py": {
+      "sha256_86": "953914886a016b4f67c89cfee979922f00fffcd1a481dd82e84954cb217c62ce",
+      "sha256_87": "953914886a016b4f67c89cfee979922f00fffcd1a481dd82e84954cb217c62ce",
+      "identical": true
+    },
+    "tests/test_progression_playthrough.py": {
+      "sha256_86": "5976255589c57eba14fd5a6c227f826862e6ff065102a5b869b079d5c9924bad",
+      "sha256_87": "5976255589c57eba14fd5a6c227f826862e6ff065102a5b869b079d5c9924bad",
+      "identical": true
+    },
+    "tests/test_project_planning_eligibility.py": {
+      "sha256_86": "9e36e0c6050f36e0d8467892fd44a602c8ef0a17f5c6ed011ae663bbc66b1b24",
+      "sha256_87": "9e36e0c6050f36e0d8467892fd44a602c8ef0a17f5c6ed011ae663bbc66b1b24",
+      "identical": true
+    },
+    "tests/test_public_beta.py": {
+      "sha256_86": "6385bb1824bc442deac5f1840c341b1f2f4fe597063c7fc5fe573a52ceebf555",
+      "sha256_87": "6385bb1824bc442deac5f1840c341b1f2f4fe597063c7fc5fe573a52ceebf555",
+      "identical": true
+    },
+    "tests/test_queue_acceptance.py": {
+      "sha256_86": "ab5439e73de1b5710d4b4c7736bfceab90534ef432a755d4a8b99e73927cddbb",
+      "sha256_87": "ab5439e73de1b5710d4b4c7736bfceab90534ef432a755d4a8b99e73927cddbb",
+      "identical": true
+    },
+    "tests/test_queue_http_billing.py": {
+      "sha256_86": "4a7d9d279b1c10f8e57d6b3e2ec3fafd0260765009899340cd940a46e5b50078",
+      "sha256_87": "4a7d9d279b1c10f8e57d6b3e2ec3fafd0260765009899340cd940a46e5b50078",
+      "identical": true
+    },
+    "tests/test_race_buildings.py": {
+      "sha256_86": "e016f71e74b14520db03f16bd1422cb789a4eb2d0008eb68dc53bafc7fb92314",
+      "sha256_87": "e016f71e74b14520db03f16bd1422cb789a4eb2d0008eb68dc53bafc7fb92314",
+      "identical": true
+    },
+    "tests/test_races.py": {
+      "sha256_86": "6c1d6772af0640db917c1bf458e788992926ae7ca23fe4d3574076cd787cea59",
+      "sha256_87": "6c1d6772af0640db917c1bf458e788992926ae7ca23fe4d3574076cd787cea59",
+      "identical": true
+    },
+    "tests/test_racial_research.py": {
+      "sha256_86": "eab520650a0c9c428b6db2daec202e5ae8087464678c3fd8418b708215a32fd2",
+      "sha256_87": "eab520650a0c9c428b6db2daec202e5ae8087464678c3fd8418b708215a32fd2",
+      "identical": true
+    },
+    "tests/test_railway_proxy.py": {
+      "sha256_86": "4622d60c90de250b1b375893751256524467c373c0492300e7fb8143a19107f5",
+      "sha256_87": "4622d60c90de250b1b375893751256524467c373c0492300e7fb8143a19107f5",
+      "identical": true
+    },
+    "tests/test_recon_defense_070.py": {
+      "sha256_86": "f9c2c0cbf73300f9ab90ba22495a917c6339c32c9e809fbe1fcab8669d01209a",
+      "sha256_87": "f9c2c0cbf73300f9ab90ba22495a917c6339c32c9e809fbe1fcab8669d01209a",
+      "identical": true
+    },
+    "tests/test_release_android.py": {
+      "sha256_86": "98ebb8780934e48cd46ad880245fe6129cfcd2cf3a81fb241dc77f8aa96f7763",
+      "sha256_87": "98ebb8780934e48cd46ad880245fe6129cfcd2cf3a81fb241dc77f8aa96f7763",
+      "identical": true
+    },
+    "tests/test_release_integration_0123.py": {
+      "sha256_86": "ad96d66756305d2cb20706b747d6c82421e3e1676bfae864ae042abe1623a058",
+      "sha256_87": "ad96d66756305d2cb20706b747d6c82421e3e1676bfae864ae042abe1623a058",
+      "identical": true
+    },
+    "tests/test_release_packaging.py": {
+      "sha256_86": "9288d1a3da0fd7b4a250b3b41ae6e9de17c3e04855b7c85c36d15d0214805abb",
+      "sha256_87": "9288d1a3da0fd7b4a250b3b41ae6e9de17c3e04855b7c85c36d15d0214805abb",
+      "identical": true
+    },
+    "tests/test_release_storage.py": {
+      "sha256_86": "4942870d2e4da84895b149a9cd32d76b3b2e52b6bea3597dc5d8b0d23c4e75f6",
+      "sha256_87": "4942870d2e4da84895b149a9cd32d76b3b2e52b6bea3597dc5d8b0d23c4e75f6",
+      "identical": true
+    },
+    "tests/test_server.py": {
+      "sha256_86": "83878dce1e3f7f79858627d8560230d7ea36454a36ef79ca134f4cc0d1a091d6",
+      "sha256_87": "83878dce1e3f7f79858627d8560230d7ea36454a36ef79ca134f4cc0d1a091d6",
+      "identical": true
+    },
+    "tests/test_server_endpoint.py": {
+      "sha256_86": "586e513c1fe4ec8d03cc956097c0681a1784ce3da45f060630ae3f9de938e1b7",
+      "sha256_87": "586e513c1fe4ec8d03cc956097c0681a1784ce3da45f060630ae3f9de938e1b7",
+      "identical": true
+    },
+    "tests/test_server_localization.py": {
+      "sha256_86": "d8de375fa85d67a56589a11273688317c67cce0e391837e56f225020cae19173",
+      "sha256_87": "d8de375fa85d67a56589a11273688317c67cce0e391837e56f225020cae19173",
+      "identical": true
+    },
+    "tests/test_server_tempo.py": {
+      "sha256_86": "209da1640736887367e289e681610b5e9a79ff40a70c40af87682b73708390f9",
+      "sha256_87": "209da1640736887367e289e681610b5e9a79ff40a70c40af87682b73708390f9",
+      "identical": true
+    },
+    "tests/test_signup_galaxy_threshold.py": {
+      "sha256_86": "fe6fb2aea806790fa046f208042a60c3125cd5929055290b3e3ff34eca0a486b",
+      "sha256_87": "fe6fb2aea806790fa046f208042a60c3125cd5929055290b3e3ff34eca0a486b",
+      "identical": true
+    },
+    "tests/test_skill_tree.py": {
+      "sha256_86": "2276b7f6a36756ddd5266defd20a860fe4599775a9b871a4bf7be49ed0ad466d",
+      "sha256_87": "2276b7f6a36756ddd5266defd20a860fe4599775a9b871a4bf7be49ed0ad466d",
+      "identical": true
+    },
+    "tests/test_swarm_eradication.py": {
+      "sha256_86": "c77c2242f0058179652622fabcfbd79a573ef3a86a90bd5160b9f12519fb3062",
+      "sha256_87": "c77c2242f0058179652622fabcfbd79a573ef3a86a90bd5160b9f12519fb3062",
+      "identical": true
+    },
+    "tests/test_swarm_launch.py": {
+      "sha256_86": "b3950e4aec6989236a586db4be1734ce12e4917c4868af2905bd25aae188652e",
+      "sha256_87": "b3950e4aec6989236a586db4be1734ce12e4917c4868af2905bd25aae188652e",
+      "identical": true
+    },
+    "tests/test_swarm_plague.py": {
+      "sha256_86": "d5858e40ba1ebf442b95a4083d9cf4b4f7f5aea247f8b3b7b5ad0cfc973f2454",
+      "sha256_87": "d5858e40ba1ebf442b95a4083d9cf4b4f7f5aea247f8b3b7b5ad0cfc973f2454",
+      "identical": true
+    },
+    "tests/test_swarm_progression.py": {
+      "sha256_86": "42b74d49073de85a724147b1cc45fdddb59f96938bdf0b8144a04f9edcd3d5b6",
+      "sha256_87": "42b74d49073de85a724147b1cc45fdddb59f96938bdf0b8144a04f9edcd3d5b6",
+      "identical": true
+    },
+    "tests/test_swarm_raids.py": {
+      "sha256_86": "8f4fd3b896dd865410c1d7f7f54dc1c5636b898efdee547cf2cdbeaf7c35b352",
+      "sha256_87": "8f4fd3b896dd865410c1d7f7f54dc1c5636b898efdee547cf2cdbeaf7c35b352",
+      "identical": true
+    },
+    "tests/test_system_scout_0121.py": {
+      "sha256_86": "7e3561cd29ea1853b546c965ad0abb4997d9e1f712d545cc76930f8742c5fccd",
+      "sha256_87": "7e3561cd29ea1853b546c965ad0abb4997d9e1f712d545cc76930f8742c5fccd",
+      "identical": true
+    },
+    "tests/test_technology_080.py": {
+      "sha256_86": "249aeb5c6a728461c32ce83697ad90b51544064d45ffa8ebe154909a73e7e2e3",
+      "sha256_87": "249aeb5c6a728461c32ce83697ad90b51544064d45ffa8ebe154909a73e7e2e3",
+      "identical": true
+    },
+    "tests/test_timing_085.py": {
+      "sha256_86": "364814c191d430be6952f36a39f96aa82630855637380643331f66d454889b67",
+      "sha256_87": "364814c191d430be6952f36a39f96aa82630855637380643331f66d454889b67",
+      "identical": true
+    },
+    "tests/test_ui_balance_072.py": {
+      "sha256_86": "a2b489eae41144a3179a2a570e47ba5a0bad2decae16152f4695b479fddcbfc8",
+      "sha256_87": "a2b489eae41144a3179a2a570e47ba5a0bad2decae16152f4695b479fddcbfc8",
+      "identical": true
+    },
+    "tests/test_visual_fleet_0114.py": {
+      "sha256_86": "91b7fed71adb3c774c243be74fa01378545f680263f9feb0d8c92d088ee3e3d5",
+      "sha256_87": "91b7fed71adb3c774c243be74fa01378545f680263f9feb0d8c92d088ee3e3d5",
+      "identical": true
+    },
+    "tests/test_web_client_versions.py": {
+      "sha256_86": "3f59545a2a5d8f8c85a4b0cfc6bb50fbe57841b9447b6e157bcda7e0502b68a3",
+      "sha256_87": "3f59545a2a5d8f8c85a4b0cfc6bb50fbe57841b9447b6e157bcda7e0502b68a3",
+      "identical": true
+    },
+    "tests/test_web_release_0111.py": {
+      "sha256_86": "024fb7badd913dd16d41ff7fdc7f06c0f1d020f8d73be1222cadeefdee502ec5",
+      "sha256_87": "024fb7badd913dd16d41ff7fdc7f06c0f1d020f8d73be1222cadeefdee502ec5",
+      "identical": true
+    },
+    "tests/test_website.py": {
+      "sha256_86": "852e51fd6c2575a278f8afb2e657e1821c5e02e03a786570778e67d7648cd899",
+      "sha256_87": "852e51fd6c2575a278f8afb2e657e1821c5e02e03a786570778e67d7648cd899",
+      "identical": true
+    },
+    "tests/test_weekly_billing.py": {
+      "sha256_86": "8b19bffafbd7f307c46396df5e288e31d9caac9a59414fdce6274822ad748ad8",
+      "sha256_87": "8b19bffafbd7f307c46396df5e288e31d9caac9a59414fdce6274822ad748ad8",
+      "identical": true
+    },
+    "tests/world_fixture.py": {
+      "sha256_86": "4fd48ccccec3f596e214ffadd182786f61855ece4c15a38afd3a27ebbcee9899",
+      "sha256_87": "4fd48ccccec3f596e214ffadd182786f61855ece4c15a38afd3a27ebbcee9899",
+      "identical": true
+    },
+    "tools/build_web_release.py": {
+      "sha256_86": "1e419a9e6ec3f5f4a723de4402ae5ee96d72697b32b03205b8c687dea8ec8375",
+      "sha256_87": "1e419a9e6ec3f5f4a723de4402ae5ee96d72697b32b03205b8c687dea8ec8375",
+      "identical": true
+    },
+    "tools/moderate_chat.py": {
+      "sha256_86": "9e123822f74fd0456bd5af9f06ccae49b999acde8154421af908ecff7e24b4cc",
+      "sha256_87": "9e123822f74fd0456bd5af9f06ccae49b999acde8154421af908ecff7e24b4cc",
+      "identical": true
+    },
+    "tools/simulate_swarm_plague.py": {
+      "sha256_86": "702a3b48253e7461df58821a4b5faf50be85e917915f41cb2d0c8afc9027309a",
+      "sha256_87": "702a3b48253e7461df58821a4b5faf50be85e917915f41cb2d0c8afc9027309a",
+      "identical": true
+    },
+    "website.py": {
+      "sha256_86": "d49b4101988fcf87edf4da346a43983b3de024e5177c00700882bd54c527e10a",
+      "sha256_87": "d49b4101988fcf87edf4da346a43983b3de024e5177c00700882bd54c527e10a",
+      "identical": true
+    }
+  },
+  "production_baseline_evidence": {
+    "report": "work86_deploy/DEPLOYMENT86_RESULT.json",
+    "result": "PASS",
+    "version": "0.12.19",
+    "commit": "644f7076e177933bbb3750b2d365276134fd643c",
+    "deployment_id": "30ec0fe1-8fac-4626-874a-05658c8cb962",
+    "world_epoch": "new-beginning-20261019",
+    "scope": "Recorded successful86 deployment; current hosting state was not queried"
+  },
+  "deployment_contract": {
+    "same_volume": "/data",
+    "database": "private_test.sqlite3",
+    "replicas": 1,
+    "environment_changes_required": false,
+    "new_gameplay_migration": false,
+    "launch_reset_id_unchanged": "new-beginning-20261019",
+    "balance_reset_id_unchanged": "slow-economy-072",
+    "swarm_reset_id_unchanged": "khar-plague-0113-v1",
+    "normal_launcher_balance_reset": false,
+    "preserve_existing_gameplay": true
+  },
+  "preserved_rules": [
+    "resource production and storage",
+    "energy and planetary fields",
+    "prices and construction timing",
+    "fleet distances, duration, fuel and combat",
+    "offline settlement and paid queues",
+    "world/reset markers, accounts and authentication"
+  ],
+  "full_startup_gate": {
+    "result": "PASS",
+    "report": "local_startup87.json",
+    "manifest_sha256": "f72f8e170e389464f3006407bf195109f8970e90a45588ffdd322201a1640180",
+    "source_app_sha256": "45ceb417af91e0e66a7a6aa2589d6fc475e00a7e94bca5cde26521868c77f2d1",
+    "synthetic_world_preserved": true,
+    "clean_shutdown": true
+  },
+  "production87_deployed": false,
+  "tests_repeated": false
+}

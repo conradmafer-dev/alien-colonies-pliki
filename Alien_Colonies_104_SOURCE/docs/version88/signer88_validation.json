@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "aab_sha256": "f2e7c3238bf91599f159778f23a7b0a63873243fdfc80315fb4d1b694692d761",
+  "upload_certificate_unchanged": "9c6c8bd75024bc4cfad76324f0084f5cfe30d64a956720fe9d8713dbc7c7f8b7",
+  "java_compile": "PASS",
+  "java_source_launcher": "PASS",
+  "validation": "PASS: exact final AAB hash, manifest 88, wrong version rejected, unsigned AAB rejected by signature verifier.",
+  "signed_aab_created": false,
+  "private_key_accessed": false,
+  "windows_gui_executed": false,
+  "files": {
+    "PODPISZ88.bat": "649dccd7cd79e74642cb97aa95f16206a7ce89bdaec4e9b85abd6981628f57ad",
+    "PODPISZ_AAB_88.cmd": "7c3d45d5b3677824ed8f5ad1e7c3e29b855c2204581d30639c9d9dc185e7d26f",
+    "PODPISZ_AAB_88.ps1": "d24f4f11505ecb1b5ef024675f620366a7cdc2ef6a0d7c09ea65b0257915e419",
+    "SignAab88.java": "8ef62e808ee28ba07f30ebdb431de189fc0af29f2339790c58538b8dff376a6f",
+    "README_PODPISYWANIE_88.txt": "9d22dfc68af67bb1cef753050f8048661efb43afffbff9deb657859a2b019769"
+  }
+}

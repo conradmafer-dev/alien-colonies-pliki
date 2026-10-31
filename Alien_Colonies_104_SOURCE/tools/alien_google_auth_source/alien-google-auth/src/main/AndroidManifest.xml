@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <meta-data android:name="org.godotengine.plugin.v2.AlienGoogleAuth"
+            android:value="com.conradmafer.aliencolonies.auth.AlienGoogleAuth" />
+        <activity android:name="com.conradmafer.aliencolonies.auth.GoogleAuthReturnActivity"
+            android:excludeFromRecents="true" android:exported="true"
+            android:noHistory="true" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="com.conradmafer.aliencolonies" android:host="google-auth" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

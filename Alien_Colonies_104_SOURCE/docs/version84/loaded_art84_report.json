@@ -1,0 +1,191 @@
+{
+  "assertions": 112,
+  "checked": [
+    {
+      "art_key": "races/symbionts/metal_mine",
+      "height": 1024,
+      "key": "symbionts/metal_mine",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/metal_mine.webp",
+      "rid": 90194313218,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/crystal_mine",
+      "height": 1024,
+      "key": "symbionts/crystal_mine",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/crystal_mine.webp",
+      "rid": 94489280515,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/refinery",
+      "height": 1024,
+      "key": "symbionts/refinery",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/refinery.webp",
+      "rid": 98784247812,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/power_plant",
+      "height": 1024,
+      "key": "symbionts/power_plant",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/power_plant.webp",
+      "rid": 103079215109,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/shipyard",
+      "height": 1024,
+      "key": "symbionts/shipyard",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/shipyard.webp",
+      "rid": 107374182406,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/lab",
+      "height": 1024,
+      "key": "symbionts/lab",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/lab.webp",
+      "rid": 111669149703,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/world_root",
+      "height": 1024,
+      "key": "symbionts/world_root",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/world_root.webp",
+      "rid": 115964117000,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/pioneer_nursery",
+      "height": 1024,
+      "key": "symbionts/pioneer_nursery",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/pioneer_nursery.webp",
+      "rid": 120259084297,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/renewal_grove",
+      "height": 1024,
+      "key": "symbionts/renewal_grove",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/renewal_grove.webp",
+      "rid": 124554051594,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/brood_chamber",
+      "height": 1024,
+      "key": "symbionts/brood_chamber",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/brood_chamber.webp",
+      "rid": 128849018891,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/living_vault",
+      "height": 1024,
+      "key": "symbionts/living_vault",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/living_vault.webp",
+      "rid": 133143986188,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/nutrient_reservoir",
+      "height": 1024,
+      "key": "symbionts/nutrient_reservoir",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/nutrient_reservoir.webp",
+      "rid": 137438953485,
+      "width": 1536
+    },
+    {
+      "art_key": "races/symbionts/observatory",
+      "height": 1024,
+      "key": "symbionts/observatory",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/symbionts/observatory.webp",
+      "rid": 141733920782,
+      "width": 1536
+    },
+    {
+      "art_key": "races/zetans/observatory",
+      "height": 1024,
+      "key": "zetans/observatory",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/zetans/observatory.webp",
+      "rid": 146028888079,
+      "width": 1536
+    },
+    {
+      "art_key": "races/zetans/lab",
+      "height": 1024,
+      "key": "zetans/lab",
+      "loaded": true,
+      "new_image": false,
+      "resource_path": "res://client/assets/art/races/zetans/lab.webp",
+      "rid": 150323855376,
+      "width": 1536
+    },
+    {
+      "art_key": "races/automatons/observatory",
+      "height": 1024,
+      "key": "automatons/observatory",
+      "loaded": true,
+      "new_image": true,
+      "resource_path": "res://client/assets/art/races/automatons/observatory.webp",
+      "rid": 154618822673,
+      "width": 1536
+    },
+    {
+      "art_key": "races/automatons/lab",
+      "height": 1024,
+      "key": "automatons/lab",
+      "loaded": true,
+      "new_image": false,
+      "resource_path": "res://client/assets/art/races/automatons/lab.webp",
+      "rid": 158913789970,
+      "width": 1536
+    },
+    {
+      "art_key": "races/zetans/echo_observatory",
+      "height": 1024,
+      "key": "zetans/echo_observatory",
+      "loaded": true,
+      "new_image": false,
+      "resource_path": "res://client/assets/art/races/zetans/echo_observatory.webp",
+      "rid": 163208757267,
+      "width": 1536
+    }
+  ],
+  "editor_or_import_started": false,
+  "failures": [],
+  "network_used": false,
+  "passed": true,
+  "project_root": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/",
+  "scope": "Final imported art: 13 Symbiont buildings, 2 other Observatories, Zetan/Automaton labs, Zetan Echo Observatory"
+}

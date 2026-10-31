@@ -1,0 +1,34 @@
+{
+  "method": "javac 17 against official SDK/dependencies; deterministic resource-free AAR packaging",
+  "source_sha256": {
+    "alien-google-auth/src/main/java/com/conradmafer/aliencolonies/auth/AlienGoogleAuth.java": "447f6d32e6f30bd4e5e63f0f495f1fc6a3ebca6a3c1b76edb377cea55949fa3d",
+    "alien-google-auth/src/main/java/com/conradmafer/aliencolonies/auth/AuthReturnMailbox.java": "10cd1b8d9879bebe5ae4fc7b4f975930a8998291bb899d60e313cca4b1d78227",
+    "alien-google-auth/src/main/java/com/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity.java": "90bc4e637aeb29c603f1f5b5503646982086f8649d398ffb39eab382c47a0756",
+    "alien-google-auth/src/main/java/com/conradmafer/aliencolonies/auth/NativeSignInMailbox.java": "64d0bdf542d19fe7bba88e54bff790da27e7a197027d516afabcf4bc5407f336"
+  },
+  "dependency_sha256": {
+    "godot.aar": "84b292c05930ceb601b691b606d350f8ddd041783b514246e95e47ee6efabab6",
+    "credentials.aar": "9051922592ee3c92370ce3f942d66661f1e9050ac5b370932c71f0a380acf227",
+    "googleid.aar": "f49e88107f90ef0d1250d8504e8eba18be8532b1286203c92f28bf6bd15814ff",
+    "kotlin-stdlib.jar": "6558a3d233da56a20934b32159f9db5f86ed5816ef098f78a2c223dc6abb79dd",
+    "annotation.jar": "1e343917ebf27ba96fe4dc52b1cad7fd32b738fbc6355bb6cd5b3b305d7212d0"
+  },
+  "variants": {
+    "debug": {
+      "file": "addons/AlienGoogleAuth/bin/debug/AlienGoogleAuth-debug.aar",
+      "sha256": "0d1a293b06686fca3cb27d2ea2b58fb7d80330e213d282d2be21006bd4182fd4",
+      "class_count": 7,
+      "javac": "pass",
+      "d8": "pass",
+      "verification_dex_sha256": "b4fb4b00f925f99cfc4c99a387106310703a73618b72211e5e218d69545159ad"
+    },
+    "release": {
+      "file": "addons/AlienGoogleAuth/bin/release/AlienGoogleAuth-release.aar",
+      "sha256": "b48a9b33de9eee2b8af14a6fe6bb38ee4dafba4839dab8bed621f22a902274d4",
+      "class_count": 7,
+      "javac": "pass",
+      "d8": "pass",
+      "verification_dex_sha256": "c18fd3c895aafa21c7c16c28f9bbe64e8d3953a8dd53ed217de35d01bb8b5d18"
+    }
+  }
+}

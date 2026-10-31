@@ -1,0 +1,22 @@
+{
+  "en": {
+    "Nie udało się zapisać języka. Spróbuj ponownie.": "Could not save the language. Please try again.",
+    "Wpisz dokładnie {0}, aby potwierdzić usunięcie.": "Type exactly {0} to confirm deletion."
+  },
+  "pl": {
+    "Nie udało się zapisać języka. Spróbuj ponownie.": "Nie udało się zapisać języka. Spróbuj ponownie.",
+    "Wpisz dokładnie {0}, aby potwierdzić usunięcie.": "Wpisz dokładnie {0}, aby potwierdzić usunięcie."
+  },
+  "de": {
+    "Nie udało się zapisać języka. Spróbuj ponownie.": "Die Sprache konnte nicht gespeichert werden. Versuche es erneut.",
+    "Wpisz dokładnie {0}, aby potwierdzić usunięcie.": "Gib genau {0} ein, um die Löschung zu bestätigen."
+  },
+  "es": {
+    "Nie udało się zapisać języka. Spróbuj ponownie.": "No se pudo guardar el idioma. Inténtalo de nuevo.",
+    "Wpisz dokładnie {0}, aby potwierdzić usunięcie.": "Escribe exactamente {0} para confirmar la eliminación."
+  },
+  "fr": {
+    "Nie udało się zapisać języka. Spróbuj ponownie.": "Impossible d’enregistrer la langue. Réessaie.",
+    "Wpisz dokładnie {0}, aby potwierdzić usunięcie.": "Saisis exactement {0} pour confirmer la suppression."
+  }
+}

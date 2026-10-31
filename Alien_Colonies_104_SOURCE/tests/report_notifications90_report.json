@@ -1,0 +1,6 @@
+{
+  "checks": 7,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Native bridge logic with fake Android receiver; no OS notification or Firebase delivery test"
+}

@@ -1,0 +1,237 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:installLocation="0" android:versionCode="91" android:versionName="0.12.24" package="com.conradmafer.aliencolonies" platformBuildVersionCode="36" platformBuildVersionName="16">
+      
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36"/>
+      
+  <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+      
+  <uses-feature android:glEsVersion="0x00030000" android:required="true"/>
+      
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+      
+  <uses-permission android:name="android.permission.INTERNET"/>
+      
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+      
+  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+   
+    
+  <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+      
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+   
+    
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+      
+  <uses-permission android:name="com.android.vending.BILLING"/>
+      
+  <queries>
+            
+    <intent>
+                  
+      <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+              
+    </intent>
+            
+    <intent>
+                  
+      <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+              
+    </intent>
+        
+  </queries>
+      
+  <permission android:name="com.conradmafer.aliencolonies.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="0x00000002"/>
+      
+  <uses-permission android:name="com.conradmafer.aliencolonies.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+      
+  <application android:allowBackup="false" android:appCategory="8" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hasFragileUserData="false" android:icon="@mipmap/icon" android:isGame="false" android:label="@string/godot_project_name_string" android:requestLegacyExternalStorage="false">
+            
+    <meta-data android:name="org.godotengine.rendering.method" android:value="gl_compatibility"/>
+            
+    <meta-data android:name="org.godotengine.editor.version" android:value="4.5.1.stable"/>
+            
+    <activity android:configChanges="0x00003ff4" android:excludeFromRecents="false" android:exported="true" android:label="@string/godot_project_name_string" android:launchMode="4" android:name="com.godot.game.GodotApp" android:resizeableActivity="true" android:screenOrientation="1" android:theme="@style/GodotAppSplashTheme" android:windowSoftInputMode="0x00000010">
+                  
+      <intent-filter>
+                        
+        <action android:name="android.intent.action.MAIN"/>
+                        
+        <category android:name="android.intent.category.DEFAULT"/>
+                        
+        <category android:name="android.intent.category.LAUNCHER"/>
+                    
+      </intent-filter>
+              
+    </activity>
+            
+    <profileable android:enabled="true" android:shell="true"/>
+            
+    <meta-data android:name="org.godotengine.plugin.v2.GodotGooglePlayBilling" android:value="org.godotengine.plugin.googleplaybilling.GodotGooglePlayBilling"/>
+            
+    <meta-data android:name="org.godotengine.plugin.v2.AlienGoogleAuth" android:value="com.conradmafer.aliencolonies.auth.AlienGoogleAuth"/>
+            
+    <activity android:excludeFromRecents="true" android:exported="true" android:name="com.conradmafer.aliencolonies.auth.GoogleAuthReturnActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay">
+                  
+      <intent-filter>
+                        
+        <action android:name="android.intent.action.VIEW"/>
+                        
+        <category android:name="android.intent.category.DEFAULT"/>
+                        
+        <category android:name="android.intent.category.BROWSABLE"/>
+                        
+        <data android:host="google-auth" android:scheme="com.conradmafer.aliencolonies"/>
+                    
+      </intent-filter>
+              
+    </activity>
+            
+    <meta-data android:name="org.godotengine.plugin.v2.AlienNotifications" android:value="com.conradmafer.aliencolonies.push.AlienNotifications"/>
+            
+    <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+            
+    <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+            
+    <service android:exported="false" android:name="com.conradmafer.aliencolonies.push.ReportMessagingService">
+                  
+      <intent-filter>
+                        
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                    
+      </intent-filter>
+              
+    </service>
+            
+    <activity android:excludeFromRecents="true" android:exported="false" android:name="com.conradmafer.aliencolonies.push.ReportOpenActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay"/>
+            
+    <provider android:authorities="com.conradmafer.aliencolonies.alienpush.init" android:exported="false" android:initOrder="101" android:name="com.conradmafer.aliencolonies.push.PushInitProvider"/>
+     
+        
+    <meta-data android:name="org.godotengine.library.version" android:value="4.5.1.stable"/>
+            
+    <service android:name="org.godotengine.godot.GodotDownloaderService"/>
+            
+    <activity android:exported="false" android:name="org.godotengine.godot.utils.ProcessPhoenix" android:process=":phoenix" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            
+    <provider android:authorities="com.conradmafer.aliencolonies.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+                  
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/godot_provider_paths"/>
+              
+    </provider>
+            
+    <service android:enabled="true" android:exported="false" android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder">
+                  
+      <meta-data android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY" android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+              
+    </service>
+            
+    <activity android:configChanges="0x000005a0" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.controllers.identityauth.HiddenActivity" android:theme="@style/Theme.Hidden">
+        </activity>
+            
+    <activity android:configChanges="0x000005a0" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity" android:theme="@style/Theme.Hidden">
+        </activity>
+            
+    <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            
+        
+    <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+            
+    <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+                  
+      <intent-filter>
+                        
+        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                    
+      </intent-filter>
+                  
+      <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+              
+    </receiver>
+            
+        
+    <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+                  
+      <intent-filter android:priority="-500">
+                        
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                    
+      </intent-filter>
+              
+    </service>
+            
+    <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+                  
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+                  
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+                  
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+                  
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+                  
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+                  
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+              
+    </service>
+            
+    <meta-data android:name="com.google.android.play.billingclient.version" android:value="9.1.0"/>
+            
+    <activity android:configChanges="0x000005b0" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            
+    <activity android:configChanges="0x000005b0" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            
+    <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            
+    <provider android:authorities="com.conradmafer.aliencolonies.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+            
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+            
+    <provider android:authorities="com.conradmafer.aliencolonies.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+                  
+      <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+              
+    </provider>
+            
+    <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+                  
+      <intent-filter>
+                        
+        <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+                    
+      </intent-filter>
+                  
+      <intent-filter>
+                        
+        <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+                    
+      </intent-filter>
+                  
+      <intent-filter>
+                        
+        <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+                    
+      </intent-filter>
+                  
+      <intent-filter>
+                        
+        <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+                    
+      </intent-filter>
+              
+    </receiver>
+            
+    <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+                  
+      <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+              
+    </service>
+            
+    <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE">
+        </service>
+            
+    <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        
+  </application>
+  
+</manifest>

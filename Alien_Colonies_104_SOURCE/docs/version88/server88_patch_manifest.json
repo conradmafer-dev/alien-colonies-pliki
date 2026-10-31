@@ -1,0 +1,203 @@
+{
+  "package": "Alien_Colonies_SERVER88_PATCH",
+  "prepared_at_utc": "2026-10-21T04:58:26.972250+00:00",
+  "status": "PREPARED_NOT_DEPLOYED",
+  "repository": "conradmafer-dev/pogranicze-serwer",
+  "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+  "base_server_version": "0.12.20",
+  "base_version_code": 87,
+  "server_version": "0.12.21",
+  "version_code": 88,
+  "web_build": "0.12.20",
+  "layout": "All eight production files belong at the existing server repository root; no enclosing backend/ or localization/ directory.",
+  "files": [
+    {
+      "path": "app.py",
+      "source_path": "backend/app.py",
+      "change": "replace",
+      "bytes": 214184,
+      "sha256": "6458f9dfa4ce89c85df4b15e38c8e1cafbb3d905822570e9759b6d93b5e4fc6d",
+      "base_sha256": "45ceb417af91e0e66a7a6aa2589d6fc475e00a7e94bca5cde26521868c77f2d1",
+      "base_git_blob_sha": "50ef7bc2196b01a4cf0850a932bac04d40d40ff2"
+    },
+    {
+      "path": "subscription_invite.py",
+      "source_path": "backend/subscription_invite.py",
+      "change": "add",
+      "bytes": 2546,
+      "sha256": "b77d4126d8e9736f206cc5fc65f9f548deb5838c41e6afbe8ed3acee0efe5206",
+      "base_sha256": null,
+      "base_git_blob_sha": null
+    },
+    {
+      "path": "Dockerfile",
+      "source_path": "backend/Dockerfile",
+      "change": "replace",
+      "bytes": 1073,
+      "sha256": "c19ef73a35579de0a896cf7f63698042ac921448952d49e3f826f0618f69728d",
+      "base_sha256": "704004f444c9be90ce850970167d2b27a1560f0a4efbcd8f99df40cd03745687",
+      "base_git_blob_sha": "b643083ea49fab847987be9a7138053eea1aab7d"
+    },
+    {
+      "path": "en.json",
+      "source_path": "backend/en.json",
+      "change": "replace",
+      "bytes": 214809,
+      "sha256": "ac97bc067ca8c581f197801ff5848d385642c6fde68624a1954234b2861addde",
+      "base_sha256": "2477ef56ac9a63cd9f0e59614fb161d542a51402110d9275b84d05e4ae35db46",
+      "base_git_blob_sha": "9e387cf1b39fdd3442525266a3eeb32d0df715bd"
+    },
+    {
+      "path": "pl.json",
+      "source_path": "backend/pl.json",
+      "change": "replace",
+      "bytes": 188811,
+      "sha256": "6dc6800190d88129f8a282232220b61cd790f3b6a270f82959059238cd89c721",
+      "base_sha256": "5e533feef4ba52e4971a9b6d1806eef4a8ac6419ffe92887574c2067e77dd988",
+      "base_git_blob_sha": "2bf698bb76fe8fca01b498277f3a6b1d2ffed72f"
+    },
+    {
+      "path": "de.json",
+      "source_path": "backend/de.json",
+      "change": "replace",
+      "bytes": 225981,
+      "sha256": "22706439813bedd4e8c46341b2f580917c6a775056034d5ab093f5751ed72a7c",
+      "base_sha256": "c7a64c395e8b1b588f9f3618cd8d9a6909a9ffcc2cbf4dedc0a6c5f31edcd319",
+      "base_git_blob_sha": "d29e9c305e75fbc11d11582874649910de4e2182"
+    },
+    {
+      "path": "es.json",
+      "source_path": "backend/es.json",
+      "change": "replace",
+      "bytes": 224050,
+      "sha256": "3ed5d8855964ddc8df09798d9bdae3ffb6096d238ccc1411c5eabd30d55df57e",
+      "base_sha256": "cbb5364b99ef8de08c7bb65837decd0d7940d24f048942cf2f012134f564875f",
+      "base_git_blob_sha": "bb8d96c5344ecbf2c4e87354de7d920fa12b6283"
+    },
+    {
+      "path": "fr.json",
+      "source_path": "backend/fr.json",
+      "change": "replace",
+      "bytes": 231710,
+      "sha256": "b11b639cad1245c414e674cfbb1f4a71b95acd35bd3898411097ec26c75534b2",
+      "base_sha256": "0dba517fef4200feb8bf28169a2919b1f2221cdb85db65a6f6f35dcc84a8e6ac",
+      "base_git_blob_sha": "e84215ff0cd129b7f0a07b69675e983ac94f831a"
+    }
+  ],
+  "metadata_files": [
+    "SERVER88_PATCH_MANIFEST.json",
+    "SHA256SUMS",
+    "WDROZENIE_SERWERA88.txt"
+  ],
+  "localization": [
+    {
+      "file": "en.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "9e387cf1b39fdd3442525266a3eeb32d0df715bd",
+      "base_sha256": "2477ef56ac9a63cd9f0e59614fb161d542a51402110d9275b84d05e4ae35db46",
+      "sha256_88": "ac97bc067ca8c581f197801ff5848d385642c6fde68624a1954234b2861addde",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2346,
+      "new_entries": 2347,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "This offer is unavailable.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/en.json"
+    },
+    {
+      "file": "pl.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "2bf698bb76fe8fca01b498277f3a6b1d2ffed72f",
+      "base_sha256": "5e533feef4ba52e4971a9b6d1806eef4a8ac6419ffe92887574c2067e77dd988",
+      "sha256_88": "6dc6800190d88129f8a282232220b61cd790f3b6a270f82959059238cd89c721",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 1942,
+      "new_entries": 1943,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Oferta jest niedostępna.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/pl.json"
+    },
+    {
+      "file": "de.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "d29e9c305e75fbc11d11582874649910de4e2182",
+      "base_sha256": "c7a64c395e8b1b588f9f3618cd8d9a6909a9ffcc2cbf4dedc0a6c5f31edcd319",
+      "sha256_88": "22706439813bedd4e8c46341b2f580917c6a775056034d5ab093f5751ed72a7c",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2309,
+      "new_entries": 2310,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Dieses Angebot ist nicht verfügbar.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/de.json"
+    },
+    {
+      "file": "es.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "bb8d96c5344ecbf2c4e87354de7d920fa12b6283",
+      "base_sha256": "cbb5364b99ef8de08c7bb65837decd0d7940d24f048942cf2f012134f564875f",
+      "sha256_88": "3ed5d8855964ddc8df09798d9bdae3ffb6096d238ccc1411c5eabd30d55df57e",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2309,
+      "new_entries": 2310,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Esta oferta no está disponible.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/es.json"
+    },
+    {
+      "file": "fr.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "e84215ff0cd129b7f0a07b69675e983ac94f831a",
+      "base_sha256": "0dba517fef4200feb8bf28169a2919b1f2221cdb85db65a6f6f35dcc84a8e6ac",
+      "sha256_88": "b11b639cad1245c414e674cfbb1f4a71b95acd35bd3898411097ec26c75534b2",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2309,
+      "new_entries": 2310,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Cette offre est indisponible.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/fr.json"
+    }
+  ],
+  "preservation": {
+    "world_reset": false,
+    "world_epoch_changed": false,
+    "baseline_world_epoch_from_deployment87": "new-beginning-20261019",
+    "railway_variables_changed": false,
+    "volumes_changed": false,
+    "database_path_changed": false,
+    "reset_files_changed": false,
+    "railway_toml_changed": false,
+    "web_frontend_changed": false,
+    "production_accounts_used_for_tests": false,
+    "deployment_or_rollout_performed": false
+  },
+  "validation": {
+    "backend_unique_tests_passed": 79,
+    "backend_report_in_full_source": "docs/version88/backend_validation.json",
+    "python_compile": "PASS",
+    "base_files_verified_against_exact_github_commit": true,
+    "base_app_sha256_matches_deployment87_source_report": true,
+    "existing_locale_keys_removed": 0,
+    "existing_locale_values_modified": 0,
+    "locale_keys_added_per_language": 1
+  },
+  "dependency": "Android88 popup requires this server update and a currently verified Google Play seven-day trial. The server claim grants no subscription entitlement."
+}

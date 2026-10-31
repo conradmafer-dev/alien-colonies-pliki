@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alien Colonies 85 — balans i aktualizacja</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101813;color:#e8eee9;font:16px/1.65 system-ui,sans-serif}
+header,main,footer{max-width:1120px;margin:auto;padding:28px}header{padding-bottom:8px}h1{font-size:clamp(30px,4vw,46px);line-height:1.15;margin:14px 0}h2{font-size:25px;margin:38px 0 14px}h3{font-size:18px;margin-bottom:6px}p{margin:10px 0;color:#c4d3c7}a{color:#a8e9c0;text-underline-offset:3px}nav{display:flex;gap:12px 24px;flex-wrap:wrap;margin-top:20px}.tag{color:#92c8a5;font-size:13px;font-weight:700;letter-spacing:2px}.notice{padding:20px 24px;border:1px solid #b59a54;background:#292719;border-radius:12px;margin:22px 0}.notice p{color:#ede4c7}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#19271e;border:1px solid #34483b;padding:18px 22px;border-radius:12px}.card h3{margin-top:0}.table{overflow-x:auto;border:1px solid #34483b;border-radius:10px;margin:18px 0}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:10px 13px;border-bottom:1px solid #34483b;text-align:right;white-space:nowrap}th:first-child,td:first-child{text-align:left}th{background:#25382b;color:#cde7d3}tr:last-child td{border:0}code{background:#26342b;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:6px 0}.small{font-size:14px;color:#9fb4a5}.formula{padding:14px 18px;background:#1b2b21;border-left:3px solid #91c89b;overflow-wrap:anywhere}footer{border-top:1px solid #34483b;color:#a5b8aa;font-size:14px}@media(max-width:700px){header,main,footer{padding:20px}.grid{grid-template-columns:1fr}.notice{padding:16px}th,td{padding:9px 11px}}
+</style></head><body>
+<header><div class="tag">ALIEN COLONIES · 85 / 0.12.18</div><h1>Nowy balans, ten sam świat</h1>
+<p>Floty, energia, magazyny i czas budowy. Grafiki z wydań 83 i 84 pozostają zachowane.</p>
+<nav><a href="#floty">Statki</a><a href="#energia">Energia i magazyny</a><a href="#czas">Budowa</a><a href="#paliwo">Paliwo</a><a href="#wdrozenie">Aktualizacja</a><a href="BUDYNKI_84.html">Galeria budynków</a><a href="STATKI_83.html">Galeria statków</a></nav></header>
+<main><div class="notice"><strong>Nowe zasady trzeba wdrożyć na serwerze.</strong><p>Samo AAB w Google Play nie zmienia balansu. Backend 85 należy uruchomić na istniejącej bazie <strong>po wykonaniu spójnej kopii zapasowej</strong>, bez resetowania świata i bez zmian zmiennych resetujących.</p></div>
+<h2 id="floty">36 statków: 12 typów dla każdej rasy</h2>
+<p>Tabela przedstawia bazę przyjętą w kodzie 85, przed modyfikatorami ras, badaniami i umiejętnościami. Koszt podano jako metal / kryształy / paliwo. HP oznacza punkty kadłuba — dziesiątą część integralności strukturalnej odpowiednika OGame. Współczynnik paliwa służy do obliczania misji; nie jest kosztem godzinowym.</p>
+<div class="table"><table><thead><tr><th>Typ</th><th>Koszt M / K / P</th><th>Atak</th><th>HP</th><th>Ładowność</th><th>Paliwo: współczynnik</th></tr></thead><tbody><tr><td>Zwiadowca</td><td>0 / 1 000 / 0</td><td>1</td><td>100</td><td>5</td><td>1</td></tr>
+<tr><td>Transportowiec</td><td>2 000 / 2 000 / 0</td><td>5</td><td>400</td><td>5 000</td><td>10</td></tr>
+<tr><td>Kolonizator</td><td>10 000 / 20 000 / 10 000</td><td>50</td><td>3 000</td><td>7 500</td><td>1 000</td></tr>
+<tr><td>Fregata</td><td>3 000 / 1 000 / 0</td><td>50</td><td>400</td><td>50</td><td>20</td></tr>
+<tr><td>Krążownik</td><td>20 000 / 7 000 / 2 000</td><td>400</td><td>2 700</td><td>800</td><td>300</td></tr>
+<tr><td>Przechwytywacz</td><td>6 000 / 4 000 / 0</td><td>150</td><td>1 000</td><td>100</td><td>75</td></tr>
+<tr><td>Frachtowiec</td><td>6 000 / 6 000 / 0</td><td>5</td><td>1 200</td><td>25 000</td><td>50</td></tr>
+<tr><td>Okręt oblężniczy</td><td>50 000 / 25 000 / 15 000</td><td>1 000</td><td>7 500</td><td>500</td><td>700</td></tr>
+<tr><td>Pancernik</td><td>45 000 / 15 000 / 0</td><td>1 000</td><td>6 000</td><td>1 500</td><td>500</td></tr>
+<tr><td>Drednot</td><td>60 000 / 50 000 / 15 000</td><td>2 000</td><td>11 000</td><td>2 000</td><td>1 000</td></tr>
+<tr><td>Okręt flagowy</td><td>85 000 / 55 000 / 20 000</td><td>2 800</td><td>14 000</td><td>10 000</td><td>1 100</td></tr>
+<tr><td>Tytan</td><td>5 000 000 / 4 000 000 / 1 000 000</td><td>200 000</td><td>900 000</td><td>1 000 000</td><td>1</td></tr></tbody></table></div>
+<div class="table"><table><thead><tr><th>Rasa</th><th>Atak ×</th><th>HP ×</th><th>Ładowność ×</th><th>Paliwo ×</th></tr></thead><tbody>
+<tr><td>Zetanie</td><td>1,00</td><td>0,90</td><td>1,00</td><td>0,90</td></tr>
+<tr><td>Symbionci</td><td>0,90</td><td>1,05</td><td>1,10</td><td>0,90</td></tr>
+<tr><td>Automatony</td><td>1,00</td><td>1,10</td><td>1,00</td><td>1,10</td></tr></tbody></table></div>
+<p>Atak zwiadowcy nie spada poniżej 1. Ceny jednostek są wspólne dla ras. Pozostają cechy bojowe: pierwsza salwa Zetan +35%, regeneracja ocalałych Symbiontów 35% i redukcja obrażeń Automatonów 12%. Broń graczy daje <strong>+10% bazowego ataku na poziom</strong>; osobny balans NPC Roju jest zachowany.</p>
+<p>Odzysk metalu z wraków korzysta z obowiązujących cen zniszczonych jednostek, a nie starych cen rasowych. Nadal obowiązują warunki odzysku, jego premia i ograniczenia ładowni.</p>
+<h2 id="energia">Energia, magazyny i pola</h2>
+<p><strong>Produkcja od początku:</strong> każda kolonia gracza daje bazowo 30 metalu i 15 kryształów na godzinę przy prędkości serwera ×1, również bez kopalń i dostępnej energii. Bazowe paliwo wynosi 0. Podstawę mnoży tylko prędkość serwera, bez bonusów rasy, biomu i technologii; wydobycie kopalń jest doliczane osobno z właściwymi bonusami. Nadal obowiązują limity magazynów i zasady nieaktywności. Nowa podstawa działa od wdrożenia zasad 85.</p><div class="grid">
+<article class="card"><h3>Energia rośnie z rozbudową</h3><p>Baza elektrowni: <code>20 × L × 1,1^L</code>. Zużycie kopalni metalu i kryształów: <code>10 × L × 1,1^L</code>; rafinerii: <code>20 × L × 1,1^L</code>.</p><p>Dochodzi wpływ ras, badań, umiejętności i lokalnych budynków. Rezerwa kolonii i energia Dysona pozostają osobnymi składnikami. UI korzysta z wyliczonych przez serwer wartości obecnego i następnego poziomu.</p></article>
+<article class="card"><h3>Magazyny od 10 000</h3><p>Każdy surowiec ma osobny limit. Rozbudowa Skarbca Fazowego, Żywego Skarbca lub Skarbca Pancernego zwiększa wszystkie trzy pojemności i zachowuje ochronę przed grabieżą.</p><p>Pełny magazyn zatrzymuje wydobycie tylko danego surowca. Zapasy i dostawy ponad limit pozostają dostępne do wydania. Przy zbyt małej pojemności gra wskazuje rozbudowę skarbca.</p></article></div>
+<p class="formula">Pojemność na surowiec = floor(2,5 × exp(20L/33)) × 5000. Przykłady: poziom 0 — 10 000; 1 — 20 000; 2 — 40 000; 3 — 75 000.</p>
+<p>Na bardzo wysokich poziomach pojemność nie może być mniejsza od największego pojedynczego kosztu surowca wymaganego na następny poziom skarbca. Ten dodatkowy próg zapobiega blokadzie dalszego rozwoju; nie przyznaje zasobów. Techniczny górny limit zasobów nadal obowiązuje.</p>
+<p><strong>Pola budowlane ×3:</strong> istniejące planety otrzymują jednorazowo trzykrotną pojemność pól, z zachowaniem budynków i rezerwacji. Nowe planety od razu korzystają z rozszerzonej pojemności.</p>
+<h2 id="czas">Robotyka i Nanotechnologia</h2>
+<ul><li><strong>Robotyka:</strong> tempo budowy budynków ×(1 + poziom). Poziom 5 oznacza ×6.</li>
+<li><strong>Nanotechnologia:</strong> produkcja +3% na poziom; czas budynków, statków i obrony dzielony przez <code>2^floor(poziom/3)</code>. Poziomy 3, 6, 9 i 12 dają kolejno ×2, ×4, ×8 i ×16 tempa. Badania nie otrzymują tego przyspieszenia.</li>
+<li><strong>Stocznia i laboratorium:</strong> tempo właściwych projektów ×(1 + poziom), naliczane raz. Symbionci nie mają dodatkowej kary do bazowego czasu hodowli.</li>
+<li><strong>Początek gry:</strong> budynki korzystają z przyspieszenia <code>max(4 − docelowy_poziom/2, 1)</code>. Pozostałe premie i prędkość serwera nadal wpływają na wynik.</li></ul>
+<p>Opłacone i rozpoczęte projekty zachowują zapisane terminy. Zaplanowane, jeszcze nieopłacone zlecenia otrzymują koszt i czas przy starcie. Sama rozbudowa magazynu nie pobiera zapasów do kolejki.</p>
+<h2 id="paliwo">Paliwo według trasy i składu floty</h2>
+<p>Usunięto milionową opłatę aktywacyjną skoku dla graczy. Koszt uwzględnia liczebność, współczynniki statków, ich prędkości względem najwolniejszego statku oraz bonusy. Cały koszt misji jest płacony przed startem; <strong>powrót nie wymaga dopłaty</strong>. Czas lotu pozostaje wyliczany według zasad Alien Colonies.</p>
+<div class="table"><table><thead><tr><th>Trasa</th><th>Dystans używany do paliwa</th></tr></thead><tbody>
+<tr><td>Planety tego samego układu</td><td>1000 + 5 × różnica pozycji</td></tr>
+<tr><td>Różne układy tej samej galaktyki</td><td>2700 + 95 × dystans po połączeniach mapy</td></tr>
+<tr><td>Różne galaktyki</td><td>20 000 × ich odległość</td></tr></tbody></table></div>
+<p>Dystans lokalny korzysta z rzeczywistej sieci połączeń układów i pierścieni, nie z różnicy ich numerów. Odległość galaktyk może być ułamkowa. Obecne loty zachowują opłacony koszt i zapisany czas przylotu.</p>
+<h3>Przykład: 100 frachtowców Zetan</h3><p class="small">Bez badań, umiejętności i budynków. Kolumna porównawcza OGame używa tego samego odwzorowanego dystansu, pełnej prędkości i nie uwzględnia bonusu paliwa Zetan.</p>
+<div class="table"><table><thead><tr><th>Trasa</th><th>Paliwo 84</th><th>Paliwo 85</th><th>OGame: ten sam dystans</th><th>Czas AC, s</th></tr></thead><tbody><tr><td>Ten sam układ</td><td>1 652</td><td>518</td><td>575</td><td>118</td></tr>
+<tr><td>Sąsiedni układ</td><td>2 380</td><td>1 419</td><td>1 576</td><td>182</td></tr>
+<tr><td>Galaktyka g2</td><td>29 000 000</td><td>10 287</td><td>11 430</td><td>20 680</td></tr>
+<tr><td>Galaktyka g6</td><td>133 683 395</td><td>47 416</td><td>52 684</td><td>94 938</td></tr></tbody></table></div>
+<p>Pełny plik <a href="version85/fuel_examples85.json">fuel_examples85.json</a> zawiera <strong>60 porównań</strong>: 3 rasy × 4 trasy × 5 flot. Ta próbka potwierdza niezmienione czasy lotów; nie oznacza, że paliwo każdego statku i każdej trasy staje się tańsze.</p>
+<h2>Co pozostaje charakterystyczne dla Alien Colonies</h2>
+<p>Trzy rasy, biomy, rzadkie cechy planet, umiejętności, badania rasowe, megastruktury i własne czasy lotów. Nie dodano tarcz ani rapidfire. Parametry ekonomiczne inspirowane OGame nie zmieniają gry w pełną kopię jego mechaniki.</p>
+<h2 id="wdrozenie">Wydanie i zachowanie świata</h2>
+<ol><li>Wykonaj spójną kopię obecnej bazy oraz zachowaj dotychczasowy kod i konfigurację.</li>
+<li>Wdróż backend 85 na istniejącej usłudze z tą samą trwałą bazą i woluminem.</li>
+<li>Nie resetuj świata, nie usuwaj bazy i nie zmieniaj zmiennych resetujących.</li>
+<li>Podpisz AAB przez <strong>PODPISZ85.bat</strong>, używając dotychczasowego klucza wysyłania. Do Google Play wyślij <strong>Alien_Colonies_ANDROID_0.12.18_CODE_85.aab</strong>, bez dopisku UNSIGNED.</li></ol>
+<p>Paczka nie zawiera produkcyjnego świata ani prywatnego klucza podpisującego. Podpisywacz i publikacja AAB nie wdrażają serwera. Pełna instrukcja znajduje się w <a href="../README_WERSJA85_PL.md">README_WERSJA85_PL.md</a>.</p>
+<h2>Sprawdzenia i ich zakres</h2>
+<p>Lokalny stan przygotowany oryginalnym backendem 84 obejmował <strong>3 konta, 9 kolonii, 12 opłaconych projektów i 6 lotów</strong>. Test migracji przeszedł <strong>107/107 kontroli</strong>. To test offline, nie kopia produkcyjnej bazy.</p>
+<p>Interfejs Godota: 208 kontroli PASS; web: 23 testy PASS. Nie weryfikowano fizycznego telefonu, logowania Google ani zakupów na Twoim koncie. Layout WWW nie został uruchomiony w przeglądarce z powodu braku lokalnego Chromium.</p>
+<nav><a href="version85/true_legacy84_migration_report.json">Migracja 84 → 85</a><a href="version85/ui_test_report.json">Godot UI</a><a href="version85/web_storage_report.json">Web UI</a><a href="version85/timing_report.json">Czasy budowy</a></nav>
+</main><footer>Dokument opisuje kod wydania 85. Galerie <a href="BUDYNKI_84.html">budynków 84</a> i <a href="STATKI_83.html">statków 83</a> pozostają dokumentacją grafiki; aktualne wartości należy odczytywać z katalogu serwera 85.</footer></body></html>

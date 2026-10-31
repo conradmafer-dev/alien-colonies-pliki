@@ -1,0 +1,14 @@
+test_actual_preview_and_dispatch_to_new_ring (test_six_ring_expansion.SixRingExpansionTests.test_actual_preview_and_dispatch_to_new_ring) ... ok
+test_all_existing_routes_and_distances_stay_identical (test_six_ring_expansion.SixRingExpansionTests.test_all_existing_routes_and_distances_stay_identical) ... ok
+test_failed_permanent_backup_leaves_committed_world_unchanged (test_six_ring_expansion.SixRingExpansionTests.test_failed_permanent_backup_leaves_committed_world_unchanged) ... ok
+test_live_migration_keeps_every_old_record_and_is_idempotent (test_six_ring_expansion.SixRingExpansionTests.test_live_migration_keeps_every_old_record_and_is_idempotent) ... ok
+test_new_outer_ring_counts_identities_and_unsettled_galaxies (test_six_ring_expansion.SixRingExpansionTests.test_new_outer_ring_counts_identities_and_unsettled_galaxies) ... ok
+test_new_ring_is_reachable_with_five_bridges_and_no_cross_galaxy_edges (test_six_ring_expansion.SixRingExpansionTests.test_new_ring_is_reachable_with_five_bridges_and_no_cross_galaxy_edges) ... ok
+test_sqlite_migrates_once_with_verified_permanent_backup (test_six_ring_expansion.SixRingExpansionTests.test_sqlite_migrates_once_with_verified_permanent_backup) ... Alien Colonies 0.12.32: verified pre-expansion backup: /tmp/tmpnv6fve71/reset-backups/before-galaxy-rings-01232-20261025T132541Z-50224c389f35.sqlite3
+Alien Colonies 0.12.32: additive galaxy expansion committed; systems=930; planets=2763; players=0; world_epoch=new-beginning-20261019
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 4.465s
+
+OK

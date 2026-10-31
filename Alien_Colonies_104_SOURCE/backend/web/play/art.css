@@ -1,0 +1,114 @@
+/* Existing Alien Colonies artwork, shared with the Android client. */
+.game-art { display:block; max-width:100%; object-fit:cover; }
+.commander-icon { overflow:hidden; flex-shrink:0; }
+.commander-icon .game-art { width:100%; height:100%; border-radius:inherit; }
+
+.project-card { padding:0; overflow:hidden; }
+.project-art { position:relative; aspect-ratio:3/2; isolation:isolate; background:linear-gradient(140deg,#162d3b,#0a121d); }
+.project-art>.game-art { width:100%; height:100%; position:absolute; inset:0; }
+.project-art:after { content:""; position:absolute; inset:45% 0 0; background:linear-gradient(transparent,#050c14dc); z-index:1; pointer-events:none; }
+.project-top { position:absolute; z-index:2; left:16px; right:16px; bottom:13px; margin:0; }
+.project-top .project-emblem { width:34px; height:34px; border-color:#8be1c444; background:#091820e8; border-radius:9px; }
+.project-top .level { color:#edf6f8; border-color:#b8dce24d; background:#08121de8; padding:5px 10px; }
+.project-info { display:flex; flex-direction:column; flex:1; padding:20px; min-width:0; }
+.project-info h2 { font-size:17px; line-height:1.35; }
+.project-info .project-description { font-size:12px; }
+.project-info .effect { line-height:1.7; }
+.project-card:hover { border-color:#44635e; }
+
+.race-card { padding:0; overflow:hidden; background:#101e28; }
+.race-portrait { position:relative; aspect-ratio:4/3; background:#0a151d; overflow:hidden; }
+.race-portrait:after { content:""; position:absolute; inset:70% 0 0; background:linear-gradient(transparent,#101e28); pointer-events:none; }
+.race-portrait .game-art { width:100%; height:100%; position:absolute; inset:0; object-position:center 30%; }
+.race-info { display:flex; flex-direction:column; flex:1; padding:22px; }
+.race-info h3 { font-size:22px; }
+.race-info p { font-size:12px; }
+.race-info .button { min-height:42px; margin-top:auto; }
+
+.overview-grid>.colony-banner { grid-column:1/-1; min-height:330px; padding:34px; margin-bottom:0; }
+.overview-grid>.panel:last-child { grid-column:1/-1; }
+.colony-banner>.colony-scene { position:absolute; inset:0; width:100%; height:100%; object-position:center 52%; }
+.colony-banner:after { content:""; position:absolute; inset:0; z-index:1; background:linear-gradient(90deg,#030c15ed 0%,#030c15b5 32%,#030c1526 72%),linear-gradient(0deg,#030c15b0,transparent 65%); pointer-events:none; }
+.colony-banner>.colony-copy { position:relative; z-index:2; max-width:72%; }
+.colony-banner .colony-copy h2 { font-size:36px; text-shadow:0 2px 20px #000; }
+.colony-banner .colony-copy .muted { color:#c4d8e3; font-size:12px; }
+.colony-banner .pill { color:#dfebe7; background:#0a192bdd; border-color:#83baa866; }
+.colony-banner .pill.gold { color:#f2cd8c; border-color:#b8995966; }
+.colony-banner .button { background:#081422d9; border-color:#8ebaa37a; }
+.colony-banner>.colony-planet { position:absolute; right:28px; bottom:26px; z-index:2; width:112px; height:112px; border:1px solid #b2d4e759; border-radius:50%; overflow:hidden; background:#030a13; box-shadow:0 4px 30px #0008; }
+.colony-planet .game-art { width:100%; height:100%; }
+
+.queue-item { display:flex; align-items:center; gap:12px; min-width:0; }
+.queue-art { width:58px; height:44px; border-radius:7px; border:1px solid var(--line); flex-shrink:0; }
+.queue-copy { flex:1; min-width:0; }
+.queue-copy>strong { display:block; overflow-wrap:anywhere; }
+.queue-copy>.muted { display:block; margin-top:4px; }
+.planet-identity { display:flex; align-items:center; gap:9px; min-width:0; }
+.planet-identity>div { min-width:0; overflow-wrap:anywhere; }
+.planet-thumb { width:44px; height:44px; flex-shrink:0; border-radius:50%; background:#030913; border:1px solid #344353; }
+.planet-row>.button { flex-shrink:0; }
+.galaxy-banner { position:relative; min-height:245px; overflow:hidden; background:#080f1b; isolation:isolate; }
+.galaxy-scene { position:absolute; right:0; top:0; width:58%; height:100%; object-fit:contain; mix-blend-mode:screen; z-index:-1; }
+.galaxy-banner:after { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,#080f1bf7 0%,#080f1bd9 27%,transparent 65%); pointer-events:none; }
+.galaxy-copy { position:relative; max-width:54%; padding:12px 6px; }
+.galaxy-copy h2 { font-size:34px; margin-bottom:13px; }
+.galaxy-copy>p:not(.eyebrow) { color:#bdcbd9; font-size:12px; line-height:1.8; }
+.galaxy-copy .pill { background:#0c2133d9; border-color:#4b657d; }
+.fleet-unit { overflow:hidden; border:1px solid var(--line); border-radius:10px; padding:0 12px 12px; background:#0c1520; }
+.fleet-unit-art { width:calc(100% + 24px); max-width:none; height:auto; aspect-ratio:3/2; margin:0 -12px 8px; }
+.fleet-unit label { margin-top:8px; }
+.report-card.illustrated { display:flex; align-items:flex-start; gap:22px; }
+.report-art { width:180px; height:120px; border-radius:9px; flex-shrink:0; }
+.report-copy { min-width:0; flex:1; }
+.skill-art { width:72px; height:72px; border-radius:12px; margin-bottom:16px; }
+
+.auth-planet.auth-art { position:relative; width:100%; height:auto; aspect-ratio:16/9; max-height:300px; margin:25px 0; transform:none; border:1px solid #4b746466; border-radius:16px; overflow:hidden; box-shadow:0 16px 45px #0005; }
+.auth-art>.game-art { position:absolute; inset:0; width:100%; height:100%; }
+.auth-art:after { content:""; position:absolute; inset:40% 0 0; background:linear-gradient(transparent,#040d1be6); }
+.auth-art-label { position:absolute; bottom:18px; left:20px; z-index:1; font-size:9px; letter-spacing:.14em; color:#deeee7; }
+.art-unavailable { background-color:#101d2a; }
+
+@media(max-width:1150px) {
+  .overview-grid>.colony-banner { min-height:310px; padding:27px; }
+  .project-info { padding:18px; }
+  .race-info { padding:18px; }
+  .race-info h3 { font-size:20px; }
+}
+@media(min-width:621px) and (max-width:850px) {
+  .race-card { display:grid; grid-template-columns:minmax(140px,34%) minmax(0,1fr); }
+  .race-portrait { aspect-ratio:auto; min-height:270px; }
+  .race-portrait .game-art { object-position:50% 25%; }
+  .race-info { min-width:0; }
+}
+@media(max-width:620px) {
+  .auth-planet.auth-art { display:block; height:125px; aspect-ratio:auto; margin:17px 0 0; }
+  .auth-art-label { bottom:13px; left:15px; font-size:8px; }
+  .overview-grid>.colony-banner { min-height:285px; padding:23px; margin-bottom:17px; }
+  .colony-banner>.colony-copy { max-width:100%; padding-right:15px; }
+  .colony-banner .colony-copy h2 { font-size:28px; padding-right:32px; overflow-wrap:anywhere; }
+  .colony-banner .stat-pills { max-width:calc(100% - 42px); }
+  .colony-banner:after { background:linear-gradient(90deg,#030c15dd,#030c1566),linear-gradient(0deg,#030c15bb,transparent); }
+  .colony-banner>.colony-planet { width:62px; height:62px; right:16px; bottom:18px; }
+  .colony-banner .form-actions { padding-right:55px; }
+  .colony-banner .form-actions .button { font-size:11px; padding:8px 10px; }
+  .project-card { padding:0; }
+  .project-info { padding:20px; }
+  .project-info h2 { font-size:19px; }
+  .project-top { left:15px; right:15px; bottom:12px; }
+  .project-top .level { font-size:10px; }
+  .race-card { padding:0; }
+  .race-portrait { aspect-ratio:4/3; }
+  .race-info { padding:22px; }
+  .race-info h3 { font-size:23px; }
+  .race-info p { font-size:12px; }
+  .galaxy-banner { min-height:235px; }
+  .galaxy-copy { max-width:68%; padding:7px 0; }
+  .galaxy-copy h2 { font-size:28px; }
+  .galaxy-copy>p:not(.eyebrow) { font-size:11px; }
+  .galaxy-scene { width:66%; right:-12%; }
+  .galaxy-banner:after { background:linear-gradient(90deg,#080f1bf5,#080f1b88 45%,transparent); }
+  .queue-art { width:44px; height:36px; }
+  .queue-item { gap:9px; }
+  .report-card.illustrated { gap:14px; }
+  .report-art { width:80px; height:80px; }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "method": "Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->beginGoogleSignIn",
+    "annotations": [
+      {
+        "visibility": 1,
+        "type": "Lorg/godotengine/godot/plugin/UsedByGodot;"
+      }
+    ]
+  },
+  {
+    "method": "Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->cancelGoogleSignIn",
+    "annotations": [
+      {
+        "visibility": 1,
+        "type": "Lorg/godotengine/godot/plugin/UsedByGodot;"
+      }
+    ]
+  },
+  {
+    "method": "Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->clearGoogleSignInState",
+    "annotations": [
+      {
+        "visibility": 1,
+        "type": "Lorg/godotengine/godot/plugin/UsedByGodot;"
+      }
+    ]
+  },
+  {
+    "method": "Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->getGoogleSignInVersion",
+    "annotations": [
+      {
+        "visibility": 1,
+        "type": "Lorg/godotengine/godot/plugin/UsedByGodot;"
+      }
+    ]
+  },
+  {
+    "method": "Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->setExpectedFlow",
+    "annotations": [
+      {
+        "visibility": 1,
+        "type": "Lorg/godotengine/godot/plugin/UsedByGodot;"
+      }
+    ]
+  },
+  {
+    "method": "Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->takePendingGoogleSignIn",
+    "annotations": [
+      {
+        "visibility": 1,
+        "type": "Lorg/godotengine/godot/plugin/UsedByGodot;"
+      }
+    ]
+  },
+  {
+    "method": "Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->takePendingReturn",
+    "annotations": [
+      {
+        "visibility": 1,
+        "type": "Lorg/godotengine/godot/plugin/UsedByGodot;"
+      }
+    ]
+  }
+]

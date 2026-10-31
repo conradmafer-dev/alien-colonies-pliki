@@ -1,0 +1,60 @@
+{
+  "version": "0.12.21",
+  "version_code": 88,
+  "result": "PASS",
+  "focused_prompt_checks": 46,
+  "focused_prompt_failures": 0,
+  "full_main_scene_checks": 17,
+  "full_main_scene_failures": 0,
+  "full_main_scene_capture_checks": 18,
+  "full_main_scene_capture_failures": 0,
+  "native_fleet_capture_checks": 291,
+  "native_fleet_capture_failures": 0,
+  "renderer": "Godot 4.5.1 / OpenGL compatibility / Mesa llvmpipe / Xvfb",
+  "viewports": [
+    [
+      720,
+      1280
+    ],
+    [
+      720,
+      1600
+    ],
+    [
+      450,
+      800
+    ]
+  ],
+  "localization": {
+    "languages": [
+      "pl",
+      "en",
+      "de",
+      "es",
+      "fr"
+    ],
+    "checked_billing_and_prompt_keys_per_language": 30,
+    "missing": []
+  },
+  "screenshots": [
+    {
+      "path": "tests/subscription_milestone88_screenshots/pl_game_450x800.png",
+      "sha256": "b4414ec8078899554142126f34fdb5e5dc20a3c1fcf57d64ac3450ecd43f0e8b"
+    },
+    {
+      "path": "tests/fleet_destination88_screenshots/pl_450x800_galaxy.png",
+      "sha256": "85f862c3915cac8be60e4a051a297df0b2189f7f4f2b05424dfb83ff93da3aa1"
+    }
+  ],
+  "preview_data": "Offline test game; 4,99 zł is a fixture price. Production uses the eligible Google Play price.",
+  "not_tested": [
+    "Physical Android Google Play checkout",
+    "Windows signing with user private key"
+  ],
+  "commands": [
+    "godot --headless --path . --log-file ./prompt-test.log --script backend/tests/test_subscription_milestone_prompt.gd",
+    "godot --headless --path . --log-file ./prompt-smoke.log tests/subscription_milestone88_smoke.tscn",
+    "godot --path . --log-file ./prompt-render.log tests/subscription_milestone88_smoke.tscn -- --capture",
+    "godot --path . --log-file ./fleet-render.log tests/fleet_destination88_test.tscn -- --capture"
+  ]
+}

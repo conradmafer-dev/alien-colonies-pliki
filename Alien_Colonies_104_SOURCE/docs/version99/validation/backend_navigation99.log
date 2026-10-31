@@ -1,0 +1,19 @@
+test_account_deletion_preserves_an_inner_planets_explicit_galaxy (test_galaxy_rings_0121.GalaxyRingsTests.test_account_deletion_preserves_an_inner_planets_explicit_galaxy) ... ok
+test_additive_migration_preserves_every_existing_record_and_is_idempotent (test_galaxy_rings_0121.GalaxyRingsTests.test_additive_migration_preserves_every_existing_record_and_is_idempotent) ... ok
+test_allocator_starts_after_actual_ids_and_does_not_reassign_legacy_galaxies (test_galaxy_rings_0121.GalaxyRingsTests.test_allocator_starts_after_actual_ids_and_does_not_reassign_legacy_galaxies) ... ok
+test_lanes_are_symmetric_connected_and_have_five_bridges_per_ring_pair (test_galaxy_rings_0121.GalaxyRingsTests.test_lanes_are_symmetric_connected_and_have_five_bridges_per_ring_pair) ... ok
+test_legacy_missing_galaxy_fields_use_the_original_thirty_system_blocks (test_galaxy_rings_0121.GalaxyRingsTests.test_legacy_missing_galaxy_fields_use_the_original_thirty_system_blocks) ... ok
+test_new_world_has_six_rings_without_activating_unsettled_galaxies (test_galaxy_rings_0121.GalaxyRingsTests.test_new_world_has_six_rings_without_activating_unsettled_galaxies) ... ok
+test_observation_follows_real_connections_and_never_crosses_galaxies (test_galaxy_rings_0121.GalaxyRingsTests.test_observation_follows_real_connections_and_never_crosses_galaxies) ... ok
+test_persisted_migration_keeps_active_flight_accounts_and_world_on_second_restart (test_galaxy_rings_0121.GalaxyRingsTests.test_persisted_migration_keeps_active_flight_accounts_and_world_on_second_restart) ... Alien Colonies 0.12.32: verified pre-expansion backup: /tmp/tmpxlf7plty/reset-backups/before-galaxy-rings-01232-20261025T133018Z-6157e4a78c2d.sqlite3
+Alien Colonies 0.12.32: additive galaxy expansion committed; systems=930; planets=2763; players=1; world_epoch=new-beginning-20261019
+ok
+test_planetary_legacy_repair_keeps_new_numeric_ids_in_their_actual_galaxy (test_galaxy_rings_0121.GalaxyRingsTests.test_planetary_legacy_repair_keeps_new_numeric_ids_in_their_actual_galaxy) ... ok
+test_preview_actual_dispatch_and_paid_return_use_the_same_authoritative_route (test_galaxy_rings_0121.GalaxyRingsTests.test_preview_actual_dispatch_and_paid_return_use_the_same_authoritative_route) ... ok
+test_public_structure_reveals_no_unknown_planets_and_jump_costs_are_unchanged (test_galaxy_rings_0121.GalaxyRingsTests.test_public_structure_reveals_no_unknown_planets_and_jump_costs_are_unchanged) ... ok
+test_weighted_paths_match_spokes_and_stay_bounded_after_reordered_state (test_galaxy_rings_0121.GalaxyRingsTests.test_weighted_paths_match_spokes_and_stay_bounded_after_reordered_state) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 7.025s
+
+OK

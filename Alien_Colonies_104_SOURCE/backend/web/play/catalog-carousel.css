@@ -1,0 +1,248 @@
+/* Large construction cards, with native touch scrolling and keyboard buttons. */
+.catalog-carousel-section { min-width:0; margin-bottom:28px; }
+.catalog-carousel-heading { display:flex; align-items:center; justify-content:space-between; gap:16px; margin:0 0 12px; }
+.catalog-carousel-heading h2 { font-size:16px; margin:0; }
+.catalog-carousel-controls { display:flex; gap:8px; flex-shrink:0; }
+.catalog-carousel-controls .icon-button { width:40px; height:40px; font-size:24px; }
+.catalog-carousel-track { display:grid; grid-auto-flow:column; grid-auto-columns:340px; gap:18px; overflow-x:auto; overflow-y:hidden; scroll-snap-type:x mandatory; scroll-padding:3px; padding:3px 3px 15px; scrollbar-width:thin; scrollbar-color:#426257 #0b121b; overscroll-behavior-x:contain; align-items:start; grid-auto-rows:minmax(0,1fr); }
+.catalog-carousel-track > .project-card { scroll-snap-align:start; scroll-snap-stop:normal; min-width:0; }
+.catalog-carousel-track .project-info, .catalog-carousel-track .building-info { padding:20px; }
+.catalog-carousel-track .project-description { font-size:13px; line-height:1.7; margin:10px 0 16px; min-height:0; overflow:visible; overflow-wrap:anywhere; }
+.catalog-carousel-track .project-info h2, .catalog-carousel-track .building-info h2 { font-size:20px; line-height:1.3; margin-bottom:8px; }
+.catalog-carousel-track .project-art, .catalog-carousel-track .building-art { aspect-ratio:auto; }
+.catalog-carousel-track .project-card.building-card { display:flex; min-height:0; }
+.catalog-carousel-track .building-art:after, .catalog-carousel-track .project-art:after { display:none; }
+.catalog-carousel-track .building-info { flex:none; }
+.catalog-carousel-track .building-category { color:var(--teal); font-size:10px; margin:0 0 8px; letter-spacing:.04em; }
+.catalog-carousel-track .building-level { font-size:12px; }
+.catalog-carousel-track .building-effect { font-size:16px; margin:0 0 10px; }
+.catalog-carousel-track .building-info .cost-list { font-size:12px; gap:12px; padding:13px 0; margin:0 0 14px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.catalog-carousel-track .building-bottom { margin-top:0; margin-bottom:14px; }
+.catalog-carousel-track .building-bottom .duration { font-size:11px; }
+.catalog-carousel-track .project-action { gap:10px; }
+.catalog-carousel-track .project-action input { width:70px; min-height:44px; font-size:14px; }
+.catalog-carousel-track .project-action button, .catalog-carousel-track .building-upgrade { min-height:44px; font-size:13px; }
+.catalog-carousel-track .building-reason, .catalog-carousel-track .project-reason { font-size:11px; line-height:1.6; }
+.catalog-carousel-track .ship-stats { gap:12px; }
+.catalog-carousel-track .ship-stats dt { font-size:10px; }
+.catalog-carousel-track .ship-stats dd { font-size:15px; }
+.catalog-carousel-track .ship-requirements { margin-top:16px; }
+@media(max-width:620px) {
+  .catalog-carousel-track { grid-auto-columns:calc(100% - 28px); gap:12px; }
+  .catalog-carousel-track .project-info, .catalog-carousel-track .building-info { padding:18px; }
+  .catalog-carousel-track .project-info h2, .catalog-carousel-track .building-info h2 { font-size:19px; }
+  .catalog-carousel-controls .icon-button { width:36px; height:36px; }
+}
+
+.catalog-carousel-track .building-card-metrics { margin:0 0 14px; }
+.catalog-carousel-track .building-card-metrics-heading { display:flex; justify-content:space-between; gap:12px; color:var(--muted); font-size:10px; margin-bottom:8px; }
+.catalog-carousel-track .building-card-metrics dl { margin:0; }
+.catalog-carousel-track .building-card-metrics dl>div { display:flex; justify-content:space-between; align-items:baseline; gap:12px; padding:5px 0; }
+.catalog-carousel-track .building-card-metrics dt { color:#b9c9d5; font-size:11px; }
+.catalog-carousel-track .building-card-metrics dd { max-width:65%; margin:0; text-align:right; font-size:13px; font-variant-numeric:tabular-nums; overflow-wrap:anywhere; }
+.catalog-carousel-track .building-card-metrics dd span { color:#99ebcb; }
+.catalog-carousel-track .building-requirements { margin:0 0 12px; }
+.catalog-carousel-track .building-requirements .requirement { margin:0; }
+
+
+/* Compact screens keep the shell still; long cards own their scroll area. */
+.game-screen:not([hidden]) { height:100dvh; overflow:hidden; }
+.game-body { height:100dvh; display:flex; flex-direction:column; min-width:0; }
+.game-header, .resource-bar, .content-heading, .production-paused { flex-shrink:0; }
+.game-footer, #view-eyebrow { display:none; }
+.content-heading { padding-top:12px; padding-bottom:12px; align-items:center; }
+.game-content { flex:1; min-height:0; overflow:auto; overscroll-behavior:contain; padding-bottom:12px; }
+.game-screen[data-view="colony"] .game-content,
+.game-screen[data-view="buildings"] .game-content,
+.game-screen[data-view="megastructures"] .game-content,
+.game-screen[data-view="ships"] .game-content,
+.game-screen[data-view="defenses"] .game-content,
+.game-screen[data-view="research"] .game-content { display:flex; flex-direction:column; overflow:hidden; gap:8px; }
+.game-screen[data-view="ships"] #view-title,
+.game-screen[data-view="defenses"] #view-title,
+.game-screen[data-view="buildings"] #view-title,
+.game-screen[data-view="colony"] #view-title,
+.game-screen[data-view="research"] #view-title { display:none; }
+.content-heading .planet-selector { margin:0; width:100%; max-width:300px; }
+.content-heading .planet-selector select { margin:0; }
+.catalog-carousel-section { display:flex; flex-direction:column; flex:1; min-height:0; margin:0; }
+.catalog-carousel-heading { position:absolute; z-index:3; right:40px; margin:8px 0 0; pointer-events:none; }
+.catalog-carousel-controls { pointer-events:auto; opacity:.9; }
+.catalog-carousel-controls .icon-button { width:32px; height:32px; background:#0a1526dd; }
+.catalog-carousel-track { flex:1; min-height:0; grid-auto-columns:380px; padding-bottom:8px; }
+.catalog-carousel-track > .project-card {
+  /* Every card fills the same row; artwork and purchasing controls stay pinned.
+     Only the middle text region uses the remaining height and can scroll. */
+  height:100%; max-height:100%; min-height:0; align-self:stretch; padding:0;
+  display:flex; flex-direction:column; overflow:hidden;
+}
+.catalog-carousel-track .project-art, .catalog-carousel-track .building-art {
+  flex:0 0 auto; display:flex; align-items:center; justify-content:center;
+  height:auto; min-height:0; aspect-ratio:auto; background:#0a111a;
+}
+.catalog-carousel-track .project-art > img, .catalog-carousel-track .building-art > img {
+  position:static; display:block; width:auto; height:auto; max-width:100%;
+  max-height:var(--card-art-max-height,34dvh); aspect-ratio:auto; object-fit:contain;
+}
+.catalog-carousel-track .construction-card-body {
+  flex:1 1 0; min-height:0; display:flex; flex-direction:column;
+  overflow-x:hidden; overflow-y:auto;
+  overscroll-behavior-y:contain; scrollbar-width:thin; scrollbar-color:#426257 transparent;
+}
+.catalog-carousel-track .construction-card-footer {
+  flex:0 0 auto; padding:10px 16px; border-top:1px solid var(--line); background:var(--panel);
+}
+.catalog-carousel-track .construction-card-footer .cost-list {
+  margin:0; padding:0; border:0; gap:8px 14px; font-size:12px;
+}
+.catalog-carousel-track .construction-footer-controls {
+  display:flex; align-items:center; gap:10px; margin-top:8px;
+}
+.catalog-carousel-track .construction-footer-controls:first-child { margin-top:0; }
+.catalog-carousel-track .construction-card-footer .duration { margin:0; font-size:10px; line-height:1.4; max-width:30%; }
+.catalog-carousel-track .construction-card-footer .project-action { flex:1; min-width:0; margin:0; gap:8px; }
+.catalog-carousel-track .construction-card-footer .project-action input { width:58px; flex:0 0 58px; padding:8px; }
+.catalog-carousel-track .construction-card-footer .project-action .button { flex:1; min-width:0; margin:0; padding:8px 10px; }
+.catalog-carousel-track .tunnel-energy-cost { margin:0 0 8px; color:var(--gold); font-size:12px; }
+
+.catalog-carousel-track .project-info, .catalog-carousel-track .building-info {
+  display:block; flex:none; min-height:0; height:auto; max-height:none;
+  /* Auto margins center one compact text block only when it fits. Overflowing
+     details consume both margins and begin at the top, keeping every line reachable. */
+  margin-block:auto; overflow:visible; padding:14px 16px;
+}
+.catalog-carousel-track .project-action, .catalog-carousel-track .project-info .effect { margin-top:0; }
+.catalog-carousel-track .duration, .catalog-carousel-track .building-level { display:block; }
+.catalog-carousel-track .project-action { position:static; margin-bottom:0; }
+.catalog-carousel-track .project-info > :last-child, .catalog-carousel-track .building-info > :last-child { margin-bottom:0; }
+.catalog-carousel-track .project-description { margin:7px 0 10px; line-height:1.5; }
+.catalog-carousel-track .building-category:empty { display:none; }
+.catalog-carousel-track .building-info .cost-list { padding:8px 0; margin:8px 0; }
+.catalog-carousel-track .building-bottom { margin-bottom:8px; }
+.catalog-carousel-track .building-requirements h3, .catalog-carousel-track .ship-requirements h3 { font-size:12px; margin:8px 0; }
+.catalog-carousel-track .ship-requirements { margin-top:10px; }
+.catalog-carousel-track .requirements-list { gap:5px; }
+.catalog-carousel-track .requirement { font-size:11px; padding:5px 7px; }
+.catalog-carousel-track .ship-stats { gap:7px; margin:10px 0; }
+.catalog-carousel-track .ship-stats dt { font-size:10px; }
+.catalog-carousel-track .ship-stats dd { font-size:14px; }
+.colony-landscape { height:clamp(84px,14vh,150px); flex-shrink:0; position:relative; overflow:hidden; border-radius:12px; }
+.colony-landscape-art { width:100%; height:100%; object-fit:cover; }
+.colony-landscape > div { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:flex-end; padding:14px 18px; background:linear-gradient(transparent,#03080cdd); }
+.colony-landscape strong { font-size:20px; }
+.colony-landscape span { font-size:11px; color:#d3e0e7; }
+.compact-queue { position:relative; flex-shrink:0; border:1px solid var(--line); border-radius:8px; font-size:12px; background:var(--panel); }
+.compact-queue summary { cursor:pointer; padding:8px 12px; }
+.compact-queue > div { padding:12px; max-height:35vh; overflow-y:auto; overscroll-behavior:contain; }
+.compact-queue .panel-heading { display:none; }
+.fleet-navigation { display:flex; gap:8px; flex-shrink:0; margin-bottom:8px; }
+.fleet-navigation > .button { flex:1; min-width:0; }
+.fleet-navigation > .fleet-active-button { flex:0 0 auto; }
+.protected-badge { display:inline-block; color:#9ce1be; font-size:10px; font-weight:500; margin-left:6px; }
+.settings-links { display:flex; flex-wrap:wrap; gap:10px; }
+.megastructure-card .button { width:100%; margin-top:8px; }
+.megastructure-card label { margin:10px 0 5px; font-size:12px; }
+.megastructure-card .building-info .muted, .megastructure-card .building-effect { font-size:12px; }
+.tech-map-panel { flex:1; min-height:0; padding:0; margin:0; border:0; }
+.tech-tree-scroll { height:100%; min-height:0; }
+.tech-tree { height:100%; grid-template-rows:repeat(3,minmax(0,1fr)); --tech-node-width:260px; row-gap:20px; column-gap:45px; padding:8px 10px 16px; }
+.tech-node { min-height:0; padding:12px; overflow:hidden; cursor:default; }
+.tech-node-head { flex-shrink:0; margin-bottom:5px; }
+.tech-node .tech-node-art { width:58px; height:58px; }
+.tech-node-copy { flex:1; min-height:0; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin; }
+.tech-node-title { font-size:14px; }
+.tech-node-description { font-size:12px; line-height:1.45; margin:6px 0 4px; color:#b0c2cc; }
+.tech-node-action { border:0; border-top:1px solid #ffffff16; display:flex; justify-content:space-between; background:transparent; color:var(--gold); text-align:left; padding:6px 0 0; font-size:11px; margin-top:5px; flex-shrink:0; }
+.tech-node-action:hover { color:#fff; }
+.galaxy-layout { display:flex; min-height:0; flex:1; }
+.galaxy-map-shell { width:100%; min-height:0; display:flex; flex-direction:column; }
+.galaxy-map { flex:1; min-height:190px; height:auto; }
+.game-screen[data-view="galaxy"] .game-content { display:flex; flex-direction:column; overflow:hidden; }
+.galaxy-explorer { display:flex; flex-direction:column; flex:1; min-height:0; margin:0; }
+.galaxy-explorer.system-view { overflow:auto; overscroll-behavior:contain; }
+.system-view .system-detail { border:0; max-height:none; overflow:visible; padding-top:10px; }
+.system-toolbar { padding:12px 18px 0; }
+.galaxy-navigation { flex-shrink:0; }
+.galaxy-legend { padding-top:8px; padding-bottom:8px; }
+.galaxy-network-legend, .map-route-status { display:none; }
+.mission-picker-heading { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:8px; }
+#fleet-panel { flex:1; overflow-y:auto; overscroll-behavior:contain; min-height:0; margin:0; }
+#fleet-panel > .panel-heading { flex-wrap:wrap; }
+#fleet-form>.fleet-dock { bottom:0; }
+@media(max-width:620px) {
+  .game-body { padding-bottom:calc(66px + env(safe-area-inset-bottom)); }
+  .sidebar { height:calc(66px + env(safe-area-inset-bottom)); padding-bottom:env(safe-area-inset-bottom); z-index:120; overflow:hidden; }
+  .sidebar nav { width:100%; min-width:0; justify-content:space-between; }
+  .sidebar .nav-button { width:20%; min-width:0; }
+  .sidebar .nav-button .nav-label { font-size:10px; }
+  .sidebar .nav-button svg { width:22px; height:22px; }
+  .game-header { min-height:50px; padding:8px 14px; }
+  .resource-bar { min-height:50px; }
+  .content-heading { padding:8px 14px; }
+  .content-heading h1 { font-size:18px; margin:0; }
+  .content-heading .planet-selector { width:100%; max-width:100%; font-size:0; }
+  .content-heading .planet-selector select { font-size:12px; padding:7px 10px; }
+  .game-content { padding-left:12px; padding-right:12px; }
+  .catalog-carousel-track { grid-auto-columns:calc(100% - 22px); gap:10px; }
+  .catalog-carousel-heading { right:22px; }
+  .catalog-carousel-track .project-info, .catalog-carousel-track .building-info { padding:12px; }
+  .catalog-carousel-track .construction-card-footer { padding:9px 12px; }
+  .catalog-carousel-track .project-info h2, .catalog-carousel-track .building-info h2 { font-size:18px; }
+  .colony-landscape { height:clamp(74px,12vh,115px); }
+  .colony-landscape > div { padding:8px 12px; }
+  .fleet-navigation .button { min-height:44px; padding:8px 12px; font-size:12px; }
+  .tech-tree { --tech-node-width:235px; column-gap:32px; row-gap:16px; padding:5px 4px 12px; }
+  .tech-node { padding:9px; }
+  .tech-node .tech-node-art { width:48px; height:48px; }
+  .tech-node-title { font-size:13px; }
+  .tech-node-description { font-size:11px; line-height:1.4; }
+  .tech-node-level { font-size:10px; }
+  .tech-node-action { font-size:10px; padding-top:4px; }
+  .galaxy-navigation { padding:8px; gap:6px; }
+  .galaxy-picker { gap:5px; }
+  .galaxy-picker select { padding:7px; font-size:12px; }
+  .galaxy-map { min-height:180px; }
+  .system-view .system-planets { display:flex; flex-direction:column; gap:0; }
+  .system-view .planet-row { min-height:68px; }
+  .system-view .planet-identity-copy strong { font-size:13px; }
+  .system-view .planet-row .muted { font-size:11px; }
+  .system-view .system-detail { padding:10px 12px; }
+  .system-ring, .system-bridges { display:none; }
+}
+@media(max-height:620px) {
+  .colony-landscape { height:65px; }
+  .tech-node .tech-node-art { width:34px; height:34px; }
+  .tech-node-head { margin:0; }
+}
+.catalog-carousel-track .project-info > *, .catalog-carousel-track .building-info > * { flex-shrink:0; }
+.game-content { width:100%; margin:0 auto; }
+@media(max-height:620px) and (min-width:621px) {
+  .game-header { min-height:36px; height:36px; padding:2px 20px; }
+  .header-actions .button, .header-actions .icon-button { min-height:30px; height:30px; padding:3px 10px; }
+  .commander-icon { width:26px; height:26px; }
+  .resource-tile { padding:3px 12px; }
+  .resource-value { font-size:13px; line-height:1.3; }
+  .resource-label, .resource-rate { font-size:7px; line-height:1.3; }
+  .content-heading { height:32px; padding:2px 20px; }
+  .colony-landscape { height:42px; }
+  .colony-landscape > div { padding:4px 12px; }
+  .colony-landscape strong { font-size:15px; }
+  .colony-landscape span { font-size:9px; }
+  .catalog-carousel-track .construction-card-footer { padding:6px 12px; }
+  .catalog-carousel-track .construction-card-footer .cost-list { font-size:11px; }
+  .catalog-carousel-track .construction-footer-controls { margin-top:6px; }
+  .catalog-carousel-track .construction-card-footer .project-action input,
+  .catalog-carousel-track .construction-card-footer .project-action .button { min-height:36px; padding:5px 8px; font-size:12px; }
+  .catalog-carousel-track .project-info, .catalog-carousel-track .building-info { padding:8px 12px; }
+  .catalog-carousel-track .project-info h2, .catalog-carousel-track .building-info h2 { font-size:17px; }
+  .content-heading .planet-selector { font-size:0; }
+  .content-heading .planet-selector select { font-size:11px; padding:5px 10px; }
+  .content-heading h1 { font-size:16px; margin:0; }
+  .tech-tree { --tech-node-width:290px; padding:3px 6px 8px; row-gap:8px; }
+  .tech-node { display:grid; grid-template-columns:38px 1fr; grid-template-rows:minmax(0,1fr) 18px; gap:2px 8px; padding:6px; }
+  .tech-node-head { grid-row:1/3; flex-direction:column; justify-content:flex-start; gap:2px; }
+  .tech-node-level { font-size:8px; padding:1px 3px; }
+  .tech-node-title { font-size:11px; }
+  .tech-node-description { font-size:10px; margin:3px 0; }
+  .tech-node-action { grid-column:2; padding-top:2px; margin:0; font-size:9px; }
+}

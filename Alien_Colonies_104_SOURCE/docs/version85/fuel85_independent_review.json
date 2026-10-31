@@ -1,0 +1,77 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "check": "one cruiser same-system distance1005 costs32",
+      "result": "PASS"
+    },
+    {
+      "check": "one cruiser one-galaxy reference distance20000 costs618",
+      "result": "PASS"
+    },
+    {
+      "check": "ten probes distance1005 costs2 not10",
+      "result": "PASS"
+    },
+    {
+      "check": "zero-count slow titan does not alter burn",
+      "result": "PASS"
+    },
+    {
+      "check": "slower escort reduces burn but remainspositive",
+      "result": "PASS"
+    },
+    {
+      "check": "distance same system",
+      "result": "PASS"
+    },
+    {
+      "check": "distance lanes",
+      "result": "PASS"
+    },
+    {
+      "check": "distance fractional galaxy gap",
+      "result": "PASS"
+    },
+    {
+      "check": "legacy travel time preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "server speed cannot discount fuel",
+      "result": "PASS"
+    },
+    {
+      "check": "shortage causes no ship debit",
+      "result": "PASS"
+    },
+    {
+      "check": "solo preview equals exact charge",
+      "result": "PASS"
+    },
+    {
+      "check": "same request cannot charge twice",
+      "result": "PASS"
+    },
+    {
+      "check": "8h cruiser holding is216",
+      "result": "PASS"
+    },
+    {
+      "check": "alliance preview equals charge",
+      "result": "PASS"
+    },
+    {
+      "check": "alliance idempotence prevents doublecharge",
+      "result": "PASS"
+    }
+  ],
+  "count": 16,
+  "review_notes": [
+    "Mixed slow ships lower consumption through sqrt velocity ratio while extending flight time; expected fleet-speed tradeoff.",
+    "All public ship count and owner/target validation happens before fuel computation.",
+    "No extra return charge: one prepaid quote is used by both normal and alliance dispatch.",
+    "NPC branch retains old flight fuel and old timings.",
+    "Holding uses 0.1 coefficient/hour with racial/skill/research and one launch-building reduction."
+  ]
+}

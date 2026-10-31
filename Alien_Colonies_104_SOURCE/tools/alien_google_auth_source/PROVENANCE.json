@@ -1,0 +1,14 @@
+{
+  "input_aab": "Alien_Colonies_ANDROID_0.12.15_CODE_82.aab",
+  "input_aab_sha256": "a338704f6c77b6f8c8597e26d843580c339f7c28519ec82db802249813f4bb16",
+  "recovery_method": "Local Androguard 4.1.4 DAD decompilation and manual Java reconstruction, independently compared with DEX instruction dumps",
+  "original_source_text_available": false,
+  "gradle_source": "Reconstructed build setup, wrapper from official godot-google-play-billing upstream e494f370ee591fa11823ad2749a070ed1149de99",
+  "api_annotations": "Exact seven @UsedByGodot methods recovered from DEX",
+  "manifest": "Recovered original AAB merged activity and metadata",
+  "pure_java_tests": {
+    "assertions": 77,
+    "result": "pass"
+  },
+  "device_sign_in_test": "not_run"
+}

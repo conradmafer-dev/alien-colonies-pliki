@@ -1,0 +1,37 @@
+{
+  "deployment_id": "71595429-c67b-41ed-a665-80c6cc5d9e5e",
+  "status": "SUCCESS",
+  "commit": "b11eb3b1a2ad1de6db36de5ba282cabe6e9ade3d",
+  "pr": "https://github.com/conradmafer-dev/pogranicze-serwer/pull/16",
+  "messages": [
+    {
+      "timestamp": "2026-10-25T14:36:15.540920512Z",
+      "message": "Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ad20996e-0de3-421b-89f4-3be3d1f9bdbb/vol_p2wqy4w7ehnxow1l"
+    },
+    {
+      "timestamp": "2026-10-25T14:36:15.541244708Z",
+      "message": "Starting Container"
+    },
+    {
+      "timestamp": "2026-10-25T14:36:15.848586747Z",
+      "message": "Alien Colonies: trwaly zapis gotowy; uruchamiam wspolny wszechswiat (6 galaktyk)."
+    },
+    {
+      "timestamp": "2026-10-25T14:36:16.589514746Z",
+      "message": "Alien Colonies 0.12.32: verified pre-expansion backup: /data/reset-backups/before-galaxy-rings-01232-20261025T143616Z-79a1ff7c1237.sqlite3"
+    },
+    {
+      "timestamp": "2026-10-25T14:36:19.251549926Z",
+      "message": "Alien Colonies 0.12.32: additive galaxy expansion committed; systems=930; planets=2763; players=203; world_epoch=new-beginning-20261019"
+    },
+    {
+      "timestamp": "2026-10-25T14:36:19.251555546Z",
+      "message": "Android notifications: worker ready; return reminders after 24h, once per absencePogranicze 0.12.32: http://0.0.0.0:8080, tempo ×1"
+    },
+    {
+      "timestamp": "2026-10-25T14:36:19.251562056Z",
+      "message": ""
+    }
+  ]
+}
+

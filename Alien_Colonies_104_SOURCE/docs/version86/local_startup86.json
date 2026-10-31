@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "checked_at_utc": "2026-10-20T22:23:54.601752+00:00",
+  "scope": "Actual start_web.py launcher, localhost HTTP, disposable SQLite database; no production data or network service used",
+  "manifest_version": "0.12.19",
+  "manifest_sha256": "ed4a357721baa8415c833115eeab8c85fc494e5461bcbe4a1c4d2e909f2ebdc0",
+  "source_app_sha256": "86c3e8bdb0852e769fba8d98f5d61c80980f6ae65a951fff239c0e78755f7111",
+  "seed_exit_code": 0,
+  "command": "python start_web.py --local-data=<disposable directory> --port=<free localhost port>",
+  "health": {
+    "status": 200,
+    "json": {
+      "ok": true,
+      "version": "0.12.19",
+      "world_epoch": "new-beginning-20261019"
+    }
+  },
+  "startup_seconds": 0.762,
+  "play": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 11943,
+    "sha256": "341d5a411c5af32c2939eec1e88b2aa59186c2e42d9111d4889f111e020e5c0d",
+    "html_document": true
+  },
+  "shutdown_exit_code": 0,
+  "child_stopped": true,
+  "startup_log": "Alien Colonies: trwaly zapis gotowy; uruchamiam wspolny wszechswiat (6 galaktyk).\nPogranicze 0.12.19: http://127.0.0.1:44303, tempo ×1\n",
+  "synthetic_world_preserved": true,
+  "synthetic_accounts": 1,
+  "database_quick_check": "ok",
+  "checks": {
+    "health200": true,
+    "version86": true,
+    "health_ok": true,
+    "epoch_preserved": true,
+    "play200_html": true,
+    "world_preserved": true,
+    "clean_shutdown": true
+  },
+  "temporary_database_removed": true
+}

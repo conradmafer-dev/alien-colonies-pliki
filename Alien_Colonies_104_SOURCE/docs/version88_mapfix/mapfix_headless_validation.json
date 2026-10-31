@@ -1,0 +1,50 @@
+{
+  "result": "PASS",
+  "runtime": "Godot 4.5.1 stable, offline full client tree",
+  "comparison": {
+    "checks": 51,
+    "failures": 0,
+    "report": "galaxy_zoom_comparison_headless.json",
+    "log": "galaxy_zoom_headless.log"
+  },
+  "rendered_comparison": {
+    "checks": 55,
+    "failures": 0,
+    "report": "galaxy_zoom_comparison_rendered.json",
+    "includes_four_screenshot_save_checks": true
+  },
+  "destination_navigation": {
+    "checks": 282,
+    "failures": 0,
+    "report": "fleet_destination_mapfix_headless.json"
+  },
+  "scope": [
+    "Actual bottom Galaxy navigation versus mission destination picker",
+    "Fresh client opens picker before visiting Galaxy",
+    "Complete server-authored 60-system ring fixture: 30/20/10",
+    "Home centering, visible neighbors, actual pixel distances and relative positions",
+    "EN/PL navigation at 720x1280, 720x1600, 450x800 logical scaling",
+    "Android Back callback and injected Escape, focused controls and open choosers"
+  ],
+  "commands": [
+    "XDG_DATA_HOME=/workspace/scratch/3033034b6708/godot88_zoom_test_data /workspace/scratch/785979929548/recovery_tools/godot451/Godot_v4.5.1-stable_linux.x86_64 --headless --log-file /workspace/scratch/3033034b6708/galaxy_zoom88_comparison.log --path /workspace/scratch/3033034b6708/Alien_Colonies_88_SOURCE res://tests/galaxy_zoom88_comparison.tscn",
+    "XDG_DATA_HOME=/workspace/scratch/3033034b6708/godot88_fleet_test_data /workspace/scratch/785979929548/recovery_tools/godot451/Godot_v4.5.1-stable_linux.x86_64 --headless --log-file /workspace/scratch/3033034b6708/fleet_destination88_mapfix.log --path /workspace/scratch/3033034b6708/Alien_Colonies_88_SOURCE res://tests/fleet_destination88_test.tscn"
+  ],
+  "source_sha256": {
+    "client/scripts/compact_ui.gd": "7f52afa51d97aa875c8635d76e80eb02da2aca6c923491e87b7d135235c47db9",
+    "client/scripts/galaxy_map.gd": "74f644ee26c6822a6ca0b7ca5f72b5c5e62b26fbcd7d480f90fe58b1d2fa796a",
+    "client/scripts/fleet_navigation.gd": "dfec575ca7751ae684b4a7d4ad7d69ea3028dda1ce31b70628ae0fb55e190bd4",
+    "client/scripts/main.gd": "98f3a3b3d0fb6b30d52566ceadf77ec8490c6fefc2d6261ff78563afcd4378f1",
+    "tests/galaxy_zoom88_comparison.gd": "4dcc97d366523bd608e1b79e61b960705feffc101d5ee7e96d879ffb59e65464",
+    "tests/fleet_destination88_test.gd": "2ad321cf273a28fbc549f7ffab2e0a7082d7e7ca1056c763ccbaa39a00f268ae",
+    "tests/fixtures/galaxy_zoom88_systems.json": "cd4200c17d2eb68984c69bee875309077c968e47a2df156fad6fbe1f8deee494"
+  },
+  "historical_evidence": [
+    "galaxy_zoom_before_layout_fix.json",
+    "galaxy_layout_diagnostic_before_fix.json"
+  ],
+  "limitations": [
+    "Desktop Godot runtime, not a physical Android device",
+    "No server or production-account data is used"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "callback_ms": [
+    0.329
+  ],
+  "checks": 22,
+  "failed": [],
+  "payload_bytes": 536359,
+  "result": "PASS",
+  "scope": "Actual compiled Android controller; offline UI and synthetic large snapshots, no production account requests"
+}

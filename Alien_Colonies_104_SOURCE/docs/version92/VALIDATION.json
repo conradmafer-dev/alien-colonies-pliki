@@ -1,0 +1,50 @@
+{
+  "ranking_server_tests": 14,
+  "adjacent_server_tests": 82,
+  "native_ui_checks": 362,
+  "native_ui_locales": [
+    "pl",
+    "en",
+    "de",
+    "es",
+    "fr"
+  ],
+  "native_ui_viewports": [
+    [
+      360,
+      640
+    ],
+    [
+      450,
+      800
+    ],
+    [
+      720,
+      1600
+    ]
+  ],
+  "real_browser_viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      450,
+      800
+    ],
+    [
+      1440,
+      1000
+    ]
+  ],
+  "legacy_web_suite": {
+    "tests": 71,
+    "passed": 62,
+    "failed": 9,
+    "comparison": "The same nine failures reproduce with the unmodified shipped game.js: stale isolated DOM/auth/queue fixtures, missing route fixture configuration and old three-column research expectations. Ranking renderer tests and actual current browser flows pass."
+  },
+  "production_image_manifest_check": "PASS",
+  "physical_android_tested": false,
+  "firebase_delivery_tested": false,
+  "signed_on_user_machine_only": true
+}

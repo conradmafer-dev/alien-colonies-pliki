@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://backend/tests/test_fleet_navigation_0114.gd" id="1"]
+
+[node name="FleetNavigation87OfflineTests" type="Node"]
+script = ExtResource("1")

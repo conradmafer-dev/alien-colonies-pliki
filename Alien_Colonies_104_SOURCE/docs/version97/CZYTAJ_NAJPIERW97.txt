@@ -1,0 +1,30 @@
+ALIEN COLONIES 97 / 0.12.30 - UKLAD NAZW RAS W RANKINGU
+
+Nazwy ras sa pod liczba punktow, po prawej stronie. Oba napisy sa
+wyrownane do prawej. Nazwy ras mieszcza sie w jednej linii i zachowuja
+kolory rasy. Dlugie nazwy imperiow sa skrocone wizualnie, aby pozostawic
+miejsce punktom i rasie. Dane graczy nie sa zmieniane. Wiersze sa zwarte.
+Przycisk My position nadal wskazuje poprawny wiersz.
+
+Zawiera wszystkie poprawki96, w tym naprawe awarii startu i delikatnie
+pulsujacy napis Checking for updates bez poczatkowego paska0 procent.
+
+1. Wypakuj ZIP obok NIEPODPISANEGO AAB96.
+2. Uruchom 01_AKTUALIZUJ_AAB_97.cmd i wybierz ten AAB.
+3. Uruchom PODPISZ_AAB_97.cmd i uzyj dotychczasowego klucza priest_runner.
+4. Opublikuj Alien_Colonies_ANDROID_0.12.30_CODE_97.aab w Google Play.
+Dla AAB91-95 przeznaczona jest pelna paczka AAB_Z_91_92_93_94_95_96.
+Wymagane Java JDK17+ (np. z Android Studio). Oryginalne pliki pozostaja.
+To paczki dla autora do przygotowania AAB; graczy aktualizuje Google Play,
+ktory ustala wielkosc pobierania na telefon. ZIP nie aktualizuje kodu gry.
+
+ZRODLA: 02_AKTUALIZUJ_ZRODLA_97.cmd odtwarza kompletny nowy folder97
+z pelnych zrodel91-96 (ZIP lub folder). Kazdy plik jest sprawdzany SHA256.
+Baza96: https://drive.google.com/drive/folders/1ev9LeJlIqDO4-zVHsnSY-a6ea0VEmotd
+Baza91: https://drive.google.com/drive/folders/1q8YV2KdaXFURkETbO4ibnnA0lGhPsA2X
+
+Walidacja:1002 sprawdzenia rzeczywistego rankingu w5 jezykach i4 rozmiarach,
+w tym3 rasy, dlugie nazwy imperiow, duze wyniki, jedna linia nazwy rasy,
+wyrownanie pod punktami i widocznosc prawej kolumny.15 sprawdzen startu
+przez rzeczywisty indeks Androida. Wszystkie638 rekordow indeksu zgodne.
+AAB sprawdzony przez bundletool. Bez testu na fizycznym Androidzie.

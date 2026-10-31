@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "roundtrip_stream_bytes": 330611092,
+  "roundtrip_stream_sha256": "aed2d655ca51d5ec575764d8909a99bcea1dba90c34b8f8bed469aaa0f17a7bb",
+  "all_part_sha256_checked": true,
+  "full_duplicate_created_for_verification": false,
+  "windows_joiner_executed": false
+}

@@ -1,0 +1,46 @@
+{
+  "result": "PASS",
+  "version_code": 91,
+  "version_name": "0.12.24",
+  "package": "com.conradmafer.aliencolonies",
+  "size": 331378735,
+  "sha256": "3d6f017c65d116c65bd478b92f3f0fb08259354c60d973bc767b2b5c314a1ba3",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "arm64_libraries": [
+    {
+      "name": "base/lib/arm64-v8a/libc++_shared.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "base/lib/arm64-v8a/libdatastore_shared_counter.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "base/lib/arm64-v8a/libgodot_android.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    }
+  ],
+  "bundle_alignment": "PAGE_ALIGNMENT_16K",
+  "notifications_permission_and_service": true,
+  "unsigned": true,
+  "physical_android_delivery_test": false
+}

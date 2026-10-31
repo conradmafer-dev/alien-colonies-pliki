@@ -1,0 +1,41 @@
+ALIEN COLONIES 96 / 0.12.29 - NAPRAWA WYLOCZENIA PO AKTUALIZACJI
+
+Przyczyna95: po wymianie skryptow i tlumaczen w AAB pozostal stary indeks
+assets.sparsepck. Android korzysta z zapisanych w nim dlugosci plikow.
+12 wpisow nie odpowiadalo zasobom; skrypty byly odczytywane jako uciete.
+Blad zostal odtworzony w Godot4.5.1: blad dekompresji i awaria SIGSEGV11.
+Sama poprawa indeksu w95 usuwa awarie. W96 wszystkie638 wpisow indeksu
+sa zgodne z zasobami (dlugosci i MD5), a rzeczywisty start przez ten indeks
+przechodzi do logowania. Dodano kontrole indeksu takze w podpisywaczu.
+
+Podczas sprawdzania widoczne sa tylko Alien Colonies i lokalizowany tekst
+Checking for updates z delikatnym pulsowaniem. Pasek pojawia sie dopiero
+przy pobieraniu.
+
+96 zawiera wszystkie poprawki95: tlumaczenia, limit3s na sprawdzanie,
+pobieranie aktualizacji i wszystkie zmiany94/93, w tym piec gwiazdek.
+
+1. Wypakuj ZIP obok poprzedniego NIEPODPISANEGO AAB95.
+2. Uruchom 01_AKTUALIZUJ_AAB_96.cmd i wybierz AAB95.
+3. Uruchom PODPISZ_AAB_96.cmd i wybierz dotychczasowy klucz priest_runner.
+4. Do Google Play przeslij Alien_Colonies_ANDROID_0.12.29_CODE_96.aab.
+Jesli masz starszy AAB91/92/93/94, uzyj pelnej paczki AAB_Z_91_92_93_94_95.
+Wymagane Java JDK17+ (np. z Android Studio). Oryginalne pliki pozostaja.
+
+Gdy95 sie nie uruchamia, po publikacji96 otworz Google Play na telefonie
+i uzyj przycisku Aktualizuj. W96 nadal dziala aktualizacja z okna gry.
+Male paczki Windows sa dla autora do przygotowania AAB. Rozmiar pobierania
+dla graczy ustala Google Play. ZIP nie jest aktualizatorem kodu na telefon.
+
+ZRODLA: 02_AKTUALIZUJ_ZRODLA_96.cmd tworzy nowy kompletny folder96
+z pelnych zrodel91-95 (ZIP lub folder). Kazdy plik jest sprawdzany SHA256.
+Baza91: https://drive.google.com/drive/folders/1q8YV2KdaXFURkETbO4ibnnA0lGhPsA2X
+Baza95: https://drive.google.com/drive/folders/1IUL9S_6XByK7rDXQFKZdiRvYQl7k4Smj
+W razie pracy na wersji95 pobierz3 czesci zrodel i polacz je oryginalnym pomocnikiem95.
+
+Walidacja96: odtworzenie oryginalnej awarii95, uruchomienie poprawki przez
+prawdziwy indeks Androida,638 zgodnych rekordow zasobow,15 sprawdzen startu
+(do logowania i poprawionego okna oceny),29 sprawdzen szybkiego startu,
+widocznosci paska i pulsowania tekstu,900 tekstow klienta w5 jezykach,
+kontrola AAB przez bundletool. Bez testu na fizycznym Androidzie i bez
+instalacji przez Play Store w tym srodowisku.

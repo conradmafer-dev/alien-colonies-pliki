@@ -1,0 +1,15 @@
+Alien Colonies: pelne zrodla Android 90 / 0.12.23
+
+Baza: pelne zrodla 88 MAPA. To pelny projekt, nie latka.
+Glowne zmiany opisano w docs/version90/ANDROID90_NOTIFICATIONS.md.
+Raporty testow sa w tests/galaxy90_centering_report.json i tests/report_notifications90_report.json.
+Projekt zawiera gotowe AAR powiadomien i ich pelne zrodla w tools/android_push_source.
+
+Budowanie: Godot 4.5.1, JDK17, Android SDK36, Gradle8.11.1.
+Zainstaluj Android build template z Godota, a nastepnie uruchom tools/configure_android_build.py.
+W razie przebudowy wtyczki: w tools/android_push_source uruchom gradlew :push:assembleRelease
+i skopiuj push/build/outputs/aar/push-release.aar do addons/AlienNotifications/bin/release/AlienNotifications-release.aar.
+Eksport: preset Google Play AAB, kod90, wersja0.12.23. Podpisz swoim dotychczasowym kluczem.
+
+Brak kluczy prywatnych i Firebase service account w zrodlach. Powiadomienia przy zamknietej grze
+pozostaja nieaktywne do uzupelnienia konfiguracji serwera opisanej w dokumentacji.

@@ -1,0 +1,71 @@
+{
+  "scope": "Independent review of v85 storage, energy, fields and planned/offline progression",
+  "reviewed_files": [
+    "backend/economy85.py",
+    "backend/app.py",
+    "backend/planetary.py",
+    "backend/planned_queues.py",
+    "backend/races.py"
+  ],
+  "findings": [
+    {
+      "id": "vault_growth_deadlock",
+      "severity": "medium",
+      "status": "Fixed by production agent; independent follow-up code review confirms capacity floor and matching catalog current/next values.",
+      "reason": "Vault cost grows by 2 per level; storage grows by exp(20/33), so eventually the next vault upgrade cannot be mined into its own warehouse.",
+      "examples": [
+        {
+          "race": "automatons",
+          "current_level": 22,
+          "next_level": 23,
+          "capacity": 7717970000,
+          "limiting_resource": "metal",
+          "next_cost": 7759462400
+        },
+        {
+          "race": "zetans",
+          "current_level": 24,
+          "next_level": 25,
+          "capacity": 25937050000,
+          "limiting_resource": "crystal",
+          "next_cost": 26004684800
+        },
+        {
+          "race": "symbionts",
+          "current_level": 29,
+          "next_level": 30,
+          "capacity": 536987950000,
+          "limiting_resource": "metal",
+          "next_cost": 563714457600
+        }
+      ],
+      "suggestion": "Keep prices, add a storage floor sufficient for the next vault upgrade, bounded by existing MAX_RESOURCE. Legal overflow delivery already bypasses the mining cap."
+    },
+    {
+      "id": "historical_pending_timing",
+      "severity": "low",
+      "status": "Fixed: exact v84 timing before economy85_from; v85 timing after epoch. Real v84 pending snapshot replay: 31/31 checks passed.",
+      "reason": "Offline replay before economy85_from starts previously pending/unpaid jobs with v85 timing. Already paid/running jobs keep exact duration and completion timestamps.",
+      "suggestion": "Explicitly accept applying new timing to all pending jobs, or preserve pre-epoch timing during offline replay."
+    }
+  ],
+  "verified_by_review": [
+    "Basic laboratory level 2 and all first vault costs fit in the initial 10000 per-resource warehouse, so no first-vault circular dependency.",
+    "Production caps each resource separately; pre-existing, delivered and refunded stock above cap is preserved and remains spendable.",
+    "Per-resource production resumes when spending lowers stock below capacity.",
+    "Planned batch cost is checked as a full batch; impossible mining forecast creates no wake-up spin.",
+    "Blocked pending order can be reordered/removed; pending lane does not prevent a manually started warehouse upgrade.",
+    "Mining and affordability forecasting use historical energy/storage rules before economy85_from and split at migration epochs.",
+    "Field migration triples once, marks each planet, and never lowers total fields below existing levels plus paid queue reservations.",
+    "Existing building levels, running queue timestamps, research and fleets are not overwritten by the fields migration.",
+    "Khar NPC retains pre85 energy and resource production rules.",
+    "New energy formula preserves racial ratios, research reductions, rare-planet power bonus and Dyson supply."
+  ],
+  "checks": {
+    "compileall_entire_backend": "PASS",
+    "new_migration_tests": "Not duplicated: production agent owns actual84 snapshot migration validation",
+    "historical_pending_integration": "PASS: 31/31 checks; 3 races, 9 paid projects, 45 unpaid plans, 3600s offline; source84 comparison and post-epoch transition.",
+    "focused_timing_tests": "PASS: 12 tests"
+  },
+  "reviewer_mutations": "Historical timing branch added to app._project_timing and ogame_economy.project_timing after root authorization. All other storage/energy changes owned by production agent."
+}

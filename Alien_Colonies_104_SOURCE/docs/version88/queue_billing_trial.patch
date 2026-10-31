@@ -1,0 +1,189 @@
+--- a/client/scripts/queue_billing.gd
++++ b/client/scripts/queue_billing.gd
+@@ -3,17 +3,24 @@
+ ## of queue privileges. Purchase tokens are kept in memory and never logged.
+ 
+ signal changed
++## Reports only the trial checkout launch, not a granted subscription.
++signal trial_purchase_result(status: String, message: String)
+ 
+ const PlayBilling = preload("res://addons/GodotGooglePlayBilling/BillingClient.gd")
+ const Offer = preload("res://client/scripts/queue_subscription_offer.gd")
+ const PRODUCT_ID: String = "queue_planner"
+ const BASE_PLAN_ID: String = "weekly"
+ const PACKAGE_NAME: String = "com.conradmafer.aliencolonies"
++const TRIAL_REFRESH_TIMEOUT: float = 20.0
+ 
+ var host: Node
+ var _billing: Node
+ var _verification: HTTPRequest
+ var _retry_timer: Timer
++var _trial_refresh_timer: Timer
++var _trial_purchase_pending: bool = false
++var _trial_purchase_epoch: int = -1
++var _trial_purchase_session: String = ""
+ var _price: String = ""
+ var _trial_price: String = ""
+ var _offer_id: String = ""
+@@ -50,6 +57,11 @@
+ 	_retry_timer.wait_time = 20.0
+ 	add_child(_retry_timer)
+ 	_retry_timer.timeout.connect(_retry)
++	_trial_refresh_timer = Timer.new()
++	_trial_refresh_timer.one_shot = true
++	_trial_refresh_timer.wait_time = TRIAL_REFRESH_TIMEOUT
++	add_child(_trial_refresh_timer)
++	_trial_refresh_timer.timeout.connect(_on_trial_refresh_timeout)
+ 	if not OS.has_feature("android") or not Engine.has_singleton("GodotGooglePlayBilling"):
+ 		_status = "Subskrypcję możesz kupić w aplikacji z Google Play."
+ 		return
+@@ -66,7 +78,7 @@
+ 
+ 
+ func is_available() -> bool:
+-	return _billing != null and _billing.is_ready() and _offer_ready and _provider_ready and _weekly_supported and not _premium_active and not _account_id.is_empty() and not _player_id.is_empty() and not _purchase_busy and not _verification_busy
++	return _billing != null and _billing.is_ready() and _offer_ready and _provider_ready and _weekly_supported and not _premium_active and not _account_id.is_empty() and not _player_id.is_empty() and not _purchase_busy and not _verification_busy and not _trial_purchase_pending
+ 
+ 
+ func formatted_price() -> String:
+@@ -116,6 +128,8 @@
+ 	var plans: Variant = premium.get("supported_base_plan_ids", [])
+ 	_weekly_supported = plans is Array and BASE_PLAN_ID in plans
+ 	_premium_active = bool(premium.get("queue_planning_active", false))
++	if _trial_purchase_pending and (not _provider_ready or not _weekly_supported or _premium_active):
++		_finish_trial_refresh("unavailable", "Oferta 7 dni za darmo nie jest już dostępna.")
+ 	if _billing != null:
+ 		_billing.set_obfuscated_account_id(_account_id)
+ 		if changed_account and not _player_id.is_empty() and _billing.is_ready():
+@@ -154,6 +168,7 @@
+ 		_verification.cancel_request()
+ 	if _retry_timer != null:
+ 		_retry_timer.stop()
++	cancel_trial_subscription_purchase()
+ 
+ 
+ func purchase_subscription() -> void:
+@@ -177,6 +192,91 @@
+ 		changed.emit()
+ 
+ 
++func is_trial_purchase_pending() -> bool:
++	return _trial_purchase_pending
++
++
++func purchase_trial_subscription() -> void:
++	# This entry point belongs to the seven-day CTA only. The regular
++	# subscription screen keeps its existing purchase_subscription() behavior.
++	if _trial_purchase_pending:
++		return
++	if not is_available() or not has_trial_offer() or not is_instance_valid(host) or str(host.session_token).is_empty():
++		_status = "Oferta 7 dni za darmo nie jest już dostępna."
++		trial_purchase_result.emit("unavailable", I18n.t(_status))
++		changed.emit()
++		return
++	_trial_purchase_pending = true
++	_trial_purchase_epoch = _offer_epoch
++	_trial_purchase_session = str(host.session_token)
++	_purchase_busy = true
++	_status = "Wczytywanie ceny z Google Play…"
++	_trial_refresh_timer.start()
++	# This always clears the cached offer. If an earlier query is outstanding,
++	# its response is drained first and a fresh query is then issued in order.
++	_request_product_details()
++	changed.emit()
++
++
++func cancel_trial_subscription_purchase() -> void:
++	# Cancels only the outstanding refresh. An already opened Google Play
++	# purchase sheet is owned by Play and uses the normal purchase callbacks.
++	_finish_trial_refresh("cancelled", "")
++
++
++func _finish_trial_refresh(outcome: String, message: String, launched: bool = false) -> void:
++	if not _trial_purchase_pending:
++		return
++	_trial_purchase_pending = false
++	_trial_purchase_epoch = -1
++	_trial_purchase_session = ""
++	_purchase_busy = launched
++	if _trial_refresh_timer != null:
++		_trial_refresh_timer.stop()
++	if not message.is_empty():
++		_status = message
++	trial_purchase_result.emit(outcome, I18n.t(message))
++	changed.emit()
++
++
++func _on_trial_refresh_timeout() -> void:
++	if not _trial_purchase_pending:
++		return
++	_clear_offer()
++	# Do not reset _details_in_flight: native replies have no request ID.
++	# A late reply must be drained, never mistaken for a later checkout query.
++	_finish_trial_refresh("error", "Nie udało się odświeżyć oferty. Spróbuj ponownie.")
++
++
++func _complete_trial_refresh(response: Dictionary) -> void:
++	if not _trial_purchase_pending:
++		return
++	if _trial_purchase_epoch != _offer_epoch or not is_instance_valid(host) or _trial_purchase_session != str(host.session_token) or _player_id.is_empty() or _account_id.is_empty():
++		_finish_trial_refresh("cancelled", "")
++		return
++	if not _provider_ready or not _weekly_supported or _premium_active or _verification_busy:
++		_finish_trial_refresh("unavailable", "Oferta 7 dni za darmo nie jest już dostępna.")
++		return
++	if int(response.get("response_code", -1)) != PlayBilling.BillingResponseCode.OK or _billing == null or not _billing.is_ready():
++		_finish_trial_refresh("error", "Nie udało się odświeżyć oferty. Spróbuj ponownie.")
++		return
++	if not has_trial_offer() or _offer_id != Offer.TRIAL_OFFER_ID:
++		# Offer.select may return the paid base plan. It is never a fallback
++		# for this CTA, even when an earlier query did contain a valid trial.
++		_finish_trial_refresh("unavailable", "Oferta 7 dni za darmo nie jest już dostępna.")
++		return
++	_billing.set_obfuscated_account_id(_account_id)
++	var result: Dictionary = _billing.purchase_subscription(PRODUCT_ID, BASE_PLAN_ID, Offer.TRIAL_OFFER_ID, false)
++	var code: int = int(result.get("response_code", PlayBilling.BillingResponseCode.ERROR))
++	if code == PlayBilling.BillingResponseCode.OK:
++		_finish_trial_refresh("started", "Otwieranie płatności Google Play…", true)
++	elif code == PlayBilling.BillingResponseCode.ITEM_ALREADY_OWNED:
++		_finish_trial_refresh("unavailable", "Oferta 7 dni za darmo nie jest już dostępna.")
++		restore_purchases()
++	else:
++		_finish_trial_refresh("error", "Nie udało się otworzyć płatności Google Play. Spróbuj ponownie.")
++
++
+ func restore_purchases() -> void:
+ 	# Restore also polls the authoritative server, including on non-Android.
+ 	_verified_tokens.clear()
+@@ -218,6 +318,7 @@
+ 	_clear_offer()
+ 	_purchase_busy = false
+ 	_status = "Brak połączenia z Google Play. Spróbuj ponownie."
++	_finish_trial_refresh("error", _status)
+ 	_retry_timer.start()
+ 	changed.emit()
+ 
+@@ -258,6 +359,7 @@
+ 		changed.emit()
+ 		return
+ 	if not was_current or _player_id.is_empty() or _account_id.is_empty():
++		cancel_trial_subscription_purchase()
+ 		changed.emit()
+ 		return
+ 	if int(response.get("response_code", -1)) == PlayBilling.BillingResponseCode.OK:
+@@ -268,6 +370,7 @@
+ 		_has_trial = bool(selected.get("trial", false))
+ 		_offer_ready = not selected.is_empty()
+ 	_status = "" if _offer_ready else "Subskrypcja nie jest jeszcze dostępna w Google Play."
++	_complete_trial_refresh(response)
+ 	changed.emit()
+ 
+ 
+@@ -302,6 +405,7 @@
+ 		if PRODUCT_ID not in ids:
+ 			continue
+ 		found = true
++		_finish_trial_refresh("unavailable", "Oferta 7 dni za darmo nie jest już dostępna.")
+ 		if int(purchase.get("purchase_state", 0)) != PlayBilling.PurchaseState.PURCHASED:
+ 			_status = "Płatność oczekuje na zakończenie. Kolejki nie zostały odblokowane."
+ 			continue

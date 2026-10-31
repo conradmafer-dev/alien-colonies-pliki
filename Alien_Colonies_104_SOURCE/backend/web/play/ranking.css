@@ -1,0 +1,17 @@
+.ranking-own{position:sticky;top:0;z-index:3;border-color:var(--accent,#edc77a);background:var(--panel,#151515)}
+.ranking-own h2{margin:0 0 .5rem;font-size:1.2rem}.ranking-own p{margin:0;overflow-wrap:anywhere}
+.ranking-toolbar{display:flex;align-items:end;gap:12px;flex-wrap:wrap}.ranking-toolbar label{flex:1;min-width:160px}.ranking-toolbar select{display:block;width:100%;margin-top:6px;min-height:44px}
+.ranking-table{width:100%;table-layout:fixed;border-collapse:collapse;font-variant-numeric:tabular-nums}.ranking-table th,.ranking-table td{padding:14px 8px;border-bottom:1px solid #303030;text-align:left;overflow-wrap:anywhere}.ranking-table th:first-child,.ranking-table td:first-child{width:55px}.ranking-table th:last-child,.ranking-table td:last-child{width:120px;text-align:right}.ranking-table tbody th{font-weight:500}.ranking-self{background:#263322;outline:1px solid #bda15f;outline-offset:-1px}.ranking-self th{font-weight:700!important}
+.ranking-pagination{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:18px;flex-wrap:wrap}.ranking-pagination>span{font-variant-numeric:tabular-nums}.ranking-pagination button{min-height:44px;min-width:44px}
+@media(max-width:480px){.ranking-table th,.ranking-table td{padding:12px 5px}.ranking-table th:first-child,.ranking-table td:first-child{width:36px}.ranking-table th:last-child,.ranking-table td:last-child{width:85px}.ranking-pagination{gap:6px}.ranking-pagination .button{padding:10px}.ranking-own{padding:14px}}
+
+.ranking-race{display:inline-block;margin-left:.65em;font-size:.85em;font-weight:500;white-space:nowrap}
+.ranking-race--zetans{color:#72b8f4}.ranking-race--automatons{color:#f18c85}.ranking-race--symbionts{color:#99d886}
+.ranking-reward{position:relative;padding:10px 14px;margin:-8px 0 14px;border:1px solid #675735;border-radius:12px;background:var(--panel,#151515);font-size:clamp(.7rem,2.8vw,.92rem);font-variant-numeric:tabular-nums}
+.ranking-reward-line{display:flex;align-items:center;gap:8px;min-width:0;min-height:28px;white-space:nowrap}
+.ranking-reward-line strong{font-size:inherit;font-weight:600;min-width:0}.ranking-reward-crystal{width:28px!important;height:28px!important;object-fit:contain;flex:none}
+.ranking-reward-line progress{width:76px;height:8px;flex:none;accent-color:#d5b66d}.ranking-reward-help{margin-left:auto;flex:none}
+.ranking-reward-help summary{display:grid;place-items:center;width:30px;height:30px;border:1px solid #675735;border-radius:50%;cursor:pointer;list-style:none}.ranking-reward-help summary::-webkit-details-marker{display:none}
+.ranking-reward-rules{position:absolute;right:0;top:42px;width:min(370px,calc(100vw - 48px));padding:16px;border:1px solid #897245;border-radius:12px;background:#142018;box-shadow:0 8px 30px #0009;white-space:normal;font-size:.9rem;line-height:1.5;z-index:6}
+.ranking-reward-rules p{white-space:pre-line}
+@media(max-width:360px){.ranking-reward{padding:8px}.ranking-reward-line{gap:5px}.ranking-reward-line progress{width:54px}.ranking-reward-crystal{width:24px!important;height:24px!important}}

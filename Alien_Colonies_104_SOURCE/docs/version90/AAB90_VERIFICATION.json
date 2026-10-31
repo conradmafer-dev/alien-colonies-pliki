@@ -1,0 +1,80 @@
+{
+  "version_code": 90,
+  "version_name": "0.12.23",
+  "package": "com.conradmafer.aliencolonies",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "bytes": 332347816,
+  "sha256": "76dcc5dd09f4b1e3cde7f0854c8879b3ca671076e091d5693a74c1128d02d198",
+  "libraries": [
+    {
+      "path": "base/lib/arm64-v8a/libc++_shared.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libdatastore_shared_counter.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libgodot_android.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "path": "base/lib/armeabi-v7a/libc++_shared.so",
+      "load_alignments": [
+        4096,
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "base/lib/armeabi-v7a/libdatastore_shared_counter.so",
+      "load_alignments": [
+        16384,
+        16384
+      ]
+    },
+    {
+      "path": "base/lib/armeabi-v7a/libgodot_android.so",
+      "load_alignments": [
+        4096,
+        4096,
+        4096,
+        4096
+      ]
+    }
+  ],
+  "unsigned": true,
+  "bundletool_validate": "PASS",
+  "notifications_permission": true,
+  "native_ui_test": {
+    "checks": 113,
+    "failures": 0
+  },
+  "notification_bridge_test": {
+    "checks": 7,
+    "failures": 0
+  },
+  "ci_run": "https://github.com/conradmafer-dev/pogranicze-serwer/actions/runs/40024383564",
+  "background_delivery_test": "Not run: Firebase configuration and physical Android device required",
+  "bundle_native_page_alignment": "PAGE_ALIGNMENT_16K",
+  "server_commit": "45d67b91ba42d9cd080a7ddb43862aae21e0e299",
+  "server_deployment": "06f9e76c-d0d9-4ee1-b3dd-940b948d78a5",
+  "server_version": "0.12.23",
+  "firebase_configured": false
+}

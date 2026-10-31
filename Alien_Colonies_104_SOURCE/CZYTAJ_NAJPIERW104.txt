@@ -1,0 +1,12 @@
+ALIEN COLONIES 104 / 0.12.37 — PREMIE RANKINGOWE
+
+Kompletny projekt Godot: grafiki, dodatki Android, klient i zgodny backend.
+Zawiera rowniez baze ekspedycyjna, poprawki przyciskow, kolory flot i poslizg z wersji103 oraz liczniki admina48/72h.
+
+Premia za ranking ogolny: miejsce1 — 1 Krysztal Roju na3 doby; 2–3 — na5 dob; 4–10 — na7 dob; 11–30 — na14 dni.
+Postep jest zachowany przy zmianie pozycji i poza TOP30. Poza TOP30 naliczanie jest wstrzymane.
+Ranking pokazuje ikonke krysztalu, tempo, pasek, procent i czas do nagrody w dwoch krotkich liniach.
+Pelne krysztaly sa dopisywane automatycznie, takze za czas poza gra; otrzymujesz raport.
+
+W Godot wybierz Import i plik project.godot z tego folderu. Kod Android104, wersja0.12.37.
+Szczegoly: backend/docs/RANKING_REWARDS104.md. Wyniki: docs/validation104.json.

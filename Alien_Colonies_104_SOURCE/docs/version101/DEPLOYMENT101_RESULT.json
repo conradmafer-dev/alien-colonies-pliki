@@ -1,0 +1,50 @@
+{
+  "result": "PASS",
+  "version": "0.12.34",
+  "health": {
+    "ok": true,
+    "version": "0.12.34",
+    "world_epoch": "new-beginning-20261019"
+  },
+  "deployment_id": "f1979101-1b64-47ab-80db-52a287852c62",
+  "deployment_status": "SUCCESS",
+  "commit": "032b56ac42b98cd60b38e7f886a1448a159ceef4",
+  "pr": "https://github.com/conradmafer-dev/pogranicze-serwer/pull/21",
+  "public_files_read_back": [
+    {
+      "path": "/play/game.js",
+      "sha256": "94782af94275c0134e3384e39c32d9d9d2ce2e019a30254ef4504db29da53f0e",
+      "size": 155544
+    },
+    {
+      "path": "/play/galaxy-map.js",
+      "sha256": "d32839f21f6045df9f8a3ab130830e8149b5ad0689026dddfb4d6bec73e94439",
+      "size": 17275
+    },
+    {
+      "path": "/play/fleet-map-overlay.js",
+      "sha256": "deeebbe324796cfa8be7505d67931e881245148b574e5c7a47b7d3158f902aca",
+      "size": 5826
+    },
+    {
+      "path": "/play/fleet-motion.js",
+      "sha256": "f5dba8b6b45a27d76e21596bf6ff4de5f1330410cbc4f39101f1846b694eec22",
+      "size": 3551
+    },
+    {
+      "path": "/play/",
+      "sha256": "cda23b731652e0a5b4d55b0ea661549beabc30316c3e1adf1ab1262f5bca59b0",
+      "size": 12125
+    },
+    {
+      "path": "/play/release.json",
+      "sha256": "68c659596de4797c871e133285a2a3f815762218aeb46bbcfe4515e1d14309a0",
+      "size": 114527
+    }
+  ],
+  "web_manifest_files": 870,
+  "minimum_android_version_observed": 97,
+  "latest_android_version_observed": 100,
+  "android_policy_modified_by_this_patch": false,
+  "scope": "Production deployment and public bytes verified; no account cleanup or reset performed"
+}

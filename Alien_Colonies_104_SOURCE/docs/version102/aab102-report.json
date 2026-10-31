@@ -1,0 +1,17 @@
+{
+  "version_code": 102,
+  "version_name": "0.12.35",
+  "aab_sha": "1f84af91a3261683b0e3b30aff8a67359b07d61d7d916e694b23a3fd47523148",
+  "aab_size": 391213377,
+  "basis_sha": "2f2fdf674edf5c5cdf953ae729dc89323f92f4f460ed6b0bfd7d38ec69e0542d",
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/galaxy_map.gdc",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/client/scripts/mobile_quantity.gdc",
+    "assetPackInstallTime/assets/project.binary",
+    "assetPackInstallTime/assets/assets.sparsepck"
+  ],
+  "sparse_records_verified": 638,
+  "zip_crc": "PASS"
+}

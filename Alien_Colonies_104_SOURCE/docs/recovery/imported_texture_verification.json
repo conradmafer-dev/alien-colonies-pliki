@@ -1,0 +1,1882 @@
+{
+  "project": "/workspace/scratch/785979929548/Alien_Colonies_82_Recovery",
+  "textures": 234,
+  "summary": {
+    "exact_all_mip_pixels": 234
+  },
+  "base_level_exact_count": 234,
+  "rows": [
+    {
+      "source_path": "client/assets/alien_colonies_adaptive_foreground.png",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/alien_colonies_boot_splash.png",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/alien_colonies_icon.png",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/alien_colonies_portrait.png",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/building_crystal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/building_lab.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/building_metal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/building_power_plant.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/building_refinery.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/building_shipyard.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/colony_panorama.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/galaxies/aurora.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 11,
+      "regenerated_levels": 11,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/galaxies/eclipse.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 11,
+      "regenerated_levels": 11,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/galaxies/nexus.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 11,
+      "regenerated_levels": 11,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/galaxies/omega.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 11,
+      "regenerated_levels": 11,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/galaxies/void.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 11,
+      "regenerated_levels": 11,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/galaxies/zephyr.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 11,
+      "regenerated_levels": 11,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/planet_desert.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/planet_ice.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/planet_ocean.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/planet_volcanic.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/armored_vault.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/assembly_hub.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/battleship.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/colonizer.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/colony.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/composite_armor.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/cruiser.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/crystal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/dreadnought.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/flagship.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/freighter.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/frigate.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/interceptor.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/iron_bastion.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 10,
+      "regenerated_levels": 10,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/lab.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/magnetic_citadel.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/metal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/modular_cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/ore_processor.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/portrait.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/power_plant.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/recycling.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/refinery.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/scout.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/serial_forge.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/shipyard.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/siege.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/siege_algorithms.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/titan.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/weapon.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/wreck_recycler.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/battleship.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/brood_chamber.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/chitin_layers.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/colonizer.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/colony.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/corrosive_spores.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/cruiser.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/crystal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/dreadnought.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/flagship.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/freighter.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/frigate.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/interceptor.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/lab.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/living_vault.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/metabolic_drive.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/metal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/multiplication.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/nutrient_reservoir.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/pioneer_nursery.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/portrait.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/power_plant.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/refinery.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/renewal_grove.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/rooted_spore.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 10,
+      "regenerated_levels": 10,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/scout.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/shipyard.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/siege.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/titan.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/weapon.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/world_root.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/antigravity.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/battleship.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/coherent_plasma.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/colonizer.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/colony.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/cruiser.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/crystal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/dreadnought.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/echo_observatory.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/flagship.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/folding_cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/freighter.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/frigate.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/gravitic_logistics.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/interceptor.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/lab.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/metal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/phase_hulls.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/phase_matrix.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/phase_sentinel.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 10,
+      "regenerated_levels": 10,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/phase_vault.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/portrait.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/power_plant.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/quantum_foundry.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/refinery.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/scout.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/shipyard.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/siege.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/synapse_archive.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/titan.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/weapon.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/antigravity.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/brood_sovereignty.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/capital_shipbuilding.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/capital_weapons.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/chitin_layers.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/coherent_plasma.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/composite_armor.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/computing.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/corrosive_spores.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/dyson_design.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/energy_technology.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/folding_cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/fusion_power.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/graviton_control.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/hyperspace.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/megastructures.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/metabolic_drive.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/modular_cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/multiplication.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/nanotechnology.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/orbital_engineering.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/phase_hulls.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/propulsion.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/psionic_command.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/recycling.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/robotics.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/siege_algorithms.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/siege_autonomy.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/spacetime_stability.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/stellar_collectors.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/stellar_engineering.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/superconductors.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/titan_core.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/weapons.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/research/wormhole_theory.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/ship_cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/ship_colonizer.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/ship_cruiser.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/ship_frigate.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/ship_scout.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/acid_spire.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 10,
+      "regenerated_levels": 10,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/cargo.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/colonizer.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/colony.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/cruiser.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/crystal.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/crystal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/frigate.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/lab.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/metal_mine.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/planet.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/portrait.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/power_plant.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/raid.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/refinery.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/scout.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/shipyard.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/swarm/weapon.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_amethyst.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_coral.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_crater.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_desert.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_ice.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_jungle.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_obsidian.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_ocean.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_rust.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_storm.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_twilight.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/colony_volcanic.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_amethyst.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_coral.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_crater.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_desert.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_ice.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_jungle.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_obsidian.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_ocean.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_rust.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_storm.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_twilight.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/worlds/planet_volcanic.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/icon.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/icon_background.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/icon_foreground.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/login_planetary_system.png",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/cargo.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/chat.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/colonizer.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/cruiser.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/crystal.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/crystal_mine.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/energy.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/fleet.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/frigate.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/fuel.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/galaxy.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/lab.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/metal.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/metal_mine.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/planet.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/power_plant.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/propulsion.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/refinery.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/reports.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/research.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/scout.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/settings.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/shield.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/shipyard.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/time.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/ui/weapons.svg",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/world/galaxy_ellipse_032.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/megastructure_dyson.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/megastructure_wormhole.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/art/premium_queue_banner.webp",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    },
+    {
+      "source_path": "client/assets/google_signin_g.png",
+      "status": "exact_all_mip_pixels",
+      "original_levels": 1,
+      "regenerated_levels": 1,
+      "base_level_equal": true,
+      "different_levels": []
+    }
+  ]
+}

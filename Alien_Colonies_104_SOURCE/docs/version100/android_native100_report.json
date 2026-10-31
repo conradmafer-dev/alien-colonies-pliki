@@ -1,0 +1,6 @@
+{
+  "checks": 62,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Actual extracted Android AAB GDC, textures and sparse index; headless desktop, no physical Android or Play Store installation"
+}

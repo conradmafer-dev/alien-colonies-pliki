@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "godot_version": "4.5.1",
+  "checks": 36,
+  "failures": 0,
+  "test": "backend/tests/test_trial_purchase_088.gd",
+  "command": "godot --headless --path . --log-file ./trial-test.log --script res://backend/tests/test_trial_purchase_088.gd",
+  "scope": [
+    "Fresh Google Play product details before checkout",
+    "Exactly weekly / trial-7d; no paid fallback",
+    "Serialized stale product details replies",
+    "20-second timeout and late replies",
+    "Cancel on popup close, logout, account or session change",
+    "Disconnect, entitlement activation and pending purchase"
+  ],
+  "native_play_provider": "Stub used for deterministic offline controller checks",
+  "real_google_play_purchase_performed": false
+}

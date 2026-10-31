@@ -1,0 +1,54 @@
+{
+  "result": "PASS",
+  "authored_keys": 33,
+  "languages": [
+    "pl",
+    "en",
+    "de",
+    "es",
+    "fr"
+  ],
+  "placeholder_matches": true,
+  "changes": [
+    {
+      "path": "localization/pl.json",
+      "added_keys": 24
+    },
+    {
+      "path": "localization/en.json",
+      "added_keys": 24
+    },
+    {
+      "path": "localization/de.json",
+      "added_keys": 24
+    },
+    {
+      "path": "localization/es.json",
+      "added_keys": 24
+    },
+    {
+      "path": "localization/fr.json",
+      "added_keys": 24
+    },
+    {
+      "path": "backend/web/play/locales/pl.json",
+      "added_keys": 29
+    },
+    {
+      "path": "backend/web/play/locales/en.json",
+      "added_keys": 29
+    },
+    {
+      "path": "backend/web/play/locales/de.json",
+      "added_keys": 29
+    },
+    {
+      "path": "backend/web/play/locales/es.json",
+      "added_keys": 29
+    },
+    {
+      "path": "backend/web/play/locales/fr.json",
+      "added_keys": 29
+    }
+  ]
+}

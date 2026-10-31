@@ -1,0 +1,28 @@
+✔ each galaxy entry selects the active colony, including a colony in another galaxy (9.551233ms)
+✔ restored Galaxy tab focuses its active colony; other restored tabs remain unchanged (1.345129ms)
+✔ missing owned-planet metadata falls back to actual planet membership, not the home planet (1.003558ms)
+✔ opening centres all five rings at maximum 4.5x on phone and desktop, including outermost systems (216.692607ms)
+✔ untouched colony remains centred through portrait-to-landscape resizing and polling remount (3.533542ms)
+✔ initial zero-sized layout waits for dimensions, then consumes focus exactly once (3.163486ms)
+✔ manual dragging releases the entry anchor across resize and rerender (3.9236ms)
+✔ Fit all, manual zoom/pan and rerender preserve exploration until the next entry (4.478868ms)
+✔ every shortest route matches the authoritative server, including ties and wraparound (3690.294478ms)
+✔ three concentric rings share one ellipse and expose only real links (6.427211ms)
+✔ legacy and malformed worlds keep the one-ellipse fallback without invented routes (0.992259ms)
+✔ only pending foreground activity can mark state reads; passive polling stays inactive (0.68138ms)
+✔ errors retry only after 60 seconds, and late success cannot consume newer input (0.499134ms)
+✔ local resource estimates stop at the exact server cutoff, preserve stocks, and resume prospectively (0.360201ms)
+✔ whole-system report keeps dated owners, escaped names and no invented detailed intelligence (21.865944ms)
+✔ six rings have155 systems,50 new outer systems and180 undirected lanes (4.623526ms)
+✔ orbit and artwork geometry stay aligned at360x500 (9.11936ms)
+✔ orbit and artwork geometry stay aligned at720x640 (2.211904ms)
+✔ orbit and artwork geometry stay aligned at960x640 (2.715731ms)
+✔ orbit and artwork geometry stay aligned at1440x720 (1.516769ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3935.879073

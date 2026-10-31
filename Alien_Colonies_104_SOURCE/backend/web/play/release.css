@@ -1,0 +1,57 @@
+/* Alien Colonies 0.11.1 */
+button, a, input, select, [role="button"] { touch-action: manipulation; }
+button > svg, button > .game-art { pointer-events:none; }
+button, .building-tile { -webkit-tap-highlight-color: transparent; }
+.settings-panel { max-width:720px; padding:28px; }
+.settings-panel select { max-width:350px; margin:10px 0; }
+.settings-toggle { display:flex; gap:12px; align-items:center; margin:28px 0 8px; cursor:pointer; min-height:44px; }
+.settings-toggle input { width:20px; height:20px; margin:0; accent-color:var(--teal); }
+.release-info { display:flex; flex-wrap:wrap; gap:20px; border-top:1px solid var(--border); padding-top:24px; margin-top:28px; }
+#auth-language { margin-bottom:20px; }
+#open-settings { font-size:23px; min-width:44px; min-height:44px; }
+#server-version { white-space:normal; line-height:1.7; }
+.resource-bar { position:sticky; top:0; z-index:100; background:#0b141e; }
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; }
+@media(pointer:coarse) { .button, .icon-button, .nav-button { min-height:44px; } .galaxy-point { min-width:44px; min-height:44px; } }
+@media(max-width:620px) { .settings-panel { padding:20px; } .header-actions { gap:5px; } #connection-status { font-size:10px; } }
+
+.research-detail-heading { display:flex; align-items:center; gap:20px; margin:12px 0 20px; }
+.research-detail-heading img { width:88px; height:88px; border-radius:12px; flex-shrink:0; }
+.tech-node-art { width:48px; height:48px; opacity:1; object-fit:contain; }
+@media(max-width:620px) { .tech-node-art { width:32px; height:32px; } }
+/* Keep the entire dedicated silhouette visible instead of cropping tall capital ships. */
+[data-ship-card="battleship"] .project-art > .game-art,
+[data-ship-card="dreadnought"] .project-art > .game-art,
+[data-ship-card="flagship"] .project-art > .game-art,
+[data-ship-card="titan"] .project-art > .game-art { object-fit:contain; background:#040c17; }
+
+/* Keep notification counts visible beside icon-only and bottom navigation. */
+@media(max-width:850px) {
+  .nav-button { position:relative; }
+  .nav-button .nav-count { display:inline-flex; align-items:center; justify-content:center; position:absolute; top:2px; right:2px; min-width:18px; height:18px; margin:0; padding:0 4px; border:1px solid #78e2c066; border-radius:9px; font-size:10px; line-height:1; font-weight:700; }
+}
+
+.active-fleets-panel { max-width:1050px; }
+.active-fleet-actions { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+.active-fleet-card { border-top:1px solid var(--line); padding:21px 0; }
+.active-fleet-card:last-child { padding-bottom:0; }
+.active-fleet-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:15px; }
+.active-fleet-heading h3 { font-size:15px; margin:0 0 9px; }
+.active-fleet-route { display:flex; gap:10px; flex-wrap:wrap; margin:0; font-size:13px; overflow-wrap:anywhere; }
+.active-fleet-heading .pill { flex-shrink:0; }
+.active-fleet-timer { display:flex; align-items:baseline; flex-wrap:wrap; gap:10px; margin:16px 0 9px; font-size:11px; color:var(--muted); }
+.active-fleet-timer strong { color:var(--teal); font-size:16px; font-variant-numeric:tabular-nums; }
+.active-fleet-timer time { margin-left:auto; font-size:10px; }
+.fleet-route-meta { display:flex; flex-wrap:wrap; gap:5px 15px; color:var(--muted); font-size:10px; margin:8px 0 15px; }
+.active-fleet-details { display:grid; grid-template-columns:1fr 1fr; gap:16px; padding-top:13px; }
+.active-fleet-details h4 { margin:0 0 7px; font-size:10px; color:var(--muted); font-weight:500; }
+.fleet-detail-values { display:flex; flex-wrap:wrap; gap:5px 15px; font-size:11px; overflow-wrap:anywhere; }
+.fleet-detail-values strong { white-space:nowrap; font-weight:600; }
+@media(min-width:621px) { .sidebar nav { min-height:0; overflow-y:auto; scrollbar-width:thin; } }
+@media(max-width:620px) {
+  .active-fleets-panel .panel-heading, .active-fleet-heading { align-items:flex-start; flex-direction:column; }
+  .active-fleet-heading { gap:10px; }
+  .active-fleet-actions { justify-content:space-between; width:100%; gap:8px; }
+  .active-fleet-details { grid-template-columns:1fr; gap:15px; }
+  .active-fleet-timer time { margin-left:0; }
+}

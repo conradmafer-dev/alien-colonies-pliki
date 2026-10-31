@@ -1,0 +1,34 @@
+{
+  "file": "Alien_Colonies_ANDROID_0.12.25_CODE_92_UNSIGNED.aab",
+  "size": 331381893,
+  "sha256": "1a05215a24419dc4f6a78ce747bbe27296f7b9f06bf4cdde8739bea37195f237",
+  "package": "com.conradmafer.aliencolonies",
+  "versionCode": 92,
+  "versionName": "0.12.25",
+  "minSdk": 24,
+  "targetSdk": 36,
+  "bundletool_validate": "PASS",
+  "zip_crc": "PASS",
+  "arm64_load_alignment": {
+    "base/lib/arm64-v8a/libc++_shared.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libdatastore_shared_counter.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libgodot_android.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ]
+  },
+  "native_ranking_ui_present": true,
+  "physical_android_tested": false,
+  "signed": false
+}

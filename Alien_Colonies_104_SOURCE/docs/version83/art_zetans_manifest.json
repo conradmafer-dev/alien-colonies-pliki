@@ -1,0 +1,141 @@
+{
+  "race": "zetans",
+  "mode": "built-in image_gen",
+  "generation_calls": 12,
+  "edit_calls": 1,
+  "asset_count": 12,
+  "format": "lossless WebP",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "assets": [
+    {
+      "key": "scout",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/scout.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/scout.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-16069471-bb5a-4687-ad9a-681dc90bbac3.png",
+      "sha256": "9399eca5ede1dcfef1bb4cdbb564684ac682de5260b18fbc7e68772950370d1f",
+      "previous_sha256": "909193c6310c0a2bd416e25b82f55c092375cbb28b37e4e37bf33d373432b135",
+      "bytes": 1518528,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "cargo",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/cargo.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/cargo.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-9a4328e8-3682-4e7a-95ff-2208607dc69a.png",
+      "sha256": "cf8a1f3204ae159d02526b77e671fd9d46ff448a3087a2105185164ad2373d8b",
+      "previous_sha256": "d175e0d5d78ea97eff01bc4eac75222de9c427c69f6c587473ca74bf0cfe8fbc",
+      "bytes": 1651350,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "colonizer",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/colonizer.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/colonizer.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-ea9e771e-cb9f-43d8-b971-6fc1f2d1cd2f.png",
+      "sha256": "b58d6ccbd4dd4b5bbdba126386a2184a82c9fddab822655bf0d2b272943d65a6",
+      "previous_sha256": "5c3c32eaf1d63cf1d5be38d80410eb6e109a88d61bd19fd6f1c9fa7223c0459f",
+      "bytes": 1901316,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "frigate",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/frigate.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/frigate.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-a9fcc12d-799e-42fe-8f4a-253688a7701a.png",
+      "sha256": "eb1d3968fb623ea87d3e13d4d466ff381dd59d5a1584533e2abc5848d93c119f",
+      "previous_sha256": "6e5bd7be785dc9b2d59ddbec15dec528ef35fc9518e5d7cbd941ff1fc37682e1",
+      "bytes": 1501214,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "cruiser",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/cruiser.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/cruiser.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-2bb70405-b2ff-47c2-9086-531290a71eb7.png",
+      "sha256": "799c180a2796e144e50184a75d3d949f242caa18936ea5f7b13badce7f2b4119",
+      "previous_sha256": "1b1f17f3d52788b49c6d786aa6934c5fa7eca0ecf21ceae0658818824fde2c96",
+      "bytes": 1795924,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "interceptor",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/interceptor.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/interceptor.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-1b35c93f-e32d-4902-a582-3f2cf98d192e.png",
+      "sha256": "8d883e0c3d8d57298a9f6c13a875d164d84aef47b9e9a2aa0ad1da264e011926",
+      "previous_sha256": "d554e2794215c9672b3db0b9bf2fe1f1a0da50d40f4ef513b28f321acc821f6d",
+      "bytes": 1446330,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "siege",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/siege.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/siege.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-a117f904-ec17-42c4-a1d4-d3419e902938.png",
+      "sha256": "7a49fab54f165a78ce68df266688946d025de1c5033fc15b6304a6ccaea917bb",
+      "previous_sha256": "9a0392254999e38f9b37fa839a9244e4d59b04246f7d43ab853871e7db8288f9",
+      "bytes": 1803212,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "freighter",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/freighter.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/freighter.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-8273eebb-b924-4a97-af34-35acb4afdd07.png",
+      "sha256": "150a92eb6db0ee61c07a1d088a4433cbf7fd0c84a82827a7a4e6e7a01405384b",
+      "previous_sha256": "de64474c0d02e3eafd4ab2142f1be9310cdf62a62925adb43693875883bcfe11",
+      "bytes": 1622828,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "battleship",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/battleship.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/battleship.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-1e736eb9-8559-44da-b952-b3842276716d.png",
+      "sha256": "5082f42b233df315d96b5bb4049dd432ea2a24df0cd0d6e6e7b1e6520361339b",
+      "previous_sha256": "f9902f0d854fea2fa09bbdf7c9f3f537f4f78063a7c7656d25951dc065870cd1",
+      "bytes": 1853266,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "dreadnought",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/dreadnought.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/dreadnought.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-d47cef7a-9b94-406c-abc8-b3001f33aeaa.png",
+      "sha256": "d52d5110c048178931f2cb063f1f8c6773531c3adbbee20c55d7e4a187ce4ce4",
+      "previous_sha256": "56bad2358b92afffb35596598d6bd293d492f4aaa9fa25abf8c7e9763db7c084",
+      "bytes": 1745230,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "flagship",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/flagship.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/flagship.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-2f29da50-adb1-4f2e-9e82-f31aa6975553.png",
+      "sha256": "807d2a10b48f67af270e42fb4670854315910037d40a009472d9fecd4e0b80af",
+      "previous_sha256": "53ae7f604710bff860dd2a5db1c89a1e7d364c22b58686182875d431e1e56a28",
+      "bytes": 1699456,
+      "pixels_equal_to_png": true
+    },
+    {
+      "key": "titan",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/zetans/titan.webp",
+      "png_source": "/workspace/scratch/785979929548/work83_art/zetans/titan.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-df978d67-5f6d-4701-9cb0-9791a9135fbe.png",
+      "sha256": "b005c2755f358ab1ac85d0db078eff9fd96d3291ca6665101224df436e17226a",
+      "previous_sha256": "0168114bc3a98cba1995fbc87f0d93f6046a946e27b84a188cfedc3233101f77",
+      "bytes": 1873356,
+      "pixels_equal_to_png": true
+    }
+  ],
+  "visual_review": {
+    "all_unique_role_silhouettes": true,
+    "no_text_logos_humans": true,
+    "complete_hulls_visible": true,
+    "cargo_reframed_for_safe_margins": true,
+    "coherent_silver_cyan_race_palette": true
+  }
+}

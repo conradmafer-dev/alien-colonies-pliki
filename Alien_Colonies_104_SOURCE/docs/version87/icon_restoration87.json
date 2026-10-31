@@ -1,0 +1,15 @@
+{
+  "result": "RESTORED; final native AAB verification pending",
+  "origin_aab": "upload/Alien_Colonies_ANDROID_0.12.15_CODE_82.aab",
+  "restoration_method": "Exact copy of existing native82 PNG to new87 files, no image processing or generation. Atomic export_presets replacement; source86 hardlinks untouched.",
+  "files": {
+    "alien_colonies_adaptive_professional.png": {
+      "bytes": 98085,
+      "sha256": "16f9731ce693e699dc56ae7a1154e1cf632d85761e96ec639452cba1355c16e8"
+    },
+    "alien_colonies_adaptive_monochrome82.png": {
+      "bytes": 36090,
+      "sha256": "f4a186ffbef08f8376265cfb46046ab6b61ad03535bc9a8f243e708ad8b8f1c0"
+    }
+  }
+}

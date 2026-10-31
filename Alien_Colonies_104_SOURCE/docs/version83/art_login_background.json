@@ -1,0 +1,10 @@
+{
+  "source": "Alien_Colonies_82_SOURCE/client/assets/alien_colonies_portrait.png",
+  "generated": "generated_images/exec-a9d35da1-f004-4b92-b52f-2fc09f62c933.png",
+  "targets": [
+    "client/assets/alien_colonies_portrait.png",
+    "client/assets/alien_colonies_boot_splash.png"
+  ],
+  "method": "built-in image_gen edit",
+  "change": "Remove baked-in login panel and all welcome/humanity text; preserve Alien Colonies logo, three alien races and background; smooth dark lower space for real form."
+}

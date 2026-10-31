@@ -1,0 +1,27 @@
+ALIEN COLONIES 0.12.25 / ANDROID92 - RANKING GRACZY
+
+Puchar obok ustawien otwiera wspolny ranking serwera.
+Kategorie: ogolny, budynki, badania, flota, obrona.
+Punkty sa wyliczane z aktualnego majatku; 1 punkt za 1000 surowcow wartosci.
+Uwzgledniane sa statki w misjach, wsparciu i w drodze powrotnej.
+Zapasy, ladunki, projekty w toku i Krysztaly Roju nie daja punktow.
+Konta, kolonie i postepy pozostaja. Ranking nie wprowadza resetu.
+
+Pelny projekt klienta: project.godot, client/, addons/, android/.
+Pelny serwer i WWW: backend/. Jego Dockerfile obejmuje rankings.py
+oraz sprawdza importy i sumy kontrolne strony podczas budowania.
+
+Budowanie AAB: Godot4.5.1, JDK17, Android SDK36, build-tools36.0.0.
+Zainstaluj szablon Android4.5.1 i uruchom tools/configure_android_build.py.
+Eksport Google Play AAB ma kod92, wersje0.12.25 i jest unsigned.
+Do podpisania uzyj wlasnego dotychczasowego klucza przesylania priest_runner.
+Klucz prywatny nie jest zawarty w zrodlach.
+
+Test rankingu: z folderu backend uruchom
+python -m unittest tests.test_rankings -v
+Test rzeczywistego UI: uruchom python backend/tests/serve_ranking_fixture.py
+z folderu projektu, a w drugim oknie Godot --headless --path . tests/ranking92.tscn.
+Dane tego testu sa wylacznie syntetyczne i lokalne.
+
+Wyniki kontroli: docs/version92/. Powiadomienia i przyblizenie mapy4.5x
+pozostaja zgodne z Android91. Fizyczny telefon nie byl testowany.

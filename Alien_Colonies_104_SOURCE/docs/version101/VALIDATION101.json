@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "version_code": 101,
+  "version_name": "0.12.34",
+  "aab_sha256": "2f2fdf674edf5c5cdf953ae729dc89323f92f4f460ed6b0bfd7d38ec69e0542d",
+  "aab_size": 391212504,
+  "base100_sha256": "b23931a9c95441d2af7b278daffa9d38e99b5a8f7502c92f303107dcf685cfaa",
+  "android_sparse_records": 638,
+  "node_tests": 107,
+  "native_navigation_color_checks": 104,
+  "native_motion_checks": 65,
+  "native_geometry_checks": 17665,
+  "native_startup_checks": 15,
+  "maximum_zoom": 6.0,
+  "default_zoom": 6.0,
+  "bundletool": "PASS",
+  "unsigned_manifest_and_index": "PASS",
+  "aab_delta_reconstruction": "PASS: byte-identical to validated101 AAB",
+  "textures": "Unchanged from100, verified by original ZIP entry CRC and size",
+  "scope": "Native checks use actual extracted AAB GDC and sparse index under Godot4.5.1 on desktop; no physical Android or private-key signing"
+}

@@ -1,0 +1,47 @@
+{
+  "result": "PASS",
+  "web_build": "0.12.19",
+  "node_tests": 44,
+  "failures": 0,
+  "checks": [
+    "exclusive Google and email verified-name steps",
+    "name entry and Create stay visible while submitting",
+    "name conflicts preserve typed name and verified stage",
+    "cancel/expiry return to a usable login stage",
+    "late responses and stale generations cannot replace the current flow",
+    "late minted sessions are revoked",
+    "late config and auth rerenders cannot expose the old login",
+    "existing accounts enter the game directly",
+    "valid JS syntax",
+    "unique HTML IDs and correct input/submit structure",
+    "new labels present in all five locales"
+  ],
+  "responsive_changes": {
+    "max_width_px": 460,
+    "viewport_height_limit": "100dvh - 24px",
+    "narrow_or_short_screen_padding_px": 18,
+    "input_min_height_px": 44,
+    "button_min_height_px": 44,
+    "overflow": "internal vertical scroll for exceptionally small viewports or long errors; previous login content is hidden"
+  },
+  "visual_browser_test": "Not performed: no Chromium or system Chrome installed. DOM/state tests passed; no screenshot/layout measurement claimed.",
+  "backend_python_changed": false,
+  "api_protocol_changed": false,
+  "test_log": "web_auth86_tests.log",
+  "files": {
+    "web/play/game.js": "20a16677354cd3739733f021dbb5b8a7a8bfcdbe7763d0a43084ee33a51ae9eb",
+    "web/play/google-auth.js": "8124e11ba635972f2747f93e704235bbecf4d36c30d00ad58566f4a2ccf4bb4d",
+    "web/play/email-auth.js": "b15028fd0e175d253d80c952c6440fbfec90e12d55b599eb12cfa1f98597f55a",
+    "web/play/index.html": "ad176743e23d4491e7bfedf2e4102b65c91fa46c6e14dc71ad20df38a7f792e5",
+    "web/play/game.css": "b53e55c37ad0b7d74acf770225421df6210e2df4468ff406a1f0f9f4b5ad06de",
+    "web/play/locale-keys.json": "5797f44f727283cf2b225ab7a63123e909b586c39b86f1221c87e9fae1288f63",
+    "web/play/tests/auth-stages.test.mjs": "a464a2c92efa20102800c29625b92af79792746ce9a1bfb9a79ff9f73af4c196",
+    "web/play/tests/project-auth.test.mjs": "00eac9a9b1228c5788bf81a477954bc7be5e0d8bf536c5fd6f013932d79f2a98",
+    "web/play/locales/en.json": "6da2f7d4a6fd6af1d0d03c3d58d62cd529527fc5fa42141a47408449d1549f7b",
+    "web/play/locales/pl.json": "60610ba0d3db79504b61cfec90eeff6437a8aef039b4ec412d510f6a4b6f656d",
+    "web/play/locales/de.json": "6dfd01bbb77993e22ab984eda92ba63c2b1a58848e585e3241e4d627abe1f26c",
+    "web/play/locales/es.json": "059f9dde36097b744e95dc46121e36758a7e15c580c17aa96fe523b57d9ce858",
+    "web/play/locales/fr.json": "58c6fcdae70a894dd26c5d516cf5e80d3b9a040f6ad0c48d61848f2e0ed3fb7d",
+    "tests/test_email_auth.mjs": "673fec4552eb1faedbe32bf3c3e7f8c96fb459dcff3c0f09643ef797ce3f41f5"
+  }
+}

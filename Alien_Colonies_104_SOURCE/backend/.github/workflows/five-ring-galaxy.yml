@@ -1,0 +1,63 @@
+name: Five-ring galaxy regression
+on:
+  push:
+    branches: [update/five-ring-galaxies-20261023, update/android90-notifications-centering-20261023]
+  pull_request:
+    branches: [main]
+    paths:
+      - galaxy_topology.py
+      - tests/test_five_ring*
+      - web/play/galaxy-map.js
+      - .github/workflows/five-ring-galaxy.yml
+  workflow_dispatch:
+concurrency:
+  group: five-ring-galaxy-${{ github.ref }}
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  expansion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install backend dependencies
+        run: pip install -r requirements.txt
+      - name: Check production syntax and complete web integrity
+        run: |
+          python -m py_compile app.py galaxy_topology.py push_notifications.py
+          python -c 'import website; website.install_website(hosted=False, origin="")'
+      - name: Migration, route, flight, protection and invitation regression
+        run: |
+          set -e
+          for pattern in test_galaxy_rings_0121.py test_five_ring_expansion.py test_fleet_balance_85.py test_beginner_protection.py test_subscription_invite.py test_push_notifications.py; do
+            python -m unittest discover -s tests -p "$pattern" -v
+          done
+      - name: Generate public geography and compare browser routes
+        env:
+          AC_FIVE_RING_FIXTURE: /tmp/ac-five-rings.json
+        run: |
+          python tests/make_five_ring_fixture.py /tmp/ac-five-rings.json
+          node --experimental-default-type=module --test tests/test_five_ring_web.mjs web/play/tests/rings-activity.test.mjs
+      - name: Install test browser
+        run: |
+          npm install --no-save --package-lock=false playwright
+          npx playwright install --with-deps chromium
+      - name: Check real browser at phone, landscape and desktop sizes
+        env:
+          AC_FIVE_RING_FIXTURE: /tmp/ac-five-rings.json
+        run: node tests/five-ring-browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: five-ring-browser-qa
+          path: /tmp/ac-five-ring-qa
+          retention-days: 3
+          if-no-files-found: ignore
+

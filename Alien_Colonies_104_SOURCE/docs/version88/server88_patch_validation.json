@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "package": "Alien_Colonies_SERVER88_PATCH.zip",
+  "bytes": 391032,
+  "sha256": "887b15eb7f7724d6e3814de7894856f32f375213ecdfc03b5d308c8bf4de1566",
+  "production_files": 8,
+  "archive_entries": 11,
+  "flat_layout": true,
+  "archive_crc": "PASS",
+  "all_payload_bytes_match_source": true,
+  "all_archive_bytes_match_manifest": true,
+  "locale_existing_keys_and_values_preserved": true,
+  "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+  "server_version": "0.12.21",
+  "version_code": 88,
+  "web_build": "0.12.20",
+  "deployed": false
+}

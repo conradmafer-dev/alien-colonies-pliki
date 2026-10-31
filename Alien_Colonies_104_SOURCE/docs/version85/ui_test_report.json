@@ -1,0 +1,39 @@
+{
+  "checks": 208,
+  "failures": [],
+  "fixture": "Current version85 backend in-memory world; network prohibited",
+  "layouts": [
+    {
+      "hud_height": 163.0,
+      "locale": "pl",
+      "viewport": "(720, 1280)"
+    },
+    {
+      "hud_height": 163.0,
+      "locale": "en",
+      "viewport": "(720, 1280)"
+    },
+    {
+      "hud_height": 163.0,
+      "locale": "pl",
+      "viewport": "(720, 960)"
+    },
+    {
+      "hud_height": 163.0,
+      "locale": "en",
+      "viewport": "(720, 960)"
+    },
+    {
+      "hud_height": 163.0,
+      "locale": "pl",
+      "viewport": "(1024, 768)"
+    },
+    {
+      "hud_height": 163.0,
+      "locale": "en",
+      "viewport": "(1024, 768)"
+    }
+  ],
+  "network_used": false,
+  "passed": true
+}

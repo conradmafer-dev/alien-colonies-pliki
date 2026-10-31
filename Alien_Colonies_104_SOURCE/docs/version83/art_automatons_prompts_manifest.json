@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "race": "automatons",
+  "method": "built-in image_gen",
+  "technical_conversion": "PNG to WebP RGB, quality95 method6; original1536x1024 dimensions retained; no crop, painting or compositing",
+  "assets": [
+    {
+      "id": "scout",
+      "prompt": "Use case: stylized-concept. Asset type: final in-game ship catalog artwork for Alien Colonies, an alien strategy game. Create a landscape 3:2 image at 1536x1024. Cinematic highly detailed realistic science-fiction 3D rendering, one spacecraft isolated in deep black-blue space with restrained stars and a very small distant planet near a lower corner. Three-quarter perspective, clear complete silhouette fully inside frame with at least12% margin, ship occupying central70%, excellent readability as small thumbnail. AUTOMATON faction: entirely autonomous machines, graphite-black segmented armor, copper mechanical bracing, deep red illuminated sensors and engines. Crisp steel texture and directional neutral rim light; avoid overly dark hull. No humans, characters, text, lettering, symbols, watermarks, UI, labels, multiple ships, or busy nebula. Subject: SCOUT probe, a compact SPHERICAL armored sensor drone with a single large red circular eye and exactly four thin widely spaced antenna booms. Distinct round silhouette, very small agile machine, minimal equipment. Absolutely no conventional wedge hull or wings.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-122be376-2251-4b87-bb7e-037b4c8eec2d.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/scout.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/scout.png",
+      "sha256": "6c90aa1f2b28b3189f622b939bcefed92fe8a418a85cb0d5cfdb126a13ce81b3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 226214,
+      "different_from_82": true
+    },
+    {
+      "id": "cargo",
+      "prompt": "Use case: stylized-concept. Asset type: final in-game ship catalog artwork for Alien Colonies, an alien strategy game. Create a landscape 3:2 image at 1536x1024. Cinematic highly detailed realistic science-fiction 3D rendering, one spacecraft isolated in deep black-blue space with restrained stars and a very small distant planet near a lower corner. Three-quarter perspective, clear complete silhouette fully inside frame with at least12% margin, ship occupying central70%, excellent readability as small thumbnail. AUTOMATON faction: entirely autonomous machines, graphite-black segmented armor, copper mechanical bracing, deep red illuminated sensors and engines. Crisp steel texture and directional neutral rim light; avoid overly dark hull. No humans, characters, text, lettering, symbols, watermarks, UI, labels, multiple ships, or busy nebula. Subject: CARGO TUG, a short rugged horizontal tow beam joining TWO huge armored rectangular cargo containers, one on either side, with a small central engine/control pod. Squat dumbbell silhouette, exposed docking clamps and copper braces; plainly a freighter, no cannons. Very different from any long warship or spherical probe.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-0e23458f-2850-4b31-add5-e68b142fbc13.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/cargo.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/cargo.png",
+      "sha256": "b4caf77c434bcfbae08aefecb5dc8e1618ce6c2357b1faee3abc0b1933cd7dda",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 314454,
+      "different_from_82": true
+    },
+    {
+      "id": "colonizer",
+      "prompt": "Use case: stylized-concept. Asset type: final in-game spacecraft catalog artwork for Alien Colonies. Landscape3:2 at1536x1024. Cinematic highly detailed realistic sci-fi3D illustration, exactly one spacecraft with a strong readable silhouette centered in deep black-blue space with restrained stars and a tiny distant planet in a bottom corner. Three-quarter view from above. Entire ship inside central70% of image; lots of clear dark space around every extremity, NO cropped edges. AUTOMATON faction: entirely autonomous alien machines, graphite-black segmented armor, copper mechanical braces, red sensors and red engines, crisp metal detail under neutral silver rim lighting. No people, text, symbols, labels, watermarks, UI, other ships or busy nebula. Subject: CONSTRUCTOR colony ship. Unmistakable radial HEXAPOD silhouette: huge central mobile factory core with exactly six large articulated industrial arms radiating outward like a mechanical spider in zero gravity, folded modular factory towers and fabrication gantries, a bright red reactor at center. Arms have construction clamps rather than weapons. It is a spacecraft carrying a deployable colony, not a walking robot standing on ground.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-b4f210cf-7ca1-4cd7-9b07-ce768459ac91.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/colonizer.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/colonizer.png",
+      "sha256": "3b7337f5eb89b32369c992b80bf2c008a317e6c5ed389ee29c8cdea20bba84ec",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 415262,
+      "different_from_82": true
+    },
+    {
+      "id": "frigate",
+      "prompt": "Use case: stylized-concept. Asset type: final in-game spacecraft catalog artwork for Alien Colonies. Landscape3:2 at1536x1024. Cinematic highly detailed realistic sci-fi3D illustration, exactly one spacecraft with a strong readable silhouette centered in deep black-blue space with restrained stars and a tiny distant planet in a bottom corner. Three-quarter view from above. Entire ship inside central70% of image; lots of clear dark space around every extremity, NO cropped edges. AUTOMATON faction: entirely autonomous alien machines, graphite-black segmented armor, copper mechanical braces, red sensors and red engines, crisp metal detail under neutral silver rim lighting. No people, text, symbols, labels, watermarks, UI, other ships or busy nebula. Subject: FRIGATE, a long slender single-barrel RAILGUN LANCE. The main body is an exceptionally long narrow kinetic cannon with visible parallel copper accelerator coils. Two compact engines flanking the rear breach. Very thin elongated silhouette, far more long than wide, one forward muzzle. No broad warship hull, no multiple barrels, no round sphere. It should look fast, sharp, light and purpose-built.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-c343eb23-b924-476d-badb-0fc43333874f.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/frigate.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/frigate.png",
+      "sha256": "2500b4e124b70dd9f2a9ed97a558aa5e37cf9f0a7060223d2f4ade43b8348f00",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 149542,
+      "different_from_82": true
+    },
+    {
+      "id": "cruiser",
+      "prompt": "Use case: stylized-concept. Asset type: in-game spacecraft catalog art, Alien Colonies. Landscape3:2 1536x1024. One spacecraft with sharply distinct recognizable silhouette against deep black-blue space, sparse subtle stars, a tiny faraway planet in bottom corner. Photorealistic cinematic science-fiction3D, three-quarter view from slightly above, graphite black armored machine, copper industrial bracing and red illuminated engine/reactor details. Entire craft fully visible, generously framed, occupies center70% with empty dark space on every edge. Clear bright neutral rim light, no humans, no text, logo, labels, UI, other ships, cluttered stars or nebula. Subject: AUTOMATON CRUISER. A wide SQUARE orbital fortress, approximately as broad as it is long. Thick flat armored platform with four massive square corner bastions, central low command citadel, short defensive turret batteries around perimeter, underside engine banks. Brutal industrial geometry and squat silhouette, not a long rectangle, not wedge, not a ring. Clearly a floating armed stronghold rather than a container freighter.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-c4f6c233-c850-4ea7-a69a-a30a0a6d9600.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/cruiser.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/cruiser.png",
+      "sha256": "376805985fbe1f9339978a01ff1696cf7aabb12ba12b15e2f7637233d8430305",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 416244,
+      "different_from_82": true
+    },
+    {
+      "id": "interceptor",
+      "prompt": "Use case: stylized-concept. Asset type: in-game spacecraft catalog art, Alien Colonies. Landscape3:2 1536x1024. One spacecraft with sharply distinct recognizable silhouette against deep black-blue space, sparse subtle stars, a tiny faraway planet in bottom corner. Photorealistic cinematic science-fiction3D, three-quarter view from slightly above, graphite black armored machine, copper industrial bracing and red illuminated engine/reactor details. Entire craft fully visible, generously framed, occupies center70% with empty dark space on every edge. Clear bright neutral rim light, no humans, no text, logo, labels, UI, other ships, cluttered stars or nebula. Subject: AUTOMATON INTERCEPTOR. An extremely agile small CLAW-shaped spacecraft: two sharply swept narrow forward talons make a bold open V with clear negative space between them, a small angular connecting rear hub, two red engines, fine copper connectors. Light skeletal angular armored profile. Two forward prongs only, no barrel, no cockpit glass, no broad rectangular hull. Shape must read as a sharp predatory metallic claw from a distance.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-efaa9f9d-fdb4-4fb5-8f6b-0556d992d8a2.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/interceptor.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/interceptor.png",
+      "sha256": "a4dabc7e17e65aca702f1e0159fc6c9a7ef89004163ccb0d6508518da29ced2f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 210986,
+      "different_from_82": true
+    },
+    {
+      "id": "siege",
+      "prompt": "Use case: stylized-concept. Asset type: final spacecraft catalog art for strategy game Alien Colonies. Landscape3:2 1536x1024, one complete spacecraft viewed in three-quarter overhead perspective, isolated on deep dark blue-black space with sparse stars and tiny distant planet at bottom corner. Cinematic photorealistic science-fiction3D render with clean rim lighting revealing graphite armored plating, copper bracing and vivid RED sensor/reactor lights. Alien AUTOMATON machine civilization, unmanned industrial craft. Make the silhouette extremely clear at thumbnail scale. Wide distant framing: hull takes only70% width/height, nothing cropped. No text, logos, symbols, lettering, people, other ships, UI, border, nebula or clouds. Subject: SIEGE artillery spacecraft, extremely distinctive broad CRUCIFORM industrial platform. Four short thick rectangular stabilizer arms form a clear plus sign around a huge vertical orbital mortar at center. The single central cannon has a large open circular red barrel tilted toward the viewer; heavy recoil hydraulics, four anchored thruster pods, armored braces. Squat, massive, no narrow fighter hull, no pointed bow, no turret forest. Entire craft floats in space.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-46f216bf-ca7c-4240-b76a-be745fcd5bc1.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/siege.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/siege.png",
+      "sha256": "89fb3d077e690cbb559b0fff7c40c848206a285800af788f99e7f89a28ce01e1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 394206,
+      "different_from_82": true
+    },
+    {
+      "id": "freighter",
+      "prompt": "Use case: stylized-concept. Asset type: final spacecraft catalog art for strategy game Alien Colonies. Landscape3:2 1536x1024, one complete spacecraft viewed in three-quarter overhead perspective, isolated on deep dark blue-black space with sparse stars and tiny distant planet at bottom corner. Cinematic photorealistic science-fiction3D render with clean rim lighting revealing graphite armored plating, copper bracing and vivid RED sensor/reactor lights. Alien AUTOMATON machine civilization, unmanned industrial craft. Make the silhouette extremely clear at thumbnail scale. Wide distant framing: hull takes only70% width/height, nothing cropped. No text, logos, symbols, lettering, people, other ships, UI, border, nebula or clouds. Subject: HEAVY FREIGHTER caravan. A very long modular space CARGO TRAIN, exactly six large octagonal cargo modules coupled in a single longitudinal line, linked by exposed copper structural spine, tiny leading tractor cabin/sensor and oversized rear engine block. Strong train silhouette with visible separated repeating container modules, industrial heavy transport, no weapons. Orient train diagonally so whole length is fully visible with ample empty margin.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-8fd9ba08-d867-479d-8982-1b4aa9fcd096.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/freighter.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/freighter.png",
+      "sha256": "6692b5ebc3d461d91938d5d81044d37d0a4ced11ff12284da3fa4277fcdc473a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 210018,
+      "different_from_82": true
+    },
+    {
+      "id": "battleship",
+      "prompt": "Use case: stylized-concept. Asset type: final ship catalog illustration for Alien Colonies. One autonomous alien AUTOMATON spacecraft. Landscape3:2 at1536x1024. Detailed photorealistic cinematic sci-fi3D, three-quarter overhead view, complete whole ship on dark blue-black outer space, sparse subtle stars, one very small distant planet bottom corner. Dark graphite armor, copper steel bracing, red sensor/reactor/engine lights. Neutral rim lighting separates hull from space. Ship silhouette clearly visible and unambiguously readable at thumbnail scale. Frame from distance with generous space all around, ship centered occupying70% of image. No text, logos, symbols, watermarks, UI, humans, extra ships or nebula. Subject: DOMINATOR BATTLESHIP, a heavy broad TRIANGULAR WEDGE armored warship. Compact wide flat triangular hull with strong forward-pointing prow, very thick layered armor, three stepped dorsal gun turrets and powerful rear engine block. Tanklike mass, broad shoulders narrowing to single nose, disciplined heavy gun arrangement. Not long narrow lance, not rectangular fortress, not two disconnected hulls. Shape must read as an armored arrowhead.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-ab1305ff-31ca-4f73-915f-e66b8e3d7292.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/battleship.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/battleship.png",
+      "sha256": "38a462fc7828283655ca5335744b3ce9a63231c1d6d236e9d08be62da09fbf13",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 464360,
+      "different_from_82": true
+    },
+    {
+      "id": "dreadnought",
+      "prompt": "Use case: stylized-concept. Asset type: final ship catalog illustration for Alien Colonies. One autonomous alien AUTOMATON spacecraft. Landscape3:2 at1536x1024. Detailed photorealistic cinematic sci-fi3D, three-quarter overhead view, complete whole ship on dark blue-black outer space, sparse subtle stars, one very small distant planet bottom corner. Dark graphite armor, copper steel bracing, red sensor/reactor/engine lights. Neutral rim lighting separates hull from space. Ship silhouette clearly visible and unambiguously readable at thumbnail scale. Frame from distance with generous space all around, ship centered occupying70% of image. No text, logos, symbols, watermarks, UI, humans, extra ships or nebula. Subject: EXECUTOR DREADNOUGHT, massive DOUBLE-HULL CATAMARAN gunship. Two extremely large parallel long accelerator cannons form two thick armored hulls, linked at the rear by one tall rectangular bridge, with wide clear open dark gap running between forward three quarters of hulls. Huge twin copper railgun coils and red muzzles. Heavy industrial machine, twin prongs blunt and thick, not thin claws, with many large aft engines. Stern heavy and tall, full ship visible.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-8c436ee3-6681-4a4b-87b8-ad4a707e0bc9.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/dreadnought.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/dreadnought.png",
+      "sha256": "4a414fd23a74064daf90806b9035e77e44f5571609cb2abe0b99f339efa44aa0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 398290,
+      "different_from_82": true
+    },
+    {
+      "id": "flagship",
+      "prompt": "Use case: stylized-concept. Asset type: final ship catalog artwork for Alien Colonies. A single autonomous AUTOMATON faction spacecraft in deep black-blue outer space with sparse subtle stars and one tiny faraway planet. Landscape3:2 at1536x1024. Photorealistic cinematic sci-fi3D, three-quarter view, detailed graphite-black layered armor, copper industrial braces and RED glowing sensor/reactor/engine lights, bright neutral rim light. A clean memorable silhouette legible at thumbnail scale. Distant wide framing with entire ship fully inside frame, generous dark space surrounding it. No humans, text, lettering, symbols, logos, watermark, UI, other ships, cloudy nebula. Subject: BASTION OMEGA signature flagship. A gigantic heavy armored CUBE reactor fortress surrounded by one thick OCTAGONAL mechanical siege ring, the ring tilted around its equator; a glaring red circular reactor aperture on the front cube face. Dense stepped mechanical panels, short turrets on ring, powerful thruster clusters on cube back. Strong compact cube-in-octagon silhouette, tall in all dimensions, neither flat square platform nor long warship. Entire ring and cube visible.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-5884a6b7-1fc8-4cc0-8dc9-ab7855977c1f.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/flagship.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/flagship.png",
+      "sha256": "5b151769eb797334d71d549d3328c018208869bfe6b60e04525e15e140242357",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 469728,
+      "different_from_82": true
+    },
+    {
+      "id": "titan",
+      "prompt": "Use case: stylized-concept. Asset type: final ship catalog artwork for Alien Colonies. A single autonomous AUTOMATON faction spacecraft in deep black-blue outer space with sparse subtle stars and one tiny faraway planet. Landscape3:2 at1536x1024. Photorealistic cinematic sci-fi3D, three-quarter view, detailed graphite-black layered armor, copper industrial braces and RED glowing sensor/reactor/engine lights, bright neutral rim light. A clean memorable silhouette legible at thumbnail scale. Distant wide framing with entire ship fully inside frame, generous dark space surrounding it. No humans, text, lettering, symbols, logos, watermark, UI, other ships, cloudy nebula. Subject: COLOSSUS OF ETERNITY TITAN. A monumental asymmetric THREE-LEVEL industrial command ark. Huge stepped terraced hull with three massive offset graphite factory blocks rising like a mobile industrial mountain, a long broad lower armored keel, one very tall antenna/command spire off-center, gigantic paired cannon arrays along opposite flank, enormous stern thrusters and glowing red power channels. Clearly the largest and most complex machine of its civilization; distinctive tall asymmetric staircase silhouette. NOT triangular wedge, NOT cube, NOT ring, NOT twin hull, NOT long train. Complete ship visible.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-495056f6-a3de-47ff-9963-7fabbd5f264c.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_83_SOURCE/client/assets/art/races/automatons/titan.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work83_art/automatons/titan.png",
+      "sha256": "1423f77b019d48365fe0f39c933c72485390900d27953b8ffce780ec09202f8b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 442530,
+      "different_from_82": true
+    }
+  ],
+  "visual_review": "PASS:12 distinct silhouettes, faction colors consistent, all ships complete, no words/logos/UI visible."
+}

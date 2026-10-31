@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "official_template_small_files": true,
+  "repeat_configuration_byte_identical": true,
+  "launcher_apply_count": 1,
+  "hook_matches_actual_aab88_build": true,
+  "file_sha256": {
+    "config.gradle": "70a8db6736451b7372dfbbaae4f2be84ec32b8e7278a68417ae42416d0fd14a8",
+    "preserve_launcher88.gradle": "f47e01c945c3a74e8cb18acce9329c1b06c181a5d1a617a2ab5bbc451a5c5c24",
+    "build.gradle": "f959cac9cca31bd10aa4449783ec4f04b9f633d28e06db5e44698650f14a4ecc"
+  }
+}

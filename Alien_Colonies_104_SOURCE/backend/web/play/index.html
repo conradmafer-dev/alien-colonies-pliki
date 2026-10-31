@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#070c14">
+  <title>Graj w Alien Colonies — centrum dowodzenia</title>
+  <meta name="description" content="Zaloguj się do Alien Colonies i zarządzaj swoim kosmicznym imperium w przeglądarce.">
+  <link rel="icon" href="/assets/favicon-0121.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="/assets/touch-icon-0121.png">
+  <link rel="stylesheet" href="/play/game.css?v=01220-fleet-flow">
+  <link rel="stylesheet" href="/play/art.css?v=0111">
+  <link rel="stylesheet" href="/play/map-buildings.css?v=20261027-update103">
+  <link rel="stylesheet" href="/play/progression.css?v=01218-storage">
+  <link rel="stylesheet" href="/play/planet-details.css?v=20261005-planet-info">
+  <link rel="stylesheet" href="/play/planned-queues.css?v=20261011-single-action">
+  <link rel="stylesheet" href="/play/report-details.css?v=20261006-report-details">
+  <link rel="stylesheet" href="/play/ranking.css?v=104">
+  <script type="module" src="/play/game.js?v=01237-ranking104"></script>
+  <link rel="stylesheet" href="/play/release.css?v=20261004-fleet-dock">
+  <link rel="stylesheet" href="/play/catalog-carousel.css?v=20261018-equal-card-panels">
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do gry</a>
+  <div id="auth-screen" class="auth-screen">
+    <a href="/" class="wordmark"><span class="brand-symbol" aria-hidden="true">✧</span><span>ALIEN<span class="wordmark-sub">COLONIES</span></span></a>
+    <main id="auth-main" class="auth-layout">
+      <div class="auth-story">
+        <p class="eyebrow"><span class="status-dot"></span> KOSMICZNA STRATEGIA W PRZEGLĄDARCE</p>
+        <p class="world-badge" data-world-badge hidden></p>
+        <h1>Twoje imperium.<br><span>Twój początek.</span></h1>
+        <p>Jedna kolonia to dopiero początek. Rozwijaj gospodarkę, odkrywaj galaktyki i wyślij flotę tam, gdzie kończy się znany świat.</p>
+        <div class="auth-planet auth-art" aria-hidden="true"><img class="game-art" src="/assets/art/colony_panorama.1280.783d8eada4cc.webp" srcset="/assets/art/colony_panorama.640.b0261d38e0e4.webp 640w, /assets/art/colony_panorama.1280.783d8eada4cc.webp 1280w" sizes="(max-width:620px) 100vw, 45vw" width="1280" height="720" alt="" decoding="async" fetchpriority="high"><span class="auth-art-label">NOWY SYGNAŁ · NOWA KOLONIA</span></div>
+        <a class="text-link" href="/">← Poznaj Alien Colonies</a>
+      </div>
+      <section class="auth-card" aria-labelledby="auth-title">
+        <p class="eyebrow">CENTRUM DOWODZENIA</p>
+        <h2 id="auth-title">Witaj, dowódco.</h2>
+        <p id="auth-description" class="muted">Zaloguj się, aby wrócić do swojego imperium.</p>
+        <label for="auth-language">Język / Language</label><select id="auth-language" aria-label="Język / Language"></select>
+        <div id="google-auth-options" hidden>
+          <button id="auth-google" type="button" class="button google-button wide"><span class="google-symbol" aria-hidden="true">G</span><span>Kontynuuj przez Google</span></button>
+          <p class="fine-print">Masz już imperium z hasłem? Zaloguj się poniżej, a następnie połącz je z Google w ustawieniach.</p>
+        </div>
+        <div id="email-auth-options" hidden>
+          <button id="auth-email" type="button" class="button email-button wide">Kontynuuj przez e-mail</button>
+          <p class="fine-print">Bez hasła. Wyślemy Ci jednorazowy link logowania.</p>
+        </div>
+        <p id="google-flow-status" class="fine-print" role="status" aria-live="polite" hidden></p>
+        <p id="auth-error" class="form-error" role="alert" hidden></p>
+        <div class="auth-tabs" aria-label="Dostęp do gry">
+          <button id="auth-login" type="button" class="active" aria-pressed="true">Zaloguj się</button>
+          <button id="auth-register" type="button" aria-pressed="false">Załóż konto</button>
+        </div>
+        <form id="auth-form">
+          <label for="empire-name">Nazwa imperium</label>
+          <input id="empire-name" name="name" autocomplete="username" minlength="3" maxlength="20" required placeholder="Nazwa twojego imperium">
+          <label for="password">Hasło</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" minlength="8" maxlength="128" required placeholder="Co najmniej 8 znaków">
+          <button id="auth-submit" class="button primary wide" type="submit">Wejdź do imperium <span aria-hidden="true">→</span></button>
+          <p id="register-note" class="fine-print" hidden>Nazwa: 3–20 znaków. Litery, cyfry, spacje, „_” i „-”. E-mail nie jest wymagany.</p>
+        </form>
+        <p class="fine-print">Gra zapisuje postępy na serwerze. Przed utworzeniem konta przeczytaj <a href="/privacy/">politykę prywatności</a>.</p>
+      </section>
+    </main>
+  </div>
+
+  <div id="game-screen" class="game-screen" hidden>
+    <aside class="sidebar">
+      <a href="/" class="wordmark"><span class="brand-symbol" aria-hidden="true">✧</span><span>ALIEN<span class="wordmark-sub">COLONIES</span></span></a>
+      <div class="sidebar-label">TWOJE IMPERIUM</div>
+      <nav id="game-nav" aria-label="Panele gry"></nav>
+      <div class="sidebar-bottom"><span id="server-version" class="fine-print"></span><a href="/poradnik/">Poradnik gracza →</a></div>
+    </aside>
+    <div class="game-body">
+      <header class="game-header">
+        <div class="empire-identity"><span class="commander-icon" aria-hidden="true">✧</span><div><strong id="player-name"></strong><span id="player-race" class="muted"></span></div></div>
+        <div class="header-actions"><span class="world-badge" data-world-badge hidden></span><span id="connection-status" class="connection-status"><span class="status-dot"></span>Połączono</span><button type="button" id="open-ranking" class="icon-button" title="Ranking graczy" aria-label="Ranking graczy">🏆</button><button type="button" id="open-settings" class="icon-button" title="Ustawienia" aria-label="Ustawienia">⚙</button><button type="button" id="refresh" class="icon-button" aria-label="Odśwież stan gry" title="Odśwież stan gry">↻</button><button type="button" id="logout" class="button subtle">Wyloguj</button></div>
+      </header>
+      <div id="resources" class="resource-bar" aria-label="Zasoby kolonii"></div>
+      <div id="storage-status" class="storage-notice" role="status" hidden></div>
+      <div id="production-status" class="production-paused" role="status" hidden></div>
+      <div class="content-heading"><div><p id="view-eyebrow" class="eyebrow">CENTRUM DOWODZENIA</p><h1 id="view-title">Przegląd kolonii</h1></div><label class="planet-selector">Aktywna kolonia<select id="planet-select" aria-label="Wybierz kolonię"></select></label></div>
+      <main id="main" class="game-content" tabindex="-1"></main>
+      <footer class="game-footer"><span>Alien Colonies · centrum dowodzenia</span><a href="/privacy/">Prywatność</a></footer>
+    </div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="confirm-dialog"><form method="dialog"><p class="eyebrow">POTWIERDZENIE</p><h2 id="confirm-title"></h2><p id="confirm-text" class="muted"></p><div class="dialog-actions"><button class="button subtle" value="cancel">Wróć</button><button class="button primary" value="confirm">Potwierdź</button></div></form></dialog>
+  <dialog id="building-dialog" class="building-dialog" aria-labelledby="building-detail-title"><button type="button" id="close-building-dialog" class="icon-button building-detail-close" data-close-building aria-label="Zamknij szczegóły budynku" autofocus>×</button><div id="building-detail-content"></div></dialog>
+  <dialog id="research-dialog" class="research-dialog" aria-labelledby="research-detail-title"><button type="button" class="icon-button dialog-close" data-close-research aria-label="Zamknij szczegóły badania" autofocus>×</button><div id="research-detail-content"></div></dialog>
+  <dialog id="planet-dialog" class="planet-dialog" aria-labelledby="planet-detail-title"><button type="button" class="icon-button planet-detail-close" data-close-planet-info aria-label="Zamknij informacje o planecie" autofocus>×</button><div id="planet-detail-content"></div></dialog>
+  <dialog id="queue-subscription-dialog" class="queue-dialog" aria-labelledby="queue-subscription-title"><button type="button" class="icon-button dialog-close" data-close-queue-subscription aria-label="Zamknij" autofocus>×</button><div id="queue-subscription-content"></div></dialog>
+  <dialog id="google-name-dialog" class="auth-step-dialog" aria-labelledby="google-name-title"><form id="google-name-form"><p class="eyebrow">NOWE IMPERIUM</p><h2 id="google-name-title">Konto Google potwierdzone</h2><p class="muted">Wybierz nazwę nowego imperium widoczną dla innych graczy.</p><label for="google-empire-name">Nazwa imperium</label><input id="google-empire-name" name="name" autocomplete="off" minlength="3" maxlength="20" required><p id="google-name-error" class="form-error" role="alert" hidden></p><div class="dialog-actions"><button type="button" class="button subtle" data-cancel-google-name>Wróć</button><button id="google-name-submit" type="submit" class="button primary">Utwórz imperium</button></div></form></dialog>
+  <dialog id="email-auth-dialog" class="email-auth-dialog auth-step-dialog" aria-labelledby="email-auth-title">
+    <h2 id="email-auth-title">Logowanie przez e-mail</h2>
+    <form id="email-address-form">
+      <p class="muted">Podaj adres e-mail. Otwórz link na tym urządzeniu, w tej samej przeglądarce.</p>
+      <label for="email-address">Adres e-mail</label>
+      <input id="email-address" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" required>
+      <button id="email-send" type="submit" class="button primary wide">Wyślij link logowania</button>
+    </form>
+    <section id="email-waiting" hidden aria-labelledby="email-waiting-title">
+      <h3 id="email-waiting-title">Sprawdź swoją skrzynkę</h3>
+      <p id="email-destination" class="muted" data-no-translate></p>
+      <p class="muted">Otwórz wiadomość i potwierdź logowanie. Następnie wróć do tej karty — sprawdzimy link automatycznie.</p>
+      <p class="fine-print">Sprawdź też spam. Otwórz link w tej samej przeglądarce, w której go zamówiono.</p>
+      <div class="email-retry-actions"><button id="email-resend" type="button" class="button subtle">Wyślij ponownie</button><button id="email-check" type="button" class="button subtle">Sprawdź teraz</button></div>
+      <p id="email-resend-time" class="fine-print" data-no-translate></p>
+    </section>
+    <form id="email-name-form" hidden>
+      <p class="muted">Wybierz nazwę nowego imperium widoczną dla innych graczy.</p>
+      <label for="email-empire-name">Nazwa imperium</label>
+      <input id="email-empire-name" name="name" autocomplete="off" minlength="3" maxlength="20" required>
+      <button id="email-name-submit" type="submit" class="button primary wide">Utwórz imperium</button>
+    </form>
+    <p id="email-auth-status" class="fine-print" role="status" aria-live="polite" data-no-translate hidden></p>
+    <p id="email-auth-error" class="form-error" role="alert" data-no-translate hidden></p>
+    <div class="dialog-actions"><button id="email-cancel" type="button" class="button subtle">Anuluj</button></div>
+  </dialog>
+  <dialog id="report-dialog" class="report-dialog" aria-labelledby="report-detail-title"><button type="button" class="icon-button report-detail-close" data-close-report aria-label="Zamknij raport" autofocus>×</button><div id="report-detail-content"></div></dialog>
+  <noscript><p class="noscript">Włącz JavaScript, aby grać w Alien Colonies. <a href="/">Wróć na stronę główną</a>.</p></noscript>
+</body>
+</html>
+
+
+
+
+

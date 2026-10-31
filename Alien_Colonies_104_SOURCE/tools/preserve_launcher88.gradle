@@ -1,0 +1,27 @@
+// Keep the launcher resource used by the manifest consistent with release 87.
+// Godot 4.5.1 writes icon.xml before Gradle starts; add its monochrome layer
+// before resource merging (the separate themed_icon.xml is not manifest-used).
+def ensureLauncherMonochrome88 = tasks.register('ensureLauncherMonochrome88') {
+    doLast {
+        File icon = file('res/mipmap-anydpi-v26/icon.xml')
+        if (!icon.isFile()) {
+            throw new GradleException('Missing exported adaptive launcher icon.xml')
+        }
+        String text = icon.getText('UTF-8')
+        if (!text.contains('@mipmap/icon_foreground') || !text.contains('@mipmap/icon_background')) {
+            throw new GradleException('Unexpected launcher icon layers; review before building')
+        }
+        if (!text.contains('<monochrome')) {
+            if (!text.contains('</adaptive-icon>')) {
+                throw new GradleException('Unexpected adaptive icon XML')
+            }
+            text = text.replace('</adaptive-icon>',
+                '    <monochrome android:drawable="@mipmap/icon_monochrome" />\n</adaptive-icon>')
+            icon.setText(text, 'UTF-8')
+        }
+        if (!text.contains('@mipmap/icon_monochrome')) {
+            throw new GradleException('Unexpected monochrome launcher resource')
+        }
+    }
+}
+tasks.named('preBuild').configure { dependsOn(ensureLauncherMonochrome88) }

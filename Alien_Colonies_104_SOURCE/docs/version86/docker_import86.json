@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "scope": "Only explicit Docker COPY files in an isolated temporary directory; no World instantiated, no production database, network or Docker daemon used",
+  "added_copy_files": [
+    "economy85.py",
+    "fleet_balance85.py",
+    "flight_balance85.py"
+  ],
+  "reachable_python_modules": 43,
+  "copied_python_modules": 43,
+  "missing_import_sources": [],
+  "import_exit_code": 0,
+  "import_stdout": "0.12.19 86",
+  "import_stderr": "",
+  "dockerfile_sha256": "704004f444c9be90ce850970167d2b27a1560f0a4efbcd8f99df40cd03745687"
+}

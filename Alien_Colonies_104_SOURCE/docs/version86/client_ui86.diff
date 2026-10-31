@@ -1,0 +1,366 @@
+--- 85/client/scripts/main.gd
++++ 86/client/scripts/main.gd
+@@ -42,8 +42,8 @@
+ const GAME_TITLE : String = "Alien Colonies"
+ const BRAND_ICON_PATH : String = "res://client/assets/alien_colonies_icon.png"
+ const LOGIN_BACKGROUND_PATH : String = "res://client/assets/alien_colonies_portrait.png"
+-const CLIENT_VERSION_CODE : int = 85
+-const CLIENT_VERSION_NAME : String = "0.12.18"
++const CLIENT_VERSION_CODE : int = 86
++const CLIENT_VERSION_NAME : String = "0.12.19"
+ const PLAY_STORE_PACKAGE_ID : String = "com.conradmafer.aliencolonies"
+ const PLAY_STORE_WEB_URL : String = "https://play.google.com/store/apps/details?id=" + PLAY_STORE_PACKAGE_ID
+ const SERVER_CONFIG_PATH : String = "res://client/server_config.json"
+@@ -193,6 +193,13 @@
+ var review_prompt
+ var login_hero_spacer : Control
+ var login_form : VBoxContainer
++var login_choice_panel : PanelContainer
++var login_name_panel : PanelContainer
++var login_name_background : ColorRect
++var login_name_cancel : Button
++var login_name_actions : HBoxContainer
++var login_version_label : Label
++var login_name_flow_check_queued : bool = false
+ var login_form_title : Label
+ var login_form_hint : Label
+ var login_submit : Button
+@@ -1000,6 +1007,13 @@
+     shade . mouse_filter = Control . MOUSE_FILTER_IGNORE
+     shade . set_anchors_and_offsets_preset ( Control . PRESET_FULL_RECT )
+     login_screen . add_child ( shade )
++    login_name_background = ColorRect . new ( )
++    login_name_background . name = "EmpireNameBackground"
++    login_name_background . color = Color ( "030b16" )
++    login_name_background . mouse_filter = Control . MOUSE_FILTER_IGNORE
++    login_name_background . set_anchors_and_offsets_preset ( Control . PRESET_FULL_RECT )
++    login_name_background . visible = false
++    login_screen . add_child ( login_name_background )
+ 
+     login_margin = MarginContainer . new ( )
+     login_margin . set_anchors_and_offsets_preset ( Control . PRESET_FULL_RECT )
+@@ -1014,6 +1028,12 @@
+     stack . size_flags_horizontal = Control . SIZE_EXPAND_FILL
+     stack . add_theme_constant_override ( "separation" , 16 )
+     login_scroll . add_child ( stack )
++    var name_card : VBoxContainer = _card ( stack )
++    name_card . add_theme_constant_override ( "separation" , 12 )
++    login_name_panel = name_card . get_parent ( ) as PanelContainer
++    login_name_panel . name = "EmpireNamePanel"
++    login_name_panel . add_theme_stylebox_override ( "panel" , _login_card_style ( ) )
++    login_name_panel . visible = false
+ 
+ 
+     login_hero_spacer = Control . new ( )
+@@ -1028,6 +1048,7 @@
+     card . add_theme_constant_override ( "separation" , 14 )
+     var login_card : PanelContainer = card . get_parent ( ) as PanelContainer
+     login_card . name = "LoginActionPanel"
++    login_choice_panel = login_card
+     login_card . add_theme_stylebox_override ( "panel" , _login_card_style ( ) )
+     var small_brand : Label = _label ( "✦  ALIEN COLONIES  ✦" , 21 , "7ddcf2" )
+     small_brand . horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+@@ -1097,12 +1118,14 @@
+     notice_body . add_child ( login_message )
+     login_form = VBoxContainer . new ( )
+     login_form . add_theme_constant_override ( "separation" , 12 )
+-    card . add_child ( login_form )
++    login_form . name = "EmpireNameForm"
++    name_card . add_child ( login_form )
+     login_form_title = _label ( "" , 28 )
+     login_form . add_child ( login_form_title )
+     login_form_hint = _label ( "" , 20 , "a8bcac" )
+     login_form . add_child ( login_form_hint )
+     name_field = _field ( login_form , I18n . t ( "NAZWA IMPERIUM" ) , "" )
++    name_field . name = "EmpireName"
+     login_password_row = VBoxContainer . new ( )
+     login_form . add_child ( login_password_row )
+     password_field = _field ( login_password_row , I18n . t ( "HASŁO" ) , "" , true )
+@@ -1114,9 +1137,18 @@
+     login_password_row . visible = false
+     login_repeat_row . visible = false
+     name_field . text_submitted . connect ( func ( _text : String ) -> void : _submit_login_form ( ) )
++    login_name_actions = HBoxContainer . new ( )
++    login_name_actions . name = "EmpireNameActions"
++    login_form . add_child ( login_name_actions )
+     login_submit = _button ( "" , _submit_login_form , true )
+     _login_style_button ( login_submit , true )
+-    login_form . add_child ( login_submit )
++    login_submit . name = "CreateEmpireButton"
++    login_submit . size_flags_horizontal = Control . SIZE_EXPAND_FILL
++    login_name_actions . add_child ( login_submit )
++    login_name_cancel = _button ( I18n . t ( "Anuluj" ) , _cancel_name_stage )
++    login_name_cancel . name = "CancelEmpireName"
++    login_name_cancel . size_flags_horizontal = Control . SIZE_EXPAND_FILL
++    login_name_actions . add_child ( login_name_cancel )
+     google_cancel_button = _button ( I18n . t ( "Anuluj logowanie Google" ) , _cancel_google_login )
+     google_cancel_button . visible = false
+     card . add_child ( google_cancel_button )
+@@ -1136,17 +1168,117 @@
+     connection_setup . add_child ( _label ( I18n . t ( "Adres serwera jest już zapisany w aplikacji. Zmień go tylko po otrzymaniu nowego adresu od administratora gry." ) , 18 , "a0b3a4" ) )
+     default_server_button = _button ( I18n . t ( "Użyj adresu z aplikacji" ) , _use_baked_server )
+     connection_setup . add_child ( default_server_button )
+-    stack . add_child ( _label ( CLIENT_VERSION_NAME + I18n . t ( "  /  OTWARTA GALAKTYKA" ) , 18 , "7f9384" ) )
++    login_version_label = _label ( CLIENT_VERSION_NAME + I18n . t ( "  /  OTWARTA GALAKTYKA" ) , 18 , "7f9384" )
++    stack . add_child ( login_version_label )
+     _set_login_mode ( "" , false )
++
++
++func _login_name_stage_active ( ) -> bool :
++    return login_mode in [ "google_register" , "email_register" ]
++
++
++func _sync_login_stage_visibility ( ) -> void :
++    if not is_instance_valid ( login_name_panel ) :
++        return
++    var naming : bool = _login_name_stage_active ( )
++    login_choice_panel . visible = not naming
++    login_name_panel . visible = naming
++    login_name_background . visible = naming
++    login_form . visible = naming
++    login_version_label . visible = not naming
++    login_hero_spacer . visible = not naming
++    if naming :
++        google_login_button . visible = false
++        email_login_button . visible = false
++        create_account_button . visible = false
++        google_cancel_button . visible = false
++        login_retry_button . visible = false
++        email_form . visible = false
++        if login_announcement != null :
++            login_announcement . hide ( )
++    else :
++        google_login_button . visible = true
++        create_account_button . visible = true
++        email_login_button . visible = email_login != null and email_login . configured
++        email_form . visible = email_entry_open and email_login != null and email_login . configured
++        google_cancel_button . visible = google_login != null and google_login . is_active ( ) and not google_reauth_dialog_visible ( )
++    var notice_parent : Node = login_name_panel . get_child ( 0 ) if naming else login_choice_panel . get_child ( 0 )
++    if login_notice . get_parent ( ) != notice_parent :
++        login_notice . reparent ( notice_parent , false )
++    login_name_cancel . disabled = update_required
++    _update_login_art_layout ( )
++    # Providers emit changed during success before completed; check an abandoned flow
++    # only after completed has had a chance to enter the game or race selection.
++    if naming and not login_name_flow_check_queued :
++        login_name_flow_check_queued = true
++        _check_name_stage_flow . call_deferred ( )
++
++
++func _check_name_stage_flow ( ) -> void :
++    login_name_flow_check_queued = false
++    if not showing_login or update_required or not _login_name_stage_active ( ) :
++        return
++    var provider = email_login if login_mode == "email_register" else google_login
++    if provider != null and provider . is_active ( ) :
++        return
++    _set_login_mode ( "" , false )
++    _set_login_message ( I18n . t ( "Potwierdzenie logowania wygasło. Zaloguj się ponownie." ) , true )
+ 
+ 
+ func _update_login_art_layout ( ) -> void :
+     if not is_instance_valid ( login_hero_spacer ) or not is_instance_valid ( login_scroll ) :
+         return
+-
+-
++    var naming : bool = _login_name_stage_active ( )
++    var compact : bool = naming and login_screen . size . y < 644.0
++    if naming :
++        login_hero_spacer . custom_minimum_size . y = 0.0
++        var panel_style : StyleBoxFlat = login_name_panel . get_theme_stylebox ( "panel" ) as StyleBoxFlat
++        panel_style . set_content_margin_all ( 12.0 if compact else 24.0 )
++        login_form . add_theme_constant_override ( "separation" , 6 if compact else 12 )
++        login_form_title . add_theme_font_size_override ( "font_size" , 24 if compact else 28 )
++        login_form_hint . add_theme_font_size_override ( "font_size" , 18 if compact else 20 )
++        name_field . custom_minimum_size . y = 50 if compact else 80
++        login_submit . custom_minimum_size . y = 58 if compact else 82
++        login_name_cancel . custom_minimum_size . y = 48 if compact else 68
++        return
+     var with_bulletin : bool = login_announcement != null and is_instance_valid ( login_announcement . panel ) and login_announcement . panel . visible
+     login_hero_spacer . custom_minimum_size . y = clampf ( login_scroll . size . y * ( 0.44 if with_bulletin else 0.55 ) , 120.0 , 900.0 )
++
++
++func _begin_name_stage ( provider : String ) -> void :
++    if not showing_login or update_required :
++        return
++    var next_mode : String = provider + "_register"
++    var entering : bool = login_mode != next_mode
++    login_mode = next_mode
++    email_entry_open = false
++    login_password_row . visible = false
++    login_repeat_row . visible = false
++    if entering :
++        name_field . text = ""
++        _set_login_message ( "" )
++    password_field . text = ""
++    repeat_password_field . text = ""
++    login_form_title . text = I18n . t ( "Tworzenie imperium" )
++    login_form_hint . text = I18n . t ( "Adres e-mail potwierdzony. Wybierz nazwę nowego imperium." ) if provider == "email" else I18n . t ( "Konto Google potwierdzone. Wybierz nazwę nowego imperium." )
++    name_field . placeholder_text = I18n . t ( "3–20 znaków" )
++    login_submit . text = I18n . t ( "Stwórz imperium" )
++    _refresh_google_controls ( )
++    _refresh_login_controls ( )
++    if entering :
++        _dismiss_login_keyboard ( )
++        login_scroll . scroll_vertical = 0
++        login_scroll . set_deferred ( "scroll_vertical" , 0 )
++
++
++func _cancel_name_stage ( ) -> void :
++    _dismiss_login_keyboard ( )
++    if login_mode == "email_register" and email_login != null :
++        email_login . cancel ( )
++    elif google_login != null :
++        google_login . cancel ( )
++    _set_login_mode ( "" , false )
++    _refresh_google_controls ( )
+ 
+ 
+ func _set_login_mode ( _mode : String , reveal : bool = true ) -> void :
+@@ -1162,6 +1294,7 @@
+ 
+ 
+     login_mode = ""
++    name_field . text = ""
+     login_form . visible = false
+     login_password_row . visible = false
+     login_repeat_row . visible = false
+@@ -1186,6 +1319,7 @@
+     var editable : bool = not ( request_pending and request_kind == "auth" ) and ( not google_busy or login_mode == "google_register" ) and ( not email_busy or login_mode == "email_register" )
+     for field : LineEdit in [ name_field , password_field , repeat_password_field ] :
+         field . editable = editable
++    _sync_login_stage_visibility ( )
+ 
+ 
+ func _dismiss_login_keyboard ( ) -> void :
+@@ -1238,7 +1372,7 @@
+ func _on_google_configuration ( ) -> void :
+     if release_open and is_instance_valid ( release_panel ) and release_panel . mode == "account" :
+         release_panel . set_status ( I18n . t ( "Potwierdź konto Google tego imperium w oknie systemowym." ) if google_login . configured else I18n . t ( "Logowanie Google jest chwilowo niedostępne. Sprawdź połączenie i spróbuj ponownie." ) , not google_login . configured )
+-    if showing_login and session_token . is_empty ( ) and not email_entry_open :
++    if showing_login and session_token . is_empty ( ) and not email_entry_open and not _login_name_stage_active ( ) :
+         if google_login . configured :
+             _set_login_message ( "" )
+         else :
+@@ -1319,20 +1453,7 @@
+ 
+ 
+ func _on_google_name_needed ( ) -> void :
+-    login_mode = "google_register"
+-    login_form . visible = true
+-    login_password_row . visible = false
+-    login_repeat_row . visible = false
+-    name_field . text = ""
+-    password_field . text = ""
+-    repeat_password_field . text = ""
+-    login_form_title . text = I18n . t ( "Tworzenie imperium" )
+-    login_form_hint . text = I18n . t ( "Konto Google potwierdzone. Wybierz nazwę nowego imperium." )
+-    name_field . placeholder_text = I18n . t ( "3–20 znaków" )
+-    login_submit . text = I18n . t ( "Stwórz imperium" )
+-    _set_login_message ( "" )
+-    _refresh_google_controls ( )
+-    login_scroll . ensure_control_visible . call_deferred ( login_form_title )
++    _begin_name_stage ( "google" )
+ 
+ 
+ func _on_google_completed ( response : Dictionary , completed_mode : String ) -> void :
+@@ -1463,20 +1584,7 @@
+ 
+ 
+ func _on_email_name_needed ( ) -> void :
+-    login_mode = "email_register"
+-    login_form . visible = true
+-    login_password_row . visible = false
+-    login_repeat_row . visible = false
+-    name_field . text = ""
+-    password_field . text = ""
+-    repeat_password_field . text = ""
+-    login_form_title . text = I18n . t ( "Tworzenie imperium" )
+-    login_form_hint . text = I18n . t ( "Adres e-mail potwierdzony. Wybierz nazwę nowego imperium." )
+-    name_field . placeholder_text = I18n . t ( "3–20 znaków" )
+-    login_submit . text = I18n . t ( "Stwórz imperium" )
+-    _set_login_message ( "" )
+-    _refresh_google_controls ( )
+-    login_scroll . ensure_control_visible . call_deferred ( login_form_title )
++    _begin_name_stage ( "email" )
+ 
+ 
+ func _on_email_completed ( response : Dictionary ) -> void :
+@@ -1512,7 +1620,6 @@
+         return
+     if login_mode == "email_register" and not email_login . waiting_for_name ( ) :
+         _set_login_mode ( "" , false )
+-        email_entry_open = true
+     _set_login_message ( message , true )
+     _refresh_google_controls ( )
+ 
+@@ -3197,6 +3304,7 @@
+         if kind == "auth" :
+ 
+             _apply_state_now ( response [ "state" ] , Time . get_ticks_msec ( ) )
++            _set_login_mode ( "" , false )
+         else :
+             _apply_state ( response [ "state" ] )
+     if kind == "action" :
+@@ -3320,7 +3428,9 @@
+         if google_login != null :
+             google_login . cancel ( )
+         if email_login != null :
+-            _cancel_email_login ( )
++            email_login . cancel ( )
++        _set_login_mode ( "" , false )
++        _refresh_google_controls ( )
+         return
+     var local_started : int = Time . get_ticks_msec ( )
+     auth_timing_operation = ""
+--- 85/client/scripts/login_announcement.gd
++++ 86/client/scripts/login_announcement.gd
+@@ -48,7 +48,7 @@
+ 
+ 
+ func load_from_server ( force : bool = false ) -> void :
+-    if host == null or not is_instance_valid ( panel ) or not host . showing_login :
++    if host == null or not is_instance_valid ( panel ) or not host . showing_login or host . _login_name_stage_active ( ) :
+         return
+     var url : String = str ( host . server_url ) . strip_edges ( ) . trim_suffix ( "/" )
+     if not url . begins_with ( "https://" ) and not url . begins_with ( "http://127.0.0.1" ) :
+@@ -97,7 +97,7 @@
+     category_label . text = I18n . t ( str ( names . get ( category , "AKTUALNOŚĆ" ) ) )
+     title_label . text = heading
+     message_label . text = content
+-    panel . visible = host . showing_login
++    panel . visible = host . showing_login and not host . _login_name_stage_active ( )
+     host . _update_login_art_layout . call_deferred ( )
+ 
+ 
+--- 85/localization/en.json
++++ 86/localization/en.json
+@@ -2597,5 +2597,6 @@
+   "Współczynnik paliwa": "Fuel coefficient",
+   "Prędkość: %s · Współczynnik: %s": "Speed: %s · Coefficient: %s",
+   "Prędkość: %s · Współczynnik paliwa: %s": "Speed: %s · Fuel coefficient: %s",
+-  "Każdy poziom zwiększa siłę ataku o 10%.": "Each level increases attack power by 10%."
++  "Każdy poziom zwiększa siłę ataku o 10%.": "Each level increases attack power by 10%.",
++  "Potwierdzenie logowania wygasło. Zaloguj się ponownie.": "Your sign-in confirmation expired. Sign in again."
+ }
+--- 85/localization/pl.json
++++ 86/localization/pl.json
+@@ -2599,5 +2599,6 @@
+   "Współczynnik paliwa": "Współczynnik paliwa",
+   "Prędkość: %s · Współczynnik: %s": "Prędkość: %s · Współczynnik: %s",
+   "Prędkość: %s · Współczynnik paliwa: %s": "Prędkość: %s · Współczynnik paliwa: %s",
+-  "Każdy poziom zwiększa siłę ataku o 10%.": "Każdy poziom zwiększa siłę ataku o 10%."
++  "Każdy poziom zwiększa siłę ataku o 10%.": "Każdy poziom zwiększa siłę ataku o 10%.",
++  "Potwierdzenie logowania wygasło. Zaloguj się ponownie.": "Potwierdzenie logowania wygasło. Zaloguj się ponownie."
+ }
+--- 85/project.godot
++++ 86/project.godot
+@@ -6,7 +6,7 @@
+ 
+ config/name="Alien Colonies"
+ config/description="Build your colony. Explore six galaxies. Plan costly intergalactic voyages."
+-config/version="0.12.18"
++config/version="0.12.19"
+ run/main_scene="res://client/scenes/main.tscn"
+ config/use_custom_user_dir=true
+ config/custom_user_dir_name="Godot/app_userdata/Alien Colonies"

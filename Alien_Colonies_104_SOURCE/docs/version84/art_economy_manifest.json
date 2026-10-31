@@ -1,0 +1,75 @@
+{
+  "task": "Alien Colonies84 Symbiont economy architecture redesign",
+  "generation_method": "built-in image_gen, one call per asset",
+  "image_count": 4,
+  "format_conversion": "PNG to WebP quality94 method6; no resize, crop or painting",
+  "original_import_files_untouched": true,
+  "code_or_state_modified": false,
+  "all_dimensions_1536x1024": true,
+  "assets": [
+    {
+      "role": "metal_mine",
+      "path": "client/assets/art/races/symbionts/metal_mine.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-250c9642-0f67-496a-895f-67093ed17bee.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work84_art/economy/metal_mine.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 693932,
+      "sha256": "035b333269d7a2a99805e3faf3ea5ad3f19ef3d4956199d9bf128115cd1b462b",
+      "import_file_sha256": "dcd14242394c781fb4c31f496ac433c55af2a4043587d778918dfcc9937bd301",
+      "prompt": "Use case: stylized-concept. Asset type: building illustration for a high-quality alien civilization strategy game. Create a NEW original image, landscape 3:2 exactly1536x1024. This is living ALIEN ARCHITECTURE of the Symbiont species, an advanced biological civilization whose structures are grown rather than built from machinery. Visual style: restrained semi-realistic premium science-fiction concept art, soft natural diffuse daylight on an alien biosphere, matte finely textured organic surfaces. Unified materials and palette: pale warm limestone/ivory biomineralized armor, deep chlorophyll and moss-green living membranes, thin restrained turquoise vascular veins, tiny occasional amber bioluminescent points. Dark desaturated rocky alien ground with a few simple moss patches, background kept darker and quiet to make the pale building read clearly. No purple-gold color scheme, no glowing cathedral, no glass dome, no giant sphere, no mushroom cap, no gothic fantasy castle, no human metal industry, no metal pipes, no gears, no people, no written text, no labels, no logos. A single main biological installation with a very recognizable thumbnail silhouette. Function: METAL EXTRACTION, called Iron Roots. The main structure is a very LOW sprawling network of powerful ivory plated roots and living digging jaws wrapped around an exposed angular fissure of dark iron ore. The ground is split open in a long irregular trench with visible metallic mineral veins; thick muscular root limbs plunge into the fissure and grip freshly exposed ore chunks. Several pale ribbed root plates arch slightly above ground, joined by deep green tendons and subtle turquoise channels carrying extracted minerals. The composition is mostly horizontal, like an intelligent living mining root system. There is NO central tower, NO dome, NO raised building, NO round control ball. Height much lower than width. Make the mining function immediately apparent through the open ore crack and gripping excavator roots. Camera and framing: wide establishing shot, three-quarter view slightly from above. Show the ENTIRE installation including all root extensions, without any cut-off edge. Pull back until its silhouette occupies only the central70% of canvas width and height, leaving at least10% quiet ground or atmosphere at every edge. No foreground obstruction. The main building is fully visible and separated from the simple darker environment.",
+      "silhouette": "Low ivory armored root jaws around exposed angular iron-ore fissure; no central tower",
+      "visual_review": "PASS: distinctive functional silhouette; ivory biomineralized shell, deep green tissues, subtle turquoise; diffuse natural light; no text, humans, purple-gold domes or mechanical metal pipes; complete primary structure visible"
+    },
+    {
+      "role": "crystal_mine",
+      "path": "client/assets/art/races/symbionts/crystal_mine.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-d75d3a52-7a9f-44ea-80a2-ee2210381eaf.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work84_art/economy/crystal_mine.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 672458,
+      "sha256": "d5a5b3df68306e27f3afc7b367f234d13de024aa358807db7466cb829e977154",
+      "import_file_sha256": "16f0cd2786292b226d3923722f2d58029970863d0064fa828fe7d9e700aa2f5d",
+      "prompt": "Use case: stylized-concept. Asset type: building illustration for a high-quality alien civilization strategy game. Create a NEW original image, landscape 3:2 exactly1536x1024. This is living ALIEN ARCHITECTURE of the Symbiont species, an advanced biological civilization whose structures are grown rather than built from machinery. Visual style: restrained semi-realistic premium science-fiction concept art, soft natural diffuse daylight on an alien biosphere, matte finely textured organic surfaces. Unified materials and palette: pale warm limestone/ivory biomineralized armor, deep chlorophyll and moss-green living membranes, thin restrained turquoise vascular veins, tiny occasional amber bioluminescent points. Dark desaturated rocky alien ground with a few simple moss patches, background kept darker and quiet to make the pale building read clearly. No purple-gold color scheme, no glowing cathedral, no glass dome, no giant sphere, no mushroom cap, no gothic fantasy castle, no human metal industry, no metal pipes, no gears, no people, no written text, no labels, no logos. A single main biological installation with a very recognizable thumbnail silhouette. Function: CRYSTAL CULTIVATION, called Silicon Garden. The main structure is a stepped TERRACED installation of four broad OPEN shallow limestone-white basins/calyxes at different low elevations. Each broad basin contains sharply FACETED angular turquoise-green mineral crystal clusters growing from dark moss beds. The basins have thick natural biomineralized rims and short flowing buttresses; turquoise living vascular veins join the terraces. The silhouette is a low layered cascade of open bowls with taller angular crystals, wide rather than tall. These are NOT mushrooms: no stalk and no cap, no closed dome, no sphere. The terraces and distinct crystalline geometry identify this as a cultivation garden for useful minerals. Camera and framing: wide establishing shot, three-quarter view slightly from above. Show the ENTIRE installation including all root extensions, without any cut-off edge. Pull back until its silhouette occupies only the central70% of canvas width and height, leaving at least10% quiet ground or atmosphere at every edge. No foreground obstruction. The main building is fully visible and separated from the simple darker environment.",
+      "silhouette": "Broad open stepped calyx terraces filled with faceted teal mineral crystals",
+      "visual_review": "PASS: distinctive functional silhouette; ivory biomineralized shell, deep green tissues, subtle turquoise; diffuse natural light; no text, humans, purple-gold domes or mechanical metal pipes; complete primary structure visible"
+    },
+    {
+      "role": "refinery",
+      "path": "client/assets/art/races/symbionts/refinery.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-bd24bfdc-c2db-458b-8da2-0f3e3e244154.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work84_art/economy/refinery.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 648398,
+      "sha256": "c90dd050bca9f549c692e236002c93f10e8752608ec4e5da3087c2a66b72f231",
+      "import_file_sha256": "6565db184d2f05c04ab0deb200c0838d720315a7f0409c50e09d4be670ad0b77",
+      "prompt": "Use case: stylized-concept. Asset type: building illustration for a high-quality alien civilization strategy game. Create a NEW original image, landscape 3:2 exactly1536x1024. This is living ALIEN ARCHITECTURE of the Symbiont species, an advanced biological civilization whose structures are grown rather than built from machinery. Visual style: restrained semi-realistic premium science-fiction concept art, soft natural diffuse daylight on an alien biosphere, matte finely textured organic surfaces. Unified materials and palette: pale warm limestone/ivory biomineralized armor, deep chlorophyll and moss-green living membranes, thin restrained turquoise vascular veins, tiny occasional amber bioluminescent points. Dark desaturated rocky alien ground with a few simple moss patches, background kept darker and quiet to make the pale building read clearly. No purple-gold color scheme, no glowing cathedral, no glass dome, no giant sphere, no mushroom cap, no gothic fantasy castle, no human metal industry, no metal pipes, no gears, no people, no written text, no labels, no logos. A single main biological installation with a very recognizable thumbnail silhouette. Function: BIOLOGICAL FUEL REFINING, called Fuel Gland. The main installation is a LONG ASYMMETRICAL linked series of three elongated ribbed fermentation chambers and two flatter layered filtering fins, grown from ivory plated membranes. The chambers are oblong tapered segmented organs with translucent dark green narrow windows showing amber fermenting fluid, explicitly not round tanks or spheres. Open living channels branch around the chambers to show a clear intake-to-filter-to-output flow; channels are green veined muscular troughs, never metal pipes. Overall silhouette is a low elongated irregular hooked line, one long side and a short branching filter spur. The corrugated chambers and visibly flowing organic channels make its fuel-processing function readable. Camera and framing: wide establishing shot, three-quarter view slightly from above. Show the ENTIRE installation including all root extensions, without any cut-off edge. Pull back until its silhouette occupies only the central70% of canvas width and height, leaving at least10% quiet ground or atmosphere at every edge. No foreground obstruction. The main building is fully visible and separated from the simple darker environment.",
+      "silhouette": "Long asymmetric sequence of ribbed fermentation organs with open filtering channels",
+      "visual_review": "PASS: distinctive functional silhouette; ivory biomineralized shell, deep green tissues, subtle turquoise; diffuse natural light; no text, humans, purple-gold domes or mechanical metal pipes; complete primary structure visible"
+    },
+    {
+      "role": "power_plant",
+      "path": "client/assets/art/races/symbionts/power_plant.webp",
+      "generated_png": "/workspace/scratch/785979929548/generated_images/exec-a60318fa-a6f4-4309-ad4f-72259ffd3dfa.png",
+      "preserved_original_png": "/workspace/scratch/785979929548/work84_art/economy/power_plant.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 495856,
+      "sha256": "9d79d048a4d8237d8a009da5a06070762232654012f72337fdb81ed12c6c8f9a",
+      "import_file_sha256": "005370ab851a0ef45e73311d21211248801519f83971a6a170645f9f5745b023",
+      "prompt": "Use case: stylized-concept. Asset type: building illustration for a high-quality alien civilization strategy game. Create a NEW original image, landscape 3:2 exactly1536x1024. This is living ALIEN ARCHITECTURE of the Symbiont species, an advanced biological civilization whose structures are grown rather than built from machinery. Visual style: restrained semi-realistic premium science-fiction concept art, soft natural diffuse daylight on an alien biosphere, matte finely textured organic surfaces. Unified materials and palette: pale warm limestone/ivory biomineralized armor, deep chlorophyll and moss-green living membranes, thin restrained turquoise vascular veins, tiny occasional amber bioluminescent points. Dark desaturated rocky alien ground with a few simple moss patches, background kept darker and quiet to make the pale building read clearly. No purple-gold color scheme, no glowing cathedral, no glass dome, no giant sphere, no mushroom cap, no gothic fantasy castle, no human metal industry, no metal pipes, no gears, no people, no written text, no labels, no logos. A single main biological installation with a very recognizable thumbnail silhouette. Function: BIOLOGICAL ENERGY GENERATION, called Colony Heart. The main structure is a tall VERTICAL open skeleton of two pairs of FORKING IVORY RIBS rising from a compact root base, supporting a pulsating elongated luminous turquoise vascular core in their open central gap. The core is a braided upright spindle of living muscle and energy strands, explicitly NOT a sphere or orb. Deep green muscular membranes connect the pale branchlike ribs while leaving large visible open negative spaces. Small amber nerve lights at joints. The silhouette is a tall split tuning-fork/Y with an OPEN center, not a domed building, not a mushroom, not a cathedral. It must visibly read as the colony's living power source, with restrained energy glow rather than excessive radiance. Camera and framing: wide establishing shot, three-quarter view slightly from above. Show the ENTIRE installation including all root extensions, without any cut-off edge. Pull back until its silhouette occupies only the central70% of canvas width and height, leaving at least10% quiet ground or atmosphere at every edge. No foreground obstruction. The main building is fully visible and separated from the simple darker environment.",
+      "silhouette": "Tall open forked ivory ribs around elongated turquoise vascular energy core",
+      "visual_review": "PASS: distinctive functional silhouette; ivory biomineralized shell, deep green tissues, subtle turquoise; diffuse natural light; no text, humans, purple-gold domes or mechanical metal pipes; complete primary structure visible"
+    }
+  ]
+}

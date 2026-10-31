@@ -1,0 +1,4025 @@
+{
+  "initial": {
+    "version": "0.1.5",
+    "server_time": 1900000000.0,
+    "speed": 10.0,
+    "player": {
+      "id": "u0d4aab0c44438fc6",
+      "name": "Konrad",
+      "protected_until": 1900086400.0
+    },
+    "home_id": "s6p1",
+    "planet_id": "s6p1",
+    "planet_name": "Aster 1",
+    "resources": {
+      "metal": 4000,
+      "crystal": 2600,
+      "fuel": 1400
+    },
+    "production": {
+      "metal": 5400.0,
+      "crystal": 3900.0,
+      "fuel": 2100.0
+    },
+    "energy": {
+      "supply": 100,
+      "used": 70,
+      "factor": 1.0
+    },
+    "buildings": {
+      "metal_mine": 1,
+      "crystal_mine": 1,
+      "refinery": 1,
+      "power_plant": 1,
+      "shipyard": 1,
+      "lab": 1
+    },
+    "research": {
+      "propulsion": 0,
+      "weapons": 0
+    },
+    "ships": {
+      "scout": 2,
+      "cargo": 1,
+      "colonizer": 1,
+      "frigate": 3,
+      "cruiser": 0
+    },
+    "queue": [],
+    "catalog": {
+      "buildings": [
+        {
+          "key": "metal_mine",
+          "name": "Kopalnia metalu",
+          "description": "Metal do budowy imperium.",
+          "level": 1,
+          "cost": {
+            "metal": 330,
+            "crystal": 116,
+            "fuel": 0
+          },
+          "seconds": 16,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "crystal_mine",
+          "name": "Kopalnia kryształów",
+          "description": "Kryształy do badań i elektroniki.",
+          "level": 1,
+          "cost": {
+            "metal": 248,
+            "crystal": 182,
+            "fuel": 0
+          },
+          "seconds": 20,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "refinery",
+          "name": "Rafineria",
+          "description": "Paliwo dla twoich flot.",
+          "level": 1,
+          "cost": {
+            "metal": 363,
+            "crystal": 215,
+            "fuel": 0
+          },
+          "seconds": 24,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "power_plant",
+          "name": "Elektrownia",
+          "description": "Energia zasila wydobycie.",
+          "level": 1,
+          "cost": {
+            "metal": 297,
+            "crystal": 132,
+            "fuel": 0
+          },
+          "seconds": 16,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "shipyard",
+          "name": "Stocznia",
+          "description": "Buduje statki. Poziom 2 odblokowuje krążownik.",
+          "level": 1,
+          "cost": {
+            "metal": 660,
+            "crystal": 380,
+            "fuel": 132
+          },
+          "seconds": 32,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "lab",
+          "name": "Laboratorium",
+          "description": "Pozwala ulepszać napęd i uzbrojenie.",
+          "level": 1,
+          "cost": {
+            "metal": 578,
+            "crystal": 462,
+            "fuel": 132
+          },
+          "seconds": 32,
+          "enabled": true,
+          "reason": ""
+        }
+      ],
+      "research": [
+        {
+          "key": "propulsion",
+          "name": "Napęd",
+          "description": "Każdy poziom przyspiesza podróże o 15%.",
+          "level": 0,
+          "cost": {
+            "metal": 350,
+            "crystal": 400,
+            "fuel": 200
+          },
+          "seconds": 24,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "weapons",
+          "name": "Uzbrojenie",
+          "description": "Każdy poziom zwiększa siłę ataku o 15%.",
+          "level": 0,
+          "cost": {
+            "metal": 500,
+            "crystal": 300,
+            "fuel": 150
+          },
+          "seconds": 24,
+          "enabled": true,
+          "reason": ""
+        }
+      ],
+      "ships": [
+        {
+          "key": "scout",
+          "name": "Zwiadowca",
+          "description": "Odkrywa zasoby i obronę planety.",
+          "level": 2,
+          "cost": {
+            "metal": 100,
+            "crystal": 100,
+            "fuel": 30
+          },
+          "seconds": 6,
+          "enabled": true,
+          "reason": "",
+          "count": 2,
+          "attack": 2,
+          "hull": 15,
+          "capacity": 10
+        },
+        {
+          "key": "cargo",
+          "name": "Transportowiec",
+          "description": "Przewozi zapasy i zdobycz.",
+          "level": 1,
+          "cost": {
+            "metal": 250,
+            "crystal": 150,
+            "fuel": 60
+          },
+          "seconds": 12,
+          "enabled": true,
+          "reason": "",
+          "count": 1,
+          "attack": 3,
+          "hull": 50,
+          "capacity": 1500
+        },
+        {
+          "key": "colonizer",
+          "name": "Kolonizator",
+          "description": "Zakłada kolonię na wolnej planecie.",
+          "level": 1,
+          "cost": {
+            "metal": 1600,
+            "crystal": 1000,
+            "fuel": 400
+          },
+          "seconds": 42,
+          "enabled": true,
+          "reason": "",
+          "count": 1,
+          "attack": 2,
+          "hull": 90,
+          "capacity": 600
+        },
+        {
+          "key": "frigate",
+          "name": "Fregata",
+          "description": "Podstawowy okręt bojowy.",
+          "level": 3,
+          "cost": {
+            "metal": 350,
+            "crystal": 180,
+            "fuel": 80
+          },
+          "seconds": 15,
+          "enabled": true,
+          "reason": "",
+          "count": 3,
+          "attack": 28,
+          "hull": 95,
+          "capacity": 80
+        },
+        {
+          "key": "cruiser",
+          "name": "Krążownik",
+          "description": "Ciężki okręt do przełamywania obrony.",
+          "level": 0,
+          "cost": {
+            "metal": 1200,
+            "crystal": 750,
+            "fuel": 250
+          },
+          "seconds": 36,
+          "enabled": false,
+          "reason": "Wymaga stoczni poziomu 2.",
+          "count": 0,
+          "attack": 90,
+          "hull": 320,
+          "capacity": 220
+        }
+      ]
+    },
+    "own_planets": [
+      {
+        "id": "s6p1",
+        "name": "Aster 1",
+        "system_id": "s6"
+      }
+    ],
+    "galaxy": [
+      {
+        "id": "s1",
+        "name": "Helios",
+        "x": 0.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s1p1",
+            "name": "Helios 1",
+            "system_id": "s1",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s1p2",
+            "name": "Helios 2",
+            "system_id": "s1",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s1p3",
+            "name": "Helios 3",
+            "system_id": "s1",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "Vega",
+        "x": 1.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s2p1",
+            "name": "Vega 1",
+            "system_id": "s2",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s2p2",
+            "name": "Vega 2",
+            "system_id": "s2",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s2p3",
+            "name": "Vega 3",
+            "system_id": "s2",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "Orion",
+        "x": 2.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s3p1",
+            "name": "Orion 1",
+            "system_id": "s3",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s3p2",
+            "name": "Orion 2",
+            "system_id": "s3",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s3p3",
+            "name": "Orion 3",
+            "system_id": "s3",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "Lyra",
+        "x": 3.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s4p1",
+            "name": "Lyra 1",
+            "system_id": "s4",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s4p2",
+            "name": "Lyra 2",
+            "system_id": "s4",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s4p3",
+            "name": "Lyra 3",
+            "system_id": "s4",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "Nadir",
+        "x": 4.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s5p1",
+            "name": "Nadir 1",
+            "system_id": "s5",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s5p2",
+            "name": "Nadir 2",
+            "system_id": "s5",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s5p3",
+            "name": "Nadir 3",
+            "system_id": "s5",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "name": "Aster",
+        "x": 5.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s6p1",
+            "name": "Aster 1",
+            "system_id": "s6",
+            "slot": 1,
+            "owner_type": "player",
+            "owner_id": "u0d4aab0c44438fc6",
+            "owner_name": "Konrad",
+            "protected_until": 1900086400.0
+          },
+          {
+            "id": "s6p2",
+            "name": "Aster 2",
+            "system_id": "s6",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s6p3",
+            "name": "Aster 3",
+            "system_id": "s6",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s7",
+        "name": "Talos",
+        "x": 0.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s7p1",
+            "name": "Talos 1",
+            "system_id": "s7",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s7p2",
+            "name": "Talos 2",
+            "system_id": "s7",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s7p3",
+            "name": "Talos 3",
+            "system_id": "s7",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s8",
+        "name": "Iris",
+        "x": 1.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s8p1",
+            "name": "Iris 1",
+            "system_id": "s8",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s8p2",
+            "name": "Iris 2",
+            "system_id": "s8",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s8p3",
+            "name": "Iris 3",
+            "system_id": "s8",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s9",
+        "name": "Atlas",
+        "x": 2.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s9p1",
+            "name": "Atlas 1",
+            "system_id": "s9",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s9p2",
+            "name": "Atlas 2",
+            "system_id": "s9",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s9p3",
+            "name": "Atlas 3",
+            "system_id": "s9",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s10",
+        "name": "Selene",
+        "x": 3.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s10p1",
+            "name": "Selene 1",
+            "system_id": "s10",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s10p2",
+            "name": "Selene 2",
+            "system_id": "s10",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s10p3",
+            "name": "Selene 3",
+            "system_id": "s10",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s11",
+        "name": "Draco",
+        "x": 4.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s11p1",
+            "name": "Draco 1",
+            "system_id": "s11",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s11p2",
+            "name": "Draco 2",
+            "system_id": "s11",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s11p3",
+            "name": "Draco 3",
+            "system_id": "s11",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s12",
+        "name": "Aurora",
+        "x": 5.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s12p1",
+            "name": "Aurora 1",
+            "system_id": "s12",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s12p2",
+            "name": "Aurora 2",
+            "system_id": "s12",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s12p3",
+            "name": "Aurora 3",
+            "system_id": "s12",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s13",
+        "name": "Kronos",
+        "x": 0.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s13p1",
+            "name": "Kronos 1",
+            "system_id": "s13",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s13p2",
+            "name": "Kronos 2",
+            "system_id": "s13",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s13p3",
+            "name": "Kronos 3",
+            "system_id": "s13",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s14",
+        "name": "Eos",
+        "x": 1.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s14p1",
+            "name": "Eos 1",
+            "system_id": "s14",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s14p2",
+            "name": "Eos 2",
+            "system_id": "s14",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s14p3",
+            "name": "Eos 3",
+            "system_id": "s14",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s15",
+        "name": "Polaris",
+        "x": 2.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s15p1",
+            "name": "Polaris 1",
+            "system_id": "s15",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s15p2",
+            "name": "Polaris 2",
+            "system_id": "s15",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s15p3",
+            "name": "Polaris 3",
+            "system_id": "s15",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s16",
+        "name": "Mira",
+        "x": 3.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s16p1",
+            "name": "Mira 1",
+            "system_id": "s16",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s16p2",
+            "name": "Mira 2",
+            "system_id": "s16",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s16p3",
+            "name": "Mira 3",
+            "system_id": "s16",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s17",
+        "name": "Nexus",
+        "x": 4.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s17p1",
+            "name": "Nexus 1",
+            "system_id": "s17",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s17p2",
+            "name": "Nexus 2",
+            "system_id": "s17",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s17p3",
+            "name": "Nexus 3",
+            "system_id": "s17",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s18",
+        "name": "Arden",
+        "x": 5.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s18p1",
+            "name": "Arden 1",
+            "system_id": "s18",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s18p2",
+            "name": "Arden 2",
+            "system_id": "s18",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s18p3",
+            "name": "Arden 3",
+            "system_id": "s18",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s19",
+        "name": "Ereb",
+        "x": 0.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s19p1",
+            "name": "Ereb 1",
+            "system_id": "s19",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s19p2",
+            "name": "Ereb 2",
+            "system_id": "s19",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s19p3",
+            "name": "Ereb 3",
+            "system_id": "s19",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s20",
+        "name": "Cygnus",
+        "x": 1.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s20p1",
+            "name": "Cygnus 1",
+            "system_id": "s20",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s20p2",
+            "name": "Cygnus 2",
+            "system_id": "s20",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s20p3",
+            "name": "Cygnus 3",
+            "system_id": "s20",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s21",
+        "name": "Boreas",
+        "x": 2.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s21p1",
+            "name": "Boreas 1",
+            "system_id": "s21",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s21p2",
+            "name": "Boreas 2",
+            "system_id": "s21",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s21p3",
+            "name": "Boreas 3",
+            "system_id": "s21",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s22",
+        "name": "Zefir",
+        "x": 3.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s22p1",
+            "name": "Zefir 1",
+            "system_id": "s22",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s22p2",
+            "name": "Zefir 2",
+            "system_id": "s22",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s22p3",
+            "name": "Zefir 3",
+            "system_id": "s22",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s23",
+        "name": "Tytan",
+        "x": 4.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s23p1",
+            "name": "Tytan 1",
+            "system_id": "s23",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s23p2",
+            "name": "Tytan 2",
+            "system_id": "s23",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s23p3",
+            "name": "Tytan 3",
+            "system_id": "s23",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s24",
+        "name": "Perseusz",
+        "x": 5.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s24p1",
+            "name": "Perseusz 1",
+            "system_id": "s24",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s24p2",
+            "name": "Perseusz 2",
+            "system_id": "s24",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s24p3",
+            "name": "Perseusz 3",
+            "system_id": "s24",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s25",
+        "name": "Arka",
+        "x": 0.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s25p1",
+            "name": "Arka 1",
+            "system_id": "s25",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s25p2",
+            "name": "Arka 2",
+            "system_id": "s25",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s25p3",
+            "name": "Arka 3",
+            "system_id": "s25",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s26",
+        "name": "Solara",
+        "x": 1.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s26p1",
+            "name": "Solara 1",
+            "system_id": "s26",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s26p2",
+            "name": "Solara 2",
+            "system_id": "s26",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s26p3",
+            "name": "Solara 3",
+            "system_id": "s26",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s27",
+        "name": "Kepler",
+        "x": 2.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s27p1",
+            "name": "Kepler 1",
+            "system_id": "s27",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s27p2",
+            "name": "Kepler 2",
+            "system_id": "s27",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s27p3",
+            "name": "Kepler 3",
+            "system_id": "s27",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s28",
+        "name": "Andara",
+        "x": 3.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s28p1",
+            "name": "Andara 1",
+            "system_id": "s28",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s28p2",
+            "name": "Andara 2",
+            "system_id": "s28",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s28p3",
+            "name": "Andara 3",
+            "system_id": "s28",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s29",
+        "name": "Vesper",
+        "x": 4.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s29p1",
+            "name": "Vesper 1",
+            "system_id": "s29",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s29p2",
+            "name": "Vesper 2",
+            "system_id": "s29",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s29p3",
+            "name": "Vesper 3",
+            "system_id": "s29",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s30",
+        "name": "Rubież",
+        "x": 5.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s30p1",
+            "name": "Rubież 1",
+            "system_id": "s30",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s30p2",
+            "name": "Rubież 2",
+            "system_id": "s30",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s30p3",
+            "name": "Rubież 3",
+            "system_id": "s30",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      }
+    ],
+    "fleets": [],
+    "reports": [
+      {
+        "id": "ra27a54b8e9e46753",
+        "at": 1900000000.0,
+        "title": "Witaj na pograniczu",
+        "text": "Rój Khar zasiedla środkową część galaktyki. Zbadaj wolną planetę, a potem wyślij kolonizator. Ochrona przed atakami graczy trwa 24 rzeczywiste godziny. Floty i budowy kończą zadania także po zamknięciu aplikacji."
+      }
+    ],
+    "alien": {
+      "name": "Rój Khar",
+      "next_expansion_at": 1900000060.0,
+      "colonies_count": 3,
+      "fleets": []
+    },
+    "limits": {
+      "colonies": 3
+    }
+  },
+  "building": {
+    "version": "0.1.5",
+    "server_time": 1900000000.0,
+    "speed": 10.0,
+    "player": {
+      "id": "u0d4aab0c44438fc6",
+      "name": "Konrad",
+      "protected_until": 1900086400.0
+    },
+    "home_id": "s6p1",
+    "planet_id": "s6p1",
+    "planet_name": "Aster 1",
+    "resources": {
+      "metal": 3670,
+      "crystal": 2484,
+      "fuel": 1400
+    },
+    "production": {
+      "metal": 5400.0,
+      "crystal": 3900.0,
+      "fuel": 2100.0
+    },
+    "energy": {
+      "supply": 100,
+      "used": 70,
+      "factor": 1.0
+    },
+    "buildings": {
+      "metal_mine": 1,
+      "crystal_mine": 1,
+      "refinery": 1,
+      "power_plant": 1,
+      "shipyard": 1,
+      "lab": 1
+    },
+    "research": {
+      "propulsion": 0,
+      "weapons": 0
+    },
+    "ships": {
+      "scout": 2,
+      "cargo": 1,
+      "colonizer": 1,
+      "frigate": 3,
+      "cruiser": 0
+    },
+    "queue": [
+      {
+        "id": "q2a802751384cf980",
+        "kind": "build",
+        "key": "metal_mine",
+        "amount": 1,
+        "level": 2,
+        "ends_at": 1900000016.0
+      }
+    ],
+    "catalog": {
+      "buildings": [
+        {
+          "key": "metal_mine",
+          "name": "Kopalnia metalu",
+          "description": "Metal do budowy imperium.",
+          "level": 1,
+          "cost": {
+            "metal": 330,
+            "crystal": 116,
+            "fuel": 0
+          },
+          "seconds": 16,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        },
+        {
+          "key": "crystal_mine",
+          "name": "Kopalnia kryształów",
+          "description": "Kryształy do badań i elektroniki.",
+          "level": 1,
+          "cost": {
+            "metal": 248,
+            "crystal": 182,
+            "fuel": 0
+          },
+          "seconds": 20,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        },
+        {
+          "key": "refinery",
+          "name": "Rafineria",
+          "description": "Paliwo dla twoich flot.",
+          "level": 1,
+          "cost": {
+            "metal": 363,
+            "crystal": 215,
+            "fuel": 0
+          },
+          "seconds": 24,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        },
+        {
+          "key": "power_plant",
+          "name": "Elektrownia",
+          "description": "Energia zasila wydobycie.",
+          "level": 1,
+          "cost": {
+            "metal": 297,
+            "crystal": 132,
+            "fuel": 0
+          },
+          "seconds": 16,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        },
+        {
+          "key": "shipyard",
+          "name": "Stocznia",
+          "description": "Buduje statki. Poziom 2 odblokowuje krążownik.",
+          "level": 1,
+          "cost": {
+            "metal": 660,
+            "crystal": 380,
+            "fuel": 132
+          },
+          "seconds": 32,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        },
+        {
+          "key": "lab",
+          "name": "Laboratorium",
+          "description": "Pozwala ulepszać napęd i uzbrojenie.",
+          "level": 1,
+          "cost": {
+            "metal": 578,
+            "crystal": 462,
+            "fuel": 132
+          },
+          "seconds": 32,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        }
+      ],
+      "research": [
+        {
+          "key": "propulsion",
+          "name": "Napęd",
+          "description": "Każdy poziom przyspiesza podróże o 15%.",
+          "level": 0,
+          "cost": {
+            "metal": 350,
+            "crystal": 400,
+            "fuel": 200
+          },
+          "seconds": 24,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        },
+        {
+          "key": "weapons",
+          "name": "Uzbrojenie",
+          "description": "Każdy poziom zwiększa siłę ataku o 15%.",
+          "level": 0,
+          "cost": {
+            "metal": 500,
+            "crystal": 300,
+            "fuel": 150
+          },
+          "seconds": 24,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt."
+        }
+      ],
+      "ships": [
+        {
+          "key": "scout",
+          "name": "Zwiadowca",
+          "description": "Odkrywa zasoby i obronę planety.",
+          "level": 2,
+          "cost": {
+            "metal": 100,
+            "crystal": 100,
+            "fuel": 30
+          },
+          "seconds": 6,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt.",
+          "count": 2,
+          "attack": 2,
+          "hull": 15,
+          "capacity": 10
+        },
+        {
+          "key": "cargo",
+          "name": "Transportowiec",
+          "description": "Przewozi zapasy i zdobycz.",
+          "level": 1,
+          "cost": {
+            "metal": 250,
+            "crystal": 150,
+            "fuel": 60
+          },
+          "seconds": 12,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt.",
+          "count": 1,
+          "attack": 3,
+          "hull": 50,
+          "capacity": 1500
+        },
+        {
+          "key": "colonizer",
+          "name": "Kolonizator",
+          "description": "Zakłada kolonię na wolnej planecie.",
+          "level": 1,
+          "cost": {
+            "metal": 1600,
+            "crystal": 1000,
+            "fuel": 400
+          },
+          "seconds": 42,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt.",
+          "count": 1,
+          "attack": 2,
+          "hull": 90,
+          "capacity": 600
+        },
+        {
+          "key": "frigate",
+          "name": "Fregata",
+          "description": "Podstawowy okręt bojowy.",
+          "level": 3,
+          "cost": {
+            "metal": 350,
+            "crystal": 180,
+            "fuel": 80
+          },
+          "seconds": 15,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt.",
+          "count": 3,
+          "attack": 28,
+          "hull": 95,
+          "capacity": 80
+        },
+        {
+          "key": "cruiser",
+          "name": "Krążownik",
+          "description": "Ciężki okręt do przełamywania obrony.",
+          "level": 0,
+          "cost": {
+            "metal": 1200,
+            "crystal": 750,
+            "fuel": 250
+          },
+          "seconds": 36,
+          "enabled": false,
+          "reason": "Planeta realizuje już projekt.",
+          "count": 0,
+          "attack": 90,
+          "hull": 320,
+          "capacity": 220
+        }
+      ]
+    },
+    "own_planets": [
+      {
+        "id": "s6p1",
+        "name": "Aster 1",
+        "system_id": "s6"
+      }
+    ],
+    "galaxy": [
+      {
+        "id": "s1",
+        "name": "Helios",
+        "x": 0.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s1p1",
+            "name": "Helios 1",
+            "system_id": "s1",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s1p2",
+            "name": "Helios 2",
+            "system_id": "s1",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s1p3",
+            "name": "Helios 3",
+            "system_id": "s1",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "Vega",
+        "x": 1.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s2p1",
+            "name": "Vega 1",
+            "system_id": "s2",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s2p2",
+            "name": "Vega 2",
+            "system_id": "s2",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s2p3",
+            "name": "Vega 3",
+            "system_id": "s2",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "Orion",
+        "x": 2.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s3p1",
+            "name": "Orion 1",
+            "system_id": "s3",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s3p2",
+            "name": "Orion 2",
+            "system_id": "s3",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s3p3",
+            "name": "Orion 3",
+            "system_id": "s3",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "Lyra",
+        "x": 3.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s4p1",
+            "name": "Lyra 1",
+            "system_id": "s4",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s4p2",
+            "name": "Lyra 2",
+            "system_id": "s4",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s4p3",
+            "name": "Lyra 3",
+            "system_id": "s4",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "Nadir",
+        "x": 4.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s5p1",
+            "name": "Nadir 1",
+            "system_id": "s5",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s5p2",
+            "name": "Nadir 2",
+            "system_id": "s5",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s5p3",
+            "name": "Nadir 3",
+            "system_id": "s5",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "name": "Aster",
+        "x": 5.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s6p1",
+            "name": "Aster 1",
+            "system_id": "s6",
+            "slot": 1,
+            "owner_type": "player",
+            "owner_id": "u0d4aab0c44438fc6",
+            "owner_name": "Konrad",
+            "protected_until": 1900086400.0
+          },
+          {
+            "id": "s6p2",
+            "name": "Aster 2",
+            "system_id": "s6",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s6p3",
+            "name": "Aster 3",
+            "system_id": "s6",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s7",
+        "name": "Talos",
+        "x": 0.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s7p1",
+            "name": "Talos 1",
+            "system_id": "s7",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s7p2",
+            "name": "Talos 2",
+            "system_id": "s7",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s7p3",
+            "name": "Talos 3",
+            "system_id": "s7",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s8",
+        "name": "Iris",
+        "x": 1.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s8p1",
+            "name": "Iris 1",
+            "system_id": "s8",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s8p2",
+            "name": "Iris 2",
+            "system_id": "s8",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s8p3",
+            "name": "Iris 3",
+            "system_id": "s8",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s9",
+        "name": "Atlas",
+        "x": 2.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s9p1",
+            "name": "Atlas 1",
+            "system_id": "s9",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s9p2",
+            "name": "Atlas 2",
+            "system_id": "s9",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s9p3",
+            "name": "Atlas 3",
+            "system_id": "s9",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s10",
+        "name": "Selene",
+        "x": 3.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s10p1",
+            "name": "Selene 1",
+            "system_id": "s10",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s10p2",
+            "name": "Selene 2",
+            "system_id": "s10",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s10p3",
+            "name": "Selene 3",
+            "system_id": "s10",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s11",
+        "name": "Draco",
+        "x": 4.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s11p1",
+            "name": "Draco 1",
+            "system_id": "s11",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s11p2",
+            "name": "Draco 2",
+            "system_id": "s11",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s11p3",
+            "name": "Draco 3",
+            "system_id": "s11",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s12",
+        "name": "Aurora",
+        "x": 5.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s12p1",
+            "name": "Aurora 1",
+            "system_id": "s12",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s12p2",
+            "name": "Aurora 2",
+            "system_id": "s12",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s12p3",
+            "name": "Aurora 3",
+            "system_id": "s12",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s13",
+        "name": "Kronos",
+        "x": 0.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s13p1",
+            "name": "Kronos 1",
+            "system_id": "s13",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s13p2",
+            "name": "Kronos 2",
+            "system_id": "s13",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s13p3",
+            "name": "Kronos 3",
+            "system_id": "s13",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s14",
+        "name": "Eos",
+        "x": 1.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s14p1",
+            "name": "Eos 1",
+            "system_id": "s14",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s14p2",
+            "name": "Eos 2",
+            "system_id": "s14",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s14p3",
+            "name": "Eos 3",
+            "system_id": "s14",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s15",
+        "name": "Polaris",
+        "x": 2.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s15p1",
+            "name": "Polaris 1",
+            "system_id": "s15",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s15p2",
+            "name": "Polaris 2",
+            "system_id": "s15",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s15p3",
+            "name": "Polaris 3",
+            "system_id": "s15",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s16",
+        "name": "Mira",
+        "x": 3.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s16p1",
+            "name": "Mira 1",
+            "system_id": "s16",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s16p2",
+            "name": "Mira 2",
+            "system_id": "s16",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s16p3",
+            "name": "Mira 3",
+            "system_id": "s16",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s17",
+        "name": "Nexus",
+        "x": 4.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s17p1",
+            "name": "Nexus 1",
+            "system_id": "s17",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s17p2",
+            "name": "Nexus 2",
+            "system_id": "s17",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s17p3",
+            "name": "Nexus 3",
+            "system_id": "s17",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s18",
+        "name": "Arden",
+        "x": 5.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s18p1",
+            "name": "Arden 1",
+            "system_id": "s18",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s18p2",
+            "name": "Arden 2",
+            "system_id": "s18",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s18p3",
+            "name": "Arden 3",
+            "system_id": "s18",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s19",
+        "name": "Ereb",
+        "x": 0.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s19p1",
+            "name": "Ereb 1",
+            "system_id": "s19",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s19p2",
+            "name": "Ereb 2",
+            "system_id": "s19",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s19p3",
+            "name": "Ereb 3",
+            "system_id": "s19",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s20",
+        "name": "Cygnus",
+        "x": 1.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s20p1",
+            "name": "Cygnus 1",
+            "system_id": "s20",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s20p2",
+            "name": "Cygnus 2",
+            "system_id": "s20",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s20p3",
+            "name": "Cygnus 3",
+            "system_id": "s20",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s21",
+        "name": "Boreas",
+        "x": 2.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s21p1",
+            "name": "Boreas 1",
+            "system_id": "s21",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s21p2",
+            "name": "Boreas 2",
+            "system_id": "s21",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s21p3",
+            "name": "Boreas 3",
+            "system_id": "s21",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s22",
+        "name": "Zefir",
+        "x": 3.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s22p1",
+            "name": "Zefir 1",
+            "system_id": "s22",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s22p2",
+            "name": "Zefir 2",
+            "system_id": "s22",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s22p3",
+            "name": "Zefir 3",
+            "system_id": "s22",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s23",
+        "name": "Tytan",
+        "x": 4.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s23p1",
+            "name": "Tytan 1",
+            "system_id": "s23",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s23p2",
+            "name": "Tytan 2",
+            "system_id": "s23",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s23p3",
+            "name": "Tytan 3",
+            "system_id": "s23",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s24",
+        "name": "Perseusz",
+        "x": 5.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s24p1",
+            "name": "Perseusz 1",
+            "system_id": "s24",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s24p2",
+            "name": "Perseusz 2",
+            "system_id": "s24",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s24p3",
+            "name": "Perseusz 3",
+            "system_id": "s24",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s25",
+        "name": "Arka",
+        "x": 0.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s25p1",
+            "name": "Arka 1",
+            "system_id": "s25",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s25p2",
+            "name": "Arka 2",
+            "system_id": "s25",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s25p3",
+            "name": "Arka 3",
+            "system_id": "s25",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s26",
+        "name": "Solara",
+        "x": 1.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s26p1",
+            "name": "Solara 1",
+            "system_id": "s26",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s26p2",
+            "name": "Solara 2",
+            "system_id": "s26",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s26p3",
+            "name": "Solara 3",
+            "system_id": "s26",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s27",
+        "name": "Kepler",
+        "x": 2.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s27p1",
+            "name": "Kepler 1",
+            "system_id": "s27",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s27p2",
+            "name": "Kepler 2",
+            "system_id": "s27",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s27p3",
+            "name": "Kepler 3",
+            "system_id": "s27",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s28",
+        "name": "Andara",
+        "x": 3.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s28p1",
+            "name": "Andara 1",
+            "system_id": "s28",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s28p2",
+            "name": "Andara 2",
+            "system_id": "s28",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s28p3",
+            "name": "Andara 3",
+            "system_id": "s28",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s29",
+        "name": "Vesper",
+        "x": 4.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s29p1",
+            "name": "Vesper 1",
+            "system_id": "s29",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s29p2",
+            "name": "Vesper 2",
+            "system_id": "s29",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s29p3",
+            "name": "Vesper 3",
+            "system_id": "s29",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s30",
+        "name": "Rubież",
+        "x": 5.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s30p1",
+            "name": "Rubież 1",
+            "system_id": "s30",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s30p2",
+            "name": "Rubież 2",
+            "system_id": "s30",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s30p3",
+            "name": "Rubież 3",
+            "system_id": "s30",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      }
+    ],
+    "fleets": [],
+    "reports": [
+      {
+        "id": "ra27a54b8e9e46753",
+        "at": 1900000000.0,
+        "title": "Witaj na pograniczu",
+        "text": "Rój Khar zasiedla środkową część galaktyki. Zbadaj wolną planetę, a potem wyślij kolonizator. Ochrona przed atakami graczy trwa 24 rzeczywiste godziny. Floty i budowy kończą zadania także po zamknięciu aplikacji."
+      }
+    ],
+    "alien": {
+      "name": "Rój Khar",
+      "next_expansion_at": 1900000060.0,
+      "colonies_count": 3,
+      "fleets": []
+    },
+    "limits": {
+      "colonies": 3
+    }
+  },
+  "completed": {
+    "version": "0.1.5",
+    "server_time": 1900000016.01,
+    "speed": 10.0,
+    "player": {
+      "id": "u0d4aab0c44438fc6",
+      "name": "Konrad",
+      "protected_until": 1900086400.0
+    },
+    "home_id": "s6p1",
+    "planet_id": "s6p1",
+    "planet_name": "Aster 1",
+    "resources": {
+      "metal": 3694,
+      "crystal": 2501,
+      "fuel": 1409
+    },
+    "production": {
+      "metal": 9900.0,
+      "crystal": 3900.0,
+      "fuel": 2100.0
+    },
+    "energy": {
+      "supply": 100,
+      "used": 90,
+      "factor": 1.0
+    },
+    "buildings": {
+      "metal_mine": 2,
+      "crystal_mine": 1,
+      "refinery": 1,
+      "power_plant": 1,
+      "shipyard": 1,
+      "lab": 1
+    },
+    "research": {
+      "propulsion": 0,
+      "weapons": 0
+    },
+    "ships": {
+      "scout": 2,
+      "cargo": 1,
+      "colonizer": 1,
+      "frigate": 3,
+      "cruiser": 0
+    },
+    "queue": [],
+    "catalog": {
+      "buildings": [
+        {
+          "key": "metal_mine",
+          "name": "Kopalnia metalu",
+          "description": "Metal do budowy imperium.",
+          "level": 2,
+          "cost": {
+            "metal": 545,
+            "crystal": 191,
+            "fuel": 0
+          },
+          "seconds": 21,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "crystal_mine",
+          "name": "Kopalnia kryształów",
+          "description": "Kryształy do badań i elektroniki.",
+          "level": 1,
+          "cost": {
+            "metal": 248,
+            "crystal": 182,
+            "fuel": 0
+          },
+          "seconds": 20,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "refinery",
+          "name": "Rafineria",
+          "description": "Paliwo dla twoich flot.",
+          "level": 1,
+          "cost": {
+            "metal": 363,
+            "crystal": 215,
+            "fuel": 0
+          },
+          "seconds": 24,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "power_plant",
+          "name": "Elektrownia",
+          "description": "Energia zasila wydobycie.",
+          "level": 1,
+          "cost": {
+            "metal": 297,
+            "crystal": 132,
+            "fuel": 0
+          },
+          "seconds": 16,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "shipyard",
+          "name": "Stocznia",
+          "description": "Buduje statki. Poziom 2 odblokowuje krążownik.",
+          "level": 1,
+          "cost": {
+            "metal": 660,
+            "crystal": 380,
+            "fuel": 132
+          },
+          "seconds": 32,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "lab",
+          "name": "Laboratorium",
+          "description": "Pozwala ulepszać napęd i uzbrojenie.",
+          "level": 1,
+          "cost": {
+            "metal": 578,
+            "crystal": 462,
+            "fuel": 132
+          },
+          "seconds": 32,
+          "enabled": true,
+          "reason": ""
+        }
+      ],
+      "research": [
+        {
+          "key": "propulsion",
+          "name": "Napęd",
+          "description": "Każdy poziom przyspiesza podróże o 15%.",
+          "level": 0,
+          "cost": {
+            "metal": 350,
+            "crystal": 400,
+            "fuel": 200
+          },
+          "seconds": 24,
+          "enabled": true,
+          "reason": ""
+        },
+        {
+          "key": "weapons",
+          "name": "Uzbrojenie",
+          "description": "Każdy poziom zwiększa siłę ataku o 15%.",
+          "level": 0,
+          "cost": {
+            "metal": 500,
+            "crystal": 300,
+            "fuel": 150
+          },
+          "seconds": 24,
+          "enabled": true,
+          "reason": ""
+        }
+      ],
+      "ships": [
+        {
+          "key": "scout",
+          "name": "Zwiadowca",
+          "description": "Odkrywa zasoby i obronę planety.",
+          "level": 2,
+          "cost": {
+            "metal": 100,
+            "crystal": 100,
+            "fuel": 30
+          },
+          "seconds": 6,
+          "enabled": true,
+          "reason": "",
+          "count": 2,
+          "attack": 2,
+          "hull": 15,
+          "capacity": 10
+        },
+        {
+          "key": "cargo",
+          "name": "Transportowiec",
+          "description": "Przewozi zapasy i zdobycz.",
+          "level": 1,
+          "cost": {
+            "metal": 250,
+            "crystal": 150,
+            "fuel": 60
+          },
+          "seconds": 12,
+          "enabled": true,
+          "reason": "",
+          "count": 1,
+          "attack": 3,
+          "hull": 50,
+          "capacity": 1500
+        },
+        {
+          "key": "colonizer",
+          "name": "Kolonizator",
+          "description": "Zakłada kolonię na wolnej planecie.",
+          "level": 1,
+          "cost": {
+            "metal": 1600,
+            "crystal": 1000,
+            "fuel": 400
+          },
+          "seconds": 42,
+          "enabled": true,
+          "reason": "",
+          "count": 1,
+          "attack": 2,
+          "hull": 90,
+          "capacity": 600
+        },
+        {
+          "key": "frigate",
+          "name": "Fregata",
+          "description": "Podstawowy okręt bojowy.",
+          "level": 3,
+          "cost": {
+            "metal": 350,
+            "crystal": 180,
+            "fuel": 80
+          },
+          "seconds": 15,
+          "enabled": true,
+          "reason": "",
+          "count": 3,
+          "attack": 28,
+          "hull": 95,
+          "capacity": 80
+        },
+        {
+          "key": "cruiser",
+          "name": "Krążownik",
+          "description": "Ciężki okręt do przełamywania obrony.",
+          "level": 0,
+          "cost": {
+            "metal": 1200,
+            "crystal": 750,
+            "fuel": 250
+          },
+          "seconds": 36,
+          "enabled": false,
+          "reason": "Wymaga stoczni poziomu 2.",
+          "count": 0,
+          "attack": 90,
+          "hull": 320,
+          "capacity": 220
+        }
+      ]
+    },
+    "own_planets": [
+      {
+        "id": "s6p1",
+        "name": "Aster 1",
+        "system_id": "s6"
+      }
+    ],
+    "galaxy": [
+      {
+        "id": "s1",
+        "name": "Helios",
+        "x": 0.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s1p1",
+            "name": "Helios 1",
+            "system_id": "s1",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s1p2",
+            "name": "Helios 2",
+            "system_id": "s1",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s1p3",
+            "name": "Helios 3",
+            "system_id": "s1",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "Vega",
+        "x": 1.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s2p1",
+            "name": "Vega 1",
+            "system_id": "s2",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s2p2",
+            "name": "Vega 2",
+            "system_id": "s2",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s2p3",
+            "name": "Vega 3",
+            "system_id": "s2",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "Orion",
+        "x": 2.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s3p1",
+            "name": "Orion 1",
+            "system_id": "s3",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s3p2",
+            "name": "Orion 2",
+            "system_id": "s3",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s3p3",
+            "name": "Orion 3",
+            "system_id": "s3",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "Lyra",
+        "x": 3.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s4p1",
+            "name": "Lyra 1",
+            "system_id": "s4",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s4p2",
+            "name": "Lyra 2",
+            "system_id": "s4",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s4p3",
+            "name": "Lyra 3",
+            "system_id": "s4",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "Nadir",
+        "x": 4.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s5p1",
+            "name": "Nadir 1",
+            "system_id": "s5",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s5p2",
+            "name": "Nadir 2",
+            "system_id": "s5",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s5p3",
+            "name": "Nadir 3",
+            "system_id": "s5",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "name": "Aster",
+        "x": 5.0,
+        "y": 0.0,
+        "planets": [
+          {
+            "id": "s6p1",
+            "name": "Aster 1",
+            "system_id": "s6",
+            "slot": 1,
+            "owner_type": "player",
+            "owner_id": "u0d4aab0c44438fc6",
+            "owner_name": "Konrad",
+            "protected_until": 1900086400.0
+          },
+          {
+            "id": "s6p2",
+            "name": "Aster 2",
+            "system_id": "s6",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s6p3",
+            "name": "Aster 3",
+            "system_id": "s6",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s7",
+        "name": "Talos",
+        "x": 0.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s7p1",
+            "name": "Talos 1",
+            "system_id": "s7",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s7p2",
+            "name": "Talos 2",
+            "system_id": "s7",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s7p3",
+            "name": "Talos 3",
+            "system_id": "s7",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s8",
+        "name": "Iris",
+        "x": 1.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s8p1",
+            "name": "Iris 1",
+            "system_id": "s8",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s8p2",
+            "name": "Iris 2",
+            "system_id": "s8",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s8p3",
+            "name": "Iris 3",
+            "system_id": "s8",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s9",
+        "name": "Atlas",
+        "x": 2.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s9p1",
+            "name": "Atlas 1",
+            "system_id": "s9",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s9p2",
+            "name": "Atlas 2",
+            "system_id": "s9",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s9p3",
+            "name": "Atlas 3",
+            "system_id": "s9",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s10",
+        "name": "Selene",
+        "x": 3.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s10p1",
+            "name": "Selene 1",
+            "system_id": "s10",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s10p2",
+            "name": "Selene 2",
+            "system_id": "s10",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s10p3",
+            "name": "Selene 3",
+            "system_id": "s10",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s11",
+        "name": "Draco",
+        "x": 4.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s11p1",
+            "name": "Draco 1",
+            "system_id": "s11",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s11p2",
+            "name": "Draco 2",
+            "system_id": "s11",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s11p3",
+            "name": "Draco 3",
+            "system_id": "s11",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s12",
+        "name": "Aurora",
+        "x": 5.0,
+        "y": 1.0,
+        "planets": [
+          {
+            "id": "s12p1",
+            "name": "Aurora 1",
+            "system_id": "s12",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s12p2",
+            "name": "Aurora 2",
+            "system_id": "s12",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s12p3",
+            "name": "Aurora 3",
+            "system_id": "s12",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s13",
+        "name": "Kronos",
+        "x": 0.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s13p1",
+            "name": "Kronos 1",
+            "system_id": "s13",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s13p2",
+            "name": "Kronos 2",
+            "system_id": "s13",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s13p3",
+            "name": "Kronos 3",
+            "system_id": "s13",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s14",
+        "name": "Eos",
+        "x": 1.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s14p1",
+            "name": "Eos 1",
+            "system_id": "s14",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s14p2",
+            "name": "Eos 2",
+            "system_id": "s14",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s14p3",
+            "name": "Eos 3",
+            "system_id": "s14",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s15",
+        "name": "Polaris",
+        "x": 2.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s15p1",
+            "name": "Polaris 1",
+            "system_id": "s15",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s15p2",
+            "name": "Polaris 2",
+            "system_id": "s15",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s15p3",
+            "name": "Polaris 3",
+            "system_id": "s15",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s16",
+        "name": "Mira",
+        "x": 3.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s16p1",
+            "name": "Mira 1",
+            "system_id": "s16",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s16p2",
+            "name": "Mira 2",
+            "system_id": "s16",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s16p3",
+            "name": "Mira 3",
+            "system_id": "s16",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s17",
+        "name": "Nexus",
+        "x": 4.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s17p1",
+            "name": "Nexus 1",
+            "system_id": "s17",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s17p2",
+            "name": "Nexus 2",
+            "system_id": "s17",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s17p3",
+            "name": "Nexus 3",
+            "system_id": "s17",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s18",
+        "name": "Arden",
+        "x": 5.0,
+        "y": 2.0,
+        "planets": [
+          {
+            "id": "s18p1",
+            "name": "Arden 1",
+            "system_id": "s18",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s18p2",
+            "name": "Arden 2",
+            "system_id": "s18",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s18p3",
+            "name": "Arden 3",
+            "system_id": "s18",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s19",
+        "name": "Ereb",
+        "x": 0.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s19p1",
+            "name": "Ereb 1",
+            "system_id": "s19",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s19p2",
+            "name": "Ereb 2",
+            "system_id": "s19",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s19p3",
+            "name": "Ereb 3",
+            "system_id": "s19",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s20",
+        "name": "Cygnus",
+        "x": 1.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s20p1",
+            "name": "Cygnus 1",
+            "system_id": "s20",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s20p2",
+            "name": "Cygnus 2",
+            "system_id": "s20",
+            "slot": 2,
+            "owner_type": "alien",
+            "owner_id": "khar",
+            "owner_name": "Rój Khar"
+          },
+          {
+            "id": "s20p3",
+            "name": "Cygnus 3",
+            "system_id": "s20",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s21",
+        "name": "Boreas",
+        "x": 2.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s21p1",
+            "name": "Boreas 1",
+            "system_id": "s21",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s21p2",
+            "name": "Boreas 2",
+            "system_id": "s21",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s21p3",
+            "name": "Boreas 3",
+            "system_id": "s21",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s22",
+        "name": "Zefir",
+        "x": 3.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s22p1",
+            "name": "Zefir 1",
+            "system_id": "s22",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s22p2",
+            "name": "Zefir 2",
+            "system_id": "s22",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s22p3",
+            "name": "Zefir 3",
+            "system_id": "s22",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s23",
+        "name": "Tytan",
+        "x": 4.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s23p1",
+            "name": "Tytan 1",
+            "system_id": "s23",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s23p2",
+            "name": "Tytan 2",
+            "system_id": "s23",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s23p3",
+            "name": "Tytan 3",
+            "system_id": "s23",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s24",
+        "name": "Perseusz",
+        "x": 5.0,
+        "y": 3.0,
+        "planets": [
+          {
+            "id": "s24p1",
+            "name": "Perseusz 1",
+            "system_id": "s24",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s24p2",
+            "name": "Perseusz 2",
+            "system_id": "s24",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s24p3",
+            "name": "Perseusz 3",
+            "system_id": "s24",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s25",
+        "name": "Arka",
+        "x": 0.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s25p1",
+            "name": "Arka 1",
+            "system_id": "s25",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s25p2",
+            "name": "Arka 2",
+            "system_id": "s25",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s25p3",
+            "name": "Arka 3",
+            "system_id": "s25",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s26",
+        "name": "Solara",
+        "x": 1.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s26p1",
+            "name": "Solara 1",
+            "system_id": "s26",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s26p2",
+            "name": "Solara 2",
+            "system_id": "s26",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s26p3",
+            "name": "Solara 3",
+            "system_id": "s26",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s27",
+        "name": "Kepler",
+        "x": 2.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s27p1",
+            "name": "Kepler 1",
+            "system_id": "s27",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s27p2",
+            "name": "Kepler 2",
+            "system_id": "s27",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s27p3",
+            "name": "Kepler 3",
+            "system_id": "s27",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s28",
+        "name": "Andara",
+        "x": 3.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s28p1",
+            "name": "Andara 1",
+            "system_id": "s28",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s28p2",
+            "name": "Andara 2",
+            "system_id": "s28",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s28p3",
+            "name": "Andara 3",
+            "system_id": "s28",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s29",
+        "name": "Vesper",
+        "x": 4.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s29p1",
+            "name": "Vesper 1",
+            "system_id": "s29",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s29p2",
+            "name": "Vesper 2",
+            "system_id": "s29",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s29p3",
+            "name": "Vesper 3",
+            "system_id": "s29",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      },
+      {
+        "id": "s30",
+        "name": "Rubież",
+        "x": 5.0,
+        "y": 4.0,
+        "planets": [
+          {
+            "id": "s30p1",
+            "name": "Rubież 1",
+            "system_id": "s30",
+            "slot": 1,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s30p2",
+            "name": "Rubież 2",
+            "system_id": "s30",
+            "slot": 2,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          },
+          {
+            "id": "s30p3",
+            "name": "Rubież 3",
+            "system_id": "s30",
+            "slot": 3,
+            "owner_type": "empty",
+            "owner_id": "",
+            "owner_name": ""
+          }
+        ]
+      }
+    ],
+    "fleets": [],
+    "reports": [
+      {
+        "id": "ra1ced66c25532bfb",
+        "at": 1900000016.0,
+        "title": "Ukończono projekt",
+        "text": "Aster 1: Kopalnia metalu, poziom 2."
+      },
+      {
+        "id": "ra27a54b8e9e46753",
+        "at": 1900000000.0,
+        "title": "Witaj na pograniczu",
+        "text": "Rój Khar zasiedla środkową część galaktyki. Zbadaj wolną planetę, a potem wyślij kolonizator. Ochrona przed atakami graczy trwa 24 rzeczywiste godziny. Floty i budowy kończą zadania także po zamknięciu aplikacji."
+      }
+    ],
+    "alien": {
+      "name": "Rój Khar",
+      "next_expansion_at": 1900000060.0,
+      "colonies_count": 3,
+      "fleets": []
+    },
+    "limits": {
+      "colonies": 3
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Explicit one-time operator deployment; restore /railway.toml after completion.
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "python maintenance_unused_accounts.py --idle-hours 72 --operation-id unused-72h-zero-20261027 --apply --serve"
+healthcheckPath = "/health"
+healthcheckTimeout = 60
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+

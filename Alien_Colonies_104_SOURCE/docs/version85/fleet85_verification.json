@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "test_file": "backend/tests/test_fleet_balance_85.py",
+  "command": "python3 -B -m unittest discover -s tests -p test_fleet_balance_85.py -v",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "runtime_seconds": 9.767,
+  "player_ship_variants_verified": 36,
+  "player_defense_variants_verified": 3,
+  "coverage": [
+    "runtime catalog prices/stats/speeds/fuel",
+    "player weapons +10% in catalog/details/coalitions",
+    "solo combat replay and actual survivors match catalog",
+    "solo wreck recovery from current ship and defense prices",
+    "coalition wreck recovery and conservation between formations",
+    "racial traits and research stacking on normalized base",
+    "fuel discounts apply once",
+    "Khar NPC stats, costs and +15% weapons preserved",
+    "actual Khar solo battle salvo unchanged",
+    "ACS holding fuel 0.1 coefficient/hour, 1h and 8h, research and launch-building discounts"
+  ],
+  "files_at_verification": {
+    "fleet_balance85.py": "246498de28fa3de4f97b528281643fb912fdc69eb74a78a4efe76b19ce3cc38e",
+    "app.py": "af1ebbf8f7fb9956a0da492a69054042dcc59558fed8339dd1d93fe26bf4a88f",
+    "alliance_operations.py": "9c1c3cbe46f1cfeeaa809745ec9629c26f3c7cfbf0ea0211bd8fac9266d5ebad",
+    "tests/test_fleet_balance_85.py": "f955b252e8ef63bf3f49fec1e8927a81b41086fb52858ce70742b1f7c4d03fd5"
+  },
+  "limitations": [
+    "No shields or rapid-fire added; existing Alien combat resolver remains.",
+    "Root owns flight duration/fuel consumption formula; this report verifies only base fuel coefficients and existing discounts.",
+    "Source is not deployed by this agent."
+  ],
+  "migration_regression": "offline_combat85_verification.json"
+}

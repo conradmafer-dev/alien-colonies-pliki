@@ -1,0 +1,82 @@
+{
+  "fleet": {
+    "id": "fixture",
+    "mission": "scout",
+    "status": "outbound",
+    "origin_system_id": "s1",
+    "target_system_id": "s3",
+    "origin_galaxy_id": "g1",
+    "target_galaxy_id": "g1",
+    "started_at": 1000,
+    "arrives_at": 1120,
+    "seconds": 120,
+    "route": {
+      "system_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "segments": [
+        {
+          "from_system_id": "s1",
+          "to_system_id": "s2",
+          "kind": "orbit",
+          "distance": 1
+        },
+        {
+          "from_system_id": "s2",
+          "to_system_id": "s3",
+          "kind": "bridge",
+          "distance": 3
+        }
+      ],
+      "local_distance": 4,
+      "origin_galaxy_id": "g1",
+      "target_galaxy_id": "g1"
+    }
+  },
+  "samples": [
+    {
+      "now": 990,
+      "progress": 0,
+      "index": 0,
+      "fraction": 0
+    },
+    {
+      "now": 1000,
+      "progress": 0,
+      "index": 0,
+      "fraction": 0
+    },
+    {
+      "now": 1015,
+      "progress": 0.125,
+      "index": 0,
+      "fraction": 0.5
+    },
+    {
+      "now": 1030,
+      "progress": 0.25,
+      "index": 1,
+      "fraction": 0
+    },
+    {
+      "now": 1060,
+      "progress": 0.5,
+      "index": 1,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "now": 1120,
+      "progress": 1,
+      "index": 1,
+      "fraction": 1
+    },
+    {
+      "now": 1200,
+      "progress": 1,
+      "index": 1,
+      "fraction": 1
+    }
+  ]
+}

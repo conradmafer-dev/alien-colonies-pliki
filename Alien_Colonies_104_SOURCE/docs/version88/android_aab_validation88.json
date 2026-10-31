@@ -1,0 +1,58 @@
+{
+  "result": "PASS",
+  "bundle": "Alien_Colonies_ANDROID_0.12.21_CODE_88_UNSIGNED.aab",
+  "bytes": 330596938,
+  "sha256": "f2e7c3238bf91599f159778f23a7b0a63873243fdfc80315fb4d1b694692d761",
+  "version_name": "0.12.21",
+  "version_code": 88,
+  "package": "com.conradmafer.aliencolonies",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "debuggable": false,
+  "unsigned": true,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "elf_load_alignments": {
+    "base/lib/arm64-v8a/libc++_shared.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libgodot_android.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/armeabi-v7a/libc++_shared.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "base/lib/armeabi-v7a/libgodot_android.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ]
+  },
+  "native_16k_alignment": "PASS",
+  "bundletool_validation": "PASS",
+  "zip_crc": "PASS",
+  "zip_entries": 1210,
+  "google_auth_callback_manifest": "PASS",
+  "auth_plugin_in_dex": "PASS",
+  "billing_plugin_in_dex": "PASS",
+  "install_time_asset_pack": "PASS",
+  "play_billing_client_version": "9.1.0",
+  "application_module_count": 1,
+  "install_time_asset_pack_count": 1,
+  "not_tested": [
+    "Physical-device Google sign-in",
+    "Real Google Play purchases"
+  ]
+}

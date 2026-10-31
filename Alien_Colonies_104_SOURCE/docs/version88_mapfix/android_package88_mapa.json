@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "revision": "88_MAPA",
+  "zip": "/workspace/scratch/3033034b6708/work88_mapfix/Alien_Colonies_88_AAB_MAPA_PODPISYWACZ_WINDOWS.zip",
+  "zip_bytes": 330611092,
+  "zip_sha256": "aed2d655ca51d5ec575764d8909a99bcea1dba90c34b8f8bed469aaa0f17a7bb",
+  "packaged_aab_sha256": "145243ef7bbef0d24eee96c737bc30dfafa8d8fe3ae4ad7c2c6e430a06a47b65",
+  "file_count": 9,
+  "files": [
+    "Alien_Colonies_ANDROID_0.12.21_CODE_88_MAPA_UNSIGNED.aab",
+    "PODPISZ88_MAPA.bat",
+    "PODPISZ_AAB_88_MAPA.cmd",
+    "PODPISZ_AAB_88_MAPA.ps1",
+    "SignAab88_MAPA.java",
+    "README_PODPISYWANIE_88_MAPA.txt",
+    "AAB88_MAPA_VERIFICATION.json",
+    "WERYFIKACJA_88_MAPA.txt",
+    "SHA256SUMS.txt"
+  ]
+}

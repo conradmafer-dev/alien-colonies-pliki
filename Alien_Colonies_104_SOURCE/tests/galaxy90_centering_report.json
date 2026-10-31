@@ -1,0 +1,1175 @@
+{
+  "checks": 101,
+  "core_checks": [
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "nexus",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "omega",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "zephyr",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "eclipse",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "void",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 1.0
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 2.4
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 4.5
+    },
+    {
+      "error_pixels": 0.0,
+      "galaxy": "aurora",
+      "pan": [
+        91.0,
+        -47.0
+      ],
+      "zoom": 4.5
+    }
+  ],
+  "failed": [],
+  "navigation": [
+    {
+      "normal": {
+        "ellipse_radius": [
+          284.0,
+          170.399993896484
+        ],
+        "global_position": [
+          22.0,
+          408.0
+        ],
+        "home_center_error": 0.0,
+        "home_neighbor_distance": 163.044845581055,
+        "home_position": [
+          338.0,
+          343.5
+        ],
+        "pan": [
+          0.0,
+          575.099975585938
+        ],
+        "plot_center": [
+          338.0,
+          343.5
+        ],
+        "relative_visible_positions": {
+          "s1": [
+            0.0,
+            0.0
+          ],
+          "s181": [
+            0.0,
+            189.782958984375
+          ],
+          "s182": [
+            163.275604248047,
+            202.448486328125
+          ],
+          "s2": [
+            162.830139160156,
+            8.36468505859375
+          ],
+          "s200": [
+            -163.275604248047,
+            202.448486328125
+          ],
+          "s30": [
+            -162.830154418945,
+            8.36468505859375
+          ],
+          "s361": [
+            0.0,
+            -191.700012207031
+          ],
+          "s362": [
+            162.956298828125,
+            -185.434204101562
+          ],
+          "s400": [
+            -162.956298828125,
+            -185.434204101562
+          ]
+        },
+        "rendered_ring_radius": [
+          1278.0,
+          766.799987792969
+        ],
+        "ring_topology": true,
+        "selected_system": "s1",
+        "size": [
+          676.0,
+          667.0
+        ],
+        "system_count": 105,
+        "visible_count": 9,
+        "visible_ids": [
+          "s1",
+          "s181",
+          "s182",
+          "s2",
+          "s200",
+          "s30",
+          "s361",
+          "s362",
+          "s400"
+        ],
+        "zoom": 4.5
+      },
+      "picker": {
+        "ellipse_radius": [
+          284.0,
+          170.399993896484
+        ],
+        "global_position": [
+          22.0,
+          173.0
+        ],
+        "home_center_error": 0.0,
+        "home_neighbor_distance": 163.044845581055,
+        "home_position": [
+          338.0,
+          429.0
+        ],
+        "pan": [
+          0.0,
+          575.099975585938
+        ],
+        "plot_center": [
+          338.0,
+          429.0
+        ],
+        "relative_visible_positions": {
+          "s1": [
+            0.0,
+            0.0
+          ],
+          "s181": [
+            0.0,
+            189.782958984375
+          ],
+          "s182": [
+            163.275604248047,
+            202.448486328125
+          ],
+          "s2": [
+            162.830139160156,
+            8.36468505859375
+          ],
+          "s200": [
+            -163.275604248047,
+            202.448486328125
+          ],
+          "s30": [
+            -162.830154418945,
+            8.36468505859375
+          ],
+          "s361": [
+            0.0,
+            -191.700012207031
+          ],
+          "s362": [
+            162.956298828125,
+            -185.434204101562
+          ],
+          "s400": [
+            -162.956298828125,
+            -185.434204101562
+          ]
+        },
+        "rendered_ring_radius": [
+          1278.0,
+          766.799987792969
+        ],
+        "ring_topology": true,
+        "selected_system": "s1",
+        "size": [
+          676.0,
+          838.0
+        ],
+        "system_count": 105,
+        "visible_count": 9,
+        "visible_ids": [
+          "s1",
+          "s181",
+          "s182",
+          "s2",
+          "s200",
+          "s30",
+          "s361",
+          "s362",
+          "s400"
+        ],
+        "zoom": 4.5
+      },
+      "window": [
+        720,
+        1280
+      ]
+    },
+    {
+      "normal": {
+        "ellipse_radius": [
+          284.0,
+          170.399993896484
+        ],
+        "global_position": [
+          22.0,
+          408.0
+        ],
+        "home_center_error": 0.0,
+        "home_neighbor_distance": 163.044845581055,
+        "home_position": [
+          338.0,
+          503.5
+        ],
+        "pan": [
+          0.0,
+          575.099975585938
+        ],
+        "plot_center": [
+          338.0,
+          503.5
+        ],
+        "relative_visible_positions": {
+          "s1": [
+            0.0,
+            0.0
+          ],
+          "s181": [
+            0.0,
+            189.782958984375
+          ],
+          "s182": [
+            163.275604248047,
+            202.448486328125
+          ],
+          "s2": [
+            162.830139160156,
+            8.36468505859375
+          ],
+          "s200": [
+            -163.275604248047,
+            202.448486328125
+          ],
+          "s201": [
+            0.0,
+            379.565979003906
+          ],
+          "s202": [
+            163.501708984375,
+            405.957397460938
+          ],
+          "s210": [
+            -163.501693725586,
+            405.957397460938
+          ],
+          "s30": [
+            -162.830154418945,
+            8.36468505859375
+          ],
+          "s361": [
+            0.0,
+            -191.700012207031
+          ],
+          "s362": [
+            162.956298828125,
+            -185.434204101562
+          ],
+          "s400": [
+            -162.956298828125,
+            -185.434204101562
+          ]
+        },
+        "rendered_ring_radius": [
+          1278.0,
+          766.799987792969
+        ],
+        "ring_topology": true,
+        "selected_system": "s1",
+        "size": [
+          676.0,
+          987.0
+        ],
+        "system_count": 105,
+        "visible_count": 12,
+        "visible_ids": [
+          "s1",
+          "s181",
+          "s182",
+          "s2",
+          "s200",
+          "s201",
+          "s202",
+          "s210",
+          "s30",
+          "s361",
+          "s362",
+          "s400"
+        ],
+        "zoom": 4.5
+      },
+      "picker": {
+        "ellipse_radius": [
+          284.0,
+          170.399993896484
+        ],
+        "global_position": [
+          22.0,
+          173.0
+        ],
+        "home_center_error": 0.0,
+        "home_neighbor_distance": 163.044845581055,
+        "home_position": [
+          338.0,
+          589.0
+        ],
+        "pan": [
+          0.0,
+          575.099975585938
+        ],
+        "plot_center": [
+          338.0,
+          589.0
+        ],
+        "relative_visible_positions": {
+          "s1": [
+            0.0,
+            0.0
+          ],
+          "s181": [
+            0.0,
+            189.782958984375
+          ],
+          "s182": [
+            163.275604248047,
+            202.448486328125
+          ],
+          "s2": [
+            162.830139160156,
+            8.36468505859375
+          ],
+          "s200": [
+            -163.275604248047,
+            202.448486328125
+          ],
+          "s201": [
+            0.0,
+            379.565979003906
+          ],
+          "s202": [
+            163.501708984375,
+            405.957397460938
+          ],
+          "s203": [
+            299.281494140625,
+            497.71875
+          ],
+          "s209": [
+            -299.281524658203,
+            497.71875
+          ],
+          "s210": [
+            -163.501693725586,
+            405.957397460938
+          ],
+          "s30": [
+            -162.830154418945,
+            8.36468505859375
+          ],
+          "s361": [
+            0.0,
+            -191.700012207031
+          ],
+          "s362": [
+            162.956298828125,
+            -185.434204101562
+          ],
+          "s400": [
+            -162.956298828125,
+            -185.434204101562
+          ],
+          "s401": [
+            0.0,
+            477.3330078125
+          ]
+        },
+        "rendered_ring_radius": [
+          1278.0,
+          766.799987792969
+        ],
+        "ring_topology": true,
+        "selected_system": "s1",
+        "size": [
+          676.0,
+          1158.0
+        ],
+        "system_count": 105,
+        "visible_count": 15,
+        "visible_ids": [
+          "s1",
+          "s181",
+          "s182",
+          "s2",
+          "s200",
+          "s201",
+          "s202",
+          "s203",
+          "s209",
+          "s210",
+          "s30",
+          "s361",
+          "s362",
+          "s400",
+          "s401"
+        ],
+        "zoom": 4.5
+      },
+      "window": [
+        720,
+        1600
+      ]
+    }
+  ],
+  "result": "PASS",
+  "ring_counts": {
+    "0": 30,
+    "1": 20,
+    "2": 10,
+    "3": 40,
+    "4": 5
+  },
+  "scope": "Actual native Godot UI, offline public fixture; no physical Android or Firebase delivery test",
+  "screenshots": []
+}

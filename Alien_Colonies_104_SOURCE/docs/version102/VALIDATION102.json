@@ -1,0 +1,43 @@
+{
+  "version_code": 102,
+  "version_name": "0.12.35",
+  "aab_sha": "1f84af91a3261683b0e3b30aff8a67359b07d61d7d916e694b23a3fd47523148",
+  "aab_size": 391213377,
+  "basis_sha": "2f2fdf674edf5c5cdf953ae729dc89323f92f4f460ed6b0bfd7d38ec69e0542d",
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/galaxy_map.gdc",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/client/scripts/mobile_quantity.gdc",
+    "assetPackInstallTime/assets/project.binary",
+    "assetPackInstallTime/assets/assets.sparsepck"
+  ],
+  "sparse_records_verified": 638,
+  "zip_crc": "PASS",
+  "result": "PASS",
+  "web_node_tests": 8,
+  "native_button_color_checks": 69,
+  "native_fleet_flow_checks": 139,
+  "native_startup_checks": 15,
+  "scope": "Actual GDC and sparse resource index extracted from Android AAB102, Godot 4.5.1 on desktop. Rendered layout inspection passed. No physical Android installation or private-key signing.",
+  "delta_reconstruction_from_100": "PASS: byte-identical to validated AAB102",
+  "delta_reconstruction_from_101": "PASS: byte-identical to validated AAB102",
+  "unsigned_manifest_verifier": "PASS",
+  "signer_java_compilation": "PASS",
+  "web_deployment": "SUCCESS",
+  "web_deployment_id": "320850e5-4981-4d5b-9f4c-54fcd7aea30b",
+  "web_live": {
+    "health": {
+      "ok": true,
+      "version": "0.12.35",
+      "world_epoch": "new-beginning-20261019"
+    },
+    "files": {
+      "fleet-motion.js": true,
+      "fleet-map-overlay.js": true,
+      "galaxy-map.js": true,
+      "game.js": true,
+      "index.html": true
+    }
+  }
+}

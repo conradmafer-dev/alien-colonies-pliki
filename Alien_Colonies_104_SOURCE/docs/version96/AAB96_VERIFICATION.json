@@ -1,0 +1,30 @@
+{
+  "version_code": 96,
+  "version_name": "0.12.29",
+  "aab_sha": "6ecf476381e8d66a3e368ec0cf1d3762ea2c437e2c12dbcff298df7845ca995a",
+  "aab_size": 331474001,
+  "basis95_sha": "e387c8e3cec40d64a5fb4c870fd901849af6a056a6f5d28a23f2737d38e84f06",
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/client/scripts/update_boot.gdc",
+    "assetPackInstallTime/assets/project.binary",
+    "assetPackInstallTime/assets/assets.sparsepck"
+  ],
+  "sparse_records_verified": 638,
+  "zip_crc": "PASS",
+  "delta96_sha": "1a55886f41a113ed01d8caade9bf32cf47b93bbdfb1aa2cf4fb824e1fc947b0a",
+  "delta96_size": 292625,
+  "bundletool": "PASS",
+  "old95_sparse_mismatches": 12,
+  "old95_native_start": "SIGSEGV 11: Error decompressing GDScript tokenizer buffer",
+  "same95_with_index_only_fixed": "PASS: starts without the native crash",
+  "new96_startup": {
+    "boot_to_login_ms": 997,
+    "checks": 15,
+    "failed": [],
+    "result": "PASS",
+    "scope": "Actual Android AAB assets and sparse index under Godot 4.5.1; headless desktop, no physical Android or Play Store installation"
+  },
+  "scope": "Original Android resource index, not a repacked ZIP or editor fallback; desktop Godot4.5.1, no physical Android/Play Store update"
+}

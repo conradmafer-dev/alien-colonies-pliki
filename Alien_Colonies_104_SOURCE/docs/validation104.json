@@ -1,0 +1,46 @@
+{
+  "version_code": 104,
+  "version_name": "0.12.37",
+  "ranking_reward_days": {
+    "1": 3,
+    "2-3": 5,
+    "4-10": 7,
+    "11-30": 14
+  },
+  "server_tests": {
+    "ranking_rewards": 12,
+    "ranking": 14,
+    "expeditions": 17,
+    "admin": 10
+  },
+  "javascript_tests": 118,
+  "native_source_checks": 570,
+  "actual_aab_checks": {
+    "ranking_reward": 570,
+    "startup": 15
+  },
+  "real_browser_checks": 467,
+  "aab": {
+    "version_code": 104,
+    "version_name": "0.12.37",
+    "aab_sha": "02674e13c1198bf0590d0ade829f7dd73ae03a85e502af90b628ff0462177a44",
+    "aab_size": 391527132,
+    "basis_sha": "91905598ea7589d2ad125b49e9fba4993178007c910d922a73b4966a4dbe3170",
+    "changed_entries": [
+      "base/manifest/AndroidManifest.xml",
+      "assetPackInstallTime/assets/client/scripts/main.gdc",
+      "assetPackInstallTime/assets/client/scripts/ranking_ui.gdc",
+      "assetPackInstallTime/assets/client/scripts/report_summary.gdc",
+      "assetPackInstallTime/assets/localization/de.json",
+      "assetPackInstallTime/assets/localization/en.json",
+      "assetPackInstallTime/assets/localization/es.json",
+      "assetPackInstallTime/assets/localization/fr.json",
+      "assetPackInstallTime/assets/localization/pl.json",
+      "assetPackInstallTime/assets/project.binary",
+      "assetPackInstallTime/assets/assets.sparsepck"
+    ],
+    "sparse_records_verified": 640,
+    "zip_crc": "PASS"
+  },
+  "limits": "No physical Android installation or Google Play publication; author signs with the existing upload key."
+}

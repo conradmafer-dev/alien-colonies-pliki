@@ -1,0 +1,189 @@
+{
+  "result": "PASS",
+  "bundle": "Alien_Colonies_ANDROID_0.12.21_CODE_88_MAPA_UNSIGNED.aab",
+  "bytes": 330597689,
+  "sha256": "145243ef7bbef0d24eee96c737bc30dfafa8d8fe3ae4ad7c2c6e430a06a47b65",
+  "version_name": "0.12.21",
+  "version_code": 88,
+  "package": "com.conradmafer.aliencolonies",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "debuggable": false,
+  "unsigned": true,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "elf_load_alignments": {
+    "base/lib/arm64-v8a/libc++_shared.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libgodot_android.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/armeabi-v7a/libc++_shared.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "base/lib/armeabi-v7a/libgodot_android.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ]
+  },
+  "native_16k_alignment": "PASS",
+  "bundletool_validation": "PASS",
+  "zip_crc": "PASS",
+  "zip_entries": 1210,
+  "google_auth_callback_manifest": "PASS",
+  "auth_plugin_in_dex": "PASS",
+  "billing_plugin_in_dex": "PASS",
+  "install_time_asset_pack": "PASS",
+  "play_billing_client_version": "9.1.0",
+  "application_module_count": 1,
+  "install_time_asset_pack_count": 1,
+  "not_tested": [
+    "Physical-device Google sign-in",
+    "Real Google Play purchases"
+  ],
+  "revision": "88_MAPA",
+  "compiled_client_content": {
+    "script_matches": 62,
+    "script_count": 62,
+    "asset_matches": 54,
+    "asset_count": 54,
+    "ship_images": 36,
+    "portrait_and_boot_images": 2,
+    "subscription_banner_images": 1,
+    "symbiont_building_images": 13,
+    "other_race_observatory_images": 2,
+    "new_building_images_84": 15,
+    "project_version": "0.12.21",
+    "client_version_code_88": true,
+    "client_version_name_0_12_21": true,
+    "source_files_changed_during_check": [],
+    "aab_unchanged_during_check": true,
+    "building_inventory_unchanged_during_check": true,
+    "invalid_exported_imports": [],
+    "localization_byte_matches": {
+      "pl": true,
+      "en": true,
+      "de": true,
+      "es": true,
+      "fr": true
+    }
+  },
+  "revision_scope": {
+    "result": "PASS",
+    "revision": "88_MAPA",
+    "version_code": 88,
+    "version_name": "0.12.21",
+    "aab_sha256": "145243ef7bbef0d24eee96c737bc30dfafa8d8fe3ae4ad7c2c6e430a06a47b65",
+    "prior_aab_sha256": "f2e7c3238bf91599f159778f23a7b0a63873243fdfc80315fb4d1b694692d761",
+    "changed_client_files": [
+      "client/scripts/compact_ui.gd",
+      "client/scripts/fleet_navigation.gd",
+      "client/scripts/galaxy_map.gd",
+      "client/scripts/main.gd"
+    ],
+    "unchanged_client_input_count": 408,
+    "changed_scripts_match_final_sources": {
+      "client/scripts/compact_ui.gd": true,
+      "client/scripts/fleet_navigation.gd": true,
+      "client/scripts/galaxy_map.gd": true,
+      "client/scripts/main.gd": true
+    },
+    "native_manifest_libraries_and_dex_identical": [
+      {
+        "path": "base/dex/classes.dex",
+        "identical_to_original88": true,
+        "sha256": "403523fb74a555e20385511cb9548e6a9ad1e9302289a33f2e538448e9503f78"
+      },
+      {
+        "path": "base/lib/arm64-v8a/libc++_shared.so",
+        "identical_to_original88": true,
+        "sha256": "ad74bf43eb1fd576518168f664ad16a74e00eeda9595875c33dd87f6dd197869"
+      },
+      {
+        "path": "base/lib/arm64-v8a/libgodot_android.so",
+        "identical_to_original88": true,
+        "sha256": "9e10c5ebda9bb629c671929441cdde3b4a8ab0e5542fc7e88de8d71f2b9840db"
+      },
+      {
+        "path": "base/lib/armeabi-v7a/libc++_shared.so",
+        "identical_to_original88": true,
+        "sha256": "c2b3f4fd8523deb930b272ef230134cd9500dbf6c6c71cb1f3ecf6eae21417ea"
+      },
+      {
+        "path": "base/lib/armeabi-v7a/libgodot_android.so",
+        "identical_to_original88": true,
+        "sha256": "d00bf1d3ae4d5f879c41cd7eb624d54510002a1a70c569ae445209930d25c183"
+      },
+      {
+        "path": "base/manifest/AndroidManifest.xml",
+        "identical_to_original88": true,
+        "sha256": "93dc0f6dd361bfd7bf36e056ae4d33ec4d6c77fef6800769f4e46b725b473dd4"
+      }
+    ],
+    "billing_and_subscription_scripts_identical": [
+      {
+        "path": "client/scripts/queue_billing.gdc",
+        "identical_to_original88": true,
+        "sha256": "2f0a79d194bf080c6a3a35ca82d5573b0292a9d3adb9caec9cf3b8f567deb41b"
+      },
+      {
+        "path": "client/scripts/queue_subscription_offer.gdc",
+        "identical_to_original88": true,
+        "sha256": "8542d492b1bc0448d03dbe8e7c7593b9d353dd17a565ed5cfa39e96481e54ca7"
+      },
+      {
+        "path": "client/scripts/subscription_milestone_prompt.gdc",
+        "identical_to_original88": true,
+        "sha256": "3e02f4a95e15d07dce908b5bd2c3e71f8f29dbc9effadfd138b55aa9fe952a11"
+      },
+      {
+        "path": "addons/GodotGooglePlayBilling/BillingClient.gdc",
+        "identical_to_original88": true,
+        "sha256": "b749af5bcf615f344df4bf4c2974264cde3efb6108be78881c95d443cbfd0116"
+      }
+    ]
+  },
+  "native_launcher_icons": {
+    "result": "PASS",
+    "aab_sha256": "145243ef7bbef0d24eee96c737bc30dfafa8d8fe3ae4ad7c2c6e430a06a47b65",
+    "manifest_icon": "mipmap/icon",
+    "active_icon_layers": {
+      "background": [
+        "mipmap/icon_background"
+      ],
+      "foreground": [
+        "mipmap/icon_foreground"
+      ],
+      "monochrome": [
+        "mipmap/icon_monochrome"
+      ]
+    },
+    "all_24_native_icon_png_pixels_match87": true,
+    "physical_launcher_rendering_tested": false
+  },
+  "windows_signer": {
+    "status": "PASS",
+    "aab_sha256": "145243ef7bbef0d24eee96c737bc30dfafa8d8fe3ae4ad7c2c6e430a06a47b65",
+    "upload_certificate_unchanged": "9c6c8bd75024bc4cfad76324f0084f5cfe30d64a956720fe9d8713dbc7c7f8b7",
+    "java_compile": "PASS",
+    "java_source_launcher": "PASS",
+    "validation": "PASS: exact final AAB hash, manifest 88, wrong version rejected, unsigned AAB rejected by signature verifier.",
+    "signed_aab_created": false,
+    "private_key_accessed": false,
+    "windows_gui_executed": false
+  }
+}

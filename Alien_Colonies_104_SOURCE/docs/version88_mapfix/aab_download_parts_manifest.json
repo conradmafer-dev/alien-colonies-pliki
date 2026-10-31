@@ -1,0 +1,47 @@
+{
+  "full_zip": "Alien_Colonies_88_AAB_MAPA_PODPISYWACZ_WINDOWS.zip",
+  "full_bytes": 330611092,
+  "full_sha256": "aed2d655ca51d5ec575764d8909a99bcea1dba90c34b8f8bed469aaa0f17a7bb",
+  "part_count": 4,
+  "chunk_bytes": 104857600,
+  "part_prefix": "Alien_Colonies_88_AAB_MAPA",
+  "source_only": false,
+  "parts": [
+    {
+      "number": 1,
+      "zip": "Alien_Colonies_88_AAB_MAPA_CZESC_1_z_4.zip",
+      "zip_bytes": 104857784,
+      "zip_sha256": "793712999affa278e2ed535da39906a332e57eb81902409500f78cc445e0377f",
+      "raw_name": "Alien_Colonies_88_AAB_MAPA.part01",
+      "raw_bytes": 104857600,
+      "raw_sha256": "bf490393c8e06c1bed1a6f78fb339956baee913f69f833c7d59b5d769a376d5d"
+    },
+    {
+      "number": 2,
+      "zip": "Alien_Colonies_88_AAB_MAPA_CZESC_2_z_4.zip",
+      "zip_bytes": 104857784,
+      "zip_sha256": "9f958791afb55dca7d8d2d6c68f1130fb515c81d63dcf438cf198ed3cb44156b",
+      "raw_name": "Alien_Colonies_88_AAB_MAPA.part02",
+      "raw_bytes": 104857600,
+      "raw_sha256": "b157367957a614df8087961249f0625fd2d615ef991b2cd441c50712c24165d6"
+    },
+    {
+      "number": 3,
+      "zip": "Alien_Colonies_88_AAB_MAPA_CZESC_3_z_4.zip",
+      "zip_bytes": 104857784,
+      "zip_sha256": "99485452d79283b90b5e2d58095de976dee8990cae38bd5b5f364628453ac8f3",
+      "raw_name": "Alien_Colonies_88_AAB_MAPA.part03",
+      "raw_bytes": 104857600,
+      "raw_sha256": "dc45620abaa1267b5281053127e9f840187f6dcc2273bcd3cf45aefa24d8aec3"
+    },
+    {
+      "number": 4,
+      "zip": "Alien_Colonies_88_AAB_MAPA_CZESC_4_z_4.zip",
+      "zip_bytes": 16038476,
+      "zip_sha256": "a48d496f2c797afc8a2ad2e75a6b6d82656740f5eb9a6d04cca771299a233515",
+      "raw_name": "Alien_Colonies_88_AAB_MAPA.part04",
+      "raw_bytes": 16038292,
+      "raw_sha256": "7cd61cf19a3048d422d2b61067c3c81add9ac1e99ba9649eeda06bd32ea44641"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+/* Real local backend + Chromium + HTTPS cookies; mail captured to temp file. */
+const assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path');
+const {spawn,execFileSync}=require('node:child_process');const {chromium}=require('playwright');
+const temporary=fs.mkdtempSync(path.join(os.tmpdir(),'alien-email-https-'));
+const cert=path.join(temporary,'cert.pem'),key=path.join(temporary,'key.pem'),mail=path.join(temporary,'mail.txt');
+const evidence=process.env.EMAIL_TEST_EVIDENCE || path.resolve(__dirname,'../../alien-email-web-evidence');
+fs.mkdirSync(evidence,{recursive:true});let processServer,browser,checks=0;
+const check=(condition,message)=>{assert.ok(condition,message);checks++;};
+(async()=>{
+ execFileSync('openssl',['req','-x509','-newkey','rsa:2048','-nodes','-keyout',key,'-out',cert,'-days','1','-subj','/CN=localhost','-addext','subjectAltName=DNS:localhost'],{stdio:'ignore'});
+ processServer=spawn(process.env.PYTHON || 'python3',[path.join(__dirname,'serve_email_browser_fixture.py'),'--cert',cert,'--key',key,'--mail',mail],{stdio:['ignore','pipe','pipe']});
+ let serverErrors='';processServer.stderr.on('data',chunk=>serverErrors+=chunk);
+ const origin=await new Promise((resolve,reject)=>{let output='';processServer.stdout.on('data',chunk=>{output+=chunk;const line=output.split('\n')[0];try{resolve(JSON.parse(line).origin);}catch{}});processServer.on('exit',code=>reject(Error('Fixture stopped '+code+' '+serverErrors)));});
+ browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_EXECUTABLE,args:['--no-sandbox','--disable-dev-shm-usage']});
+ const context=await browser.newContext({ignoreHTTPSErrors:true,viewport:{width:390,height:900}});const page=await context.newPage();const errors=[];page.on('pageerror',error=>errors.push(error.message));
+ await page.goto(origin+'/play/?lang=en');await page.click('#auth-email');await page.fill('#email-address','pilot@example.com');await page.click('#email-send');await page.waitForSelector('#email-waiting:not([hidden])');
+ const cookie=(await context.cookies()).find(c=>c.name==='__Host-alien_email_flow');check(cookie&&cookie.httpOnly&&cookie.secure&&cookie.sameSite==='Lax'&&cookie.path==='/','original browser receives secure HttpOnly host cookie');
+ check(!(await page.evaluate(()=>document.cookie)).includes('__Host-alien_email_flow'),'JavaScript cannot read original flow cookie');
+ const counts=async()=>await(await context.request.get(origin+'/__fixture/counts')).json();
+ check((await counts()).players===0,'requesting mail creates no empire');
+ const link=fs.readFileSync(mail,'utf8');
+ const unrelated=await browser.newContext({ignoreHTTPSErrors:true});const stranger=await unrelated.newPage();const rejected=await stranger.goto(link);check(rejected.status()===403,'mail link opened without original cookie rejected');await unrelated.close();
+ const confirmation=await context.newPage();let confirmHeaders={};confirmation.on('request',request=>{if(new URL(request.url()).pathname==='/api/auth/email/confirm') confirmHeaders=request.headers();});await confirmation.goto(link);await confirmation.waitForSelector('form[action="/api/auth/email/confirm"]');check((await counts()).players===0,'mail GET consumes no account');
+ check(await page.locator('#email-waiting').isVisible(),'original game still pending before explicit confirmation');
+ await Promise.all([confirmation.waitForURL('**/api/auth/email/confirm'),confirmation.click('button[type=submit]')]);check((await confirmation.locator('h1').textContent())==='Email confirmed','explicit CSRF-bound confirmation succeeds: '+await confirmation.locator('body').innerText());
+ check(confirmHeaders.origin===origin,'confirmation POST preserves exact Origin');check(!confirmHeaders.referer||confirmHeaders.referer===origin+'/','confirmation Referer never contains mailed token or path');
+ await page.bringToFront();await page.waitForSelector('#email-name-form:not([hidden])');check((await counts()).players===0,'verification alone creates no empire');
+ await page.fill('#email-empire-name','HTTPS Pilot');await page.click('#email-name-submit');await page.waitForSelector('#game-screen:not([hidden])');check((await counts()).players===1,'name confirmation creates exactly one empire');check((await page.locator('#player-name').textContent())==='HTTPS Pilot','original tab receives real backend session');
+ check(!(await confirmation.evaluate(()=>sessionStorage.getItem('alien-colonies.session'))),'confirmation tab receives no session token');
+ check(!new URL(page.url()).searchParams.has('token'),'game URL has no auth token');
+ await page.click('[data-tab="settings"]');check(await page.locator('#account-delete-password').count()===0,'real email-only account does not ask for nonexistent password');
+ const otherDevices=page.waitForResponse(response=>new URL(response.url()).pathname==='/api/account/logout-others');await page.click('[data-email-logout-others]');const logoutResponse=await otherDevices;check(logoutResponse.status()===200&&(await logoutResponse.json()).ok===true,'fresh-email logout-other-devices succeeds');await page.waitForSelector('#email-account-status:not([hidden])');
+ check(errors.length===0,'no browser errors: '+errors.join(';'));
+ await page.screenshot({path:path.join(evidence,'email-real-https-settings-390.png'),fullPage:true});
+ const report={checks,failures:0,mode:'Real local Python backend and HTTPS Chromium browser; provider captures mail locally, no external email',cookie:{name:cookie.name,httpOnly:cookie.httpOnly,secure:cookie.secure,sameSite:cookie.sameSite,path:cookie.path},players:(await counts()).players,errors};
+ fs.writeFileSync(path.join(evidence,'https-results.json'),JSON.stringify(report,null,2)+'\n');console.log(`Real HTTPS browser: ${checks} checks, 0 failures`);
+})().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{if(browser)await browser.close();if(processServer)processServer.kill();fs.rmSync(temporary,{recursive:true,force:true});});

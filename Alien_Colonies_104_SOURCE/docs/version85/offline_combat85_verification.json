@@ -1,0 +1,112 @@
+{
+  "result": "PASS",
+  "historical_84_and_migrated_85_exact_match": true,
+  "compared": [
+    "full combat replay",
+    "fleet survivors",
+    "cargo",
+    "defense survivors",
+    "operation result",
+    "exact-once repeated advance"
+  ],
+  "pre_release_timestamp": 1900000100,
+  "migration_epoch": 1900001000,
+  "new_balance_at_exact_epoch": 1900000100,
+  "fixture_source": "real v84 SQLite snapshot, no mocked engine methods",
+  "historical_battles": [
+    {
+      "at": 1900000100,
+      "planet": "Aurora Altair 2",
+      "outcome": "attacker_wins",
+      "rounds": 1,
+      "cargo": {
+        "crystal": 0,
+        "fuel": 0,
+        "metal": 5287
+      },
+      "attacker_losses": {
+        "coalition_a:cargo": 5,
+        "coalition_a:cruiser": 0,
+        "coalition_a:frigate": 10,
+        "coalition_b:cruiser": 0,
+        "coalition_b:freighter": 0,
+        "coalition_b:frigate": 10
+      },
+      "first_salvos": {
+        "attacker": 10352.0,
+        "defender": 2573.75
+      }
+    },
+    {
+      "at": 1900000100,
+      "planet": "Aurora Deneb 2",
+      "outcome": "attacker_wins",
+      "rounds": 1,
+      "cargo": {
+        "crystal": 0,
+        "fuel": 0,
+        "metal": 3350
+      },
+      "attacker_losses": {
+        "cargo": 5,
+        "cruiser": 0,
+        "frigate": 37
+      },
+      "first_salvos": {
+        "attacker": 7128.000000000001,
+        "defender": 3014.55
+      }
+    }
+  ],
+  "modern_battles": [
+    {
+      "at": 1900000100,
+      "planet": "Aurora Altair 2",
+      "outcome": "attacker_wins",
+      "rounds": 2,
+      "cargo": {
+        "crystal": 0,
+        "fuel": 0,
+        "metal": 39457
+      },
+      "attacker_losses": {
+        "coalition_a:cargo": 5,
+        "coalition_a:cruiser": 0,
+        "coalition_a:frigate": 9,
+        "coalition_b:cruiser": 0,
+        "coalition_b:freighter": 0,
+        "coalition_b:frigate": 10
+      },
+      "first_salvos": {
+        "attacker": 24526.25,
+        "defender": 7020.0
+      }
+    },
+    {
+      "at": 1900000100,
+      "planet": "Aurora Deneb 2",
+      "outcome": "attacker_wins",
+      "rounds": 2,
+      "cargo": {
+        "crystal": 0,
+        "fuel": 0,
+        "metal": 17100
+      },
+      "attacker_losses": {
+        "cargo": 5,
+        "cruiser": 0,
+        "frigate": 18
+      },
+      "first_salvos": {
+        "attacker": 18947.25,
+        "defender": 7283.250000000001
+      }
+    }
+  ],
+  "files": {
+    "app.py": "77e5ff1ba9a0f9bcb159fc099e2e564c3cbfc5cadef9193d0c4cf29b868ad08e",
+    "alliance_operations.py": "9c1c3cbe46f1cfeeaa809745ec9629c26f3c7cfbf0ea0211bd8fac9266d5ebad",
+    "fleet_balance85.py": "246498de28fa3de4f97b528281643fb912fdc69eb74a78a4efe76b19ce3cc38e",
+    "tests/test_fleet_balance_85.py": "5d5dd116b07d9009f5162ddedb414fcad0e429f958c937f2cf3a120f81f846a0"
+  }
+}

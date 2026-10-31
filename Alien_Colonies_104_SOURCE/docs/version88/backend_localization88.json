@@ -1,0 +1,92 @@
+{
+  "result": "PASS",
+  "repository": "conradmafer-dev/pogranicze-serwer",
+  "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+  "files": [
+    {
+      "file": "en.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "9e387cf1b39fdd3442525266a3eeb32d0df715bd",
+      "base_sha256": "2477ef56ac9a63cd9f0e59614fb161d542a51402110d9275b84d05e4ae35db46",
+      "sha256_88": "ac97bc067ca8c581f197801ff5848d385642c6fde68624a1954234b2861addde",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2346,
+      "new_entries": 2347,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "This offer is unavailable.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/en.json"
+    },
+    {
+      "file": "pl.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "2bf698bb76fe8fca01b498277f3a6b1d2ffed72f",
+      "base_sha256": "5e533feef4ba52e4971a9b6d1806eef4a8ac6419ffe92887574c2067e77dd988",
+      "sha256_88": "6dc6800190d88129f8a282232220b61cd790f3b6a270f82959059238cd89c721",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 1942,
+      "new_entries": 1943,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Oferta jest niedostępna.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/pl.json"
+    },
+    {
+      "file": "de.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "d29e9c305e75fbc11d11582874649910de4e2182",
+      "base_sha256": "c7a64c395e8b1b588f9f3618cd8d9a6909a9ffcc2cbf4dedc0a6c5f31edcd319",
+      "sha256_88": "22706439813bedd4e8c46341b2f580917c6a775056034d5ab093f5751ed72a7c",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2309,
+      "new_entries": 2310,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Dieses Angebot ist nicht verfügbar.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/de.json"
+    },
+    {
+      "file": "es.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "bb8d96c5344ecbf2c4e87354de7d920fa12b6283",
+      "base_sha256": "cbb5364b99ef8de08c7bb65837decd0d7940d24f048942cf2f012134f564875f",
+      "sha256_88": "3ed5d8855964ddc8df09798d9bdae3ffb6096d238ccc1411c5eabd30d55df57e",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2309,
+      "new_entries": 2310,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Esta oferta no está disponible.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/es.json"
+    },
+    {
+      "file": "fr.json",
+      "base_commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+      "base_git_blob_sha": "e84215ff0cd129b7f0a07b69675e983ac94f831a",
+      "base_sha256": "0dba517fef4200feb8bf28169a2919b1f2221cdb85db65a6f6f35dcc84a8e6ac",
+      "sha256_88": "b11b639cad1245c414e674cfbb1f4a71b95acd35bd3898411097ec26c75534b2",
+      "baseline_source_backend_byte_equal": true,
+      "old_entries": 2309,
+      "new_entries": 2310,
+      "added_keys": [
+        "Oferta jest niedostępna."
+      ],
+      "changed_existing_keys": [],
+      "removed_keys": [],
+      "translation": "Cette offre est indisponible.",
+      "baseline_url": "https://github.com/conradmafer-dev/pogranicze-serwer/blob/1273b655bcd4b778165a948389b9ca3ba6b41935/fr.json"
+    }
+  ]
+}

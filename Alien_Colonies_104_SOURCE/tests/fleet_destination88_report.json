@@ -1,0 +1,219 @@
+{
+  "checks": 282,
+  "failed_checks": [],
+  "failures": 0,
+  "layout_metrics": [
+    {
+      "expected_map_height": 838.0,
+      "locale": "en",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        720,
+        1280
+      ],
+      "zoom": 2.4
+    },
+    {
+      "expected_map_height": 1158.0,
+      "locale": "en",
+      "logical_client": [
+        720.0,
+        1600.0
+      ],
+      "map": {
+        "bottom": 1331.0,
+        "height": 1158.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.836705202312139,
+      "scroll": {
+        "bottom": 1480.0,
+        "height": 1384.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1476.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1409.0
+      },
+      "window": [
+        720,
+        1600
+      ],
+      "zoom": 2.4
+    },
+    {
+      "expected_map_height": 838.0,
+      "locale": "en",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        450,
+        800
+      ],
+      "zoom": 2.4
+    },
+    {
+      "expected_map_height": 838.0,
+      "locale": "pl",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        720,
+        1280
+      ],
+      "zoom": 2.4
+    },
+    {
+      "expected_map_height": 1158.0,
+      "locale": "pl",
+      "logical_client": [
+        720.0,
+        1600.0
+      ],
+      "map": {
+        "bottom": 1331.0,
+        "height": 1158.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.836705202312139,
+      "scroll": {
+        "bottom": 1480.0,
+        "height": 1384.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1476.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1409.0
+      },
+      "window": [
+        720,
+        1600
+      ],
+      "zoom": 2.4
+    },
+    {
+      "expected_map_height": 838.0,
+      "locale": "pl",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        450,
+        800
+      ],
+      "zoom": 2.4
+    }
+  ],
+  "result": "PASS",
+  "screenshots": []
+}

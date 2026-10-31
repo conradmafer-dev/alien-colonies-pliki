@@ -1,0 +1,8 @@
+<init> (Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;)V
+  invoke-direct v0, Ljava/lang/Object;-><init>()V
+  iput-object v1, v0, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$$ExternalSyntheticLambda2;->f$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  return-void 
+execute (Ljava/lang/Runnable;)V
+  iget-object v0, v1, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth$$ExternalSyntheticLambda2;->f$0 Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;
+  invoke-static v0, v2, Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth;->$r8$lambda$OwVr7LxnA3uv_WSbg_iyqt1stJ0(Lcom/conradmafer/aliencolonies/auth/AlienGoogleAuth; Ljava/lang/Runnable;)V
+  return-void 

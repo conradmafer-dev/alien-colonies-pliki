@@ -1,0 +1,10 @@
+{
+  "Floty zmieniają się automatycznie przy trafieniach. Wybór floty wstrzymuje odtwarzanie.": "Fleets switch automatically on impacts. Choosing a fleet pauses playback.",
+  "Obrażenia rozdzielają się między floty według ich wytrzymałości. Najpierw uszkadzane są słabsze jednostki każdej floty.": "Damage is shared between fleets according to their durability. Weaker units in each fleet take damage first.",
+  "Salwa floty %s: %s.": "Fleet volley for %s: %s.",
+  "Przegląd salw · %d / %d": "Volley overview · %d / %d",
+  "Łupy: metal %s · kryształ %s · paliwo %s.": "Loot: metal %s · crystal %s · fuel %s.",
+  "Kryształy Roju: %d.": "Swarm crystals: %d.",
+  "Odzyskany metal: %s.": "Recovered metal: %s.",
+  "Pomiń": "Skip"
+}

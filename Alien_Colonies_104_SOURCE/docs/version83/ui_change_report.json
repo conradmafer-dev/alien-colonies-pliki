@@ -1,0 +1,21 @@
+{
+  "changed_files": [
+    "client/scripts/main.gd",
+    "client/scripts/megastructure_ui.gd",
+    "project.godot"
+  ],
+  "sha256": {
+    "client/scripts/main.gd": "2c11ec4aba5db15a7f1390d377313ec5e8e5ae23881d88d1f4badfa8495f2e35",
+    "client/scripts/megastructure_ui.gd": "1ea39a21ef3dbf89a2bc0187706065001f9e234aa5500af7734c9263ab809e25",
+    "project.godot": "6ad4dea6448f24fb2bb0d20aa5fff2cad237e2712b353e2f2dec68bb02735dc9"
+  },
+  "cost_cause": "Megastructure prices used neutral RichTextLabel rather than ordinary per-resource affordability labels.",
+  "cost_fix": "Use existing host._cost_icons and the catalog red/normal palette per resource, refreshing from current state without repeated unchanged theme overrides.",
+  "login_cause": "The portrait bitmap baked a Welcome Back panel and humanity tagline into the image. COVERED stretch cropped the artwork on other viewport ratios.",
+  "login_fix": "Root replaced bitmap with clean art; login now fits the full image using KEEP_ASPECT_CENTERED; splash fullsize explicitly enabled.",
+  "tests": "ui_test_report.json;352 checks passed,2megaprojects*3races*6resource-wallet cases plus completion and5viewports.",
+  "limits": [
+    "Headless control geometry verified; no device screenshot was captured in this subtask."
+  ],
+  "production_changes": false
+}

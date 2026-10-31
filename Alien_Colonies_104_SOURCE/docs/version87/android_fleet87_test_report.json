@@ -1,0 +1,17 @@
+{
+  "checks": 139,
+  "failed_checks": [],
+  "failures": 0,
+  "result": "PASS",
+  "engine": "Godot 4.5.1 stable headless",
+  "import_exit_code": 0,
+  "runtime_exit_code": 0,
+  "source_sha256": {
+    "main.gd": "75a0e229e3ef8b6c6b182cf4f67fc64e1c306a241eef9a93d98a632b78c36d73",
+    "fleet_navigation.gd": "abc6621f876e20d8c058a7344b3c3b4a5d1847df362c0973e690343ad7a2666c",
+    "compact_ui.gd": "11e6bd21d20fb2a8a88f2faf56a55dc319a22f3d096720e252d018b626a5e977"
+  },
+  "network": "All command writes intercepted; auth endpoints bound to localhost port 1",
+  "rendering": "Headless layout and controller test, no physical Android touch or GPU image test",
+  "source_unchanged_during_run": true
+}

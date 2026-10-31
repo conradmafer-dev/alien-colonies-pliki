@@ -1,0 +1,176 @@
+{
+  "checks": 136,
+  "failed": [],
+  "result": "PASS",
+  "samples": [
+    {
+      "coast": 73.4595336914062,
+      "drag": 60.0,
+      "fps": 30.0,
+      "horizontal": false,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.345703125,
+      "drag": 60.0,
+      "fps": 60.0,
+      "horizontal": false,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.3043212890625,
+      "drag": 60.0,
+      "fps": 90.0,
+      "horizontal": false,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.2829132080078,
+      "drag": 60.0,
+      "fps": 120.0,
+      "horizontal": false,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.4595336914062,
+      "drag": 60.0,
+      "fps": 30.0,
+      "horizontal": true,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.345703125,
+      "drag": 60.0,
+      "fps": 60.0,
+      "horizontal": true,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.3043212890625,
+      "drag": 60.0,
+      "fps": 90.0,
+      "horizontal": true,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.2829132080078,
+      "drag": 60.0,
+      "fps": 120.0,
+      "horizontal": true,
+      "size": "(360, 640)"
+    },
+    {
+      "coast": 73.4595222473145,
+      "drag": 59.9999961853027,
+      "fps": 30.0,
+      "horizontal": false,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.3457069396973,
+      "drag": 59.9999961853027,
+      "fps": 60.0,
+      "horizontal": false,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.3043251037598,
+      "drag": 59.9999961853027,
+      "fps": 90.0,
+      "horizontal": false,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.282901763916,
+      "drag": 59.9999961853027,
+      "fps": 120.0,
+      "horizontal": false,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.4595222473145,
+      "drag": 59.9999961853027,
+      "fps": 30.0,
+      "horizontal": true,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.3457069396973,
+      "drag": 59.9999961853027,
+      "fps": 60.0,
+      "horizontal": true,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.3043251037598,
+      "drag": 59.9999961853027,
+      "fps": 90.0,
+      "horizontal": true,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.282901763916,
+      "drag": 59.9999961853027,
+      "fps": 120.0,
+      "horizontal": true,
+      "size": "(450, 800)"
+    },
+    {
+      "coast": 73.4595336914062,
+      "drag": 60.0,
+      "fps": 30.0,
+      "horizontal": false,
+      "size": "(720, 1280)"
+    },
+    {
+      "coast": 73.345703125,
+      "drag": 60.0,
+      "fps": 60.0,
+      "horizontal": false,
+      "size": "(720, 1280)"
+    },
+    {
+      "coast": 73.3043212890625,
+      "drag": 60.0,
+      "fps": 90.0,
+      "horizontal": false,
+      "size": "(720, 1280)"
+    },
+    {
+      "coast": 73.2829132080078,
+      "drag": 60.0,
+      "fps": 120.0,
+      "horizontal": false,
+      "size": "(720, 1280)"
+    },
+    {
+      "coast": 73.4595336914062,
+      "drag": 60.0,
+      "fps": 30.0,
+      "horizontal": true,
+      "size": "(720, 1280)"
+    },
+    {
+      "coast": 73.345703125,
+      "drag": 60.0,
+      "fps": 60.0,
+      "horizontal": true,
+      "size": "(720, 1280)"
+    },
+    {
+      "coast": 73.3043212890625,
+      "drag": 60.0,
+      "fps": 90.0,
+      "horizontal": true,
+      "size": "(720, 1280)"
+    },
+    {
+      "coast": 73.2829132080078,
+      "drag": 60.0,
+      "fps": 120.0,
+      "horizontal": true,
+      "size": "(720, 1280)"
+    }
+  ],
+  "scope": "Actual compiled Android touch controller and sparse index, emulated touch GUI; headless desktop, no physical Android"
+}

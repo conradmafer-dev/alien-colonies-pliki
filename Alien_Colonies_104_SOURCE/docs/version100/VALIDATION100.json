@@ -1,0 +1,35 @@
+{
+  "version_code": 100,
+  "version_name": "0.12.33",
+  "result": "PASS",
+  "aab_sha256": "b23931a9c95441d2af7b278daffa9d38e99b5a8f7502c92f303107dcf685cfaa",
+  "aab_size": 391211924,
+  "android_resource_index_entries": 638,
+  "actual_android_assets_tests": {
+    "startup": 15,
+    "touch_scroll": 124,
+    "native_fleet_ui": 62,
+    "galaxy_geometry": 13257
+  },
+  "web_node_tests": 104,
+  "backend_fleet_report_tests": 8,
+  "backend_six_ring_tests": 12,
+  "web_release_files_verified": 870,
+  "bundletool_validation": "PASS",
+  "signer_manifest_resource_index_and_hash": "PASS",
+  "mini_reconstruction_from_99": "PASS: byte-identical final AAB",
+  "full_reconstruction_from_91": "PASS: byte-identical final AAB",
+  "docker_copy_closure": "PASS after explicitly adding report_kinds.py",
+  "galaxy_dimensions": [
+    3840,
+    2560
+  ],
+  "all_six_compiled_textures_match_lossless_masters": true,
+  "touch_settings": {
+    "momentum_decay": 4.2,
+    "max_viewports_per_second": 4.0,
+    "max_coast_per_gesture": 4.5,
+    "minimum_fling_distance": 14
+  },
+  "scope": "Automated native tests execute actual extracted Android AAB GDC, textures and sparse index in headless desktop Godot 4.5.1. No physical Android, APK installation, Play Store download or private-key signing was performed. Timings are desktop measurements."
+}

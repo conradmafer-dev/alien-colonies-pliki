@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+ <application>
+  <meta-data android:name="org.godotengine.plugin.v2.AlienNotifications" android:value="com.conradmafer.aliencolonies.push.AlienNotifications"/>
+  <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+  <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+  <service android:name="com.conradmafer.aliencolonies.push.ReportMessagingService" android:exported="false">
+   <intent-filter><action android:name="com.google.firebase.MESSAGING_EVENT"/></intent-filter>
+  </service>
+  <activity android:name="com.conradmafer.aliencolonies.push.ReportOpenActivity" android:exported="false" android:excludeFromRecents="true" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay"/>
+  <provider android:name="com.conradmafer.aliencolonies.push.PushInitProvider" android:authorities="${applicationId}.alienpush.init" android:exported="false" android:initOrder="101"/>
+ </application>
+</manifest>
+

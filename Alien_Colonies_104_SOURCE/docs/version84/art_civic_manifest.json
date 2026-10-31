@@ -1,0 +1,73 @@
+{
+  "version_code": 84,
+  "race": "symbionts",
+  "group": "civic",
+  "mode": "built-in image_gen",
+  "generation_calls": 4,
+  "edit_calls": 0,
+  "asset_count": 4,
+  "format": "WebP quality95 method6",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "resize_or_crop": false,
+  "visual_review": {
+    "reviewed_each_generated_image": true,
+    "different_role_silhouettes": true,
+    "no_text_humans_logos": true,
+    "whole_primary_structures_visible": true,
+    "no_old_glowing_cathedrals_domes_spheres": true,
+    "palette": "matte ivory limestone, deep moss green, restrained turquoise veins, tiny amber nodes"
+  },
+  "assets": [
+    {
+      "key": "world_root",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/world_root.webp",
+      "png_source": "/workspace/scratch/785979929548/work84_art/civic/world_root.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-5b17aeeb-f1b4-447d-994d-e92e5f9647f0.png",
+      "sha256": "d06d4744444c3d31f65126fe5851e30c89b461fb7a4d43bb34a02e0b9540732a",
+      "previous_sha256": "7141c5e86623531976a36d724ba8de297b66aaa5937e598ef0e1471689bdc803",
+      "import_sha256": "2bee766527d34ffa39e0b32b13e6d43f078c5cd56152487ffbf2c5517d73b69f",
+      "import_unchanged": true,
+      "bytes": 769298,
+      "full_prompt": "Use case: stylized-concept. Asset type: original building illustration for the Symbiont alien civilization in Alien Colonies mobile strategy game. Landscape 3:2, 1536x1024. One coherent living alien structure with a unique bold silhouette, viewed from a slightly elevated three-quarter camera, complete structure and footprint visible inside central 70% of frame, generous 10-15% empty margin around every edge. Entirely biological and biomineralized construction: matte pale ivory and warm limestone chitin armor, deep moss/chlorophyll green living tissue, restrained turquoise vascular veins, very small scattered amber bioluminescent nodes. Semi-realistic high-quality science-fiction concept painting with physical detailed surfaces, natural diffuse overcast lighting, subtle atmospheric depth. Dark muted alien rocky soil and sparse low plants in a simple unobtrusive background, low dark distant landscape, no bright sky spectacle. Alien bioengineering, strong thumbnail readability, no human technology or human architecture. ABSOLUTELY NO purple/gold glowing cathedrals, no luminous domes, no mushrooms, no enormous spheres, no glass bubbles, no metal, no humans, no lettering, no labels, no symbols, no logos, no UI, no watermark. Subject: WORLD ROOT, a monumental thick LEANING BOUGH-ARCH of biomineralized ivory living material, rising asymmetrically from one side and bending over to form a broad open arch. Its base spreads into six massive branching roots that radiate along the ground like a connected biological construction-infrastructure network. Clearly visible central open negative space beneath the inclined arch; squat side growth nodes connect into the roots. Green moss and turquoise veins follow natural growth lines. Not a leafy tree, not a cathedral, no crown, no central dome or sphere. A strong diagonal arch-and-radial-root silhouette, entire root tips within frame. Make it look grown and alien, not ruins or human masonry."
+    },
+    {
+      "key": "pioneer_nursery",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/pioneer_nursery.webp",
+      "png_source": "/workspace/scratch/785979929548/work84_art/civic/pioneer_nursery.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-a7127bbc-8bfd-493b-8e2f-ae6d5d4e6ff3.png",
+      "sha256": "7925845d8abe65b3b94bd969178ea75531b6e963ee55fd219e3347614dac309a",
+      "previous_sha256": "4cc3b1bceec0cfb68d12fd75a72bb63b9e63e90b3ae1732afae385f0c0a080e5",
+      "import_sha256": "cd304b11a702c89d543b7a2f5e31ac102e15aae2c4fca8d0a8fb14cbe56a981b",
+      "import_unchanged": true,
+      "bytes": 757552,
+      "full_prompt": "Use case: stylized-concept. Asset type: original building illustration for the Symbiont alien civilization in Alien Colonies mobile strategy game. Landscape 3:2, 1536x1024. One coherent living alien structure with a unique bold silhouette, viewed from a slightly elevated three-quarter camera, complete structure and footprint visible inside central 70% of frame, generous 10-15% empty margin around every edge. Entirely biological and biomineralized construction: matte pale ivory and warm limestone chitin armor, deep moss/chlorophyll green living tissue, restrained turquoise vascular veins, very small scattered amber bioluminescent nodes. Semi-realistic high-quality science-fiction concept painting with physical detailed surfaces, natural diffuse overcast lighting, subtle atmospheric depth. Dark muted alien rocky soil and sparse low plants in a simple unobtrusive background, low dark distant landscape, no bright sky spectacle. Alien bioengineering, strong thumbnail readability, no human technology or human architecture. ABSOLUTELY NO purple/gold glowing cathedrals, no luminous domes, no mushrooms, no enormous spheres, no glass bubbles, no metal, no humans, no lettering, no labels, no symbols, no logos, no UI, no watermark. Subject: PIONEER NURSERY, a wide LOW THREE-LOBED OPEN FLOWER-HATCHERY. Exactly three broad thick ivory biomineralized petals spread horizontally into a trefoil footprint, separated by obvious gaps. Each petal cradles its own distinct small developing ALIEN COLONY EMBRYO made of folded green living tissue and pale branching nubs, like a tiny starter settlement growing from a seed; not babies or animals. The open center is a shallow turquoise nutrient basin. No roof over the embryos, no giant central sphere, no closed bulb. Strong recognisable three-petal silhouette; complete entire bloom inside frame; matte biological surfaces, purposeful nurturing bioarchitecture."
+    },
+    {
+      "key": "renewal_grove",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/renewal_grove.webp",
+      "png_source": "/workspace/scratch/785979929548/work84_art/civic/renewal_grove.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-0a3d2332-ed1b-493a-b1bd-a5d8ea06aeb5.png",
+      "sha256": "742d28ee1e7825ff41f4caca5e35e79817e7ace812d763b43eaa38cd77e82772",
+      "previous_sha256": "cf42282c063b770ae202206317a9fa49e2664b0cf8910117f826da45f7e3dcfc",
+      "import_sha256": "f3c4d971113bd7dc6684c20fc6ef9154af3ec116884256ead1fde700a366784b",
+      "import_unchanged": true,
+      "bytes": 696502,
+      "full_prompt": "Use case: stylized-concept. Asset type: original building illustration for the Symbiont alien civilization in Alien Colonies mobile strategy game. Landscape 3:2, 1536x1024. One coherent living alien structure with a unique bold silhouette, viewed from a slightly elevated three-quarter camera, complete structure and footprint visible inside central 70% of frame, generous 10-15% empty margin around every edge. Entirely biological and biomineralized construction: matte pale ivory and warm limestone chitin armor, deep moss/chlorophyll green living tissue, restrained turquoise vascular veins, very small scattered amber bioluminescent nodes. Semi-realistic high-quality science-fiction concept painting with physical detailed surfaces, natural diffuse overcast lighting, subtle atmospheric depth. Dark muted alien rocky soil and sparse low plants in a simple unobtrusive background, low dark distant landscape, no bright sky spectacle. Alien bioengineering, strong thumbnail readability, no human technology or human architecture. ABSOLUTELY NO purple/gold glowing cathedrals, no luminous domes, no mushrooms, no enormous spheres, no glass bubbles, no metal, no humans, no lettering, no labels, no symbols, no logos, no UI, no watermark. Subject: RENEWAL GROVE, a low horizontal OPEN HEALING GARDEN built from five huge curved living LEAVES growing into airy asymmetric arches around a broad shallow turquoise lagoon. Pale ivory ribbing supports dark green leaf surfaces; delicate translucent healing membranes hang loosely down between SOME ribs, with wide unobstructed open gaps and view through the center. The lagoon is clearly visible from the elevated angle, broad horizontal footprint. Organic restorative biological facility, no closed dome, no sphere, no temple, no tree trunk tower. Restrained small amber healing nodes, soft watery reflections, generous empty space around entire perimeter."
+    },
+    {
+      "key": "living_vault",
+      "path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/living_vault.webp",
+      "png_source": "/workspace/scratch/785979929548/work84_art/civic/living_vault.png",
+      "generated_original": "/workspace/scratch/785979929548/generated_images/exec-29b13057-d757-4a15-ac20-82d59ee68cac.png",
+      "sha256": "5db55e2e4a9d8ca46cf8e8549b6b506690b7e4e3a7b7bbf6c7f7a8f39f21e273",
+      "previous_sha256": "0d690f5ab7931b494e6192a30ce7f63d8a76a60a335f3a13b53ebf9fe884ba6c",
+      "import_sha256": "2387532cb43d41bcde61672568083f7ec4bd7638e80de93baa4c0b702f87de23",
+      "import_unchanged": true,
+      "bytes": 690420,
+      "full_prompt": "Use case: stylized-concept. Asset type: original building illustration for the Symbiont alien civilization in Alien Colonies mobile strategy game. Landscape 3:2, 1536x1024. One coherent living alien structure with a unique bold silhouette, viewed from a slightly elevated three-quarter camera, complete structure and footprint visible inside central 70% of frame, generous 10-15% empty margin around every edge. Entirely biological and biomineralized construction: matte pale ivory and warm limestone chitin armor, deep moss/chlorophyll green living tissue, restrained turquoise vascular veins, very small scattered amber bioluminescent nodes. Semi-realistic high-quality science-fiction concept painting with physical detailed surfaces, natural diffuse overcast lighting, subtle atmospheric depth. Dark muted alien rocky soil and sparse low plants in a simple unobtrusive background, low dark distant landscape, no bright sky spectacle. Alien bioengineering, strong thumbnail readability, no human technology or human architecture. ABSOLUTELY NO purple/gold glowing cathedrals, no luminous domes, no mushrooms, no enormous spheres, no glass bubbles, no metal, no humans, no lettering, no labels, no symbols, no logos, no UI, no watermark. Subject: LIVING VAULT, a LOW massive closed organic SHELL BUNKER partly embedded in a dark rocky mound. Flattened broad elongated clam/armadillo silhouette, thick overlapping concentric IVORY LIMESTONE CHITIN ARMOR PLATES form a sealed secure vault, each matte plate edged with deep moss green living seams. Closed muscular central seam, small turquoise vascular lines and tiny amber sensor nodes, heavily armored grounded shape with very low profile. A solid biological safe, no windows, no glass, no open interior, no central sphere, no dome, no laboratory, no tall spire. Clear layered shell geometry, entire bunker and ground footprint visible."
+    }
+  ]
+}

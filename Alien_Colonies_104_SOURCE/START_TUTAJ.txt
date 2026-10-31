@@ -1,0 +1,26 @@
+ALIEN COLONIES — WERSJA 0.12.20 / KOD 87
+
+Flota: automatyczny podgląd czasu i paliwa obliczany przez serwer,
+jeden przycisk „Wyślij”, łatwiejszy wybór celu z mapy i mniej przewijania.
+Szkic wyprawy pozostaje podczas nawigacji.
+Poprawiono spójność klasycznej i adaptacyjnej ikony aplikacji Android.
+Zachowano grafikę, gospodarkę i zasady misji wersji 85/86.
+
+Instrukcja: README_WERSJA87_PL.md
+Opis balansu: docs/BALANS_85.html
+60 przykładów paliwa: docs/version85/fuel_examples85.json
+Produkcja startowa każdej kolonii: 30 metalu + 15 kryształów/h
+przy prędkości serwera x1, również bez kopalń i energii.
+
+Projekt: otwórz project.godot w Godot 4.5.1 i poczekaj na import.
+Android: uruchom PODPISZ87.bat w folderze AAB_I_PODPISYWACZ.
+Użyj DOTYCHCZASOWEGO klucza wysyłania. Do Google Play wyślij
+Alien_Colonies_ANDROID_0.12.20_CODE_87.aab, bez dopisku UNSIGNED.
+
+Poprawka Androida wymaga klienta 87. Zmiany WWW wymagają wdrożenia
+backendu. Podpisanie AAB, Google Play i hosting to osobne operacje.
+Ta instrukcja nie potwierdza publikacji ani wdrożenia wersji 87.
+Przed wdrożeniem serwera wykonaj kopię bazy. Nie resetuj świata.
+
+Paczka nie zawiera produkcyjnej bazy świata ani prywatnego klucza.
+Galerie zachowanych grafik: docs/BUDYNKI_84.html i docs/STATKI_83.html.

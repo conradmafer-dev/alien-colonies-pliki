@@ -1,0 +1,218 @@
+[
+  {
+    "galaxy": "aurora",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "master_sha256": "5ef4b69d66bdeb42001c1070782e69e9f2969a7ad9c8b32da6ba3db0c6db53c5",
+    "runtime_sha256": "931961ba7d0dae828b094372de134bdddd6704cb5056327ad9d8735a265739a9",
+    "runtime_bytes": 3579298,
+    "detail_renders": {
+      "left": {
+        "native_size": [
+          1152,
+          1366
+        ],
+        "sha256": "df8a60bf27f5201ca0f2afd47a9f19b78b5c67a86ff41b6142c54f7cabfad927",
+        "alignment_shift": [
+          -8,
+          0
+        ]
+      },
+      "right": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "4e20e0b73dc926af9fdc929b8bbddf21dd92d10f54e9d5da38fc524d8bfbeb37",
+        "alignment_shift": [
+          -8,
+          13
+        ]
+      }
+    },
+    "assembly": "Two overlapping generated detail renders aligned by their optical cores, output2048x1366",
+    "lossless_runtime": true
+  },
+  {
+    "galaxy": "nexus",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "master_sha256": "9a07f297f0d228b998b7e596d059748c039d639415d5bee703141d0977bfb0b9",
+    "runtime_sha256": "50e8253971fd0d2e444d85aff28d8903189007e36366a97fd96b9ee5c1e9aa23",
+    "runtime_bytes": 3323274,
+    "detail_renders": {
+      "left": {
+        "native_size": [
+          1152,
+          1366
+        ],
+        "sha256": "48419f5542f18288535fb28e2bd855f177cacd3a2ed2304a56cf47c087689055",
+        "alignment_shift": [
+          3,
+          -2
+        ]
+      },
+      "right": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "b10ea16350d8b49f411843e363535bbc7b3258649dd822f12f3f744a453e5dbb",
+        "alignment_shift": [
+          -7,
+          56
+        ]
+      }
+    },
+    "assembly": "Two overlapping generated detail renders aligned by their optical cores, output2048x1366",
+    "lossless_runtime": true
+  },
+  {
+    "galaxy": "omega",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "master_sha256": "1d29f0eaaab8e706d58331e9f104c2c5218f6f9607cfa204958edc38e2476cf9",
+    "runtime_sha256": "36e89cb1efdd039d3fd86932ba13077af6b6c2319e7265a56b0c8dc356faa645",
+    "runtime_bytes": 3462870,
+    "detail_renders": {
+      "left": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "536293f62e7fd01933cc7302ab426c7fc626e84877bc7cbd641ba13f3334b15c",
+        "alignment_shift": [
+          -121,
+          6
+        ]
+      },
+      "right": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "c9cce4d9b9e05239b1320aeebb717c3a84cd9d8a08eeedb3727d19216f352466",
+        "alignment_shift": [
+          -19,
+          1
+        ]
+      }
+    },
+    "assembly": "Two overlapping generated detail renders aligned by their optical cores, output2048x1366",
+    "lossless_runtime": true
+  },
+  {
+    "galaxy": "zephyr",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "master_sha256": "7f654c76b353da158f0df1dbadd90ce6df0293c8d1566b8a81010170788a12c6",
+    "runtime_sha256": "64d924dd1a7cef47816883c9e3b252cb8bc78e563108ff06317d618d82880bb5",
+    "runtime_bytes": 3128286,
+    "detail_renders": {
+      "left": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "ea7bd974b36db161189db3de531fc8eb0df02071226d6ea96c09abbace8bb9d4",
+        "alignment_shift": [
+          -1,
+          71
+        ]
+      },
+      "right": {
+        "native_size": [
+          1086,
+          1448
+        ],
+        "sha256": "574b1dd15aefa5db1ac8d450b8d89eddf4c5b68cc622903249889d4694c42cbe",
+        "alignment_shift": [
+          -7,
+          37
+        ]
+      }
+    },
+    "assembly": "Two overlapping generated detail renders aligned by their optical cores, output2048x1366",
+    "lossless_runtime": true
+  },
+  {
+    "galaxy": "eclipse",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "master_sha256": "af23047e8cc7939c363781264d910bf3439cf11ca582a4cb7c6324f1b62fd54d",
+    "runtime_sha256": "94a213e604d51be66291a3cb38999329ef4cb7edd3becf34a27bc6b79e7107ab",
+    "runtime_bytes": 3167638,
+    "detail_renders": {
+      "left": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "7a080586233a78ba1d24662d5dd8fc9bb97ca4ab73b1c282c21349c58ec52bf9",
+        "alignment_shift": [
+          1,
+          55
+        ]
+      },
+      "right": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "6f4d6f3ae0348c3c1307eec2e3ca625b11a0facac818924de00c64c13e3e074b",
+        "alignment_shift": [
+          -16,
+          1
+        ]
+      }
+    },
+    "assembly": "Two overlapping generated detail renders aligned by their optical cores, output2048x1366",
+    "lossless_runtime": true
+  },
+  {
+    "galaxy": "void",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "master_sha256": "ae2081cd26ad8defc5bdef9049b27ae7ea96389962d5f72c8b4571dbb0c88eff",
+    "runtime_sha256": "ea3c69a4e772fb916f6fc173e4ebb87a0bd25bfb9295a6329835ca0213204601",
+    "runtime_bytes": 3446194,
+    "detail_renders": {
+      "left": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "337cae0ed61adfe6ffb87807db131a0984579b624a965c5dfe5bd64d477ca9aa",
+        "alignment_shift": [
+          -79,
+          16
+        ]
+      },
+      "right": {
+        "native_size": [
+          1086,
+          1449
+        ],
+        "sha256": "3e25897c767c5900659a05ffffd77e811d1d76c4b77737a693afd0d297850288",
+        "alignment_shift": [
+          -18,
+          0
+        ]
+      }
+    },
+    "assembly": "Two overlapping generated detail renders aligned by their optical cores, output2048x1366",
+    "lossless_runtime": true
+  }
+]

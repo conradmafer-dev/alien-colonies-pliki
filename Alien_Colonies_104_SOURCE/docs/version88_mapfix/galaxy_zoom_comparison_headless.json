@@ -1,0 +1,57 @@
+{
+  "result": "PASS",
+  "checks": 51,
+  "failures": 0,
+  "exit_code": 0,
+  "source": "galaxy_zoom_headless.log",
+  "record_type": "Summary parsed from the preserved headless runtime log",
+  "note": "The scene writes a shared JSON output. Its next rendered run replaced that output with the complete 55-check report, preserved separately as galaxy_zoom_comparison_rendered.json.",
+  "measurements": [
+    {
+      "normal_size": [
+        676.0,
+        667.0
+      ],
+      "normal_visible": 10,
+      "normal_zoom": 2.4,
+      "picker_size": [
+        676.0,
+        838.0
+      ],
+      "picker_visible": 13,
+      "picker_zoom": 2.4,
+      "scale_match": {
+        "common_visible_systems": 10,
+        "home_neighbor_distance_difference": 0.0,
+        "max_relative_position_difference": 3.0517578125e-05
+      },
+      "window": [
+        720,
+        1280
+      ]
+    },
+    {
+      "normal_size": [
+        676.0,
+        987.0
+      ],
+      "normal_visible": 15,
+      "normal_zoom": 2.4,
+      "picker_size": [
+        676.0,
+        1158.0
+      ],
+      "picker_visible": 17,
+      "picker_zoom": 2.4,
+      "scale_match": {
+        "common_visible_systems": 15,
+        "home_neighbor_distance_difference": 7.62939453125e-06,
+        "max_relative_position_difference": 6.103515625e-05
+      },
+      "window": [
+        720,
+        1600
+      ]
+    }
+  ]
+}

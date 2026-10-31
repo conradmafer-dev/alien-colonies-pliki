@@ -1,0 +1,1914 @@
+{
+  "pass": true,
+  "started_utc": "2026-10-20T19:34:28.424738+00:00",
+  "completed_utc": "2026-10-20T19:34:33.446658+00:00",
+  "aab_path": "/workspace/scratch/785979929548/work84_android/release84/Alien_Colonies_ANDROID_0.12.17_CODE_84_UNSIGNED.aab",
+  "aab_bytes": 330142258,
+  "aab_sha256": "cec754e718d7effa178ae572f3ddc4d01ddafec1d862a2f23b95602776b21aa5",
+  "source_path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE",
+  "summary": {
+    "script_matches": 61,
+    "script_count": 61,
+    "asset_matches": 53,
+    "asset_count": 53,
+    "ship_images": 36,
+    "portrait_and_boot_images": 2,
+    "symbiont_building_images": 13,
+    "other_race_observatory_images": 2,
+    "new_building_images_84": 15,
+    "project_version": "0.12.17",
+    "client_version_code_84": true,
+    "client_version_name_0_12_17": true,
+    "source_files_changed_during_check": [],
+    "aab_unchanged_during_check": true,
+    "building_inventory_unchanged_during_check": true,
+    "invalid_exported_imports": []
+  },
+  "scope": "Compiled script tokens/layout and changed visual asset content; not a signing, device, network, or Google Play acceptance test.",
+  "export_preset": "Google Play AAB",
+  "planned_excluded_source_scripts": [
+    "client/scripts/android_apk_install.gd",
+    "client/scripts/apk_download.gd",
+    "client/scripts/apk_manifest.gd"
+  ],
+  "building_inventory_path": "/workspace/scratch/785979929548/work84_checks/art_mapping/building_inventory.json",
+  "building_inventory_sha256": "4f14dd945038da3bf68747263aa33e1915c7b88c645220da6368282ff9569ca5",
+  "building_image_paths": [
+    "client/assets/art/races/symbionts/metal_mine.webp",
+    "client/assets/art/races/symbionts/crystal_mine.webp",
+    "client/assets/art/races/symbionts/refinery.webp",
+    "client/assets/art/races/symbionts/power_plant.webp",
+    "client/assets/art/races/symbionts/shipyard.webp",
+    "client/assets/art/races/symbionts/lab.webp",
+    "client/assets/art/races/symbionts/world_root.webp",
+    "client/assets/art/races/symbionts/pioneer_nursery.webp",
+    "client/assets/art/races/symbionts/renewal_grove.webp",
+    "client/assets/art/races/symbionts/brood_chamber.webp",
+    "client/assets/art/races/symbionts/living_vault.webp",
+    "client/assets/art/races/symbionts/nutrient_reservoir.webp",
+    "client/assets/art/races/symbionts/observatory.webp",
+    "client/assets/art/races/zetans/observatory.webp",
+    "client/assets/art/races/automatons/observatory.webp"
+  ],
+  "scripts": [
+    {
+      "source_path": "addons/AlienGoogleAuth/export_plugin.gd",
+      "archive_path": "assetPackInstallTime/assets/addons/AlienGoogleAuth/export_plugin.gdc",
+      "source_sha256": "9e9ed545d85c5caff2501c6d6a717f8b9077c00a8623d27deec59fdf6bb22693",
+      "exported_sha256": "0c220fdeac3e3d4ba1f380baec482e9f54194fe18691783528c42a97f0abad52",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 130,
+      "source_tokens": 130,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "addons/GodotGooglePlayBilling/BillingClient.gd",
+      "archive_path": "assetPackInstallTime/assets/addons/GodotGooglePlayBilling/BillingClient.gdc",
+      "source_sha256": "0923b81c93da358137706ce93964c77a71fb544e2a2195f7304b553cf442eca9",
+      "exported_sha256": "b749af5bcf615f344df4bf4c2974264cde3efb6108be78881c95d443cbfd0116",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 703,
+      "source_tokens": 703,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "addons/GodotGooglePlayBilling/export_plugin.gd",
+      "archive_path": "assetPackInstallTime/assets/addons/GodotGooglePlayBilling/export_plugin.gdc",
+      "source_sha256": "55075cd71dee2223c5c30c394c6c564eaa5e4a29eef73c6d2b52241334a2a2d0",
+      "exported_sha256": "cc3441a68179c5a93e66286f5411845c0897fdda8ce12949109b1c8126263c3e",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 132,
+      "source_tokens": 132,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/alliance_ui.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/alliance_ui.gdc",
+      "source_sha256": "878ecff8b02bf2b0e50d6cff33162015c7ad27a936e458e8e978fba7b2fd9cd1",
+      "exported_sha256": "da725b8dba1cda747e724df29d0cef82a24c23cbef49b236e1fdb714430eb979",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 9995,
+      "source_tokens": 9995,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/art_library.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/art_library.gdc",
+      "source_sha256": "52673febb3168eea6b146afa05742e5a1f6d1a4636c60704df61180a9b203460",
+      "exported_sha256": "ff8187bd11b0ffefdeb0b50b92f06029b558895967d8d8274c145daae2b8e6b2",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1737,
+      "source_tokens": 1737,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/auth_timing.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/auth_timing.gdc",
+      "source_sha256": "8bb564658844df5e6875eec08184a2739ecb01d059eff26e2b5ae5cefe46c630",
+      "exported_sha256": "ca9f2afaefb906e916997f51db5804e09af792cb4dabb929800a54e8204de5de",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 639,
+      "source_tokens": 639,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/battle_board.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/battle_board.gdc",
+      "source_sha256": "00e1e551d0e16aea9a55c9b37c8db6cba3e1ba3ad4a2a5c515e033447b2f378d",
+      "exported_sha256": "5070731c53316444bcecbc6c85227aadc2b764c6fb19e3c20f78e906fe2a5f0c",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 4001,
+      "source_tokens": 4001,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/battle_replay.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/battle_replay.gdc",
+      "source_sha256": "ec4d172d47deef74b2506253e673d85380ec97c8d0bfe8c422f1f16410ee156f",
+      "exported_sha256": "1c08fb0db7491e11478d83a6f20918ea78c9ade5f3b6389cb41572f071118947",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 4874,
+      "source_tokens": 4874,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/beginner_guide.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/beginner_guide.gdc",
+      "source_sha256": "b4f202e286a81bdbc48ef3ed38746b47723cac12a9bac2b2e5fbe0c57932aeee",
+      "exported_sha256": "8d9da9131485d5a8af78f68d44794a21aa59bc2a235a299bc806eeddb91bb61c",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2086,
+      "source_tokens": 2086,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/beginner_guide_model.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/beginner_guide_model.gdc",
+      "source_sha256": "473aaa899cb12a582d1685440829d8c948117cee74963508efbec18bd70b4ff2",
+      "exported_sha256": "26330fd120e7ef92bb9862a3b7298eec470f6055ab4dc712e8beb30f69d857f9",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2800,
+      "source_tokens": 2800,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/building_tile_effect.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/building_tile_effect.gdc",
+      "source_sha256": "d48934491989c73ce2fb890dba032b3577a159547291a1c71643b52ce81ef7b8",
+      "exported_sha256": "ba20730346e0dab5f0ec792fa0f7e704fdd7fccc6fd6215b33688e7abdffce40",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 637,
+      "source_tokens": 637,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/catalog_card.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/catalog_card.gdc",
+      "source_sha256": "4fb5410976f8304cb66775c61db36110cd10814dc416b05ce264c627a0807958",
+      "exported_sha256": "a0e8c4a74a0e8f206a697e901dea6cf29d6f2c18bd1e2f2e600712cdb4478898",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 475,
+      "source_tokens": 475,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/catalog_card_layout.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/catalog_card_layout.gdc",
+      "source_sha256": "cb18efdab1fb7b784801513b164840bf8a0d507f66880a24dd5c262e3ee4ac15",
+      "exported_sha256": "883518d67adbcfde09332806c7ec15b36f1dab28e212d608152cecb1e81e0b70",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 933,
+      "source_tokens": 933,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/catalog_carousel.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/catalog_carousel.gdc",
+      "source_sha256": "4b132dea665bee5da99054a5f99daa22ec1b1476ffb9cf040983dd5f380b2430",
+      "exported_sha256": "cfd0a723402d6740dcd7f12cf5896f6a761313e8863f0c9e49766cf4f8037ed1",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1207,
+      "source_tokens": 1207,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/catalog_details.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/catalog_details.gdc",
+      "source_sha256": "21105c2e844b9df89f73f80cb96c782168e0f6492daa0e2c3dc79288546b52b8",
+      "exported_sha256": "74eaa974dc755bc675b74c91db038afe576e327076021bae20b7c109ac753f1c",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 4591,
+      "source_tokens": 4591,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/catalog_guidance.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/catalog_guidance.gdc",
+      "source_sha256": "738004db317a08079551ff8ca8828cd6d762e9c12e5f5ffa8333f040201af21a",
+      "exported_sha256": "17c9e3926948220251d84feb2756893e49478bbbefb6e985f9515105994029fb",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1682,
+      "source_tokens": 1682,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/communications.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/communications.gdc",
+      "source_sha256": "786c8ef44ae95bcc11ea271fbcd383c83f0170845c5f3896c3c53a85ed85dbf9",
+      "exported_sha256": "8c0a7dadb51abf49d1396e1b025c03ab0913d04f00e7716c7f60f01f4e2e5473",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 4650,
+      "source_tokens": 4650,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/compact_ui.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/compact_ui.gdc",
+      "source_sha256": "70c5dc4eafaaa4deb4d6ace14405621a3785ae8fbb3daf3ba757e52f5fda02e4",
+      "exported_sha256": "a649966ec2d8253be9934df631e1829d9099f01993dc1845d5c1a73b4ee77fdf",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 10254,
+      "source_tokens": 10254,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/email_login.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/email_login.gdc",
+      "source_sha256": "6484eebdfcfd01eca1bf674f315237f77dcdb4cef48285706e102613eb0d2952",
+      "exported_sha256": "a21b627585accdc1da1ab699c0edb109f69fe20b98ee346e6cef55f11ec30cf8",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2303,
+      "source_tokens": 2303,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/fleet_mission_timeline.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/fleet_mission_timeline.gdc",
+      "source_sha256": "c6e4b817d6e19607b071cf333c6e834b2fa95984a7dacfdb5e24f3de3ea6d04b",
+      "exported_sha256": "74e168052bcb365f251fbfb06ae973cafaa51c85a52de19ef908ce24ea178b2d",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1637,
+      "source_tokens": 1637,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/fleet_navigation.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/fleet_navigation.gdc",
+      "source_sha256": "ca4cae88ba54205cd64e9852071d7c8f2525b7cc47c4824497cca733d5474526",
+      "exported_sha256": "902d448447253b9ff78060a3aa2573c6c7b063883534632c3de10bf7b4fb6d3e",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 7802,
+      "source_tokens": 7802,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/fleet_navigation_model.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/fleet_navigation_model.gdc",
+      "source_sha256": "0fc9d7c23b9bfffea3d0cb5740d2bdc7a867b3b9345835f51eae78e0ededd89f",
+      "exported_sha256": "79ba545bcb62309649ecc9cffe8eb8f33a4466e2726d2033795c8e1d9729b58d",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2502,
+      "source_tokens": 2502,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/fleet_route.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/fleet_route.gdc",
+      "source_sha256": "25e9119820f839e7c65d2d5bcf6f5eb69e44bb09dc4d1265a758a9ff10b5922b",
+      "exported_sha256": "3d4a37e89c34b3e34b7056f4ecfcff07614d2dd8aa29b1842177a22dc5c2a405",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 724,
+      "source_tokens": 724,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/galaxy_guidance.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/galaxy_guidance.gdc",
+      "source_sha256": "5db45482fb57574784bdae3d06bfd101ae630736a3681b61b3d865da874aa4fc",
+      "exported_sha256": "04d2ada98c138ef6539849727ead50856fc62fc4c8a13e2e39366ee2726047b5",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1339,
+      "source_tokens": 1339,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/galaxy_guidance_model.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/galaxy_guidance_model.gdc",
+      "source_sha256": "47b890038435dbb3a65b381eb39dc0077e0832b5c89c906848265199161e967f",
+      "exported_sha256": "3e355e1757ba56e260f3e0d1956cc9dc52c209221a0ba1672f97014e01e395e2",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1622,
+      "source_tokens": 1622,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/galaxy_map.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/galaxy_map.gdc",
+      "source_sha256": "60c795d568a0b8393addc45afe4fd9ba819e783a453e07141b18ac2b13b8c6ae",
+      "exported_sha256": "7303b542e34c9d8a54df46ba6761630a140dd415f2f68236b19f964cbb1ab5e1",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 7293,
+      "source_tokens": 7293,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/galaxy_routes.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/galaxy_routes.gdc",
+      "source_sha256": "44fe0fa46bcb343bec926637bf7400447e9b9a1e2cd5358489be0fae7b868b2b",
+      "exported_sha256": "4683d3774702b297b02583d37feca6608756481705bc28d4362d44d7c0ed3caa",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 645,
+      "source_tokens": 645,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/google_login.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/google_login.gdc",
+      "source_sha256": "22471e75ce3a9d43d972eb59e81c5313b679520ca488c5a45f4e32d022be747f",
+      "exported_sha256": "c298b562ac7054eac965935dda45ac5d715bfec14dadae87f7659936b7466675",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2554,
+      "source_tokens": 2554,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/i18n.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/i18n.gdc",
+      "source_sha256": "3cc95970ce18791a5aa0ca5884a68985b097c79255d794fd4d515f15d27aad15",
+      "exported_sha256": "fb5e75d9df14454c98c62b7fb13da8f7a2b1cc68fee8ffbd2a475dcfd8f8775f",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 490,
+      "source_tokens": 490,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/interaction_guard.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/interaction_guard.gdc",
+      "source_sha256": "72aef4782df2315d18586430f89388b3c1a24e59c2fc4161c2a760de1ef3ff4b",
+      "exported_sha256": "7d32ad593290d6e8f43081930a884f02c680e3cff7622ea0d19bb6de501616b4",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 896,
+      "source_tokens": 896,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/login_announcement.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/login_announcement.gdc",
+      "source_sha256": "c17145308094ed62d5163f0f66a8e4aab1a16f0029cb37acc1173ddb817382cd",
+      "exported_sha256": "69ba5b83037d0872aea549444ab1ee39dd18b8ed5fb78795c5164d73e1083568",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 822,
+      "source_tokens": 822,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/main.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/main.gdc",
+      "source_sha256": "6ce52edb928da13c0936dcf4d2a1a295dbb77f5d1087c78d16b546db902c13a9",
+      "exported_sha256": "e8a552d93e8e0e620bf9bed0d293c299e58af31a6f3fe55517a53e352bb3bde2",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 44372,
+      "source_tokens": 44372,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/megastructure_ui.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/megastructure_ui.gdc",
+      "source_sha256": "1ea39a21ef3dbf89a2bc0187706065001f9e234aa5500af7734c9263ab809e25",
+      "exported_sha256": "b90039480fc5c251d0f4aba716cc18ba6983e8d7f5ac7d158988728ea979c873",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 3771,
+      "source_tokens": 3771,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/mobile_choice.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/mobile_choice.gdc",
+      "source_sha256": "982729b9ea645b8440c6f9d2581cbf6a8b9450954c811bca30a23e628ef14452",
+      "exported_sha256": "d69245a8b6cb0075f703e94b178bb36ab54ddff4db603cd91669699fde5c6ff2",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2342,
+      "source_tokens": 2342,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/mobile_quantity.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/mobile_quantity.gdc",
+      "source_sha256": "a6792faa1f4e921a00913b69fb5f004d8e638264d8c49154c47c660204cf349b",
+      "exported_sha256": "08f4b2289df4509d58fa590c919c969dcd7e25189be5b8361e455552f7ff90c6",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 995,
+      "source_tokens": 995,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/planet_art.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/planet_art.gdc",
+      "source_sha256": "46786ffafe0aec5e6d5722d71a66ba78581c81cc1c5db3e04270fff387351fc3",
+      "exported_sha256": "e470ebc299656065a56647e146de1913706933afaf6e859d548a3e30d8dc8a4c",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 816,
+      "source_tokens": 816,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/planet_status.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/planet_status.gdc",
+      "source_sha256": "ebab4bd0b50016f1e4f87cb049dc5b1414714f31e0e05509616dd7bedd8514ef",
+      "exported_sha256": "2ee25cc4a97434f6af4bdb90c36a8d0d4ca028a6b78df9c4c59a665f748434ee",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 750,
+      "source_tokens": 750,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/planetary_ui.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/planetary_ui.gdc",
+      "source_sha256": "c314b08dee00e62c9996c0175703402af7e4243ae53d2a68299f1462068a00e4",
+      "exported_sha256": "9839fb583cf1d63246c92c43613c6cd52a35a60542794ec1ef333abc52436c78",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2540,
+      "source_tokens": 2540,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/planned_queue_ui.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/planned_queue_ui.gdc",
+      "source_sha256": "fc3f26eab11c465c90c71f1dd753cb0c88ededbc2d8c414f7e402cd7bc5efaf9",
+      "exported_sha256": "5c4e66fb5292252386b42424909e6f2bc7150ef7b485b01147d66b9097a38cc6",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 4251,
+      "source_tokens": 4251,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/player_activity.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/player_activity.gdc",
+      "source_sha256": "f2f5d4cb15bc0890891f6d7c24f205858d89d6f7cade8b3da691af85d82b2d05",
+      "exported_sha256": "656d33306a81e1dd127274ce1b59d3e1e9b72356346aa2a498a83f66b9d1bb87",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 368,
+      "source_tokens": 368,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/project_ui.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/project_ui.gdc",
+      "source_sha256": "58e13cf26a84e41a8324c57672ce60a64a1d908adac31582b6129c222ee94899",
+      "exported_sha256": "2fa0791a03d2f6a060cbb89498949e4bb171e76d766bc427ab1a76e5bd200314",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1212,
+      "source_tokens": 1212,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/quantity_edit_gate.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/quantity_edit_gate.gdc",
+      "source_sha256": "f57d60b78a9b5c502787e95614da3af8eb4309ef98ea4946a37f4bc7e06111d1",
+      "exported_sha256": "034ca0651518f65635bb107365ca3940e3a62f3186e71201619205c41357a7b7",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 371,
+      "source_tokens": 371,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/queue_billing.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/queue_billing.gdc",
+      "source_sha256": "e482768929789235b8ddb6c22bdb3e13c4a0c1b30183359b5c47f664f789768f",
+      "exported_sha256": "00d8e9506291dd4b3b845691287194646aee1c0a0dfdbd3bf51efe0ba2fc14d5",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2108,
+      "source_tokens": 2108,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/queue_subscription_offer.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/queue_subscription_offer.gdc",
+      "source_sha256": "4576dc038dc705a04ba2e43e2c39a5a97a03f50f4e77bd06227878ee70748a2e",
+      "exported_sha256": "8542d492b1bc0448d03dbe8e7c7593b9d353dd17a565ed5cfa39e96481e54ca7",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 832,
+      "source_tokens": 832,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/race_theme.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/race_theme.gdc",
+      "source_sha256": "420f2e7b1d293f3e317d06a3885e02599234c1f44b21fc8ebb0f3661f8ad0d39",
+      "exported_sha256": "ad3ac188c434e933bdbec839b8dcf80c106902cecc0cd04dabd82976b5a4c6da",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2187,
+      "source_tokens": 2187,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/release_panel.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/release_panel.gdc",
+      "source_sha256": "969c253907b788a1dff2e87c7e73efae89276c8069eedf986f48b460af5d5382",
+      "exported_sha256": "df089881d76d5368c9e1fe56d0f1fbe8e4bf3196f1fbd5b19f2a0ae241d7eb2f",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1882,
+      "source_tokens": 1882,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/replay_art_loader.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/replay_art_loader.gdc",
+      "source_sha256": "6d8eaf1383f1320f1d054054fc8ed1fc835e91c757fba7f1b1ae70eec96ef2b4",
+      "exported_sha256": "eed8a67a6eb7fb5073ebda32e333f78913e8ff723a6d0a1467b61586b23b8ee2",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 410,
+      "source_tokens": 410,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/report_resource_text.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/report_resource_text.gdc",
+      "source_sha256": "ebdcbfa2856b19d37d53524fa92fa261896e26d32d091b46c56d6fdbaef8473c",
+      "exported_sha256": "79944086dd1b9d5c14d408376ede0092bebbefed0114f50e8dc5c34acec5cef2",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1402,
+      "source_tokens": 1402,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/report_summary.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/report_summary.gdc",
+      "source_sha256": "65721ada10ccab780fe1c046a6a1b9fda60821c702f44100287c6d43a18ab342",
+      "exported_sha256": "1fdce634b609c71069250b915158b72e4134383d0291af3833bbf6242d3aa114",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 1590,
+      "source_tokens": 1590,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/research_layout.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/research_layout.gdc",
+      "source_sha256": "69ed0d1cebd9318c1a0d454260b32dde498653c7987a27aaf8373a7463ab0e1c",
+      "exported_sha256": "e03016aab0f361dfbda482e1322f3a620680e10851960805909c6b28ad3ff30b",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 932,
+      "source_tokens": 932,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/research_tree.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/research_tree.gdc",
+      "source_sha256": "472be27c171249404b62a7f44d4447e60f469788d3c5a954d97ae3fdff17224c",
+      "exported_sha256": "b96c6c3b025ad80cf6e261fcc6a98c5a72bed3ac6657bc7de9c2fba06de7f3f5",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 4422,
+      "source_tokens": 4422,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/resource_info.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/resource_info.gdc",
+      "source_sha256": "606c25a5e87333dbc49d2264e80298b98ee1590b91085c2ebf2863ad144ed090",
+      "exported_sha256": "0b165daefe39224051b37a96339e4f3fdfba62e0d852a15106a905d3e1f3167a",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 702,
+      "source_tokens": 702,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/review_prompt.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/review_prompt.gdc",
+      "source_sha256": "0975205fbeedc11d8c588b941905f6727ad1d30301c17fd275f85862267fd859",
+      "exported_sha256": "44bd6f843657040853d86206ce115eeb23c5d6c5762d06e10411b2b3572189d6",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 762,
+      "source_tokens": 762,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/server_address.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/server_address.gdc",
+      "source_sha256": "3db3c7ad444991a4b627415273f934480aab04e511fd48d53b0530be49706253",
+      "exported_sha256": "031e22075827071b51ffdffc71655f21817dc8b7efb02fe2318e93993a1345fe",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 663,
+      "source_tokens": 663,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/session_revocation.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/session_revocation.gdc",
+      "source_sha256": "13f616b599ca5ac6a3e93b38fb1fd0e3b16bc3acf3056d80ee2fc4b15a073d95",
+      "exported_sha256": "6da91c59b1fa4d4995c665c99019273b4c198f3067dd964498661d4655c771c4",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 99,
+      "source_tokens": 99,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/skill_icon.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/skill_icon.gdc",
+      "source_sha256": "bcfdf07ad4fa2e8878990f1b2b019ee774a1b48035fd5cbf45e0c16a6c11f6f2",
+      "exported_sha256": "f1d3d417aeefd4810b247fb7385c0ca9c063252b9184bc749b18b0363e5693a3",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 10933,
+      "source_tokens": 10933,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/skill_wheel.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/skill_wheel.gdc",
+      "source_sha256": "a8e026ba5792d56e02db9796118d5790246e6807fd9c0b83afc667c0e9fdeb31",
+      "exported_sha256": "57d8f442acd10d887a8e443fe4492c8adaf0788c25a4171224a6fa0cc60c2c6a",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 4578,
+      "source_tokens": 4578,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/swarm_target.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/swarm_target.gdc",
+      "source_sha256": "65ef6b6d450ba184906e6be0857a87fc6fc4e3193fb8d5be387898196d802558",
+      "exported_sha256": "8adac9c5ef2a4cdba23c4abcfad2532536d87dbeee7e73a7bd4d726b6a4deda0",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 2876,
+      "source_tokens": 2876,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/touch_scroll.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/touch_scroll.gdc",
+      "source_sha256": "1e60b94791ed127cc859bae8c0f93a3c56c76007f235830e6da2e3eef94d86bc",
+      "exported_sha256": "0ec1df5908b3a928c9afed342f99de1868e1c4c2633b9ee5ab62988856f38b92",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 852,
+      "source_tokens": 852,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/ui_preferences.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/ui_preferences.gdc",
+      "source_sha256": "2446c19895230df94e09279152aaa907608d5723d58151f0d1a2b7897a6f1feb",
+      "exported_sha256": "7334dc63eafcd0257910dbba4702319a80481558d6ace31abd036dba491c382a",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 221,
+      "source_tokens": 221,
+      "differences": [],
+      "layout_differences": []
+    },
+    {
+      "source_path": "client/scripts/update_policy.gd",
+      "archive_path": "assetPackInstallTime/assets/client/scripts/update_policy.gdc",
+      "source_sha256": "2b24f2246c1a93c3d8b366d29195d5b3b065c5e0b844b7b4096131dfc950bffd",
+      "exported_sha256": "b60f2da5b55b1c35259360876f51a1fa074a2d5cf58d4ed225cf3a5ccb107bd2",
+      "pass": true,
+      "tokens_equal": true,
+      "layout_equal": true,
+      "expected_tokens": 734,
+      "source_tokens": 734,
+      "differences": [],
+      "layout_differences": []
+    }
+  ],
+  "assets": [
+    {
+      "source_path": "client/assets/alien_colonies_boot_splash.png",
+      "source_sha256": "588762a7c1cacaa08378cffe6e7adcabf32e7f08a8050c0f45a5fa4d6ecdcc3d",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/alien_colonies_boot_splash.png-4d159ee7a3a7c5413dd3122823f80489.ctex",
+      "exported_ctex_sha256": "4e294e0cdcd04c5f821fb4615b3574556c5aa2903c43e7cf0a45f7e48795458a",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 941,
+        "height": 1672,
+        "rgba_sha256": "8614df9556091c8fb0b3148673e18889d02adf64d5142a936fbd65c10dccf45c"
+      },
+      "exported_base_pixels": {
+        "width": 941,
+        "height": 1672,
+        "rgba_sha256": "8614df9556091c8fb0b3148673e18889d02adf64d5142a936fbd65c10dccf45c"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/alien_colonies_portrait.png",
+      "source_sha256": "588762a7c1cacaa08378cffe6e7adcabf32e7f08a8050c0f45a5fa4d6ecdcc3d",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/alien_colonies_portrait.png-8344f9cc7ac32b489934e9443da26b10.ctex",
+      "exported_ctex_sha256": "4e294e0cdcd04c5f821fb4615b3574556c5aa2903c43e7cf0a45f7e48795458a",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 941,
+        "height": 1672,
+        "rgba_sha256": "8614df9556091c8fb0b3148673e18889d02adf64d5142a936fbd65c10dccf45c"
+      },
+      "exported_base_pixels": {
+        "width": 941,
+        "height": 1672,
+        "rgba_sha256": "8614df9556091c8fb0b3148673e18889d02adf64d5142a936fbd65c10dccf45c"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "raw_export_present": true,
+      "raw_export_sha256": "588762a7c1cacaa08378cffe6e7adcabf32e7f08a8050c0f45a5fa4d6ecdcc3d",
+      "raw_bytes_equal": true,
+      "raw_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/battleship.webp",
+      "source_sha256": "38a462fc7828283655ca5335744b3ce9a63231c1d6d236e9d08be62da09fbf13",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/battleship.webp-d3cb52df5f6ad1be340427726185ed7e.ctex",
+      "exported_ctex_sha256": "89042a772d0a2024084d27d8c1d08303fa371376af80e13dc5c42a3d5b93a9fa",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "f436d4943a2ee30d6372c45b905a20bf25a7d89c873064e955053511081d72f2"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "f436d4943a2ee30d6372c45b905a20bf25a7d89c873064e955053511081d72f2"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/cargo.webp",
+      "source_sha256": "b4caf77c434bcfbae08aefecb5dc8e1618ce6c2357b1faee3abc0b1933cd7dda",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/cargo.webp-576d0528748ac6a6f14c91185c08ef3b.ctex",
+      "exported_ctex_sha256": "65088a1097323fc90c898a859ad940ec010212e6808a6d8c32d48e786d030203",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "72bff7408db878477add8b765505d5e04895b71085b32aaf271b4a134001000c"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "72bff7408db878477add8b765505d5e04895b71085b32aaf271b4a134001000c"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/colonizer.webp",
+      "source_sha256": "3b7337f5eb89b32369c992b80bf2c008a317e6c5ed389ee29c8cdea20bba84ec",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/colonizer.webp-198b8be394a7446f3e7b8082e850c916.ctex",
+      "exported_ctex_sha256": "7fc3b724fa2d9f95650a79e8a8520bc5f73e20f54b78eabf48fefde5ee55b441",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "301b0b66df82c160645b00fe3d05939b3c0c4f7001c5b89a37eeacdfd77f741a"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "301b0b66df82c160645b00fe3d05939b3c0c4f7001c5b89a37eeacdfd77f741a"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/cruiser.webp",
+      "source_sha256": "376805985fbe1f9339978a01ff1696cf7aabb12ba12b15e2f7637233d8430305",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/cruiser.webp-676d4cc0cf03da445f1c465be03e2751.ctex",
+      "exported_ctex_sha256": "7d0057cbbdf288c9f2445d72b1ffb506cd07a602df1ab60a770c947f31020f32",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "75da2c8b75b0a134c82bc52ce2d69059a6690ce2b30cbfe0dc938071fa6d19e1"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "75da2c8b75b0a134c82bc52ce2d69059a6690ce2b30cbfe0dc938071fa6d19e1"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/dreadnought.webp",
+      "source_sha256": "4a414fd23a74064daf90806b9035e77e44f5571609cb2abe0b99f339efa44aa0",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/dreadnought.webp-741550c6f1cc720db14ae5472cafa2af.ctex",
+      "exported_ctex_sha256": "82b8ece463f2c207fda30c8a621b711ea5ef9965c1b13a1b176e848846249a2c",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5dd7b3ca726b28cf7fc378bbbc127823ffe5aea457f814ea1ab67f893f0e85df"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5dd7b3ca726b28cf7fc378bbbc127823ffe5aea457f814ea1ab67f893f0e85df"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/flagship.webp",
+      "source_sha256": "5b151769eb797334d71d549d3328c018208869bfe6b60e04525e15e140242357",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/flagship.webp-c311a364aeb59381ed540ee1801e1127.ctex",
+      "exported_ctex_sha256": "d012340b43e744805ba1a780074fed8a1f5cfbf6f96be1506805ebff3a245cf3",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c0ba0d1b057c06c56286787268e894c2498f2832fbb73045535e96ce70e400ef"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c0ba0d1b057c06c56286787268e894c2498f2832fbb73045535e96ce70e400ef"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/freighter.webp",
+      "source_sha256": "6692b5ebc3d461d91938d5d81044d37d0a4ced11ff12284da3fa4277fcdc473a",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/freighter.webp-6c5f16f6325541e4c1e68e0472d6fc7e.ctex",
+      "exported_ctex_sha256": "31d3d2e94a8123857dfe223d562968d70ff670753f68aece3a40db012d8773bd",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "6e32fda03b41e9eebb5113385f4ae9baa467e0eadea7d8a323ae6ff9e675d459"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "6e32fda03b41e9eebb5113385f4ae9baa467e0eadea7d8a323ae6ff9e675d459"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/frigate.webp",
+      "source_sha256": "2500b4e124b70dd9f2a9ed97a558aa5e37cf9f0a7060223d2f4ade43b8348f00",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/frigate.webp-4a83bc41965765c04789fce335be57b3.ctex",
+      "exported_ctex_sha256": "37391ee614eb7e21b839967f9f19d8574569af603dacc936155a2296ed789689",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "264df67b069fdda06b4c5f221f27a2a090a28ecf3893533fa4b42caaead105d1"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "264df67b069fdda06b4c5f221f27a2a090a28ecf3893533fa4b42caaead105d1"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/interceptor.webp",
+      "source_sha256": "a4dabc7e17e65aca702f1e0159fc6c9a7ef89004163ccb0d6508518da29ced2f",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/interceptor.webp-c99a182c49fae62ac2e31d312a9b9638.ctex",
+      "exported_ctex_sha256": "c69109179daa30886a88b47a4301bd5196dd058a398ec0df1654223bb85a2fa0",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "07e0dcec6198824ad3afff93e7db544661e6ee9fea57fefb4d293c4ee9176a3a"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "07e0dcec6198824ad3afff93e7db544661e6ee9fea57fefb4d293c4ee9176a3a"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/observatory.webp",
+      "source_sha256": "47a08f8934c6cea663fd288ac570e00a786d013b2e525d7c4049b17fd8b20ba6",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/observatory.webp-74d7f58595c8c3421ee398c6042c5d7e.ctex",
+      "exported_ctex_sha256": "7155ed70ad68924fe017ad56be82c37e02911449432958efde2130bbfaba6ed5",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "064590540a902b8cb04af7448bdc35d4ec1dda97c21752c68c445be2d1c2ffa6"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "064590540a902b8cb04af7448bdc35d4ec1dda97c21752c68c445be2d1c2ffa6"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/scout.webp",
+      "source_sha256": "6c90aa1f2b28b3189f622b939bcefed92fe8a418a85cb0d5cfdb126a13ce81b3",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/scout.webp-dd2903fd58c538b765acd879c5a0f358.ctex",
+      "exported_ctex_sha256": "99074b0b27653c7ad7a6449b1c127ae0c0a5902a958e6999332c843f34fc84a3",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "6b332dfb2f7e90b5f0f6cf34600a7ddeed6e9b1752462acccf7085776c1c2df3"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "6b332dfb2f7e90b5f0f6cf34600a7ddeed6e9b1752462acccf7085776c1c2df3"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/siege.webp",
+      "source_sha256": "89fb3d077e690cbb559b0fff7c40c848206a285800af788f99e7f89a28ce01e1",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/siege.webp-ebb2dd9b628777a2605ee201a541e816.ctex",
+      "exported_ctex_sha256": "aae33c86ed4dc1cab6fa92ce978e26067f40529e51038cd8669eb0d8f6f0439f",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "1c72e88e8daa29b62c49f9657ffd092a4001b406bc3c32b0e1dc81b57aaa0d8a"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "1c72e88e8daa29b62c49f9657ffd092a4001b406bc3c32b0e1dc81b57aaa0d8a"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/automatons/titan.webp",
+      "source_sha256": "1423f77b019d48365fe0f39c933c72485390900d27953b8ffce780ec09202f8b",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/titan.webp-a076605c770ae5beb48667d4f7b59303.ctex",
+      "exported_ctex_sha256": "2d12e28a21f196227b4d04d58cc7d111247464d72902b2500dde091bbac2a798",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d41bfefacc703e23f3b8c87af8d07598d9122f60e9ad07f06f1f27937e028470"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d41bfefacc703e23f3b8c87af8d07598d9122f60e9ad07f06f1f27937e028470"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/battleship.webp",
+      "source_sha256": "95b43883fa9e44fbca645470f61e198efe2415e89b259d7d7ef7d8c1b3d27a2d",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/battleship.webp-2a5f506a3c856fef208c47aa126c9d59.ctex",
+      "exported_ctex_sha256": "76bb4dc74560126268e8f4d01f6e4b1cc9a2c59e85c1293ca6abcf1d41281cae",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "360a0f069de4ad0a910a83e543abf702fbcf8cf0406f1f9d90ce9e8f2ad5cf38"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "360a0f069de4ad0a910a83e543abf702fbcf8cf0406f1f9d90ce9e8f2ad5cf38"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/brood_chamber.webp",
+      "source_sha256": "e7aa9dfb8f91c3c40a3701132022dff6e59fc6d437d9d797bb9893f992c908e5",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/brood_chamber.webp-8ef94175ffc7901bb5aa02fc9e9ea4f7.ctex",
+      "exported_ctex_sha256": "b9af5be8cc8b83dc4ec99263e54e3f575525e7783844fc4b83e503ea8bc41ec0",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "6facede392e347ae502a457bfa8bd4423daf5f81f990ef237f1006581228fa6d"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "6facede392e347ae502a457bfa8bd4423daf5f81f990ef237f1006581228fa6d"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/cargo.webp",
+      "source_sha256": "33d0b9728ddf9e0aeaa0a4d42a1bb0348ee5c453882037623448cb727ae34214",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/cargo.webp-02d3638a3328f553da6d6d0ccdc0faf4.ctex",
+      "exported_ctex_sha256": "a96fb41a1cc8d1a9d9a3b9ba37fc7736c634d61a381afa1bfd2ea9564d2de188",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5c2a488d20c392fed6f45d00bb288bf7c1a9221cb21ef8bf01ab43efd855e5da"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5c2a488d20c392fed6f45d00bb288bf7c1a9221cb21ef8bf01ab43efd855e5da"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/colonizer.webp",
+      "source_sha256": "66af501bdeea830e6a7de352b05a16fe550945e3234b17943154ca95e1a33414",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/colonizer.webp-56aa1f46751b688623945615d7cbd786.ctex",
+      "exported_ctex_sha256": "16b7e3c78a0c4a280f7ded4117667b049ce6d5dbac475e72ab7a46849f1ee417",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5a823f6aa5792d6e77213175b377a87de1b99321e915f5537ef86e4317a3aa6d"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5a823f6aa5792d6e77213175b377a87de1b99321e915f5537ef86e4317a3aa6d"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/cruiser.webp",
+      "source_sha256": "2afc63c589953097eb645d2ceedea065350e91e569fe688ae5bb943cf69e2b2e",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/cruiser.webp-9d4c60fd20e346552f4aa4658b294b43.ctex",
+      "exported_ctex_sha256": "8999896319a4aa481e3edf2a782373c1bdaefa3ccf285f0286f2f86dc3a12a13",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "326fc6c6b5d8346b975ad7fd96fe7a0c08f9f02b0661a4bbf818e89db8bece30"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "326fc6c6b5d8346b975ad7fd96fe7a0c08f9f02b0661a4bbf818e89db8bece30"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/crystal_mine.webp",
+      "source_sha256": "d5a5b3df68306e27f3afc7b367f234d13de024aa358807db7466cb829e977154",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/crystal_mine.webp-9de50cc08a69992fc0c8b06d9533d3f8.ctex",
+      "exported_ctex_sha256": "d56db4d6d3730a32a63f88bbca9eddab9547c4efc0bfa8b6434233e0d6c9720d",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "a37c8f4f3a7dffefbea03077516a4d0f75aefed14873c39e47633e9a0e3c44e2"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "a37c8f4f3a7dffefbea03077516a4d0f75aefed14873c39e47633e9a0e3c44e2"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/dreadnought.webp",
+      "source_sha256": "9df638e49acdd9dfa708138b85388dfc0467978e2ea1156a4f8d20e081ff30d0",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/dreadnought.webp-9234625ce449825b232ec62c40b9cde8.ctex",
+      "exported_ctex_sha256": "dc150b2dd1065518ced09366fcb18a718fe8af48d79abf846bdbe1f1902e49d9",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d72ff8634e59712e8f58e3b9a6ab7b3c64251462944b2fe386ba520207c3263b"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d72ff8634e59712e8f58e3b9a6ab7b3c64251462944b2fe386ba520207c3263b"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/flagship.webp",
+      "source_sha256": "01bba82917e75448c8a88c5c1fb1f08b62e429d5b3acefb89578aa56aeb2a5ad",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/flagship.webp-c7d0a821068e85837817e167245f603a.ctex",
+      "exported_ctex_sha256": "f2e039da5698375567ceeb23d66c4f79ae519d62b7ad0e75ebf24a1b255fbc1a",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c358ae5590a12f21252f2f5c3eda4f71c46c7744e8bfd569b66542b4b53df5c8"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c358ae5590a12f21252f2f5c3eda4f71c46c7744e8bfd569b66542b4b53df5c8"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/freighter.webp",
+      "source_sha256": "682fd9b2d96050227dd91be3ac557f17046ceb998cf89cbab32ded019b613ad9",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/freighter.webp-3b80b444c1a650bcd3c17f858ce18ff7.ctex",
+      "exported_ctex_sha256": "6c1ba07d71d31a02b9686f9222ac09fb8f3701d103f1c2652e883ce3f90c1d04",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "af7e77cb47b22a9ebd3f5cd592baba6a4a314ec54170f2fa4402d6f057239c81"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "af7e77cb47b22a9ebd3f5cd592baba6a4a314ec54170f2fa4402d6f057239c81"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/frigate.webp",
+      "source_sha256": "e901b21a26fb2ecdbe4a6947372ba89d26a0cd87db4a21b2dbb73c0b256c7ad8",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/frigate.webp-0513cd024c8436f3278cd31dfb1f9baf.ctex",
+      "exported_ctex_sha256": "e616716f2cdc28d24821714b6c0181aa5b4862f2fb06dcf97d9a97ceeb6d169d",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "876d58f3da49e0f9112033642fe725585d12b6cb2d04cf87efa75af7f481b680"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "876d58f3da49e0f9112033642fe725585d12b6cb2d04cf87efa75af7f481b680"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/interceptor.webp",
+      "source_sha256": "f555de3a9e0577a5ed14d6e3432f9b38a8b3fdaaa1f6df054b6438a3530efb58",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/interceptor.webp-5b70d3e5086c2876d916ce31d2931070.ctex",
+      "exported_ctex_sha256": "49e941134c21906b7558460944af8484c968998480edaa48b97cf2992110a875",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "733956fb66e24718c9f4f18c9501bfe59ef81a99b7e3261cccdb362569d16365"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "733956fb66e24718c9f4f18c9501bfe59ef81a99b7e3261cccdb362569d16365"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/lab.webp",
+      "source_sha256": "40e3f40c96430a2e3220b39fed703edb51aa86bf4ca58f6347e30a6203a9d20b",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/lab.webp-0a283d483ef543f10a876fdc47c02ac8.ctex",
+      "exported_ctex_sha256": "96411888fc33276f30fce5eb9f618c8058f8a24b8043f5ae30692cd9c997c6bc",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "0a9420a47c4fe203656318ddc9d42862b230ed81ded991eaf666a6f87e2a55f0"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "0a9420a47c4fe203656318ddc9d42862b230ed81ded991eaf666a6f87e2a55f0"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/living_vault.webp",
+      "source_sha256": "5db55e2e4a9d8ca46cf8e8549b6b506690b7e4e3a7b7bbf6c7f7a8f39f21e273",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/living_vault.webp-3427d718f37c9edced932d6a610ec27a.ctex",
+      "exported_ctex_sha256": "76465688b3d4d9444eb9b0125b702de147fe04a4c97c565a4e3772d2432cc441",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d06d8aea1a7e73c0f605eb814c8f99f18bde598baf02eb3f8386aa16664c82c0"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d06d8aea1a7e73c0f605eb814c8f99f18bde598baf02eb3f8386aa16664c82c0"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/metal_mine.webp",
+      "source_sha256": "035b333269d7a2a99805e3faf3ea5ad3f19ef3d4956199d9bf128115cd1b462b",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/metal_mine.webp-f7733de7335a60e4a5d2b967dc3ad6d2.ctex",
+      "exported_ctex_sha256": "27cd1dbe5d788a3f965b878213023ac984425f50a0994216ac8d9c6354a95382",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "b4bc6f2d8cf5fea9ed11106af91fd0121e7dadbb71b63e829db7b8942b978f2c"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "b4bc6f2d8cf5fea9ed11106af91fd0121e7dadbb71b63e829db7b8942b978f2c"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/nutrient_reservoir.webp",
+      "source_sha256": "2a21c46652171f49004c573f556c3e576bdccd48fde5108ccdcefd650c6f7ac0",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/nutrient_reservoir.webp-ceb2a521983835ae4d9e92800c3b923d.ctex",
+      "exported_ctex_sha256": "8f444baff675825d21bcf07928c2c4cdfb5a9245b3968794b8e9108711d333b9",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "8c929f2d8d37c59471df55f69fe0afc81025a8bdacd394d0e16adebdd591dd29"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "8c929f2d8d37c59471df55f69fe0afc81025a8bdacd394d0e16adebdd591dd29"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/observatory.webp",
+      "source_sha256": "6d680cf43443cb8f18fb92c891aeb1755d25d3b622767f9c0739d99704db97ec",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/observatory.webp-db13ff5bf50599ff9df97318f4150db4.ctex",
+      "exported_ctex_sha256": "bc037266959e9ed04cae44b332dc39b6ae7da276d70fc7cf4231ddc8a6de30a9",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d0fe78bbaf996279667a11a760700d5f18e236c2285bd81b9ec98113c5d28735"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "d0fe78bbaf996279667a11a760700d5f18e236c2285bd81b9ec98113c5d28735"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/pioneer_nursery.webp",
+      "source_sha256": "7925845d8abe65b3b94bd969178ea75531b6e963ee55fd219e3347614dac309a",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/pioneer_nursery.webp-318584b74250086f4e6f768327195e80.ctex",
+      "exported_ctex_sha256": "53c548f7ae9b974a335b82abb47b6c884bb4b4d4e68d4e21175859f5aeb2ecc5",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "1ab29c704eb41af533492146e6a362d6f2e2e477a3896603f4f30b850f6de976"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "1ab29c704eb41af533492146e6a362d6f2e2e477a3896603f4f30b850f6de976"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/power_plant.webp",
+      "source_sha256": "9d79d048a4d8237d8a009da5a06070762232654012f72337fdb81ed12c6c8f9a",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/power_plant.webp-98d2dc7de83eb2c31db9becf2a4d2e19.ctex",
+      "exported_ctex_sha256": "0c7458ac0ef5227f6858f76e93883536fa93db3be9dd7e9229fe5f7536e481a9",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4a50129b469f836fa2142553221238dcdf80e434c6d3b745d4fa7192b8cc7739"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4a50129b469f836fa2142553221238dcdf80e434c6d3b745d4fa7192b8cc7739"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/refinery.webp",
+      "source_sha256": "c90dd050bca9f549c692e236002c93f10e8752608ec4e5da3087c2a66b72f231",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/refinery.webp-47130c8002f4bae747e3063c4446d5b3.ctex",
+      "exported_ctex_sha256": "b1037129dd91a13457c25576aeacff675ce4d49998d557aad151df8f05bb91cb",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "9519fd58917975868313892a01b08c5443e68c2cc8062b019c728dc3385cae63"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "9519fd58917975868313892a01b08c5443e68c2cc8062b019c728dc3385cae63"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/renewal_grove.webp",
+      "source_sha256": "742d28ee1e7825ff41f4caca5e35e79817e7ace812d763b43eaa38cd77e82772",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/renewal_grove.webp-96b0a1534fa5f8da3ad9657c949d59cc.ctex",
+      "exported_ctex_sha256": "2d63f1efde27109ae90bb7535b283f2c5fee5256e29ec67bf42f1e0346e81949",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "0c7b6ada56edbd4a9212538e4643613ed75ab69b7ebec9f0fc5f00aeb38709d3"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "0c7b6ada56edbd4a9212538e4643613ed75ab69b7ebec9f0fc5f00aeb38709d3"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/scout.webp",
+      "source_sha256": "8857374324fcb100aff43637adb926d12d29f9bd9671d5d6d325c3e32cf05e53",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/scout.webp-b70fade0c7de4521408e4201356ffb15.ctex",
+      "exported_ctex_sha256": "bbd2f3909dcdcd19ca74cbbcc149ed6a9597f887699ac2581e2b72fd34c71444",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4fad316ee4891ae45e84a196a573833f24ccb4b1c6d857b43c65f6b3fed6d593"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4fad316ee4891ae45e84a196a573833f24ccb4b1c6d857b43c65f6b3fed6d593"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/shipyard.webp",
+      "source_sha256": "2e7de81e91e4900924d5f3bfaa40e2512ad897045f18b898292abd8c0cb166ed",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/shipyard.webp-ce46e63a77ae4961986455f83d34495a.ctex",
+      "exported_ctex_sha256": "eb6e488ffa43cddc0a57d30b3d231145c81b2c1bec156c853c3ff0080c1d52f9",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "ef7e1075e78058f726798997ed49f8f6d17d88829df1f1ac343384b7366ca5b2"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "ef7e1075e78058f726798997ed49f8f6d17d88829df1f1ac343384b7366ca5b2"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/siege.webp",
+      "source_sha256": "de56540cb25eb1d1118ca733795f646239b26a3c6bac3305beff6567f0a80c98",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/siege.webp-d45e13b95df330add759f3fdb37cc1f7.ctex",
+      "exported_ctex_sha256": "92e46dbc1b292731a93280fed9b3bb81c38f651d197547e3d82eee19a5f02c7e",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "cccbab11eda000a702f45c402a10ebe7a481981e4e1486e650ca64c4f18650c2"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "cccbab11eda000a702f45c402a10ebe7a481981e4e1486e650ca64c4f18650c2"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/titan.webp",
+      "source_sha256": "10193ab751297165ca4e270ed62c5766cfa4a8105fbd92828b193748df5f42ac",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/titan.webp-277e6ab87ad3603812bfa15ba33a7942.ctex",
+      "exported_ctex_sha256": "321d79aec8d2b0b4c0ec0a4c922b788e9c59280565ae1887e3973c0d10430352",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "fa075e7faef7b99471a18ffc69fe7303cd416852503176b08609807f4abbedf2"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "fa075e7faef7b99471a18ffc69fe7303cd416852503176b08609807f4abbedf2"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/symbionts/world_root.webp",
+      "source_sha256": "d06d4744444c3d31f65126fe5851e30c89b461fb7a4d43bb34a02e0b9540732a",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/world_root.webp-cf1d85f4268685b3008cbc0d8e418af2.ctex",
+      "exported_ctex_sha256": "57eed4a21eeb382ad88c1de873e244178770c08135bf299d3c94634f073892af",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c0a463587ee141af991879366911fa88e6b48503adc6a3d0e17519cdea80cf8c"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c0a463587ee141af991879366911fa88e6b48503adc6a3d0e17519cdea80cf8c"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/battleship.webp",
+      "source_sha256": "5082f42b233df315d96b5bb4049dd432ea2a24df0cd0d6e6e7b1e6520361339b",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/battleship.webp-8ade9bd97e721a51254501a25fc0a449.ctex",
+      "exported_ctex_sha256": "1b65e94ef2431dff68b662062bf3831da3d548f506084239777e5698eee6be4c",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "ff0597057dabd01d372974a7b56d76d1006f1d25c6f0107236f3c5d8733b6d31"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "ff0597057dabd01d372974a7b56d76d1006f1d25c6f0107236f3c5d8733b6d31"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/cargo.webp",
+      "source_sha256": "cf8a1f3204ae159d02526b77e671fd9d46ff448a3087a2105185164ad2373d8b",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/cargo.webp-88fd227b51920ed9498a8901e228df9a.ctex",
+      "exported_ctex_sha256": "e38aa234cede926d13d27bafbfd0b4d606cae2f45d2dd5a4cc6f76d6158953b0",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "1151f54d541f334bab60e9f2034618a41943dea96a5ebf65fab2df5aa4d9340c"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "1151f54d541f334bab60e9f2034618a41943dea96a5ebf65fab2df5aa4d9340c"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/colonizer.webp",
+      "source_sha256": "b58d6ccbd4dd4b5bbdba126386a2184a82c9fddab822655bf0d2b272943d65a6",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/colonizer.webp-7a6986958691bbeb48705633e27af505.ctex",
+      "exported_ctex_sha256": "f96eff866fac63ae3fc0d498af5803ad6fb918f53b8c88ae18074cd96353de85",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "8c3c91215b6582c9b58ca65f2830f77d0a4d78a635eb1f574d073cc95470b992"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "8c3c91215b6582c9b58ca65f2830f77d0a4d78a635eb1f574d073cc95470b992"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/cruiser.webp",
+      "source_sha256": "799c180a2796e144e50184a75d3d949f242caa18936ea5f7b13badce7f2b4119",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/cruiser.webp-fc2d76947318aebab82f67da8575e14c.ctex",
+      "exported_ctex_sha256": "5d3cfa7cdb0ddb8127015c59dafaf6a162a4e263c9b3e75180dafee046f88883",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "df82e9935c54346e014103ce7d289da97c99d58ddc85d4f2d4de52a18d7aa419"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "df82e9935c54346e014103ce7d289da97c99d58ddc85d4f2d4de52a18d7aa419"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/dreadnought.webp",
+      "source_sha256": "d52d5110c048178931f2cb063f1f8c6773531c3adbbee20c55d7e4a187ce4ce4",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/dreadnought.webp-50bf3378bf8be9d7ab2f347d097d9201.ctex",
+      "exported_ctex_sha256": "e75a260027a248ecbf432c40f77c0843bd57815009e8e3ef906f7498ce34d3a1",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4f1c0ca8e350fb36d197698f47be9b4e187319e8394bc6648633f8e22d141cf9"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4f1c0ca8e350fb36d197698f47be9b4e187319e8394bc6648633f8e22d141cf9"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/flagship.webp",
+      "source_sha256": "807d2a10b48f67af270e42fb4670854315910037d40a009472d9fecd4e0b80af",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/flagship.webp-15098dc2c45057a98f493299a068e6ec.ctex",
+      "exported_ctex_sha256": "b61718f8a7893e6f9f0b5dfd8928452b1058b3a692bd436ff4826635d0df56b2",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5cd103f2f1362e0d58e4a56e118e38d91732c29475ea86241a2c86006cf154cb"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "5cd103f2f1362e0d58e4a56e118e38d91732c29475ea86241a2c86006cf154cb"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/freighter.webp",
+      "source_sha256": "150a92eb6db0ee61c07a1d088a4433cbf7fd0c84a82827a7a4e6e7a01405384b",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/freighter.webp-e23ee2b2157880b5eb2917776cc22481.ctex",
+      "exported_ctex_sha256": "4a4f3623e388cb868d5e0870be9bcb0d320f47d7559f3bfd0bd283818dc30c6d",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "8dc0cad32e80afa47b666b937fc18d5268f07b33846ab0cf59219b20ef8c58a9"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "8dc0cad32e80afa47b666b937fc18d5268f07b33846ab0cf59219b20ef8c58a9"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/frigate.webp",
+      "source_sha256": "eb1d3968fb623ea87d3e13d4d466ff381dd59d5a1584533e2abc5848d93c119f",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/frigate.webp-9fb30ee763a2eb95961fc54c8e725331.ctex",
+      "exported_ctex_sha256": "1076371ce2747b5c300857022b8c700438fbc6cf47101dc54062dd0c8da055b5",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "214f68545e40162d58405f12d4ed7e28807f10011826c3cc9c56bbfadaeefdf3"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "214f68545e40162d58405f12d4ed7e28807f10011826c3cc9c56bbfadaeefdf3"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/interceptor.webp",
+      "source_sha256": "8d883e0c3d8d57298a9f6c13a875d164d84aef47b9e9a2aa0ad1da264e011926",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/interceptor.webp-793b2394e639b3753f2d8f7aa234f506.ctex",
+      "exported_ctex_sha256": "9f1bf07c2da3421b164f5bbfb94d53e387e0092ef3aa11ea0268b825483c2ee0",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "e3d57ab2e509394c1f7b405561b96f9d0d21c44cd5cb2e5389ac8c7a3f2a611a"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "e3d57ab2e509394c1f7b405561b96f9d0d21c44cd5cb2e5389ac8c7a3f2a611a"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/observatory.webp",
+      "source_sha256": "7bb831fb627d7ca2034cac8e4fd9c09be2c82e45f784c65edd0b07099970240c",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/observatory.webp-450e9bedada53a4108e8bbbc1b63d9ac.ctex",
+      "exported_ctex_sha256": "ded1fdc797eba0e01d110188a665ac5625d10080f0b1bd110c2d827cdb55919d",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c42758a0df1799b2158415a039b0d87e2036cfd56482018ddb772998266f4d6a"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "c42758a0df1799b2158415a039b0d87e2036cfd56482018ddb772998266f4d6a"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/scout.webp",
+      "source_sha256": "9399eca5ede1dcfef1bb4cdbb564684ac682de5260b18fbc7e68772950370d1f",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/scout.webp-56c4f24983a6fb9ac83cf2dae4788008.ctex",
+      "exported_ctex_sha256": "e4f31f55ff1d5abf86048b3e0fbb06413bbe3324b3a2ffeb78b96ce31013e5dc",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4b8baa4162de19127ff182335e19362ab595c20336a7f3105aa309c909ee300e"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "4b8baa4162de19127ff182335e19362ab595c20336a7f3105aa309c909ee300e"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/siege.webp",
+      "source_sha256": "7a49fab54f165a78ce68df266688946d025de1c5033fc15b6304a6ccaea917bb",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/siege.webp-146fb0108fa82597eca5cad8e8db18dd.ctex",
+      "exported_ctex_sha256": "4485629dcc3cdfc0b7376da20fa1d95b875370261d210b899eea5ade094d277a",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "81b6a98be6ba5f450005c0ec62a47a423319d792401c52bad8157ff024519e75"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "81b6a98be6ba5f450005c0ec62a47a423319d792401c52bad8157ff024519e75"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    },
+    {
+      "source_path": "client/assets/art/races/zetans/titan.webp",
+      "source_sha256": "b005c2755f358ab1ac85d0db078eff9fd96d3291ca6665101224df436e17226a",
+      "archive_path": "assetPackInstallTime/assets/.godot/imported/titan.webp-fb104429f75f629017324c24e0454162.ctex",
+      "exported_ctex_sha256": "997a115f9d0eaa9920e68c70f774791e9a54ac4ed5ad1a820486b19e30c90d48",
+      "matches_local_import_cache_bytes": true,
+      "source_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "afeb02d0bc9c28f32efbb2aad26590ff6349b726db42a9cec4027a5f08a50c64"
+      },
+      "exported_base_pixels": {
+        "width": 1536,
+        "height": 1024,
+        "rgba_sha256": "afeb02d0bc9c28f32efbb2aad26590ff6349b726db42a9cec4027a5f08a50c64"
+      },
+      "exported_mip_levels": 1,
+      "base_pixels_equal": true,
+      "pass": true
+    }
+  ]
+}

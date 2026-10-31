@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "numeric_constants_preserved": 638,
+  "translated_racial_descriptions": 8,
+  "translation_sets": [
+    "client",
+    "server",
+    "web"
+  ]
+}

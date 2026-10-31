@@ -1,0 +1,50 @@
+[
+  {
+    "galaxy": "nexus",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "lossless_master_match": true
+  },
+  {
+    "galaxy": "eclipse",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "lossless_master_match": true
+  },
+  {
+    "galaxy": "zephyr",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "lossless_master_match": true
+  },
+  {
+    "galaxy": "omega",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "lossless_master_match": true
+  },
+  {
+    "galaxy": "void",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "lossless_master_match": true
+  },
+  {
+    "galaxy": "aurora",
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "lossless_master_match": true
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "boot_to_login_ms": 3685,
+  "checks": 15,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Actual extracted Android101 AAB GDC, textures and sparse index; Godot4.5.1 headless desktop, no physical Android"
+}

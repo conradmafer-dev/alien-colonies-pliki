@@ -1,0 +1,6 @@
+{
+  "checks": 104,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Actual extracted Android101 AAB GDC, textures and sparse index; Godot4.5.1 headless desktop, no physical Android"
+}

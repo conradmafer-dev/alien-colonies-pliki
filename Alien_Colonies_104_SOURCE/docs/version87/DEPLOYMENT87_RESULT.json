@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "version": "0.12.20",
+  "version_code": 87,
+  "commit": "1273b655bcd4b778165a948389b9ca3ba6b41935",
+  "deployment_id": "a6cb9cdc-864b-4ea6-8e05-c089fb78553f",
+  "production_url": "https://aliencolonies.com",
+  "railway_status": "SUCCESS",
+  "public_http_checks": 9,
+  "all_http_checks": "PASS",
+  "server_web_files_byte_equal": true,
+  "world_epoch": "new-beginning-20261019",
+  "world_reset_performed": false,
+  "volume_unchanged": true,
+  "environment_variables_changed": false,
+  "web_tests": 95,
+  "android_runtime_checks": 139,
+  "google_play_published": false,
+  "physical_device_tested": false,
+  "production_fleet_sent_for_testing": false
+}

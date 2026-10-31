@@ -1,0 +1,3418 @@
+[
+  {
+    "measurements": [
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@105",
+          "size": [
+            676.0,
+            946.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@155",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@159",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@160",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              792.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@161",
+            "size": [
+              676.0,
+              792.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 667.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@2",
+          "size": [
+            720.0,
+            1280.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            667.0
+          ],
+          "custom_min": [
+            0.0,
+            667.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@167",
+          "size": [
+            676.0,
+            667.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            792.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@161",
+          "size": [
+            676.0,
+            792.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@162",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              667.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              667.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@167",
+            "size": [
+              676.0,
+              667.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1089.0
+            ],
+            "name": "@HBoxContainer@168",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "settled_16_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@104",
+          "size": [
+            676.0,
+            958.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@105",
+          "size": [
+            676.0,
+            946.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@155",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@159",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@160",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              792.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@161",
+            "size": [
+              676.0,
+              792.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 667.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@2",
+          "size": [
+            720.0,
+            1280.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            667.0
+          ],
+          "custom_min": [
+            0.0,
+            667.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@167",
+          "size": [
+            676.0,
+            667.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            792.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@161",
+          "size": [
+            676.0,
+            792.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@162",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              667.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              667.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@167",
+            "size": [
+              676.0,
+              667.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1089.0
+            ],
+            "name": "@HBoxContainer@168",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "settled_80_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@104",
+          "size": [
+            676.0,
+            958.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@105",
+          "size": [
+            676.0,
+            946.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@155",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@159",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@160",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              792.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@161",
+            "size": [
+              676.0,
+              792.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 667.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@2",
+          "size": [
+            720.0,
+            1280.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            667.0
+          ],
+          "custom_min": [
+            0.0,
+            667.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@167",
+          "size": [
+            676.0,
+            667.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            792.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@161",
+          "size": [
+            676.0,
+            792.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@162",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              667.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              667.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@167",
+            "size": [
+              676.0,
+              667.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1089.0
+            ],
+            "name": "@HBoxContainer@168",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "manual_fit_immediate",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@104",
+          "size": [
+            676.0,
+            958.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@105",
+          "size": [
+            676.0,
+            946.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@155",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@159",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@160",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              792.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@161",
+            "size": [
+              676.0,
+              792.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 667.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@2",
+          "size": [
+            720.0,
+            1280.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            667.0
+          ],
+          "custom_min": [
+            0.0,
+            667.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@167",
+          "size": [
+            676.0,
+            667.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            792.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@161",
+          "size": [
+            676.0,
+            792.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@162",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              667.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              667.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@167",
+            "size": [
+              676.0,
+              667.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1089.0
+            ],
+            "name": "@HBoxContainer@168",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "manual_fit_settled_16_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@104",
+          "size": [
+            676.0,
+            958.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@105",
+          "size": [
+            676.0,
+            946.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@155",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@159",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@160",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              792.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@161",
+            "size": [
+              676.0,
+              792.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 667.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@2",
+          "size": [
+            720.0,
+            1280.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            667.0
+          ],
+          "custom_min": [
+            0.0,
+            667.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@167",
+          "size": [
+            676.0,
+            667.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            792.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@161",
+          "size": [
+            676.0,
+            792.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@162",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              667.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              667.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@167",
+            "size": [
+              676.0,
+              667.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1089.0
+            ],
+            "name": "@HBoxContainer@168",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "manual_fit_settled_80_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            946.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@104",
+          "size": [
+            676.0,
+            958.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      }
+    ],
+    "window": [
+      720,
+      1280
+    ]
+  },
+  {
+    "measurements": [
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@4032",
+          "size": [
+            676.0,
+            1081.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@4082",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4086",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4087",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              1112.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@4088",
+            "size": [
+              676.0,
+              1112.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 987.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@3929",
+          "size": [
+            720.0,
+            1600.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            987.0
+          ],
+          "custom_min": [
+            0.0,
+            987.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@4094",
+          "size": [
+            676.0,
+            987.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            1112.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@4088",
+          "size": [
+            676.0,
+            1112.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@4089",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              987.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              987.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@4094",
+            "size": [
+              676.0,
+              987.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1409.0
+            ],
+            "name": "@HBoxContainer@4095",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "settled_16_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@4031",
+          "size": [
+            676.0,
+            1278.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@4032",
+          "size": [
+            676.0,
+            1081.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@4082",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4086",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4087",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              1112.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@4088",
+            "size": [
+              676.0,
+              1112.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 987.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@3929",
+          "size": [
+            720.0,
+            1600.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            987.0
+          ],
+          "custom_min": [
+            0.0,
+            987.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@4094",
+          "size": [
+            676.0,
+            987.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            1112.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@4088",
+          "size": [
+            676.0,
+            1112.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@4089",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              987.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              987.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@4094",
+            "size": [
+              676.0,
+              987.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1409.0
+            ],
+            "name": "@HBoxContainer@4095",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "settled_80_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@4031",
+          "size": [
+            676.0,
+            1278.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@4032",
+          "size": [
+            676.0,
+            1081.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@4082",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4086",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4087",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              1112.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@4088",
+            "size": [
+              676.0,
+              1112.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 987.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@3929",
+          "size": [
+            720.0,
+            1600.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            987.0
+          ],
+          "custom_min": [
+            0.0,
+            987.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@4094",
+          "size": [
+            676.0,
+            987.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            1112.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@4088",
+          "size": [
+            676.0,
+            1112.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@4089",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              987.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              987.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@4094",
+            "size": [
+              676.0,
+              987.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1409.0
+            ],
+            "name": "@HBoxContainer@4095",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "manual_fit_immediate",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@4031",
+          "size": [
+            676.0,
+            1278.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@4032",
+          "size": [
+            676.0,
+            1081.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@4082",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4086",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4087",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              1112.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@4088",
+            "size": [
+              676.0,
+              1112.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 987.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@3929",
+          "size": [
+            720.0,
+            1600.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            987.0
+          ],
+          "custom_min": [
+            0.0,
+            987.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@4094",
+          "size": [
+            676.0,
+            987.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            1112.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@4088",
+          "size": [
+            676.0,
+            1112.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@4089",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              987.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              987.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@4094",
+            "size": [
+              676.0,
+              987.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1409.0
+            ],
+            "name": "@HBoxContainer@4095",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "manual_fit_settled_16_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@4031",
+          "size": [
+            676.0,
+            1278.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      },
+      {
+        "body": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@VBoxContainer@4032",
+          "size": [
+            676.0,
+            1081.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "body_children": [
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              221.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@HBoxContainer@4082",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              170.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              287.0
+            ],
+            "name": "GalaxySelectorBar",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4109.41259765625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4086",
+            "size": [
+              1.0,
+              4109.41259765625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "Label",
+            "combined_min": [
+              1.0,
+              4817.291015625
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "@Label@4087",
+            "size": [
+              1.0,
+              4817.291015625
+            ],
+            "vertical_flags": 4,
+            "visible": false,
+            "visible_in_tree": false
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              156.0,
+              1112.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@VBoxContainer@4088",
+            "size": [
+              676.0,
+              1112.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "VBoxContainer",
+            "combined_min": [
+              30.0,
+              7982.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              210.0
+            ],
+            "name": "SelectedSystemView",
+            "size": [
+              30.0,
+              7982.0
+            ],
+            "vertical_flags": 1,
+            "visible": false,
+            "visible_in_tree": false
+          }
+        ],
+        "calculated_map_height": 987.0,
+        "client": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            0.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            0.0,
+            0.0
+          ],
+          "name": "@Control@3929",
+          "size": [
+            720.0,
+            1600.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "map": {
+          "class": "Control",
+          "combined_min": [
+            0.0,
+            987.0
+          ],
+          "custom_min": [
+            0.0,
+            987.0
+          ],
+          "global_position": [
+            22.0,
+            408.0
+          ],
+          "name": "@Control@4094",
+          "size": [
+            676.0,
+            987.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview": {
+          "class": "VBoxContainer",
+          "combined_min": [
+            156.0,
+            1112.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            364.0
+          ],
+          "name": "@VBoxContainer@4088",
+          "size": [
+            676.0,
+            1112.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "overview_children": [
+          {
+            "class": "HFlowContainer",
+            "combined_min": [
+              98.0,
+              30.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              364.0
+            ],
+            "name": "@HFlowContainer@4089",
+            "size": [
+              676.0,
+              30.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "Control",
+            "combined_min": [
+              0.0,
+              987.0
+            ],
+            "counted": false,
+            "custom_min": [
+              0.0,
+              987.0
+            ],
+            "global_position": [
+              22.0,
+              408.0
+            ],
+            "name": "@Control@4094",
+            "size": [
+              676.0,
+              987.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          },
+          {
+            "class": "HBoxContainer",
+            "combined_min": [
+              156.0,
+              67.0
+            ],
+            "counted": true,
+            "custom_min": [
+              0.0,
+              0.0
+            ],
+            "global_position": [
+              22.0,
+              1409.0
+            ],
+            "name": "@HBoxContainer@4095",
+            "size": [
+              676.0,
+              67.0
+            ],
+            "vertical_flags": 1,
+            "visible": true,
+            "visible_in_tree": true
+          }
+        ],
+        "stage": "manual_fit_settled_80_frames",
+        "tab": {
+          "class": "ScrollContainer",
+          "combined_min": [
+            221.0,
+            1266.0
+          ],
+          "custom_min": [
+            0.0,
+            0.0
+          ],
+          "global_position": [
+            22.0,
+            210.0
+          ],
+          "name": "@ScrollContainer@4031",
+          "size": [
+            676.0,
+            1278.0
+          ],
+          "vertical_flags": 1,
+          "visible": true,
+          "visible_in_tree": true
+        },
+        "used": 291.0
+      }
+    ],
+    "window": [
+      720,
+      1600
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "version_code": 103,
+  "version_name": "0.12.36",
+  "server_tests": {
+    "expeditions": 17,
+    "fleet": 8,
+    "vault": 7,
+    "maintenance": 8
+  },
+  "javascript_tests": 110,
+  "real_browser_checks": 39,
+  "native_checks": {
+    "boot": 15,
+    "expedition": 71,
+    "button_layout": 69,
+    "scroll": 124
+  },
+  "aab": {
+    "version_code": 103,
+    "version_name": "0.12.36",
+    "aab_sha": "91905598ea7589d2ad125b49e9fba4993178007c910d922a73b4966a4dbe3170",
+    "aab_size": 391520513,
+    "basis_sha": "1f84af91a3261683b0e3b30aff8a67359b07d61d7d916e694b23a3fd47523148",
+    "changed_entries": [
+      "base/manifest/AndroidManifest.xml",
+      "assetPackInstallTime/assets/client/scripts/building_tile_effect.gdc",
+      "assetPackInstallTime/assets/client/scripts/compact_ui.gdc",
+      "assetPackInstallTime/assets/client/scripts/fleet_mission_timeline.gdc",
+      "assetPackInstallTime/assets/client/scripts/fleet_navigation.gdc",
+      "assetPackInstallTime/assets/client/scripts/fleet_navigation_model.gdc",
+      "assetPackInstallTime/assets/client/scripts/galaxy_map.gdc",
+      "assetPackInstallTime/assets/client/scripts/main.gdc",
+      "assetPackInstallTime/assets/client/scripts/report_summary.gdc",
+      "assetPackInstallTime/assets/client/scripts/touch_scroll.gdc",
+      "assetPackInstallTime/assets/.godot/imported/building_expedition_base.webp-7396e01818091d9e67ced825b90b9375.ctex",
+      "assetPackInstallTime/assets/client/assets/art/building_expedition_base.webp.import",
+      "assetPackInstallTime/assets/localization/de.json",
+      "assetPackInstallTime/assets/localization/en.json",
+      "assetPackInstallTime/assets/localization/es.json",
+      "assetPackInstallTime/assets/localization/fr.json",
+      "assetPackInstallTime/assets/localization/pl.json",
+      "assetPackInstallTime/assets/project.binary",
+      "assetPackInstallTime/assets/assets.sparsepck"
+    ],
+    "sparse_records_verified": 640,
+    "zip_crc": "PASS"
+  },
+  "limits": "Physical Android installation and Play publication are not performed; signing uses the author’s existing upload key."
+}

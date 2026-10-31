@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "pack_records": 638,
+  "compiled_replacements": [
+    "client/scripts/compact_ui.gdc",
+    "client/scripts/fleet_mission_timeline.gdc",
+    "client/scripts/fleet_navigation.gdc",
+    "client/scripts/galaxy_map.gdc",
+    "client/scripts/main.gdc"
+  ]
+}

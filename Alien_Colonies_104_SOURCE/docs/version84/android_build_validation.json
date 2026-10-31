@@ -1,0 +1,84 @@
+{
+  "result": "PASS",
+  "bundle": "Alien_Colonies_ANDROID_0.12.17_CODE_84_UNSIGNED.aab",
+  "bytes": 330142258,
+  "sha256": "cec754e718d7effa178ae572f3ddc4d01ddafec1d862a2f23b95602776b21aa5",
+  "version_name": "0.12.17",
+  "version_code": 84,
+  "package": "com.conradmafer.aliencolonies",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "debuggable": false,
+  "unsigned": true,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "elf_load_alignments": {
+    "base/lib/arm64-v8a/libc++_shared.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libgodot_android.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/armeabi-v7a/libc++_shared.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "base/lib/armeabi-v7a/libgodot_android.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ]
+  },
+  "native_16k_alignment": "PASS",
+  "bundletool_validation": "PASS",
+  "zip_crc": "PASS",
+  "zip_entries": 1204,
+  "google_auth_callback_manifest": "PASS",
+  "auth_plugin_in_dex": "PASS",
+  "billing_plugin_in_dex": "PASS",
+  "install_time_asset_pack": "PASS",
+  "play_billing_client_version": "9.1.0",
+  "not_tested": [
+    "Physical-device Google sign-in",
+    "Real Google Play purchases",
+    "Windows graphical signing flow with the user private key"
+  ],
+  "signer": {
+    "entry_point": "PODPISZ84.bat",
+    "runtime": "JDK 17 or newer",
+    "source_compilation": "PASS (JDK 17)",
+    "source_launcher_runtime_check": "PASS (JDK 17)",
+    "exact_input_sha256": "PASS",
+    "manifest_package_and_version": "PASS",
+    "wrong_version_rejection": "PASS",
+    "unsigned_bundle_rejected_as_signed": "PASS",
+    "required_existing_certificate_sha256": "9c6c8bd75024bc4cfad76324f0084f5cfe30d64a956720fe9d8713dbc7c7f8b7",
+    "certificate_matches_previously_verified_original82": true,
+    "private_key_included": false,
+    "release_signed": false,
+    "not_tested": [
+      "Windows graphical signing flow with the user private key"
+    ]
+  },
+  "source_import_check": {
+    "checked_imports": 238,
+    "invalid_imports": [],
+    "missing_destinations": [],
+    "missing_import_paths": [],
+    "reimport_errors": []
+  },
+  "final_export_error_lines": [],
+  "final_export_exit_code": 0,
+  "gradle_release_bundle_copied_byte_identically": true
+}

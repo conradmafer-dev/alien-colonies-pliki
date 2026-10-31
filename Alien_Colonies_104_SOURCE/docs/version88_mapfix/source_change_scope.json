@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "revision": "88_MAPA",
+  "changed_runtime_source_files": [
+    "client/scripts/compact_ui.gd",
+    "client/scripts/fleet_navigation.gd",
+    "client/scripts/galaxy_map.gd",
+    "client/scripts/main.gd"
+  ],
+  "backend_files_identical_to_original_release88": true,
+  "billing_and_prompt_sources_identical_to_original_release88": true,
+  "artwork_and_native_addons_identical_to_original_release88": true
+}

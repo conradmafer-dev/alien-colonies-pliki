@@ -1,0 +1,13 @@
+{
+  "checks": 22,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Real local HTTP with delayed responses; native Play states simulated; no physical Android",
+  "timings": {
+    "check_error_ms": 34,
+    "no_update_ms": 22,
+    "slow_download_ms": 4536,
+    "stalled_manifest_ms": 3007,
+    "stalled_play_ms": 3011
+  }
+}

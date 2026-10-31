@@ -1,0 +1,62 @@
+[
+  {
+    "galaxy": "aurora",
+    "dimensions": [
+      3840,
+      2560
+    ],
+    "lossless_master_match": true,
+    "ctex_bytes": 12673860,
+    "pixel_sha256": "20ad54e1863f9d35547d8013bae3126520d9e09f6a4d707f3825b325f8986e10"
+  },
+  {
+    "galaxy": "nexus",
+    "dimensions": [
+      3840,
+      2560
+    ],
+    "lossless_master_match": true,
+    "ctex_bytes": 10030304,
+    "pixel_sha256": "8c2644471b4ec5e5adaf1b95fb611c0be00ac14876b0ee3b8b1c1f6889902f2c"
+  },
+  {
+    "galaxy": "omega",
+    "dimensions": [
+      3840,
+      2560
+    ],
+    "lossless_master_match": true,
+    "ctex_bytes": 11180394,
+    "pixel_sha256": "084b5a45a36b4a4f1ea775744e3d4bcc65e116ef52a407533748bd7e6c608233"
+  },
+  {
+    "galaxy": "zephyr",
+    "dimensions": [
+      3840,
+      2560
+    ],
+    "lossless_master_match": true,
+    "ctex_bytes": 11376466,
+    "pixel_sha256": "4b249852c36e27ba325a8fd88fb7828201a892d45bd72ae844aa079516e0c1f7"
+  },
+  {
+    "galaxy": "eclipse",
+    "dimensions": [
+      3840,
+      2560
+    ],
+    "lossless_master_match": true,
+    "ctex_bytes": 11801680,
+    "pixel_sha256": "12cf8404572bb43c0dc4bd20b000f17361f01c83148fb7c2fbec6812df76005a"
+  },
+  {
+    "galaxy": "void",
+    "dimensions": [
+      3840,
+      2560
+    ],
+    "lossless_master_match": true,
+    "ctex_bytes": 10754180,
+    "pixel_sha256": "4f11812cf9a1fb4e5d55f41b78b1262a75a218440bda248c4a3e017d991d1269"
+  }
+]

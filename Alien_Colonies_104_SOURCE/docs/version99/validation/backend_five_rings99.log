@@ -1,0 +1,12 @@
+test_all_old_routes_and_cost_distances_are_identical (test_five_ring_expansion.FiveRingExpansionTests.test_all_old_routes_and_cost_distances_are_identical) ... ok
+test_existing_inner_ids_and_normalized_android_protocol_are_preserved (test_five_ring_expansion.FiveRingExpansionTests.test_existing_inner_ids_and_normalized_android_protocol_are_preserved) ... ok
+test_failed_permanent_backup_keeps_the_live_schema_two_database_unchanged (test_five_ring_expansion.FiveRingExpansionTests.test_failed_permanent_backup_keeps_the_live_schema_two_database_unchanged) ... ok
+test_live_migration_preserves_all_physical_records_and_is_idempotent (test_five_ring_expansion.FiveRingExpansionTests.test_live_migration_preserves_all_physical_records_and_is_idempotent) ... ok
+test_schema_two_sqlite_world_expands_once_and_keeps_active_flight (test_five_ring_expansion.FiveRingExpansionTests.test_schema_two_sqlite_world_expands_once_and_keeps_active_flight) ... Alien Colonies 0.12.32: verified pre-expansion backup: /tmp/tmpiidyqlfv/reset-backups/before-galaxy-rings-01232-20261025T133014Z-863857623b10.sqlite3
+Alien Colonies 0.12.32: additive galaxy expansion committed; systems=930; planets=2763; players=1; world_epoch=new-beginning-20261019
+ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.866s
+
+OK

@@ -1,0 +1,36 @@
+<init> ()V
+  invoke-direct v0, Landroid/app/Activity;-><init>()V
+  return-void 
+receive (Landroid/content/Intent;)V
+  if-eqz v3, +015h
+  const-string v0, "android.intent.action.VIEW"
+  invoke-virtual v3, Landroid/content/Intent;->getAction()Ljava/lang/String;
+  move-result-object v1
+  invoke-virtual v0, v1, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+  move-result v0
+  if-eqz v0, +009h
+  invoke-virtual v3, Landroid/content/Intent;->getDataString()Ljava/lang/String;
+  move-result-object v3
+  invoke-static v3, Lcom/conradmafer/aliencolonies/auth/AuthReturnMailbox;->accept(Ljava/lang/String;)Z
+  invoke-virtual v2, Lcom/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity;->getPackageManager()Landroid/content/pm/PackageManager;
+  move-result-object v3
+  invoke-virtual v2, Lcom/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity;->getPackageName()Ljava/lang/String;
+  move-result-object v0
+  invoke-virtual v3, v0, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
+  move-result-object v3
+  if-eqz v3, +00ah
+  const/high16 v0, 268566528
+  invoke-virtual v3, v0, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+  invoke-virtual v2, v3, Lcom/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity;->startActivity(Landroid/content/Intent;)V
+  invoke-virtual v2, Lcom/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity;->finish()V
+  return-void 
+onCreate (Landroid/os/Bundle;)V
+  invoke-super v0, v1, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+  invoke-virtual v0, Lcom/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity;->getIntent()Landroid/content/Intent;
+  move-result-object v1
+  invoke-direct v0, v1, Lcom/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity;->receive(Landroid/content/Intent;)V
+  return-void 
+onNewIntent (Landroid/content/Intent;)V
+  invoke-super v0, v1, Landroid/app/Activity;->onNewIntent(Landroid/content/Intent;)V
+  invoke-direct v0, v1, Lcom/conradmafer/aliencolonies/auth/GoogleAuthReturnActivity;->receive(Landroid/content/Intent;)V
+  return-void 

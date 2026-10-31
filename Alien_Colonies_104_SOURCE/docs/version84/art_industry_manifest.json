@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "version_code": 84,
+  "race": "symbionts",
+  "group": "industry",
+  "method": "built-in image_gen",
+  "technical_processing": "Original1536x1024; RGBWebPquality95method6; no resizing or cropping",
+  "entries": [
+    {
+      "id": "shipyard",
+      "prompt": "Use case: stylized-concept. Asset type: final building icon illustration for Alien Colonies strategy game, SYMBIONT alien faction. Landscape1536x1024, aspect3:2. ORIGINAL LIVING ALIEN ARCHITECTURE, semi-realistic premium science-fiction concept art with natural diffuse overcast lighting. Biomineralized pale ivory/limestone shell, matte organic surfaces, deep moss/chlorophyll green tissue, subtle turquoise vein tracery, only tiny amber indicator-like bioluminescence. One clearly readable main structure in three-quarter view slightly from above, entire building fully visible at center, occupying70% of the frame, minimum10% empty margin around its full silhouette. Simple darker alien soil/rock ground with sparse low moss, subdued background, no other buildings, no dramatic busy sky. Pure biological engineering, grown rather than manufactured. No human metal factories, machinery, glass, people, text, symbols, UI, logos, watermarks. Absolutely NO purple/gold glowing cathedrals, domes, mushrooms, giant spheres, gilded fantasy ornament, golden glow, eye-shaped globe or towers in distance. Subject: SWARM NEST SHIPYARD. A LONG LOW HORIZONTAL OPEN BIOLOGICAL DRY DOCK with one continuous elongated ribbed keel and six pairs of thick ivory structural ribs curving upward along its length, like an open skeletal cradle. A single small dark green embryonic living spacecraft is being grown along its middle, attached with fine turquoise umbilical strands, visibly nestled below the open ribs. The silhouette is unmistakably a long open hull-shaped rib framework, not a dome or vertical cathedral. Deep green rootlike buttresses anchor dock to alien earth. No external spaceships, no water, no hangar walls.",
+      "refinement_prompt": "Use case: precise-object-edit. Edit this final game building artwork. Change ONLY camera framing: zoom the camera OUT by 30 percent so the entire biological dock, all ivory ribs, complete root foundation at both ends, and all main silhouette sit comfortably inside the CENTRAL70% of the image, with generous empty dark rocky ground on all four sides. Keep landscape1536x1024 aspect3:2. Retain the same long horizontal open shipyard with embedded dark-green embryo spacecraft, pale limestone/ivory biomineral shell, deep-green tissue, turquoise veins, matte texture and natural diffuse overcast lighting. Keep the same design, materials and color palette. No added objects, buildings, people, labels or text. Absolutely no cropped building or closeup.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-ee81e9b2-de0c-43cc-bb6a-704090b9ec5e.png",
+      "initial_path": "/workspace/scratch/785979929548/generated_images/exec-a66236c7-752f-484a-b536-a4b02cfc2984.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/shipyard.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work84_art/industry/shipyard.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "old_sha256": "d984beca2eb6ee95334c56d7c5c362049dc79e494307bca4f81fcbc478734be7",
+      "sha256": "2e7de81e91e4900924d5f3bfaa40e2512ad897045f18b898292abd8c0cb166ed",
+      "bytes": 816936,
+      "visual_review": "PASS: complete main form, distinct role silhouette, ivory/deep-green/turquoise palette, no text/humans/purple/gold cathedral style"
+    },
+    {
+      "id": "lab",
+      "prompt": "Use case: stylized-concept. Asset type: final building icon illustration for Alien Colonies strategy game, SYMBIONT alien faction. Landscape1536x1024, aspect3:2. ORIGINAL LIVING ALIEN ARCHITECTURE, semi-realistic premium science-fiction concept art with natural diffuse overcast lighting. Biomineralized pale ivory/limestone shell, matte organic surfaces, deep moss/chlorophyll green tissue, subtle turquoise vein tracery, only tiny amber indicator-like bioluminescence. One clearly readable main structure in three-quarter view slightly from above, entire building fully visible at center, occupying70% of the frame, minimum10% empty margin around its full silhouette. Simple darker alien soil/rock ground with sparse low moss, subdued background, no other buildings, no dramatic busy sky. Pure biological engineering, grown rather than manufactured. No human metal factories, machinery, glass, people, text, symbols, UI, logos, watermarks. Absolutely NO purple/gold glowing cathedrals, domes, mushrooms, giant spheres, gilded fantasy ornament, golden glow, eye-shaped globe or towers in distance. Subject: MEMORY WEAVE RESEARCH LAB. TWO SLENDER INTERTWINING NERVOUS-TISSUE ARCHES rise from separate pale ivory organic root bases and bend toward each other in elegant tall S-curves. Between the two arches hangs an intricate suspended network of living turquoise synaptic threads and a few small amber synaptic nodes, like an open neural loom; a large clearly visible OPEN EMPTY CENTRAL SPACE remains between arches. The structure is tall, slim, airy and asymmetrically elegant, with deep moss-green neural bundles under matte pale shell plates. NO central orb, NO eyeball, NO glass dome, NO telescope, NO dish, NO enclosed roof, NO metallic cables. Clear distinctive two-arch silhouette.",
+      "refinement_prompt": "Use case: precise-object-edit. Edit this final game building artwork. Change ONLY camera framing: pull the camera back to make the entire two-arch organic research building including every upper tip and all root foundations fit inside the CENTRAL70% of landscape1536x1024 image, with minimum15% empty background margin above the tallest point and below the roots. Preserve both slender asymmetric S-curved ivory arches, open center, suspended green/turquoise living neural threads and small amber synapses. Retain pale biomineral matte shell, dark moss-green inner tissue, natural diffuse lighting and subdued alien rock terrain. No added domes, spheres, eyes, towers, buildings, people or text. Full structure, no cropped edges.",
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-5532fc12-7b8e-4a4e-a692-481d2a303a60.png",
+      "initial_path": "/workspace/scratch/785979929548/generated_images/exec-6568a8c8-b042-4f47-aaaf-714e28987a10.png",
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/lab.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work84_art/industry/lab.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "old_sha256": "88990a35a1ae820acfe91e79d2dd2e85a607561b1c5e2e4246708671317becd6",
+      "sha256": "40e3f40c96430a2e3220b39fed703edb51aa86bf4ca58f6347e30a6203a9d20b",
+      "bytes": 483826,
+      "visual_review": "PASS: complete main form, distinct role silhouette, ivory/deep-green/turquoise palette, no text/humans/purple/gold cathedral style"
+    },
+    {
+      "id": "brood_chamber",
+      "prompt": "Use case: stylized-concept. Asset type: final building catalog illustration for Alien Colonies, SYMBIONT faction. Landscape1536x1024, aspect3:2. ORIGINAL LIVING ALIEN ARCHITECTURE, semi-realistic science-fiction concept art under natural soft overcast daylight. Pale ivory biomineralized limestone shell with matte porous organic texture, deep moss/chlorophyll green living tissue, delicate turquoise veins, very few tiny amber lights. ONE MAIN STRUCTURE with clean memorable silhouette, clearly readable at thumbnail size. THREE-QUARTER VIEW FROM ABOVE and DISTANT WIDE FRAMING: structure inside CENTRAL70% only, visible empty dark ground around every edge, at least15% framing margin. Entire building and full foundation inside frame. Simple darker rocky alien biosphere and sparse low moss, subdued background, no other buildings. Pure biological engineering, grown, never manufactured. No human factories, metal, glass, people, text, letters, symbols, logos, UI, watermark. NO purple or gold palette, NO glowing cathedral, NO dome, NO mushroom, NO giant sphere, NO fantasy palace, NO eye-shaped globe. Subject: BROOD CHAMBER hatchery. A LOW BROAD HORIZONTAL HONEYCOMB NEST MATRIX spread like an irregular hexagonal cellular mat on the ground. About nine thick ivory armored hexagonal chambers form one fused low biological building, deep dark-green openings viewed from above; a few chambers hold small tightly folded green cocoons resting below the rim. Turquoise nutrient veins join cells across matte pale shell walls. Squat wide low honeycomb slab silhouette; no towering ribs, no tall arches, no external tentacles, no glowing eggs and no round domes. The overall outer edge and ground foundation are completely visible, nothing cropped.",
+      "refinement_prompt": null,
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-45d40570-59bc-495a-8805-7ca65fc70d77.png",
+      "initial_path": null,
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/brood_chamber.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work84_art/industry/brood_chamber.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "old_sha256": "131ce9ff1434fe5ce606b643ec5e5929e71c813f2049ba4eca475e455c10ba7e",
+      "sha256": "e7aa9dfb8f91c3c40a3701132022dff6e59fc6d437d9d797bb9893f992c908e5",
+      "bytes": 796096,
+      "visual_review": "PASS: complete main form, distinct role silhouette, ivory/deep-green/turquoise palette, no text/humans/purple/gold cathedral style"
+    },
+    {
+      "id": "nutrient_reservoir",
+      "prompt": "Use case: stylized-concept. Asset type: final building catalog illustration for Alien Colonies, SYMBIONT faction. Landscape1536x1024, aspect3:2. ORIGINAL LIVING ALIEN ARCHITECTURE, semi-realistic science-fiction concept art under natural soft overcast daylight. Pale ivory biomineralized limestone shell with matte porous organic texture, deep moss/chlorophyll green living tissue, delicate turquoise veins, very few tiny amber lights. ONE MAIN STRUCTURE with clean memorable silhouette, clearly readable at thumbnail size. THREE-QUARTER VIEW FROM ABOVE and DISTANT WIDE FRAMING: structure inside CENTRAL70% only, visible empty dark ground around every edge, at least15% framing margin. Entire building and full foundation inside frame. Simple darker rocky alien biosphere and sparse low moss, subdued background, no other buildings. Pure biological engineering, grown, never manufactured. No human factories, metal, glass, people, text, letters, symbols, logos, UI, watermark. NO purple or gold palette, NO glowing cathedral, NO dome, NO mushroom, NO giant sphere, NO fantasy palace, NO eye-shaped globe. Subject: NUTRIENT RESERVOIR. A CASCADE OF EXACTLY THREE LARGE OPEN LEAF-SHAPED BOWLS at three stepped low levels, each filled with rich emerald-green liquid nutrient solution. Each bowl is a thick broad curled ivory leaf shell with deep-green underside, the three connected as one terraced biological structure by short organic spillway channels carrying thin turquoise-green streams. Exposed open liquid surfaces clearly visible; broad leaf silhouettes are asymmetrical and angular rather than circular tanks. Small root supports join bowls to ground. No pipes, no machinery, no waterfall landscape, no enclosing domes, no cocoons, no center tower. Low stepped cascade silhouette, complete and fully framed.",
+      "refinement_prompt": null,
+      "generated_path": "/workspace/scratch/785979929548/generated_images/exec-1e0fa373-66cb-4efd-a3b3-45284790050f.png",
+      "initial_path": null,
+      "project_path": "/workspace/scratch/785979929548/Alien_Colonies_84_SOURCE/client/assets/art/races/symbionts/nutrient_reservoir.webp",
+      "raw_png_path": "/workspace/scratch/785979929548/work84_art/industry/nutrient_reservoir.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "old_sha256": "633ec47ad17c393c6e296e4834d74bcdd644d34ed7ae12e4059aa94bba96e142",
+      "sha256": "2a21c46652171f49004c573f556c3e576bdccd48fde5108ccdcefd650c6f7ac0",
+      "bytes": 773782,
+      "visual_review": "PASS: complete main form, distinct role silhouette, ivory/deep-green/turquoise palette, no text/humans/purple/gold cathedral style"
+    }
+  ]
+}

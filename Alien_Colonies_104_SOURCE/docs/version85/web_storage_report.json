@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": {
+    "node_tests": 23,
+    "node_test_failures": 0,
+    "syntax": "PASS"
+  },
+  "test_command": "node --test backend/web/play/tests/storage-energy.test.mjs backend/tests/test_web_ui.mjs backend/web/play/tests/compact-ui.test.mjs",
+  "coverage": [
+    "actual renderResources function: capacity, exact full threshold, inactivity, over-cap deliveries",
+    "storage cost blockers and manual purchase eligibility",
+    "nonlinear authoritative plant and mine energy current/next",
+    "all three vaults: storage capacity plus resource protection",
+    "facility speed notes"
+  ],
+  "changed_files": [
+    "backend/web/play/resource-storage.js",
+    "backend/web/play/building-effects.js",
+    "backend/web/play/compact-ui.js",
+    "backend/web/play/game.js",
+    "backend/web/play/planned-queues.js",
+    "backend/web/play/index.html",
+    "backend/web/play/progression.css",
+    "backend/web/play/tests/storage-energy.test.mjs",
+    "backend/tests/test_web_ui.mjs"
+  ],
+  "layout": {
+    "status": "not run",
+    "reason": "Installed Playwright has no Chromium binary; system Chrome unavailable. No download/network used.",
+    "prepared_script": "work85_checks/web_storage_layout.mjs"
+  },
+  "preexisting_test_issues": [
+    {
+      "file": "backend/tests/test_planned_queues_ui.mjs",
+      "reason": "imports removed queueActionHtml export",
+      "also_fails_on_unchanged_84": true
+    },
+    {
+      "file": "backend/tests/test_planned_queue_wiring.mjs",
+      "reason": "incomplete fake document lacks createElementNS",
+      "also_fails_on_unchanged_84": true
+    }
+  ],
+  "backend_gameplay_changed": false,
+  "deployment_or_network": false
+}

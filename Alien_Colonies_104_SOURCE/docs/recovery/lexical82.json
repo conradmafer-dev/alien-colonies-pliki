@@ -1,0 +1,490 @@
+{
+  "addons/AlienGoogleAuth/export_plugin.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 130,
+    "source_tokens": 130,
+    "differences": [],
+    "layout_differences": []
+  },
+  "addons/GodotGooglePlayBilling/BillingClient.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 703,
+    "source_tokens": 703,
+    "differences": [],
+    "layout_differences": []
+  },
+  "addons/GodotGooglePlayBilling/export_plugin.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 132,
+    "source_tokens": 132,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/alliance_ui.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 9995,
+    "source_tokens": 9995,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/art_library.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1720,
+    "source_tokens": 1720,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/auth_timing.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 639,
+    "source_tokens": 639,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/battle_board.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 4001,
+    "source_tokens": 4001,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/battle_replay.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 4874,
+    "source_tokens": 4874,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/building_tile_effect.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 637,
+    "source_tokens": 637,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/catalog_card.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 475,
+    "source_tokens": 475,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/catalog_details.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 4591,
+    "source_tokens": 4591,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/communications.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 4650,
+    "source_tokens": 4650,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/compact_ui.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 10254,
+    "source_tokens": 10254,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/email_login.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2303,
+    "source_tokens": 2303,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/fleet_mission_timeline.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1637,
+    "source_tokens": 1637,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/fleet_navigation.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 7802,
+    "source_tokens": 7802,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/fleet_navigation_model.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2502,
+    "source_tokens": 2502,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/fleet_route.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 724,
+    "source_tokens": 724,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/galaxy_map.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 7293,
+    "source_tokens": 7293,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/google_login.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2554,
+    "source_tokens": 2554,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/i18n.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 490,
+    "source_tokens": 490,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/interaction_guard.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 896,
+    "source_tokens": 896,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/main.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 44372,
+    "source_tokens": 44372,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/megastructure_ui.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 3642,
+    "source_tokens": 3642,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/mobile_choice.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2342,
+    "source_tokens": 2342,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/mobile_quantity.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 995,
+    "source_tokens": 995,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/planet_art.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 816,
+    "source_tokens": 816,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/planetary_ui.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2540,
+    "source_tokens": 2540,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/planned_queue_ui.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 4251,
+    "source_tokens": 4251,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/project_ui.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1212,
+    "source_tokens": 1212,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/quantity_edit_gate.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 371,
+    "source_tokens": 371,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/queue_billing.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2108,
+    "source_tokens": 2108,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/race_theme.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2187,
+    "source_tokens": 2187,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/release_panel.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1882,
+    "source_tokens": 1882,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/replay_art_loader.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 410,
+    "source_tokens": 410,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/report_resource_text.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1402,
+    "source_tokens": 1402,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/research_layout.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 932,
+    "source_tokens": 932,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/research_tree.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 4422,
+    "source_tokens": 4422,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/resource_info.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 702,
+    "source_tokens": 702,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/server_address.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 663,
+    "source_tokens": 663,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/session_revocation.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 99,
+    "source_tokens": 99,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/skill_icon.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 10933,
+    "source_tokens": 10933,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/skill_wheel.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 4578,
+    "source_tokens": 4578,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/touch_scroll.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 852,
+    "source_tokens": 852,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/ui_preferences.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 221,
+    "source_tokens": 221,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/update_policy.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 734,
+    "source_tokens": 734,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/beginner_guide.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2086,
+    "source_tokens": 2086,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/beginner_guide_model.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2800,
+    "source_tokens": 2800,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/catalog_carousel.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1207,
+    "source_tokens": 1207,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/catalog_guidance.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1682,
+    "source_tokens": 1682,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/galaxy_guidance.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1339,
+    "source_tokens": 1339,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/galaxy_guidance_model.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1622,
+    "source_tokens": 1622,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/galaxy_routes.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 645,
+    "source_tokens": 645,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/planet_status.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 750,
+    "source_tokens": 750,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/player_activity.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 368,
+    "source_tokens": 368,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/queue_subscription_offer.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 832,
+    "source_tokens": 832,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/report_summary.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 1590,
+    "source_tokens": 1590,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/catalog_card_layout.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 933,
+    "source_tokens": 933,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/swarm_target.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 2876,
+    "source_tokens": 2876,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/login_announcement.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 822,
+    "source_tokens": 822,
+    "differences": [],
+    "layout_differences": []
+  },
+  "client/scripts/review_prompt.gd": {
+    "tokens_equal": true,
+    "layout_equal": true,
+    "expected_tokens": 762,
+    "source_tokens": 762,
+    "differences": [],
+    "layout_differences": []
+  }
+}

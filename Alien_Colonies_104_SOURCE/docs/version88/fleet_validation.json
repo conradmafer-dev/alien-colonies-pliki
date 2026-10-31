@@ -1,0 +1,255 @@
+{
+  "result": "PASS",
+  "verified_date_utc": "2026-10-21",
+  "runtime": "Godot 4.5.1 stable, Linux headless",
+  "checks": 421,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "Fleet destination layout and navigation",
+      "checks": 282,
+      "result": "PASS",
+      "report": "tests/fleet_destination88_report.json",
+      "working_directory": ".",
+      "reproduce_command": "godot --headless --path . res://tests/fleet_destination88_test.tscn"
+    },
+    {
+      "name": "Previous mission regression",
+      "checks": 139,
+      "result": "PASS",
+      "report": "tests/android_fleet87_regression_report.json",
+      "working_directory": ".",
+      "reproduce_command": "godot --headless --path . res://tests/android_fleet87_regression.tscn"
+    }
+  ],
+  "layout_metrics": [
+    {
+      "expected_map_height": 838.0,
+      "locale": "en",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        720,
+        1280
+      ],
+      "zoom": 3.2
+    },
+    {
+      "expected_map_height": 1158.0,
+      "locale": "en",
+      "logical_client": [
+        720.0,
+        1600.0
+      ],
+      "map": {
+        "bottom": 1331.0,
+        "height": 1158.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.836705202312139,
+      "scroll": {
+        "bottom": 1480.0,
+        "height": 1384.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1476.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1409.0
+      },
+      "window": [
+        720,
+        1600
+      ],
+      "zoom": 3.2
+    },
+    {
+      "expected_map_height": 838.0,
+      "locale": "en",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        450,
+        800
+      ],
+      "zoom": 3.2
+    },
+    {
+      "expected_map_height": 838.0,
+      "locale": "pl",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        720,
+        1280
+      ],
+      "zoom": 3.2
+    },
+    {
+      "expected_map_height": 1158.0,
+      "locale": "pl",
+      "logical_client": [
+        720.0,
+        1600.0
+      ],
+      "map": {
+        "bottom": 1331.0,
+        "height": 1158.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.836705202312139,
+      "scroll": {
+        "bottom": 1480.0,
+        "height": 1384.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1476.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1409.0
+      },
+      "window": [
+        720,
+        1600
+      ],
+      "zoom": 3.2
+    },
+    {
+      "expected_map_height": 838.0,
+      "locale": "pl",
+      "logical_client": [
+        720.0,
+        1280.0
+      ],
+      "map": {
+        "bottom": 1011.0,
+        "height": 838.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 173.0
+      },
+      "map_fraction_of_content": 0.787593984962406,
+      "scroll": {
+        "bottom": 1160.0,
+        "height": 1064.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 96.0
+      },
+      "system_selector": {
+        "bottom": 1156.0,
+        "height": 67.0,
+        "width": 676.0,
+        "x": 22.0,
+        "y": 1089.0
+      },
+      "window": [
+        450,
+        800
+      ],
+      "zoom": 3.2
+    }
+  ],
+  "covered_behaviors": [
+    "PL and EN at 720x1280, 720x1600, and 450x800; controls inside visible content without scrolling",
+    "Initial zoom 3.2, new galaxy zoom 3.2, and reopened destination zoom 3.2",
+    "System to galaxy to composer using visible Back, full-tree Android notification, and focused-control Escape",
+    "Galaxy dropdown closes on Android Back without closing map; system dropdown closes on Escape without closing map",
+    "Map pan/zoom and fleet/cargo/origin survive navigation",
+    "Selecting changed or unchanged destination closes the picker directly",
+    "Repeated opens retain one resize signal connection; ordinary details retain single-step Back"
+  ],
+  "regression_found_and_fixed": "Escape was initially consumed by the focused Back control before reaching _unhandled_key_input. Root moved handling before GUI processing and protected the map while a MobileChoice overlay owns Back. Focused input and overlay tests now pass.",
+  "capture_command": "godot --path . res://tests/fleet_destination88_test.tscn -- --capture",
+  "capture_directory": "tests/fleet_destination88_screenshots",
+  "notes": [
+    "Both suites run the real client UI with a local fixture and intercept mission/quote requests. Login configuration, polling and persisted sessions are disabled.",
+    "450x800 uses the 720x1280 logical canvas; reported control sizes are logical coordinates.",
+    "Android callback behavior was exercised in the desktop engine; this is not a physical Android device run.",
+    "Rendered screenshot capture is a separate root-owned final run. The source test adds nine screenshot assertions when --capture is supplied."
+  ]
+}

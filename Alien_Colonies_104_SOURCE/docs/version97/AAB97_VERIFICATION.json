@@ -1,0 +1,34 @@
+{
+  "version_code": 97,
+  "version_name": "0.12.30",
+  "aab_sha": "489e8b37d352180459a3fbbe3f2d15ef6dbaa915cb4384bf6f0ca5c733ca4027",
+  "aab_size": 331474376,
+  "basis_sha": "6ecf476381e8d66a3e368ec0cf1d3762ea2c437e2c12dbcff298df7845ca995a",
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/client/scripts/ranking_ui.gdc",
+    "assetPackInstallTime/assets/client/scripts/update_boot.gdc",
+    "assetPackInstallTime/assets/project.binary",
+    "assetPackInstallTime/assets/assets.sparsepck"
+  ],
+  "sparse_records_verified": 638,
+  "zip_crc": "PASS",
+  "delta97_sha": "ce7046510a74bf93d7e9ef5960ba33519c46adddd5696073b95422d000e31d0e",
+  "delta97_size": 303190,
+  "bundletool": "PASS",
+  "ranking": {
+    "checks": 1002,
+    "failed": [],
+    "result": "PASS",
+    "scope": "Actual ranking controller, all3 races,5 languages,4 window sizes, long empire names and large scores. No physical Android."
+  },
+  "startup": {
+    "boot_to_login_ms": 1090,
+    "checks": 15,
+    "failed": [],
+    "result": "PASS",
+    "scope": "Actual Android AAB assets and sparse index under Godot 4.5.1; headless desktop, no physical Android or Play Store installation"
+  },
+  "scope": "Actual Android AAB compiled scripts and sparse index,5 languages and4 screen sizes; no physical Android or Play Store installation"
+}

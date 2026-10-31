@@ -1,0 +1,14 @@
+Alien Colonies Android 91 / 0.12.24
+
+Pelny projekt Godot, kontynuacja wersji 90.
+Domyslne przyblizenie Galaktyki i wyboru celu nowej misji wynosi teraz 4.5x (maksimum).
+Oba widoki centruja aktywna kolonie. Mozna oddalic lub wybrac cala mape.
+Dotychczasowe wycentrowanie grafik i powiadomienia z wersji 90 sa zachowane.
+Firebase jest podlaczony na serwerze. W tej paczce nie ma prywatnych kluczy ani hasel.
+Dostarczenie powiadomienia nalezy sprawdzic na fizycznym telefonie po instalacji i przyznaniu uprawnienia.
+
+Budowanie: Godot 4.5.1, pelny JDK17, SDK36, AGP8.10.1 i Gradle8.11.1.
+Zainstaluj Android build template z Godota, potem uruchom tools/configure_android_build.py.
+Preset Google Play AAB, kod91, wersja0.12.24. Podpisz dotychczasowym kluczem przesylania.
+Testy: tests/galaxy90_centering.tscn sprawdza rowniez obecny maksymalny zoom obu widokow.
+Dokumentacja serwera: backend/docs/RELEASE_01224.md.

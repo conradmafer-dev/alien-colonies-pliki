@@ -1,0 +1,21 @@
+{
+  "aab_sha": "57190c2fb523b934cd7efe9bb19b9a1d7fda54707a17894e28d5104288d9c257",
+  "aab_size": 331415858,
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/review_prompt.gdc",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/client/scripts/asset_updates.gdc",
+    "assetPackInstallTime/assets/client/scripts/update_boot.gdc",
+    "assetPackInstallTime/assets/project.binary"
+  ],
+  "basis93_sha": "f248e7541f7b0d4964241258f66dab718b5b5c17e63c63ccdddadb34497af27b",
+  "delta94_sha": "69cec8be09a129cc31ea7c41acc493203448d65db9ec3fabe0f15ea483efed5a",
+  "delta94_size": 282186,
+  "zip_crc": "PASS",
+  "bundletool": "PASS",
+  "native_libraries": "Unchanged from validated93; 16KB ARM64 alignment",
+  "textures": "Unchanged",
+  "version_code": 94,
+  "version_name": "0.12.27"
+}

@@ -1,0 +1,18 @@
+ALIEN COLONIES94 / 0.12.27
+
+Zawiera cala wersje93 i poprawke zaproszenia do oceny gry.
+Piec rysowanych gwiazdek zamiast trzech symboli. Opaque panel i
+oddzielna warstwa modalna blokuja dotyk gry pod spodem. Trzy przyciski
+dzialaja na zwolnienie dotyku. Wstecz zamyka zaproszenie; fokus klawiatury
+pozostaje w oknie. Gdy zaproszenie sie otwiera, stare przewijanie jest anulowane.
+
+To poprawka klienta Android, nie konkretnego konta. Widocznosc zaproszenia
+nadal okresla serwer; uczciwa opinia nie jest wiazana z nagroda.
+
+270 sprawdzen GUI (5 jezykow i 3 rozmiary), 139 regresji floty.
+Fizyczny Android wymaga sprawdzenia po publikacji. Kod aplikacji nadal
+aktualizuje Google Play; paczki Windows sa dla autora do przygotowania AAB.
+
+Pelny projekt odtwarza 02_AKTUALIZUJ_ZRODLA_94.cmd z bazy91 lub folderu92/93.
+Baza91: https://drive.google.com/drive/folders/1q8YV2KdaXFURkETbO4ibnnA0lGhPsA2X
+Wymagane Godot4.5.1, Java17+, te same dodatki Android i klucz priest_runner.

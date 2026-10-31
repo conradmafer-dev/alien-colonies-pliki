@@ -1,0 +1,104 @@
+{
+  "aurora": {
+    "core_pixels": [
+      1015.0,
+      634.0
+    ],
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "core": [
+      0.49560546875,
+      0.46412884333821375
+    ]
+  },
+  "nexus": {
+    "core_pixels": [
+      1043.0,
+      679.0
+    ],
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "core": [
+      0.50927734375,
+      0.4970717423133236
+    ]
+  },
+  "omega": {
+    "core_pixels": [
+      1027.0,
+      662.0
+    ],
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "core": [
+      0.50146484375,
+      0.48462664714494874
+    ]
+  },
+  "zephyr": {
+    "core_pixels": [
+      1028.0,
+      672.0
+    ],
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "core": [
+      0.501953125,
+      0.49194729136163984
+    ]
+  },
+  "eclipse": {
+    "core_pixels": [
+      1028.2623476587555,
+      674.4669660038486
+    ],
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "dark_horizon_bbox": [
+      49,
+      42
+    ],
+    "dark_horizon_radius_pixels": 24.5,
+    "rim_contrast": 198.7632748374418,
+    "core": [
+      0.5020812244427517,
+      0.4937532694025246
+    ],
+    "diameter_fraction_width": 0.02392578125,
+    "minimum_inner_orbit_distance_pixels": 42.22181818181818,
+    "minimum_center_clearance_pixels": 17.72181818181818
+  },
+  "void": {
+    "core_pixels": [
+      1027.2136563876652,
+      666.0308370044053
+    ],
+    "dimensions": [
+      2048,
+      1366
+    ],
+    "dark_horizon_bbox": [
+      26,
+      23
+    ],
+    "dark_horizon_radius_pixels": 13.0,
+    "rim_contrast": 185.92247135298769,
+    "core": [
+      0.5015691681580396,
+      0.48757747950542113
+    ],
+    "diameter_fraction_width": 0.0126953125,
+    "minimum_inner_orbit_distance_pixels": 42.22181818181818,
+    "minimum_center_clearance_pixels": 29.22181818181818
+  }
+}

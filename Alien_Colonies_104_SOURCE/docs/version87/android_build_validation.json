@@ -1,0 +1,316 @@
+{
+  "result": "PASS",
+  "bundle": "Alien_Colonies_ANDROID_0.12.20_CODE_87_UNSIGNED.aab",
+  "bytes": 330580934,
+  "sha256": "548b1dd33b4f3e7f9a8cffc9e997bc310b45d552671a279266bf514716cbcef5",
+  "version_name": "0.12.20",
+  "version_code": 87,
+  "package": "com.conradmafer.aliencolonies",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "debuggable": false,
+  "unsigned": true,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "elf_load_alignments": {
+    "base/lib/arm64-v8a/libc++_shared.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libgodot_android.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/armeabi-v7a/libc++_shared.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "base/lib/armeabi-v7a/libgodot_android.so": [
+      4096,
+      4096,
+      4096,
+      4096
+    ]
+  },
+  "native_16k_alignment": "PASS",
+  "bundletool_validation": "PASS",
+  "zip_crc": "PASS",
+  "zip_entries": 1208,
+  "google_auth_callback_manifest": "PASS",
+  "auth_plugin_in_dex": "PASS",
+  "billing_plugin_in_dex": "PASS",
+  "install_time_asset_pack": "PASS",
+  "play_billing_client_version": "9.1.0",
+  "application_module_count": 1,
+  "install_time_asset_pack_count": 1,
+  "not_tested": [
+    "Physical-device Google sign-in",
+    "Real Google Play purchases",
+    "Windows graphical signing flow with the user private key"
+  ],
+  "signer": {
+    "entry_point": "PODPISZ87.bat",
+    "runtime": "JDK 17 or newer",
+    "source_compilation": "PASS (JDK 17)",
+    "source_launcher_runtime_check": "PASS (JDK 17)",
+    "exact_input_sha256": "PASS",
+    "manifest_package_and_version": "PASS",
+    "wrong_version_rejection": "PASS",
+    "unsigned_bundle_rejected_as_signed": "PASS",
+    "required_existing_certificate_sha256": "9c6c8bd75024bc4cfad76324f0084f5cfe30d64a956720fe9d8713dbc7c7f8b7",
+    "certificate_matches_previously_verified_original82": true,
+    "private_key_included": false,
+    "release_signed": false,
+    "not_tested": [
+      "Windows graphical signing flow with the user private key"
+    ]
+  },
+  "source_import_check": {
+    "checked_imports": 240,
+    "invalid_imports": [],
+    "missing_destinations": [],
+    "missing_import_paths": [],
+    "reimport_errors": []
+  },
+  "portable_export_configuration": {
+    "result": "PASS",
+    "export_paths": [
+      "builds/ALIEN_COLONIES_0.12.20_ANDROID_TEST.apk",
+      "builds/Alien_Colonies.exe",
+      "builds/Alien_Colonies_ANDROID_0.12.20_CODE_87_UNSIGNED.aab"
+    ],
+    "external_build_path_in_export_presets": false,
+    "custom_gradle_build_directory": [
+      "default res://android"
+    ],
+    "generated_android_build_symlink_is_local_only": true,
+    "exclude_from_source_archive": [
+      "android/build",
+      ".godot"
+    ],
+    "docs_excluded_from_android_export": true
+  },
+  "native_addon_prerequisites": {
+    "addons/AlienGoogleAuth/bin/debug/AlienGoogleAuth-debug.aar": {
+      "sha256": "0d1a293b06686fca3cb27d2ea2b58fb7d80330e213d282d2be21006bd4182fd4",
+      "matches_verified86": true,
+      "aar_zip_crc": "PASS"
+    },
+    "addons/AlienGoogleAuth/bin/release/AlienGoogleAuth-release.aar": {
+      "sha256": "b48a9b33de9eee2b8af14a6fe6bb38ee4dafba4839dab8bed621f22a902274d4",
+      "matches_verified86": true,
+      "aar_zip_crc": "PASS"
+    },
+    "addons/GodotGooglePlayBilling/bin/debug/GodotGooglePlayBilling-debug.aar": {
+      "sha256": "f7f8f3f1c8099e58127332c8c27f353a7eea079e749682d2ebd83d1bd4bd6f3d",
+      "matches_verified86": true,
+      "aar_zip_crc": "PASS"
+    },
+    "addons/GodotGooglePlayBilling/bin/release/GodotGooglePlayBilling-release.aar": {
+      "sha256": "b667b4ae3ecf91d7dea90bebd4ba5a7aef56cfc2cd7de4787aeb51a1927dcef7",
+      "matches_verified86": true,
+      "aar_zip_crc": "PASS"
+    }
+  },
+  "final_export_error_lines": [],
+  "final_export_exit_code": 0,
+  "gradle_release_bundle_copied_byte_identically": true,
+  "independent_payload_check": {
+    "result": "PASS",
+    "scripts": 61,
+    "images": 53,
+    "invalid_imports": 0,
+    "report": "final_aab_content_verification.json"
+  },
+  "native_launcher_icons": {
+    "result": "PASS",
+    "bundle_sha256": "548b1dd33b4f3e7f9a8cffc9e997bc310b45d552671a279266bf514716cbcef5",
+    "checks": {
+      "24_native_density_pngs_present": true,
+      "foreground_monochrome_sources_exact_native82": true,
+      "manifest_normal_icon_points_to_mipmap_icon": true,
+      "adaptive_icon_layer_endpoints": true,
+      "active_icon_monochrome_endpoint": true,
+      "themed_icon_layer_endpoints": true,
+      "native_resource_files_exist": true,
+      "bundle_unchanged": true
+    },
+    "png_comparison_summary": {
+      "icon": {
+        "count": 6,
+        "exact_pixels_vs82": 0,
+        "exact_visible_pixels_vs82": 0,
+        "exact_pixels_vs86": 6
+      },
+      "icon_background": {
+        "count": 6,
+        "exact_pixels_vs82": 0,
+        "exact_visible_pixels_vs82": 0,
+        "exact_pixels_vs86": 6
+      },
+      "icon_foreground": {
+        "count": 6,
+        "exact_pixels_vs82": 0,
+        "exact_visible_pixels_vs82": 0,
+        "exact_pixels_vs86": 0
+      },
+      "icon_monochrome": {
+        "count": 6,
+        "exact_pixels_vs82": 0,
+        "exact_visible_pixels_vs82": 0,
+        "exact_pixels_vs86": 0
+      }
+    },
+    "source_checks": {
+      "alien_colonies_adaptive_professional.png": {
+        "source_sha256": "16f9731ce693e699dc56ae7a1154e1cf632d85761e96ec639452cba1355c16e8",
+        "native82_sha256": "16f9731ce693e699dc56ae7a1154e1cf632d85761e96ec639452cba1355c16e8",
+        "exact_native82_png": true
+      },
+      "alien_colonies_adaptive_monochrome82.png": {
+        "source_sha256": "f4a186ffbef08f8376265cfb46046ab6b61ad03535bc9a8f243e708ad8b8f1c0",
+        "native82_sha256": "f4a186ffbef08f8376265cfb46046ab6b61ad03535bc9a8f243e708ad8b8f1c0",
+        "exact_native82_png": true
+      }
+    },
+    "manifest_icon_attributes": {
+      "82": [
+        {
+          "element": "application",
+          "attributes": [
+            {
+              "namespace": "http://schemas.android.com/apk/res/android",
+              "name": "icon",
+              "raw_value": "@mipmap/icon",
+              "type": "REF",
+              "reference_id": "0x7f0d0000",
+              "reference": "mipmap/icon"
+            }
+          ]
+        }
+      ],
+      "86": [
+        {
+          "attributes": [
+            {
+              "namespace": "http://schemas.android.com/apk/res/android",
+              "name": "icon",
+              "raw_value": "@mipmap/icon",
+              "type": "REF",
+              "reference_id": "0x7f0d0000",
+              "reference": "mipmap/icon"
+            }
+          ],
+          "element": "application"
+        }
+      ],
+      "87": [
+        {
+          "attributes": [
+            {
+              "namespace": "http://schemas.android.com/apk/res/android",
+              "name": "icon",
+              "raw_value": "@mipmap/icon",
+              "type": "REF",
+              "reference_id": "0x7f0d0000",
+              "reference": "mipmap/icon"
+            }
+          ],
+          "element": "application"
+        }
+      ]
+    },
+    "xml_layer_endpoints": {
+      "82": {
+        "base/res/mipmap-anydpi-v26/icon.xml": {
+          "background": [
+            "mipmap/icon_background"
+          ],
+          "foreground": [
+            "mipmap/icon_foreground"
+          ]
+        },
+        "base/res/mipmap-anydpi-v26/themed_icon.xml": {
+          "background": [
+            "mipmap/icon_background"
+          ],
+          "foreground": [
+            "mipmap/icon_foreground"
+          ],
+          "monochrome": [
+            "mipmap/icon_monochrome"
+          ]
+        }
+      },
+      "86": {
+        "base/res/mipmap-anydpi-v26/icon.xml": {
+          "background": [
+            "mipmap/icon_background"
+          ],
+          "foreground": [
+            "mipmap/icon_foreground"
+          ]
+        },
+        "base/res/mipmap-anydpi-v26/themed_icon.xml": {
+          "background": [
+            "mipmap/icon_background"
+          ],
+          "foreground": [
+            "mipmap/icon_foreground"
+          ],
+          "monochrome": [
+            "mipmap/icon_monochrome"
+          ]
+        }
+      },
+      "87": {
+        "base/res/mipmap-anydpi-v26/icon.xml": {
+          "background": [
+            "mipmap/icon_background"
+          ],
+          "foreground": [
+            "mipmap/icon_foreground"
+          ],
+          "monochrome": [
+            "mipmap/icon_monochrome"
+          ]
+        },
+        "base/res/mipmap-anydpi-v26/themed_icon.xml": {
+          "background": [
+            "mipmap/icon_background"
+          ],
+          "foreground": [
+            "mipmap/icon_foreground"
+          ],
+          "monochrome": [
+            "mipmap/icon_monochrome"
+          ]
+        }
+      }
+    },
+    "round_icon_status": "No android:roundIcon attribute; launcher fallback is application android:icon.",
+    "themed_icon_manifest_referenced": false,
+    "manifest_referenced_icon_has_monochrome": true,
+    "notes": [
+      "Pixel comparisons use decoded RGBA, independently of PNG compression.",
+      "Visible-pixel comparison ignores RGB differences where alpha is zero, and compares premultiplied RGB plus alpha.",
+      "Resizing differences are reported as measured; source graphics were not changed by this checker.",
+      "Version87 adds monochrome directly to the manifest-referenced adaptive icon.xml; the separate themed_icon.xml is present but is not manifest-referenced.",
+      "No physical Android launcher rendering was tested."
+    ],
+    "pixel_identity_vs82": "DIFFERENCES_OBSERVED (see measured per-density comparisons)",
+    "visual_review": "PASS: extracted87 foreground432 is the centered professional blue metallic mask; monochrome is the restored82 silhouette. Old green foreground and Godot default monochrome are no longer active.",
+    "detailed_report": "native_icon_validation87.json"
+  },
+  "compile_sdk": 36,
+  "build_tools": "36.0.0",
+  "godot": "4.5.1.stable"
+}

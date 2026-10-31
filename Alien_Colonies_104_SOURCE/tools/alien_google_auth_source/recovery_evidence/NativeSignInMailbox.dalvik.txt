@@ -1,0 +1,96 @@
+<init> ()V
+  invoke-direct v1, Ljava/lang/Object;-><init>()V
+  const-string v0, ""
+  iput-object v0, v1, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->requestId Ljava/lang/String;
+  return-void 
+begin (Ljava/lang/String;)J
+  monitor-enter v4
+  iget-wide v0, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->generation J
+  const-wide/16 v2, 1
+  add-long/2addr v0, v2
+  iput-wide v0, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->generation J
+  iput-object v5, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->requestId Ljava/lang/String;
+  const/4 v5, 1
+  iput-boolean v5, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->active Z
+  const/4 v5, 0
+  iput-object v5, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->pending Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;
+  monitor-exit v4
+  return-wide v0
+  move-exception v5
+  monitor-exit v4
+  throw v5
+cancel ()J
+  monitor-enter v4
+  iget-wide v0, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->generation J
+  const-wide/16 v2, 1
+  add-long/2addr v0, v2
+  iput-wide v0, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->generation J
+  const/4 v2, 0
+  iput-boolean v2, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->active Z
+  const-string v2, ""
+  iput-object v2, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->requestId Ljava/lang/String;
+  const/4 v2, 0
+  iput-object v2, v4, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->pending Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;
+  monitor-exit v4
+  return-wide v0
+  move-exception v0
+  monitor-exit v4
+  throw v0
+complete (J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  monitor-enter v0
+  invoke-virtual v0, v1, v2, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->isActive(J)Z
+  move-result v1
+  if-nez v1, +004h
+  monitor-exit v0
+  return-void 
+  new-instance v1, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;
+  iget-object v2, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->requestId Ljava/lang/String;
+  invoke-direct v1, v2, v3, v4, v5, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+  iput-object v1, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->pending Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;
+  const/4 v1, 0
+  iput-boolean v1, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->active Z
+  const-string v1, ""
+  iput-object v1, v0, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->requestId Ljava/lang/String;
+  monitor-exit v0
+  return-void 
+  move-exception v1
+  monitor-exit v0
+  throw v1
+isActive (J)Z
+  monitor-enter v2
+  iget-boolean v0, v2, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->active Z
+  if-eqz v0, +00ah
+  iget-wide v0, v2, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->generation J
+  cmp-long v3, v3, v0
+  if-nez v3, +004h
+  const/4 v3, 1
+  goto +2h
+  const/4 v3, 0
+  monitor-exit v2
+  return v3
+  move-exception v3
+  monitor-exit v2
+  throw v3
+isGeneration (J)Z
+  monitor-enter v2
+  iget-wide v0, v2, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->generation J
+  cmp-long v3, v3, v0
+  if-nez v3, +004h
+  const/4 v3, 1
+  goto +2h
+  const/4 v3, 0
+  monitor-exit v2
+  return v3
+  move-exception v3
+  monitor-exit v2
+  throw v3
+take ()Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;
+  monitor-enter v2
+  iget-object v0, v2, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->pending Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;
+  const/4 v1, 0
+  iput-object v1, v2, Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox;->pending Lcom/conradmafer/aliencolonies/auth/NativeSignInMailbox$Result;
+  monitor-exit v2
+  return-object v0
+  move-exception v0
+  monitor-exit v2
+  throw v0

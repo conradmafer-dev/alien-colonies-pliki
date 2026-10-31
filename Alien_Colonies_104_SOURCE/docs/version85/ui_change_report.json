@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "client_frozen": true,
+  "version_code": 85,
+  "version_name": "0.12.18",
+  "godot_assertions": 208,
+  "web_tests": 23,
+  "gameplay_numeric_parameters_in_races_preserved": 638,
+  "files_directly_changed": [
+    "client/scripts/main.gd",
+    "client/scripts/compact_ui.gd",
+    "client/scripts/resource_info.gd",
+    "client/scripts/catalog_details.gd",
+    "client/scripts/catalog_guidance.gd",
+    "client/scripts/building_tile_effect.gd",
+    "client/scripts/fleet_navigation.gd",
+    "project.godot",
+    "backend/races.py",
+    "backend/catalog_descriptions.py",
+    "localization/en.json",
+    "localization/pl.json",
+    "backend/en.json",
+    "backend/pl.json",
+    "backend/web/play/locales/en.json",
+    "backend/web/play/locales/pl.json"
+  ],
+  "files_changed_by_web_subagent": [
+    "backend/web/play/resource-storage.js",
+    "backend/web/play/building-effects.js",
+    "backend/web/play/compact-ui.js",
+    "backend/web/play/game.js",
+    "backend/web/play/planned-queues.js",
+    "backend/web/play/index.html",
+    "backend/web/play/progression.css",
+    "backend/web/play/tests/storage-energy.test.mjs",
+    "backend/tests/test_web_ui.mjs"
+  ],
+  "checks": [
+    "Storage HUD: threshold, spent resources, expanded capacity, overflow deliveries, missing legacy storage",
+    "Authoritative nonlinear energy and vault details for all 3 races",
+    "Capacity blocks waiting estimates only when stock is insufficient; manual over-cap purchases remain valid",
+    "PL/EN resource labels and route full-payment/fuel-coefficient wording",
+    "Godot actual resource cards fit 720x1280,720x960,1024x768 in PL/EN",
+    "Runtime Godot scripts exactly match isolated tested copies"
+  ],
+  "limitations": [
+    "Web browser layout not run: no installed Chromium binary. Real HUD function covered by DOM tests."
+  ],
+  "network_used": false,
+  "server_deployed": false,
+  "source_84_modified": false,
+  "aab_exported_by_this_agent": false
+}

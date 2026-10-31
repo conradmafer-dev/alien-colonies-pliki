@@ -1,0 +1,427 @@
+{
+  "result": "PASS",
+  "checks_passed": 31,
+  "checks_total": 31,
+  "checks": [
+    {
+      "name": "legacy_fixture_three_races",
+      "pass": true
+    },
+    {
+      "name": "legacy_fixture_45_unpaid_plans",
+      "pass": true
+    },
+    {
+      "name": "legacy_fixture_9_paid_projects",
+      "pass": true
+    },
+    {
+      "name": "players_research_pending_and_report_counts_match84",
+      "pass": true
+    },
+    {
+      "name": "pending_projects_really_started_during_replay",
+      "pass": true
+    },
+    {
+      "name": "migration_epoch_exact",
+      "pass": true
+    },
+    {
+      "name": "repeat_does_not_replay_interval",
+      "pass": true
+    },
+    {
+      "name": "all_started_legacy_timing_marked84",
+      "pass": true
+    },
+    {
+      "name": "s30p2:buildings",
+      "pass": true
+    },
+    {
+      "name": "s30p2:ships",
+      "pass": true
+    },
+    {
+      "name": "s30p2:defenses",
+      "pass": true
+    },
+    {
+      "name": "s30p2:queue",
+      "pass": true
+    },
+    {
+      "name": "s30p2:metal",
+      "pass": true
+    },
+    {
+      "name": "s30p2:crystal",
+      "pass": true
+    },
+    {
+      "name": "s30p2:fuel",
+      "pass": true
+    },
+    {
+      "name": "s201p5:buildings",
+      "pass": true
+    },
+    {
+      "name": "s201p5:ships",
+      "pass": true
+    },
+    {
+      "name": "s201p5:defenses",
+      "pass": true
+    },
+    {
+      "name": "s201p5:queue",
+      "pass": true
+    },
+    {
+      "name": "s201p5:metal",
+      "pass": true
+    },
+    {
+      "name": "s201p5:crystal",
+      "pass": true
+    },
+    {
+      "name": "s201p5:fuel",
+      "pass": true
+    },
+    {
+      "name": "s203p3:buildings",
+      "pass": true
+    },
+    {
+      "name": "s203p3:ships",
+      "pass": true
+    },
+    {
+      "name": "s203p3:defenses",
+      "pass": true
+    },
+    {
+      "name": "s203p3:queue",
+      "pass": true
+    },
+    {
+      "name": "s203p3:metal",
+      "pass": true
+    },
+    {
+      "name": "s203p3:crystal",
+      "pass": true
+    },
+    {
+      "name": "s203p3:fuel",
+      "pass": true
+    },
+    {
+      "name": "subsequent_orders_use85_only_after_epoch",
+      "pass": true
+    },
+    {
+      "name": "subsequent_build_gets_robotics_and_nano",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "fixtures": {
+    "races": 3,
+    "initial_paid": 9,
+    "initial_unpaid": 45,
+    "offline_seconds": 3600
+  },
+  "legacy_cross_epoch_tasks": [
+    {
+      "key": "frigate",
+      "started_at": 1900002592.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 1152,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 5.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 5.0
+    },
+    {
+      "key": "computing",
+      "started_at": 1900002783.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 5334,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 9.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.2,
+      "time_reduction": 0.0,
+      "speed_multiplier": 10.8
+    },
+    {
+      "key": "metal_mine",
+      "started_at": 1900003433.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 2306,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.2,
+      "time_reduction": 0.0,
+      "speed_multiplier": 1.2
+    },
+    {
+      "key": "frigate",
+      "started_at": 1900002592.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 1152,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 5.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 5.0
+    },
+    {
+      "key": "computing",
+      "started_at": 1900002783.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 5334,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 9.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.2,
+      "time_reduction": 0.0,
+      "speed_multiplier": 10.8
+    },
+    {
+      "key": "metal_mine",
+      "started_at": 1900003433.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 2306,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.2,
+      "time_reduction": 0.0,
+      "speed_multiplier": 1.2
+    },
+    {
+      "key": "frigate",
+      "started_at": 1900002592.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 1152,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 5.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 5.0
+    },
+    {
+      "key": "computing",
+      "started_at": 1900002783.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 5334,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 9.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.2,
+      "time_reduction": 0.0,
+      "speed_multiplier": 10.8
+    },
+    {
+      "key": "metal_mine",
+      "started_at": 1900003433.0,
+      "schema": 1,
+      "rules_version": 84,
+      "seconds": 2306,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 0,
+      "nanotechnology_multiplier": 1,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.2,
+      "time_reduction": 0.0,
+      "speed_multiplier": 1.2
+    }
+  ],
+  "new_after_epoch_tasks": [
+    {
+      "key": "frigate",
+      "started_at": 1900005472.0,
+      "schema": 1,
+      "rules_version": 85,
+      "seconds": 288,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 2,
+      "nanotechnology_multiplier": 4,
+      "early_bonus": 1.0,
+      "facility_multiplier": 5.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 20.0
+    },
+    {
+      "key": "metal_mine",
+      "started_at": 1900005739.0,
+      "schema": 1,
+      "rules_version": 85,
+      "seconds": 173,
+      "robotics_level": 5,
+      "robotics_multiplier": 6,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 2,
+      "nanotechnology_multiplier": 4,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 24.0
+    },
+    {
+      "key": "frigate",
+      "started_at": 1900005472.0,
+      "schema": 1,
+      "rules_version": 85,
+      "seconds": 288,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 2,
+      "nanotechnology_multiplier": 4,
+      "early_bonus": 1.0,
+      "facility_multiplier": 5.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 20.0
+    },
+    {
+      "key": "metal_mine",
+      "started_at": 1900005739.0,
+      "schema": 1,
+      "rules_version": 85,
+      "seconds": 173,
+      "robotics_level": 5,
+      "robotics_multiplier": 6,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 2,
+      "nanotechnology_multiplier": 4,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 24.0
+    },
+    {
+      "key": "frigate",
+      "started_at": 1900005472.0,
+      "schema": 1,
+      "rules_version": 85,
+      "seconds": 288,
+      "robotics_level": 5,
+      "robotics_multiplier": 1,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 2,
+      "nanotechnology_multiplier": 4,
+      "early_bonus": 1.0,
+      "facility_multiplier": 5.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 20.0
+    },
+    {
+      "key": "metal_mine",
+      "started_at": 1900005739.0,
+      "schema": 1,
+      "rules_version": 85,
+      "seconds": 173,
+      "robotics_level": 5,
+      "robotics_multiplier": 6,
+      "nanotechnology_level": 6,
+      "nanotechnology_stage": 2,
+      "nanotechnology_multiplier": 4,
+      "early_bonus": 1.0,
+      "facility_multiplier": 1.0,
+      "server_speed": 1.0,
+      "local_speed": 1.0,
+      "skill_multiplier": 1.0,
+      "time_reduction": 0.0,
+      "speed_multiplier": 24.0
+    }
+  ]
+}

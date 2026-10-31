@@ -1,0 +1,33 @@
+.godot/
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+data/
+builds/
+*.keystore
+*.jks
+.env
+tools/bin/
+*.exe
+.venv/
+venv/
+
+# Local Android build caches and private signing material
+android/build/
+android/.gradle/
+*.aab
+*.credential.xml
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Local recovery project builds and test worlds
+backend/local_data/
+**/.gradle/
+**/build/
+local.properties

@@ -1,0 +1,66 @@
+[project]
+site_name = "Godot Google Play Billing"
+site_description = "Godot Android plugin for Google Play Billing."
+site_author = "syntaxerror247"
+repo_url = "https://github.com/godot-sdk-integrations/godot-google-play-billing"
+repo_name = "GodotGooglePlayBilling"
+copyright = "Copyright &copy; 2020 Godot Engine Contributors"
+
+use_directory_urls = false
+edit_uri  = "edit/master/docs/"
+
+nav = [
+  { "Overview" = "index.md" },
+  { "Installation" = "installation.md" },
+  { "Quick Start" = "quickstart.md" },
+  { "Console Setup" = "google_play_console_setup.md" },
+  { "API Reference" = [
+    { "Billing Client" = "api/billing_client.md" },
+    { "Methods" = "api/methods.md" },
+    { "Signals" = "api/signals.md" },
+    { "Enums" = "api/enums.md" }
+  ]}
+]
+
+[project.theme]
+language = "en"
+favicon = "https://godotengine.org/assets/press/icon_color.svg"
+logo = "https://godotengine.org/assets/press/icon_color.svg"
+
+
+features = [
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "navigation.footer",
+  "navigation.instant",
+  "navigation.instant.progress",
+  "navigation.top",
+  "navigation.expand",
+  "search.highlight",
+  "content.action.edit",
+  "content.action.view"
+]
+
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+media = "(prefers-color-scheme: light)"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+media = "(prefers-color-scheme: dark)"
+
+[project.markdown_extensions.toc]
+permalink = "🔗"
+permalink_title = "Anchor link to this section"
+
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.highlight]
+[project.markdown_extensions.pymdownx.inlinehilite]

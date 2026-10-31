@@ -1,0 +1,150 @@
+{
+  "result": "PASS",
+  "checked_at_utc": "2026-10-25",
+  "production_origin": "https://aliencolonies.com",
+  "deployment_id": "4d8d419f-cb89-4c3a-af21-ef1c3ceaf69b",
+  "commit": "51d3a6167146e26e06eed613d159406e9d38487d",
+  "feature_pr": "https://github.com/conradmafer-dev/pogranicze-serwer/pull/20",
+  "health": {
+    "ok": true,
+    "version": "0.12.33",
+    "world_epoch": "new-beginning-20261019"
+  },
+  "web_manifest_sha256": "0ecc2d980c9373eb85dd5263dbc8e6cb568b170fcac1df5640609427b341d052",
+  "web_manifest_files": 870,
+  "startup_verifies_all_web_manifest_files": true,
+  "assets_read_back": [
+    {
+      "path": "/assets/art/galaxies/aurora.3840.61ec30087c55.webp",
+      "bytes": 9173562,
+      "sha256": "61ec30087c55b3b838790d2b6e084f2470e30603b796f3444f208199b3c4b850",
+      "pixels": [
+        3840,
+        2560
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/aurora.1024.5b82d1f1d6a7.webp",
+      "bytes": 65262,
+      "sha256": "5b82d1f1d6a786aa694868373d18acb46a42d5050e09bc057d4ddcb8e79336b9",
+      "pixels": [
+        1024,
+        683
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/nexus.3840.303da3223d01.webp",
+      "bytes": 7215412,
+      "sha256": "303da3223d01b05e202e0d74dc7d6d3c41753e2bf1704e834012120cbea627b7",
+      "pixels": [
+        3840,
+        2560
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/nexus.1024.f6145a7cb34a.webp",
+      "bytes": 40144,
+      "sha256": "f6145a7cb34ac341d4fc845d7bde116d275023773547e477c6605e237eaa413f",
+      "pixels": [
+        1024,
+        683
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/omega.3840.d128e1c29676.webp",
+      "bytes": 8016022,
+      "sha256": "d128e1c29676e24ad656a300eb7029cd56c49003ac3b27145e8d85da08571e90",
+      "pixels": [
+        3840,
+        2560
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/omega.1024.b542c9aeb6af.webp",
+      "bytes": 42502,
+      "sha256": "b542c9aeb6af774351e3d06c3d0f0a8593cd6dd7c311a749ac25576af7e5c001",
+      "pixels": [
+        1024,
+        683
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/zephyr.3840.6c7e0daacbb6.webp",
+      "bytes": 8198616,
+      "sha256": "6c7e0daacbb681e06c2584e296a500d328f9c30f4303275e259624b486d99451",
+      "pixels": [
+        3840,
+        2560
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/zephyr.1024.07eae9b96e62.webp",
+      "bytes": 50400,
+      "sha256": "07eae9b96e62b208b6cf9c2deb29583650d28bbbbe76b17c64467aed4c23c6ed",
+      "pixels": [
+        1024,
+        683
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/eclipse.3840.39224ff9d74c.webp",
+      "bytes": 8374030,
+      "sha256": "39224ff9d74c1ae213f74af2b51dfcf76468782fe57351af35a7a2c81b6a3536",
+      "pixels": [
+        3840,
+        2560
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/eclipse.1024.2de49f50fa23.webp",
+      "bytes": 61272,
+      "sha256": "2de49f50fa231f3cca75ad2deac4fca3c6dc633d89f4e9ed9b572a9701e2dd5e",
+      "pixels": [
+        1024,
+        683
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/void.3840.b65bc1057bb4.webp",
+      "bytes": 7783320,
+      "sha256": "b65bc1057bb4fc9d76ac2d725709039f023b8dbcec9e0327699f294fb8d6d1a2",
+      "pixels": [
+        3840,
+        2560
+      ]
+    },
+    {
+      "path": "/assets/art/galaxies/void.1024.387b88167ef8.webp",
+      "bytes": 39054,
+      "sha256": "387b88167ef815129b0effc8839e21a33b62cc4ea1c891798540915e29514b83",
+      "pixels": [
+        1024,
+        683
+      ]
+    },
+    {
+      "path": "/play/fleet-motion.js",
+      "sha256": "fcd178a2df18e9ddcfbe2fdee72d01c91a3f3176802aa0379afab8203b3fe91f"
+    },
+    {
+      "path": "/play/fleet-map-overlay.js",
+      "sha256": "423bdb318459f0caeb4a4ed9b1a69b283bfb2ab53c228c0cd357d9dc45ee2705"
+    },
+    {
+      "path": "/play/report-icons.js",
+      "sha256": "ed8cd85ed6a5aff793c1dec498c1f281238fd5f9f5eab7a4663f4e8ae283d746"
+    },
+    {
+      "path": "/play/game.js",
+      "sha256": "e383289dec6ca1ec3c876567bd6185886077e62d143a2a9f31167d400431b48a"
+    }
+  ],
+  "client_policy_observed": {
+    "latest_version_code": 97,
+    "latest_version": "0.12.30",
+    "min_version_code": 97
+  },
+  "start_command": "python start_web.py",
+  "account_cleanup": "CANCELED; launcher AUTHORIZED_AT remains 0; not run",
+  "scope": "Production health, public web bytes and unchanged world epoch; no physical Android or signed Play Store installation"
+}

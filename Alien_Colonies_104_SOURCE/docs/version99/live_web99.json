@@ -1,0 +1,123 @@
+{
+  "health": {
+    "ok": true,
+    "version": "0.12.32",
+    "world_epoch": "new-beginning-20261019"
+  },
+  "verified_files": [
+    {
+      "path": "web/assets/art/galaxies/aurora.1024.36a0574f5a97.webp",
+      "size": 150504,
+      "sha256": "36a0574f5a974256245f15cad47b554e3419937a44de39c6041857853fdd1116"
+    },
+    {
+      "path": "web/assets/art/galaxies/aurora.2048.931961ba7d0d.webp",
+      "size": 3579298,
+      "sha256": "931961ba7d0dae828b094372de134bdddd6704cb5056327ad9d8735a265739a9",
+      "dimensions": [
+        2048,
+        1366
+      ]
+    },
+    {
+      "path": "web/assets/art/galaxies/eclipse.1024.57291e239a92.webp",
+      "size": 135754,
+      "sha256": "57291e239a926eddda74e64e554ac54c157ddf16f63644ca4986156fa0e06993"
+    },
+    {
+      "path": "web/assets/art/galaxies/eclipse.2048.94a213e604d5.webp",
+      "size": 3167638,
+      "sha256": "94a213e604d51be66291a3cb38999329ef4cb7edd3becf34a27bc6b79e7107ab",
+      "dimensions": [
+        2048,
+        1366
+      ]
+    },
+    {
+      "path": "web/assets/art/galaxies/nexus.1024.83218a41b3a1.webp",
+      "size": 118678,
+      "sha256": "83218a41b3a178570aa66938e174a111ea86b85fdb46e3a3a342ac1120d8a298"
+    },
+    {
+      "path": "web/assets/art/galaxies/nexus.2048.50e8253971fd.webp",
+      "size": 3323274,
+      "sha256": "50e8253971fd0d2e444d85aff28d8903189007e36366a97fd96b9ee5c1e9aa23",
+      "dimensions": [
+        2048,
+        1366
+      ]
+    },
+    {
+      "path": "web/assets/art/galaxies/omega.1024.4da5745caafa.webp",
+      "size": 129944,
+      "sha256": "4da5745caafac89be2904d4e745313718a94b92cdba546a5168188a849e0ec79"
+    },
+    {
+      "path": "web/assets/art/galaxies/omega.2048.36e89cb1efdd.webp",
+      "size": 3462870,
+      "sha256": "36e89cb1efdd039d3fd86932ba13077af6b6c2319e7265a56b0c8dc356faa645",
+      "dimensions": [
+        2048,
+        1366
+      ]
+    },
+    {
+      "path": "web/assets/art/galaxies/void.1024.67414b8bae5d.webp",
+      "size": 142478,
+      "sha256": "67414b8bae5d9b734972d450a618b7811dfe0eac13fa8f61fb7768a444c46ed6"
+    },
+    {
+      "path": "web/assets/art/galaxies/void.2048.ea3c69a4e772.webp",
+      "size": 3446194,
+      "sha256": "ea3c69a4e772fb916f6fc173e4ebb87a0bd25bfb9295a6329835ca0213204601",
+      "dimensions": [
+        2048,
+        1366
+      ]
+    },
+    {
+      "path": "web/assets/art/galaxies/zephyr.1024.bf07122a88dd.webp",
+      "size": 117356,
+      "sha256": "bf07122a88dd293f7318aa3c8aba56788261c431c7842db9bf73c3b209737bc1"
+    },
+    {
+      "path": "web/assets/art/galaxies/zephyr.2048.64d924dd1a7c.webp",
+      "size": 3128286,
+      "sha256": "64d924dd1a7cef47816883c9e3b252cb8bc78e563108ff06317d618d82880bb5",
+      "dimensions": [
+        2048,
+        1366
+      ]
+    },
+    {
+      "path": "web/play/art-manifest.js",
+      "size": 39599,
+      "sha256": "12e64621a6ccc05ce9e43afce0511504c7cdafc5df21bc7cd35d7e664f4523d8"
+    },
+    {
+      "path": "web/play/art.js",
+      "size": 3145,
+      "sha256": "3cb53d3c6fe026e945770c95f717ac7bb4517c788f9a4462f156f4edf1bca747"
+    },
+    {
+      "path": "web/play/galaxy-map.js",
+      "size": 16924,
+      "sha256": "d04538ace0b6d0ece4b88d329cace1b72c2b4596bc8f56229560edf6fa11b647"
+    },
+    {
+      "path": "web/play/game.js",
+      "size": 154711,
+      "sha256": "2c1bdf275a6caa03d0e45c574d9d2225308dfecece63da280f59d62c11e392a4"
+    },
+    {
+      "path": "web/play/index.html",
+      "size": 12127,
+      "sha256": "1a92e93612dc04b98ad8baeb8f312ba4766f9624d63eb3d3263d1a047dee5a3f"
+    },
+    {
+      "path": "web/play/release.json",
+      "size": 112399,
+      "sha256": "c839a60f24a95919949e810664327285c0ef7d102ef7dfede4f65085a8fcd8da"
+    }
+  ]
+}

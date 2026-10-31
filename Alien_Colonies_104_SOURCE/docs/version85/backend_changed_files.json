@@ -1,0 +1,182 @@
+[
+  {
+    "path": "alliance_operations.py",
+    "new": false,
+    "bytes": 45554,
+    "sha256": "9c1c3cbe46f1cfeeaa809745ec9629c26f3c7cfbf0ea0211bd8fac9266d5ebad"
+  },
+  {
+    "path": "app.py",
+    "new": false,
+    "bytes": 213230,
+    "sha256": "c58c333a17228d0a0168d745a71c3de422fec21c78c330fbca5333cc5976ceed"
+  },
+  {
+    "path": "catalog_descriptions.py",
+    "new": false,
+    "bytes": 13961,
+    "sha256": "02bd0743572233564b199e9138f2a017ad6a1f911f36e3d65b0291889c0cc58b"
+  },
+  {
+    "path": "economy85.py",
+    "new": true,
+    "bytes": 2803,
+    "sha256": "41f710456f50fb750b0ada769af0246b73382e5f02ac659a4514687b48516401"
+  },
+  {
+    "path": "en.json",
+    "new": false,
+    "bytes": 214748,
+    "sha256": "2477ef56ac9a63cd9f0e59614fb161d542a51402110d9275b84d05e4ae35db46"
+  },
+  {
+    "path": "fleet_balance85.py",
+    "new": true,
+    "bytes": 2696,
+    "sha256": "246498de28fa3de4f97b528281643fb912fdc69eb74a78a4efe76b19ce3cc38e"
+  },
+  {
+    "path": "flight_balance85.py",
+    "new": true,
+    "bytes": 2088,
+    "sha256": "ed880807a0102b934ccf82193035e698eb02f1b7b9eeda3d2e4f4f46104aba3d"
+  },
+  {
+    "path": "galaxies.py",
+    "new": false,
+    "bytes": 11403,
+    "sha256": "9af2dc930d6eb6a81ba2d19e23f341599ab1e576910817ac883ebc772bb5792e"
+  },
+  {
+    "path": "ogame_economy.py",
+    "new": false,
+    "bytes": 7781,
+    "sha256": "ca10902f9453e24981b52e453105f0ef74ad34ee42cf1c3af8fcd2139b836046"
+  },
+  {
+    "path": "pl.json",
+    "new": false,
+    "bytes": 188751,
+    "sha256": "5e533feef4ba52e4971a9b6d1806eef4a8ac6419ffe92887574c2067e77dd988"
+  },
+  {
+    "path": "planetary.py",
+    "new": false,
+    "bytes": 7199,
+    "sha256": "7ebdb30a8a01e285928819a125eb51b0e7a6ad210c65ee32f41f75b44bf0461e"
+  },
+  {
+    "path": "planned_queues.py",
+    "new": false,
+    "bytes": 18339,
+    "sha256": "1354d9394f414fc5e585297111d4ca0b183b045b484cdf2aca3b17f30e78c667"
+  },
+  {
+    "path": "races.py",
+    "new": false,
+    "bytes": 32619,
+    "sha256": "8d67a427eaa78e4c512a8b40891e9c87f98ad0fddbf1306d176e4a409be2c955"
+  },
+  {
+    "path": "technology.py",
+    "new": false,
+    "bytes": 9119,
+    "sha256": "31cf506348867bd97ca0598eabb5295e87473335cb29de660c9f701a190d7e97"
+  },
+  {
+    "path": "tests/test_economy85_energy_storage.py",
+    "new": true,
+    "bytes": 20403,
+    "sha256": "c6a122beb4fe27691417225caba1f8630e54d001a98daeec8d2710462bdcf513"
+  },
+  {
+    "path": "tests/test_fleet_balance_85.py",
+    "new": true,
+    "bytes": 15830,
+    "sha256": "5d5dd116b07d9009f5162ddedb414fcad0e429f958c937f2cf3a120f81f846a0"
+  },
+  {
+    "path": "tests/test_fuel_85.py",
+    "new": true,
+    "bytes": 6959,
+    "sha256": "2715f8061e47d542a0ac019700839a4c5f2329d0f916131218d36448d07def9e"
+  },
+  {
+    "path": "tests/test_ogame_live_migration.py",
+    "new": false,
+    "bytes": 8169,
+    "sha256": "6f987ca8ac3c6f846f7cd35a382620b2aa7a7cd6dda876f01c65c39715563b7b"
+  },
+  {
+    "path": "tests/test_timing_085.py",
+    "new": true,
+    "bytes": 10701,
+    "sha256": "364814c191d430be6952f36a39f96aa82630855637380643331f66d454889b67"
+  },
+  {
+    "path": "tests/test_web_ui.mjs",
+    "new": false,
+    "bytes": 5894,
+    "sha256": "eede9fff38f5a59aaef600d2e24a3b48448761f1b18facaf933dcd3b2e3cf93e"
+  },
+  {
+    "path": "web/play/building-effects.js",
+    "new": false,
+    "bytes": 8137,
+    "sha256": "9f876f32ae524916defcf336eea6f70641e2d10c22530489c9ae6c612e1f2624"
+  },
+  {
+    "path": "web/play/compact-ui.js",
+    "new": false,
+    "bytes": 4854,
+    "sha256": "0856a13ba7d27fc47f72807073d63c0158b5100d28e70cae2d5da1f73416acf0"
+  },
+  {
+    "path": "web/play/game.js",
+    "new": false,
+    "bytes": 143252,
+    "sha256": "076d8912d2167a3c95ff3fd35cd0f17c5995cb86dd27bf5e3ffab7201e390eda"
+  },
+  {
+    "path": "web/play/index.html",
+    "new": false,
+    "bytes": 11957,
+    "sha256": "aa72254294ce97083fc341fe84c087508bda678b4e2d0b609478de34a3fcef70"
+  },
+  {
+    "path": "web/play/locales/en.json",
+    "new": false,
+    "bytes": 73810,
+    "sha256": "4271323c5b8d9717194226e6903041f5eded8c442b5845410f0a946dd96accf4"
+  },
+  {
+    "path": "web/play/locales/pl.json",
+    "new": false,
+    "bytes": 76071,
+    "sha256": "0f075deb55a2f2591f32e6104e3463694d9f1ba32ea7764a2ff51610b312b146"
+  },
+  {
+    "path": "web/play/planned-queues.js",
+    "new": false,
+    "bytes": 9545,
+    "sha256": "f0fb6cb504343f0ff1bf1abb42d8db057f822cc32df2956a8ec9b21cc1e66fe2"
+  },
+  {
+    "path": "web/play/progression.css",
+    "new": false,
+    "bytes": 11565,
+    "sha256": "d5456e6a3ed9ffc9a3bc740eb415407ca4b0fab002e3c20cb81ab2aed36e2e21"
+  },
+  {
+    "path": "web/play/resource-storage.js",
+    "new": true,
+    "bytes": 1289,
+    "sha256": "dc7463aa227d650dbccc322496013569ef28a5a37f62420c73dfc708b9280e94"
+  },
+  {
+    "path": "web/play/tests/storage-energy.test.mjs",
+    "new": true,
+    "bytes": 6768,
+    "sha256": "24d3ea252aaec4713436afcb29167c72f202f4f24045a70a2c4ccf99c13a81cb"
+  }
+]

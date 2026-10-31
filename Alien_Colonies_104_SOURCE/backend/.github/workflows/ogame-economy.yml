@@ -1,0 +1,94 @@
+name: OGame Economy Regression
+on:
+  push:
+    branches:
+      - balance/ogame-economy-20261018
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  economics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install server dependencies
+        run: pip install -r railway/requirements.txt
+      - name: Rebuild web integrity manifests and save them on the review branch
+        if: github.event_name == 'push' && github.ref == 'refs/heads/balance/ogame-economy-20261018'
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          for base in (Path('.'), Path('railway')):
+              p = base / 'web/play/release.json'
+              data = json.loads(p.read_text(encoding='utf-8'))
+              directory = base / 'web'
+              data['files'] = {key:hashlib.sha256((directory/key).read_bytes()).hexdigest()
+                               for key in sorted(data['files'])}
+              updated = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
+              if p.read_text(encoding='utf-8') != updated:
+                  p.write_text(updated, encoding='utf-8')
+                  print('Corrected checksum index:', p, len(data['files']))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/play/release.json railway/web/play/release.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate verified web release manifests"
+            git push origin HEAD:balance/ogame-economy-20261018
+          fi
+      - name: Verify syntax
+        run: python -m compileall -q app.py ogame_economy.py railway server
+      - name: Root production entrypoint and website smoke
+        run: |
+          python - <<'PY'
+          import app, ogame_economy, website
+          website.install_website(hosted=False, origin="")
+          world = app.World(':memory:', now=1_800_000_000.0)
+          try:
+              state = world.register('Root economy smoke', 'smoke-password-123')['state']
+              p = world._owned(state['player']['id'])
+              assert p['resources'] == {'metal':500.0,'crystal':500.0,'fuel':0.0}
+              assert p['buildings']['metal_mine'] == 0
+              assert p['buildings']['shipyard'] == 0
+              mine = next(x for x in world._catalog(state['player']['id'], p)['buildings'] if x['key']=='metal_mine')
+              assert mine['cost'] == {'metal':60,'crystal':15,'fuel':0}
+              assert mine['seconds'] == 31
+              assert mine['max_level'] == p['environment']['fields']
+              assert ogame_economy.cost('ships','colonizer',(100,100,100),0)['metal']==10000
+              print('ROOT PRODUCTION SMOKE: PASS')
+          finally:
+              world.close()
+          PY
+      - name: Production economy and current feature regression tests
+        run: |
+          set -e
+          for pattern in \
+            test_ranking_rewards104.py \
+            test_rankings.py \
+            test_expeditions103.py \
+            test_ogame_live_migration.py \
+            test_release_integration_0123.py \
+            test_signup_galaxy_threshold.py \
+            test_beginner_protection.py \
+            test_email_signin.py \
+            test_email_auth_security.py \
+            test_colony_capture.py \
+            test_weekly_billing.py \
+            test_play_billing.py \
+            test_queue_http_billing.py; do
+            echo "TEST SUITE: $pattern"
+            python -m unittest discover -s tests -p "$pattern" -v
+          done
+      - name: Full server regression suite
+        working-directory: railway
+        run: python -m unittest discover -s tests -p 'test_*.py' -v

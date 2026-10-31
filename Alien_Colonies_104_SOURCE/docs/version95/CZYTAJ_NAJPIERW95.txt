@@ -1,0 +1,36 @@
+ALIEN COLONIES 95 / 0.12.28
+
+Zawiera wszystkie zmiany 93 i 94 oraz:
+- Przywrocone tlumaczenia klienta Android, ktore zgubily sie w 93 i 94.
+  Wszystkie 900 doslownych tekstow I18n klienta ma wpis w 5 jezykach.
+  Naprawione m.in. energia i wydobycie, zwiad ukladu, wlasciciel, ochrona,
+  dane wlasnej kolonii, etykiety misji i okno oceny. Nazwy graczy pozostaja.
+- Brak sztucznej zwloki 1,2s. Samo sprawdzanie trwa najwyzej okolo 3s;
+  brak odpowiedzi opcjonalnego serwera aktualizacji nie blokuje logowania.
+  Rozpoczete pobieranie ma osobny limit i nie jest przerywane po 3s.
+  Nieprzerwana pozostaje kontrola wymaganej wersji przez serwer gry.
+- Piec rysowanych gwiazdek, nieprzezroczysty panel i blokada dotyku pod
+  spodem z 94; poprawki rankingu, przewijania i zmiany nazwy imperium z 93.
+
+1. Wypakuj ZIP obok poprzedniego NIEPODPISANEGO AAB 93 lub 94.
+2. Uruchom 01_AKTUALIZUJ_AAB_95.cmd i wskaz ten AAB.
+3. Uruchom PODPISZ_AAB_95.cmd, wybierz dotychczasowy klucz priest_runner.
+4. Do Google Play przeslij Alien_Colonies_ANDROID_0.12.28_CODE_95.aab.
+Wersji 94 nie trzeba wczesniej publikowac ani instalowac.
+
+Dla AAB 91/92 przeznaczona jest pelna paczka AAB_Z_91_92_93_94.
+Mini paczka POPRAWKA_Z_93_94 zawiera oba etapy i przyjmuje 93 lub 94.
+Java JDK17+ (np. z Android Studio) jest wymagana; stare pliki pozostaja.
+To paczki dla autora do przygotowania AAB. Graczy aktualizuje Google Play;
+rozmiar pobierania dla gracza ustala Play. Kodu gry nie aktualizuje ZIP.
+
+ZRODLA: 02_AKTUALIZUJ_ZRODLA_95.cmd odtwarza nowy kompletny folder 95
+z pelnych zrodel 91 (ZIP/folder/czesci) lub folderu 92/93/94. Kazdy plik SHA256.
+Baza91: https://drive.google.com/drive/folders/1q8YV2KdaXFURkETbO4ibnnA0lGhPsA2X
+Pelna baza94: https://drive.google.com/drive/folders/102Dz2R6mUAW3pIuL3J9xekHgjpoG28zz
+Nie uzywaj plikow Signed AAB jako bazy delty. Nie zmieniaj klucza wydania.
+
+Walidacja: 32 sprawdzenia lokalizacji, 22 sprawdzenia startu (rzeczywisty
+lokalny HTTP i opoznienia; stany Play symulowane), 270 sprawdzen okna oceny,
+139 regresji floty, 19 sprawdzen paczek tekstur. AAB sprawdzony bundletool.
+Bez testu na fizycznym Androidzie; czasy z lokalnego testu nie sa pomiarem telefonu.

@@ -1,0 +1,6 @@
+{
+  "checks": 270,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Actual native controller, full-screen modal input barrier, injected pointer input, 5 languages and 3 sizes; no physical Android"
+}

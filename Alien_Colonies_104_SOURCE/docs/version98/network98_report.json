@@ -1,0 +1,6 @@
+{
+  "checks": 12,
+  "failed": [],
+  "result": "PASS",
+  "scope": "Real localhost HTTP GET/POST through compiled Android networking and worker decoder; no production traffic"
+}

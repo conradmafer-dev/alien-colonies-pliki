@@ -1,0 +1,22 @@
+{
+  "godot.aar": {
+    "url": "https://repo1.maven.org/maven2/org/godotengine/godot/4.5.1.stable/godot-4.5.1.stable.aar",
+    "sha256": "84b292c05930ceb601b691b606d350f8ddd041783b514246e95e47ee6efabab6"
+  },
+  "credentials.aar": {
+    "url": "https://dl.google.com/dl/android/maven2/androidx/credentials/credentials/1.6.0/credentials-1.6.0.aar",
+    "sha256": "9051922592ee3c92370ce3f942d66661f1e9050ac5b370932c71f0a380acf227"
+  },
+  "googleid.aar": {
+    "url": "https://dl.google.com/dl/android/maven2/com/google/android/libraries/identity/googleid/googleid/1.2.0/googleid-1.2.0.aar",
+    "sha256": "f49e88107f90ef0d1250d8504e8eba18be8532b1286203c92f28bf6bd15814ff"
+  },
+  "kotlin-stdlib.jar": {
+    "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.jar",
+    "sha256": "6558a3d233da56a20934b32159f9db5f86ed5816ef098f78a2c223dc6abb79dd"
+  },
+  "annotation.jar": {
+    "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.9.1/annotation-jvm-1.9.1.jar",
+    "sha256": "1e343917ebf27ba96fe4dc52b1cad7fd32b738fbc6355bb6cd5b3b305d7212d0"
+  }
+}

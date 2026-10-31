@@ -1,0 +1,165 @@
+{
+  "result": "PASS",
+  "aab_sha256": "145243ef7bbef0d24eee96c737bc30dfafa8d8fe3ae4ad7c2c6e430a06a47b65",
+  "reference": "/workspace/scratch/785979929548/work87_android/release87/Alien_Colonies_ANDROID_0.12.20_CODE_87_UNSIGNED.aab",
+  "manifest_icon": "mipmap/icon",
+  "active_icon_layers": {
+    "background": [
+      "mipmap/icon_background"
+    ],
+    "foreground": [
+      "mipmap/icon_foreground"
+    ],
+    "monochrome": [
+      "mipmap/icon_monochrome"
+    ]
+  },
+  "all_24_native_icon_png_pixels_match87": true,
+  "images": [
+    {
+      "resource": "base/res/mipmap-hdpi-v4/icon.png",
+      "rgba_pixels_match87": true,
+      "width": 72,
+      "height": 72
+    },
+    {
+      "resource": "base/res/mipmap-hdpi-v4/icon_background.png",
+      "rgba_pixels_match87": true,
+      "width": 162,
+      "height": 162
+    },
+    {
+      "resource": "base/res/mipmap-hdpi-v4/icon_foreground.png",
+      "rgba_pixels_match87": true,
+      "width": 162,
+      "height": 162
+    },
+    {
+      "resource": "base/res/mipmap-hdpi-v4/icon_monochrome.png",
+      "rgba_pixels_match87": true,
+      "width": 162,
+      "height": 162
+    },
+    {
+      "resource": "base/res/mipmap-mdpi-v4/icon.png",
+      "rgba_pixels_match87": true,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "resource": "base/res/mipmap-mdpi-v4/icon_background.png",
+      "rgba_pixels_match87": true,
+      "width": 108,
+      "height": 108
+    },
+    {
+      "resource": "base/res/mipmap-mdpi-v4/icon_foreground.png",
+      "rgba_pixels_match87": true,
+      "width": 108,
+      "height": 108
+    },
+    {
+      "resource": "base/res/mipmap-mdpi-v4/icon_monochrome.png",
+      "rgba_pixels_match87": true,
+      "width": 108,
+      "height": 108
+    },
+    {
+      "resource": "base/res/mipmap-xhdpi-v4/icon.png",
+      "rgba_pixels_match87": true,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "resource": "base/res/mipmap-xhdpi-v4/icon_background.png",
+      "rgba_pixels_match87": true,
+      "width": 216,
+      "height": 216
+    },
+    {
+      "resource": "base/res/mipmap-xhdpi-v4/icon_foreground.png",
+      "rgba_pixels_match87": true,
+      "width": 216,
+      "height": 216
+    },
+    {
+      "resource": "base/res/mipmap-xhdpi-v4/icon_monochrome.png",
+      "rgba_pixels_match87": true,
+      "width": 216,
+      "height": 216
+    },
+    {
+      "resource": "base/res/mipmap-xxhdpi-v4/icon.png",
+      "rgba_pixels_match87": true,
+      "width": 144,
+      "height": 144
+    },
+    {
+      "resource": "base/res/mipmap-xxhdpi-v4/icon_background.png",
+      "rgba_pixels_match87": true,
+      "width": 324,
+      "height": 324
+    },
+    {
+      "resource": "base/res/mipmap-xxhdpi-v4/icon_foreground.png",
+      "rgba_pixels_match87": true,
+      "width": 324,
+      "height": 324
+    },
+    {
+      "resource": "base/res/mipmap-xxhdpi-v4/icon_monochrome.png",
+      "rgba_pixels_match87": true,
+      "width": 324,
+      "height": 324
+    },
+    {
+      "resource": "base/res/mipmap-xxxhdpi-v4/icon.png",
+      "rgba_pixels_match87": true,
+      "width": 192,
+      "height": 192
+    },
+    {
+      "resource": "base/res/mipmap-xxxhdpi-v4/icon_background.png",
+      "rgba_pixels_match87": true,
+      "width": 432,
+      "height": 432
+    },
+    {
+      "resource": "base/res/mipmap-xxxhdpi-v4/icon_foreground.png",
+      "rgba_pixels_match87": true,
+      "width": 432,
+      "height": 432
+    },
+    {
+      "resource": "base/res/mipmap-xxxhdpi-v4/icon_monochrome.png",
+      "rgba_pixels_match87": true,
+      "width": 432,
+      "height": 432
+    },
+    {
+      "resource": "base/res/mipmap/icon.png",
+      "rgba_pixels_match87": true,
+      "width": 192,
+      "height": 192
+    },
+    {
+      "resource": "base/res/mipmap/icon_background.png",
+      "rgba_pixels_match87": true,
+      "width": 432,
+      "height": 432
+    },
+    {
+      "resource": "base/res/mipmap/icon_foreground.png",
+      "rgba_pixels_match87": true,
+      "width": 432,
+      "height": 432
+    },
+    {
+      "resource": "base/res/mipmap/icon_monochrome.png",
+      "rgba_pixels_match87": true,
+      "width": 432,
+      "height": 432
+    }
+  ],
+  "physical_launcher_rendering_tested": false
+}

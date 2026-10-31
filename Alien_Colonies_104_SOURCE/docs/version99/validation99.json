@@ -1,0 +1,11 @@
+{
+  "android_map_checks": 13257,
+  "android_startup_checks": 15,
+  "backend_tests": 28,
+  "web_tests": 20,
+  "web_manifest_dependencies": 852,
+  "android_resource_index_entries": 638,
+  "bundletool_validation": "PASS (1.18.3 exit 0)",
+  "android_physical_device_test": false,
+  "android_signing": "Deferred to owner with existing upload key; private key not available in this workspace"
+}

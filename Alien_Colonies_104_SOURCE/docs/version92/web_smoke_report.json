@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "width": 360,
+      "height": 800,
+      "rows": 50,
+      "own_position": 62,
+      "categories": true,
+      "refresh": true,
+      "return_to_game": true,
+      "logout": true,
+      "no_overflow": true
+    },
+    {
+      "width": 450,
+      "height": 800,
+      "rows": 50,
+      "own_position": 62,
+      "categories": true,
+      "refresh": true,
+      "return_to_game": true,
+      "logout": true,
+      "no_overflow": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "rows": 50,
+      "own_position": 62,
+      "categories": true,
+      "refresh": true,
+      "return_to_game": true,
+      "logout": true,
+      "no_overflow": true
+    }
+  ],
+  "errors": []
+}

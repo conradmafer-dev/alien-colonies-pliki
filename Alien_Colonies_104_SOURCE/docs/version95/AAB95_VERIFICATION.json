@@ -1,0 +1,27 @@
+{
+  "aab_sha": "e387c8e3cec40d64a5fb4c870fd901849af6a056a6f5d28a23f2737d38e84f06",
+  "aab_size": 331473357,
+  "changed_entries": [
+    "base/manifest/AndroidManifest.xml",
+    "assetPackInstallTime/assets/client/scripts/main.gdc",
+    "assetPackInstallTime/assets/client/scripts/asset_updates.gdc",
+    "assetPackInstallTime/assets/client/scripts/update_boot.gdc",
+    "assetPackInstallTime/assets/client/scripts/play_updates.gdc",
+    "assetPackInstallTime/assets/client/scripts/i18n.gdc",
+    "assetPackInstallTime/assets/project.binary",
+    "assetPackInstallTime/assets/localization/en.json",
+    "assetPackInstallTime/assets/localization/pl.json",
+    "assetPackInstallTime/assets/localization/de.json",
+    "assetPackInstallTime/assets/localization/es.json",
+    "assetPackInstallTime/assets/localization/fr.json"
+  ],
+  "basis94_sha": "57190c2fb523b934cd7efe9bb19b9a1d7fda54707a17894e28d5104288d9c257",
+  "delta95_sha": "642a2b17c006544a844c5517f938531ffc554c35bcbd193289effe6bbbb4cdf2",
+  "delta95_size": 690962,
+  "zip_crc": "PASS",
+  "bundletool": "PASS",
+  "version_code": 95,
+  "version_name": "0.12.28",
+  "native_libraries": "Unchanged from validated94 and93; 16KB ARM64 alignment",
+  "scope": "Headless actual Godot client and real local HTTP. No physical Android."
+}

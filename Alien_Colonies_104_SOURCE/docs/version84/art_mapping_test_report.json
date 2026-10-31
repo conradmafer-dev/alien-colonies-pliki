@@ -1,0 +1,8 @@
+{
+  "art_files_checked": false,
+  "assertions": 349,
+  "failures": [],
+  "passed": true,
+  "scope": "Catalog IDs, all buildings/ships/research/defenses, legacy fallbacks, race cache capacity",
+  "source": "Actual offline World catalog, memory database; network blocked"
+}

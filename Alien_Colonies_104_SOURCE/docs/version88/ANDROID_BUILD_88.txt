@@ -1,0 +1,60 @@
+ALIEN COLONIES 88 — ANDROID 0.12.21
+
+Zweryfikowany plik:
+Alien_Colonies_ANDROID_0.12.21_CODE_88_UNSIGNED.aab
+Rozmiar: 330596938 bajtów
+SHA-256: f2e7c3238bf91599f159778f23a7b0a63873243fdfc80315fb4d1b694692d761
+
+KONFIGURACJA WYDANIA
+
+Godot 4.5.1 stable; szablon Android z tej samej wersji.
+Java JDK 17; Gradle 8.11.1; Android Gradle Plugin 8.10.1.
+Android compile/target SDK 36; min SDK 24; build-tools 36.0.0.
+Pakiet: com.conradmafer.aliencolonies; versionCode 88; versionName 0.12.21.
+Architektury: arm64-v8a i armeabi-v7a; install-time asset pack.
+Preset: Google Play AAB; podpis wyłączony; wydanie release, bez debugowania.
+Wtyczki: dotychczasowy AlienGoogleAuth i Google Play Billing 9.1.0.
+
+ODTWORZENIE EKSPORTU ZE ŹRÓDEŁ
+
+1. Otwórz projekt w Godot 4.5.1 i zainstaluj szablony eksportu 4.5.1.
+2. Zainstaluj Android Build Template dla projektu. Skonfiguruj ścieżki
+   Android SDK oraz Java JDK 17 w ustawieniach edytora.
+3. Uruchom z katalogu projektu:
+
+   python tools/configure_android_build.py
+
+   Narzędzie ustawia zweryfikowane wersje Android SDK/AGP, kopiuje
+   tools/preserve_launcher88.gradle do android/build i dołącza go dokładnie
+   raz w build.gradle. Drugie wywołanie nie dodaje kolejnej deklaracji.
+   Hook zachowuje warstwę monochrome w aktywnej ikonie adaptacyjnej.
+4. Wykonaj pełny import zasobów. Eksportuj preset Google Play AAB w trybie
+   release. Nie zmieniaj ścieżek ikon ustawionych w export_presets.cfg.
+5. Nowy eksport wymaga ponownej walidacji i własnej sumy SHA-256. Dołączony
+   PODPISZ88.bat jest przypięty do dokładnego AAB o sumie podanej powyżej;
+   nie będzie podpisywał innego pliku pod tą samą nazwą.
+
+WALIDACJA DOSTARCZONEGO WYDANIA
+
+bundletool validate: PASS.
+Manifest, wersja, SDK, architektury, brak podpisu, ZIP CRC: PASS.
+Wyrównanie segmentów bibliotek arm64 do 16 KiB: PASS.
+Pluginy Auth i Billing oraz callback logowania w manifeście: PASS.
+62 z 62 skryptów GDC: tokeny i układ zgodne z zamrożonymi źródłami.
+54 z 54 kontrolowanych grafik: zgodne ze źródłami, w tym banner subskrypcji.
+PL/EN/DE/ES/FR: zawartość plików identyczna ze źródłami.
+24 z 24 bitmap ikony Android: piksele identyczne z wydaniem 87.
+Aktywna ikona adaptacyjna: poprawne tło, pierwszy plan i monochrome.
+Scena main.scn: identyczna z wynikiem eksportu zamrożonej sceny.
+Podpisywacz Java: kompilacja, uruchomienie źródła i walidacja AAB — PASS.
+Niewłaściwa wersja oraz niepodpisany plik jako wynik podpisu: odrzucone.
+Konfigurator Android: dwukrotne wywołanie na małej kopii oficjalnego
+szablonu daje identyczne pliki; hook występuje jeden raz.
+
+Szczegółowe raporty JSON znajdują się w tym katalogu. Zawierają sumy
+kontrolne konkretnego artefaktu. Raporty wcześniejszych wydań w innych
+katalogach pozostają dokumentacją tych wcześniejszych wydań.
+
+Nie wykonywano zakupu Google Play, logowania na fizycznym telefonie ani
+graficznego uruchomienia podpisywacza na Windows. Własny klucz przesyłania
+użytkownika jest potrzebny dopiero do lokalnego podpisania gotowego AAB.
